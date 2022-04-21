@@ -1,0 +1,27 @@
+{
+  "unversionedId": "configuration/connecting-workflows copy",
+  "id": "configuration/connecting-workflows copy",
+  "title": "Connecting Workflows",
+  "description": "Using Layers",
+  "source": "@site/docs/configuration/connecting-workflows copy.mdx",
+  "sourceDirName": "configuration",
+  "slug": "/configuration/nodejs",
+  "permalink": "/configuration/nodejs",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Connecting Workflows",
+    "slug": "/configuration/nodejs",
+    "sidebar_position": 1
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Examples",
+    "permalink": "/examples"
+  },
+  "next": {
+    "title": "Connecting Workflows",
+    "permalink": "/configuration/nodejs"
+  }
+}

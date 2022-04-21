@@ -1,0 +1,26 @@
+{
+  "unversionedId": "configuration",
+  "id": "configuration",
+  "title": "Configuration",
+  "description": "Start online debug sessions while the AWS Lambda functions run on AWS Cloud.",
+  "source": "@site/docs/configuration.mdx",
+  "sourceDirName": ".",
+  "slug": "/configuration",
+  "permalink": "/configuration",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "slug": "/configuration"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "Examples",
+    "permalink": "/examples"
+  }
+}

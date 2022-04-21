@@ -1,0 +1,23 @@
+{
+  "unversionedId": "configuration/security",
+  "id": "configuration/security",
+  "title": "Security",
+  "description": "Using Layers",
+  "source": "@site/docs/configuration/security.mdx",
+  "sourceDirName": "configuration",
+  "slug": "/configuration/security",
+  "permalink": "/configuration/security",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Security",
+    "slug": "/configuration/security",
+    "sidebar_position": 3
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Test monitoring",
+    "permalink": "/configuration/tests"
+  }
+}

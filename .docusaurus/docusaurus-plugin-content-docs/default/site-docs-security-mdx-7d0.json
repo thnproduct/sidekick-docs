@@ -1,0 +1,23 @@
+{
+  "unversionedId": "security",
+  "id": "security",
+  "title": "Troubleshooting",
+  "description": "Using Layers",
+  "source": "@site/docs/security.mdx",
+  "sourceDirName": ".",
+  "slug": "/configuration/troubleshooting",
+  "permalink": "/configuration/troubleshooting",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Troubleshooting",
+    "slug": "/configuration/troubleshooting",
+    "sidebar_position": 5
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Flaky tests",
+    "permalink": "/configuration/flaky-tests"
+  }
+}

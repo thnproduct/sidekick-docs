@@ -1,0 +1,27 @@
+{
+  "unversionedId": "how-to/detecting-flaky-tests",
+  "id": "how-to/detecting-flaky-tests",
+  "title": "Flaky tests",
+  "description": "Using Layers",
+  "source": "@site/docs/how-to/detecting-flaky-tests.mdx",
+  "sourceDirName": "how-to",
+  "slug": "/configuration/detecting-flaky-tests",
+  "permalink": "/configuration/detecting-flaky-tests",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Flaky tests",
+    "slug": "/configuration/detecting-flaky-tests",
+    "sidebar_position": 3
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Monitor CI Costs",
+    "permalink": "/configuration/monitor-ci-costs"
+  },
+  "next": {
+    "title": "Detect failed tests",
+    "permalink": "/configuration/detect-failed-tests"
+  }
+}

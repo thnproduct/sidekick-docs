@@ -1,0 +1,23 @@
+{
+  "unversionedId": "troubleshooting",
+  "id": "troubleshooting",
+  "title": "Troubleshooting",
+  "description": "Using Layers",
+  "source": "@site/docs/troubleshooting.mdx",
+  "sourceDirName": ".",
+  "slug": "/configuration/troubleshooting",
+  "permalink": "/configuration/troubleshooting",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Troubleshooting",
+    "slug": "/configuration/troubleshooting",
+    "sidebar_position": 5
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Detect failed tests",
+    "permalink": "/configuration/detect-failed-tests"
+  }
+}

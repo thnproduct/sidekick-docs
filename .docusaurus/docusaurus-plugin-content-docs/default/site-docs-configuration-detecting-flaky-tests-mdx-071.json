@@ -1,0 +1,27 @@
+{
+  "unversionedId": "configuration/detecting-flaky-tests",
+  "id": "configuration/detecting-flaky-tests",
+  "title": "Flaky tests",
+  "description": "Using Layers",
+  "source": "@site/docs/configuration/detecting-flaky-tests.mdx",
+  "sourceDirName": "configuration",
+  "slug": "/configuration/flaky-tests",
+  "permalink": "/configuration/flaky-tests",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Flaky tests",
+    "slug": "/configuration/flaky-tests",
+    "sidebar_position": 3
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Test monitoring",
+    "permalink": "/configuration/tests"
+  },
+  "next": {
+    "title": "Troubleshooting",
+    "permalink": "/configuration/troubleshooting"
+  }
+}

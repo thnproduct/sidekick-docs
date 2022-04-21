@@ -1,0 +1,27 @@
+{
+  "unversionedId": "how-to copy/detect-failed-tests",
+  "id": "how-to copy/detect-failed-tests",
+  "title": "Detect failed tests",
+  "description": "Using Layers",
+  "source": "@site/docs/how-to copy/detect-failed-tests.mdx",
+  "sourceDirName": "how-to copy",
+  "slug": "/configuration/detect-failed-tests",
+  "permalink": "/configuration/detect-failed-tests",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Detect failed tests",
+    "slug": "/configuration/detect-failed-tests",
+    "sidebar_position": 4
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Flaky tests",
+    "permalink": "/configuration/detecting-flaky-tests"
+  },
+  "next": {
+    "title": "Troubleshooting",
+    "permalink": "/configuration/troubleshooting"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "configuration/connecting-workflows",
+  "id": "configuration/connecting-workflows",
+  "title": "Workflow metrics",
+  "description": "Using Layers",
+  "source": "@site/docs/configuration/connecting-workflows.mdx",
+  "sourceDirName": "configuration",
+  "slug": "/configuration/Workflows",
+  "permalink": "/configuration/Workflows",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Workflow metrics",
+    "slug": "/configuration/Workflows",
+    "sidebar_position": 1
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Examples",
+    "permalink": "/examples"
+  },
+  "next": {
+    "title": "Test monitoring",
+    "permalink": "/configuration/tests"
+  }
+}

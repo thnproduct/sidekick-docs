@@ -1,0 +1,23 @@
+{
+  "unversionedId": "other/troubleshooting",
+  "id": "other/troubleshooting",
+  "title": "Troubleshooting",
+  "description": "Using Layers",
+  "source": "@site/docs/other/troubleshooting.mdx",
+  "sourceDirName": "other",
+  "slug": "/other/troubleshooting",
+  "permalink": "/other/troubleshooting",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Troubleshooting",
+    "slug": "/other/troubleshooting",
+    "sidebar_position": 5
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "FAQ",
+    "permalink": "/other/faq"
+  }
+}

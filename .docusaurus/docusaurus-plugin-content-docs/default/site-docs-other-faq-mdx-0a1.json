@@ -1,0 +1,27 @@
+{
+  "unversionedId": "other/faq",
+  "id": "other/faq",
+  "title": "FAQ",
+  "description": "Using Layers",
+  "source": "@site/docs/other/faq.mdx",
+  "sourceDirName": "other",
+  "slug": "/other/faq",
+  "permalink": "/other/faq",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "FAQ",
+    "slug": "/other/faq",
+    "sidebar_position": 5
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Detect failed tests",
+    "permalink": "/configuration/detect-failed-tests"
+  },
+  "next": {
+    "title": "Troubleshooting",
+    "permalink": "/other/troubleshooting"
+  }
+}

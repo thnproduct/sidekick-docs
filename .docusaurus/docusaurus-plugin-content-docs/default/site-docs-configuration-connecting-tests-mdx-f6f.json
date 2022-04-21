@@ -1,0 +1,27 @@
+{
+  "unversionedId": "configuration/connecting-tests",
+  "id": "configuration/connecting-tests",
+  "title": "Test monitoring",
+  "description": "Using Layers",
+  "source": "@site/docs/configuration/connecting-tests.mdx",
+  "sourceDirName": "configuration",
+  "slug": "/configuration/tests",
+  "permalink": "/configuration/tests",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Test monitoring",
+    "slug": "/configuration/tests",
+    "sidebar_position": 2
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Workflow metrics",
+    "permalink": "/configuration/Workflows"
+  },
+  "next": {
+    "title": "Flaky tests",
+    "permalink": "/configuration/flaky-tests"
+  }
+}

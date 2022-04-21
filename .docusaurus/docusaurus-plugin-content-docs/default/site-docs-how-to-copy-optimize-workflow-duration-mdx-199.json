@@ -1,0 +1,27 @@
+{
+  "unversionedId": "how-to copy/optimize-workflow-duration",
+  "id": "how-to copy/optimize-workflow-duration",
+  "title": "Optimize workflow duration",
+  "description": "Using Layers",
+  "source": "@site/docs/how-to copy/optimize-workflow-duration.mdx",
+  "sourceDirName": "how-to copy",
+  "slug": "/configuration/optimize-workflow-duration",
+  "permalink": "/configuration/optimize-workflow-duration",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Optimize workflow duration",
+    "slug": "/configuration/optimize-workflow-duration",
+    "sidebar_position": 1
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Detect failed tests",
+    "permalink": "/configuration/detect-failed-tests"
+  },
+  "next": {
+    "title": "Monitor CI Costs",
+    "permalink": "/configuration/monitor-ci-costs"
+  }
+}
