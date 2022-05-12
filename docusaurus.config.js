@@ -59,73 +59,10 @@ const config = {
           {to: '/blog', label: 'Changelog', position: 'left'},
           {to: '#', label: 'Community', position: 'right'},
           {to: '#', label: 'Sign up', position: 'right'},
-          // {
-          //   href: 'https://github.com/thundra-io/thundra-vscode-issues/',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
         ],
       },
       footer: {
         style: 'dark',
-        // links: [
-        //   {
-        //     title: 'Docs',
-        //     items: [
-        //       {
-        //         label: 'Introduction',
-        //         to: '/',
-        //       },
-        //       {
-        //         label: 'Examples',
-        //         to: '/examples',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'Extensions',
-        //     items: [
-        //       {
-        //         label: 'VS Code',
-        //         to: '/extensions/vscode',
-        //       },
-        //       {
-        //         label: 'IntelliJ',
-        //         to: '/extensions/intellij',
-        //       },
-        //       {
-        //         label: 'WebStorm',
-        //         to: '/extensions/webstorm',
-        //       },
-        //       {
-        //         label: 'Eclipse',
-        //         to: '/extensions/eclipse',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'Community',
-        //     items: [
-        //       {
-        //         label: 'Slack',
-        //         href: 'https://twitter.com/docusaurus',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'More',
-        //     items: [
-        //       {
-        //         label: 'Blog',
-        //         to: '/blog',
-        //       },
-        //       {
-        //         label: 'GitHub',
-        //         href: 'https://github.com/facebook/docusaurus',
-        //       },
-        //     ],
-        //   },
-        // ],
         copyright: `Copyright © ${new Date().getFullYear()} Thundra, Inc. Built with Docusaurus.`,
       },
       prism: {

@@ -20,7 +20,7 @@
               "unversionedId": "configuration",
               "id": "configuration",
               "title": "Configuration",
-              "description": "Start online debug sessions while the AWS Lambda functions run on AWS Cloud.",
+              "description": "Go to GitHub Marketplace and install it for free.",
               "source": "@site/docs/configuration.mdx",
               "sourceDirName": ".",
               "slug": "/configuration",
