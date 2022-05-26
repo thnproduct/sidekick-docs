@@ -129,7 +129,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/-c13": {
+  "/-aae": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---935-fcf"
   },
@@ -137,17 +137,29 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---f-84-df3"
   },
-  "/advanced/test-logs-f20": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---advanced-test-logs-419-8c8"
-  },
-  "/configuration-971": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---configurationcbb-1b7"
-  },
   "/examples-b2d": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---examples-675-0f7"
+  },
+  "/features/highlights-ad8": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---features-workflow-runsd-33-077"
+  },
+  "/features/team-management-e02": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---features-test-logsf-5-c-bff"
+  },
+  "/features/test-logs-6bf": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---advanced-test-logs-68-e-63f"
+  },
+  "/features/test-runs-01c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---features-workflow-runsc-21-be1"
+  },
+  "/features/workflow-runs-c2d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---features-team-management-0-b-0-082"
   },
   "/other/faq-5c7": {
     "component": "component---theme-doc-item-178-a40",
@@ -156,6 +168,10 @@
   "/other/troubleshooting-8fa": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---other-troubleshooting-1-c-8-b7d"
+  },
+  "/step-by-step-guide-59c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---configurationcbb-1b7"
   },
   "/use-cases/analyze-code-change-impact-78d": {
     "component": "component---theme-doc-item-178-a40",

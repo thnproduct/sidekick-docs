@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/logs",
+  "id": "features/logs",
+  "title": "Logs",
+  "description": "maven-surefire-plugin (junit & testng)",
+  "source": "@site/docs/features/logs.mdx",
+  "sourceDirName": "features",
+  "slug": "/features/test-logs",
+  "permalink": "/features/test-logs",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Logs",
+    "slug": "/features/test-logs",
+    "sidebar_position": 4
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Test report visualization",
+    "permalink": "/features/test-report-visualization"
+  },
+  "next": {
+    "title": "Team management",
+    "permalink": "/features/team-management"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/team-management",
+  "id": "features/team-management",
+  "title": "Team management",
+  "description": "Docs in progress",
+  "source": "@site/docs/features/team-management.mdx",
+  "sourceDirName": "features",
+  "slug": "/features/team-management",
+  "permalink": "/features/team-management",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Team management",
+    "slug": "/features/team-management",
+    "sidebar_position": 5
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Test logs",
+    "permalink": "/features/test-logs"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/other/faq"
+  }
+}

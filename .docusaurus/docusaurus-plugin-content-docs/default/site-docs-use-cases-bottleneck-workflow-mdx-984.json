@@ -2,7 +2,7 @@
   "unversionedId": "use-cases/bottleneck-workflow",
   "id": "use-cases/bottleneck-workflow",
   "title": "Find bottlenecks",
-  "description": "",
+  "description": "Docs in progress",
   "source": "@site/docs/use-cases/bottleneck-workflow.mdx",
   "sourceDirName": "use-cases",
   "slug": "/use-cases/find-bottlenecks",

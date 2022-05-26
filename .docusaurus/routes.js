@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','c13'),
+    component: ComponentCreator('/','aae'),
     routes: [
       {
         path: '/',
@@ -109,20 +109,38 @@ export default [
         'sidebar': "sidebar"
       },
       {
-        path: '/advanced/test-logs',
-        component: ComponentCreator('/advanced/test-logs','f20'),
-        exact: true,
-        'sidebar': "sidebar"
-      },
-      {
-        path: '/configuration',
-        component: ComponentCreator('/configuration','971'),
-        exact: true,
-        'sidebar': "sidebar"
-      },
-      {
         path: '/examples',
         component: ComponentCreator('/examples','b2d'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/features/highlights',
+        component: ComponentCreator('/features/highlights','ad8'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/features/team-management',
+        component: ComponentCreator('/features/team-management','e02'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/features/test-logs',
+        component: ComponentCreator('/features/test-logs','6bf'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/features/test-runs',
+        component: ComponentCreator('/features/test-runs','01c'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/features/workflow-runs',
+        component: ComponentCreator('/features/workflow-runs','c2d'),
         exact: true,
         'sidebar': "sidebar"
       },
@@ -135,6 +153,12 @@ export default [
       {
         path: '/other/troubleshooting',
         component: ComponentCreator('/other/troubleshooting','8fa'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/step-by-step-guide',
+        component: ComponentCreator('/step-by-step-guide','59c'),
         exact: true,
         'sidebar': "sidebar"
       },

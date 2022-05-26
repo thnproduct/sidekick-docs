@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/workflow-runs",
+  "id": "features/workflow-runs",
+  "title": "Workflow runs",
+  "description": "With Foresight, you can easily list your and analyze your CI workflows in a repository. Foresight provides a high-level",
+  "source": "@site/docs/features/workflow-runs.mdx",
+  "sourceDirName": "features",
+  "slug": "/features/workflow-runs",
+  "permalink": "/features/workflow-runs",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Workflow runs",
+    "slug": "/features/workflow-runs",
+    "sidebar_position": 2
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Highlights",
+    "permalink": "/features/highlights"
+  },
+  "next": {
+    "title": "Test runs",
+    "permalink": "/features/test-runs"
+  }
+}

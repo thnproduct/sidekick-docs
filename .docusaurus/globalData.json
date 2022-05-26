@@ -11,18 +11,38 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "advanced/test-logs",
-              "path": "/advanced/test-logs",
-              "sidebar": "sidebar"
-            },
-            {
               "id": "configuration",
-              "path": "/configuration",
+              "path": "/step-by-step-guide",
               "sidebar": "sidebar"
             },
             {
               "id": "examples",
               "path": "/examples",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "features/highlights",
+              "path": "/features/highlights",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "features/team-management",
+              "path": "/features/team-management",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "features/test-logs",
+              "path": "/features/test-logs",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "features/test-runs",
+              "path": "/features/test-runs",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "features/workflow-runs",
+              "path": "/features/workflow-runs",
               "sidebar": "sidebar"
             },
             {

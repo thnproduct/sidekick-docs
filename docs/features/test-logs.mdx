@@ -1,0 +1,117 @@
+---
+title: Test logs
+slug: /features/test-logs
+sidebar_position: 4
+---
+
+Logs are still one of the best ways of debugging your software. When it comes to writing log lines,
+you end up getting lost in the GitHub Actions results. Foresight eases your pain and group tests, test suites along with their logs.
+
+So that you can understand why even the most complex integration test failed, without losing your way on the GitHub Actions.
+
+With the below configurations, you can start displaying your logs on the Foresight.
+
+### Using maven-surefire-plugin (Junit & TestNG)
+
+for separated file =>
+
+<plugin>
+   <groupId>org.apache.maven.plugins</groupId>
+   <artifactId>maven-surefire-plugin</artifactId>
+   <version></version>
+   <configuration>
+       <redirectTestOutputToFile>true</redirectTestOutputToFile>
+   </configuration>
+</plugin>
+
+com.thundra.tryer.github.artifact.PersonServiceUnitTest.txt  =>  test result for a file (suite)
+com.thundra.tryer.github.artifact.PersonServiceUnitTest-output.txt  =>  test log for a file (suite)
+com.thundra.tryer.github.artifact.PersonServiceUnitTest.xml  => test file (suite) junit report
+not separate for test case
+
+for junit report =>
+<system-out> </system-out>  per test case (added >=3.0.0-M5) ( 
+https://issues.apache.org/jira/browse/SUREFIRE-1744 
+https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin  )
+
+testng reporter 
+ Reporter.log("LOG_CONTENT") => for reporter export
+
+
+gradle
+for separated file =>
+
+for junit report =>
+./gradlew clean test --rerun-tasks --stacktrace 
+build/test-results/test   <system-out> </system-out>  per test file (suite) !
+for per test case 
+test {
+   useJUnitPlatform()
+   reports {
+       junitXml {
+           outputPerTestCase = true // defaults to false
+           mergeReruns = true // defaults to false
+       }
+   }
+}
+jest-junit
+
+for separated file =>
+‘ command > outputfile ‘  (pipe)
+https://github.com/facebook/jest/issues/6259 
+approach reporter => like https://github.com/hipstersmoothie/jest-github-reporter 
+
+
+
+for junit report =>
+set JEST_JUNIT_OUTPUT_DIR   => PATH
+add jest-junit as reporter to jest.config || --reporters="jest-junit"
+JEST_JUNIT_INCLUDE_SHORT_CONSOLE_OUTPUT=true for <system-out> </system-out>  per test suites use all test case logs for test suites (added 3 years ago >= 6.4.0  )
+
+pytest
+
+for separated file =>
+pytest -o log_cli=true (--log-cli-level=DEBUG) --log-file=abc.txt
+but write only text (you can format line not separate test suite || test case)
+
+INFO     test_1:test_1.py:31 eggs info
+WARNING  test_1:test_1.py:32 eggs warning
+ERROR    test_1:test_1.py:33 eggs error
+CRITICAL test_1:test_1.py:34 eggs critical
+WARNING  test_1:test_1.py:39 test_fail info
+INFO     test_2:test_2.py:15 eggs info
+WARNING  test_2:test_2.py:16 eggs warning
+ERROR    test_2:test_2.py:17 eggs error
+CRITICAL test_2:test_2.py:18 eggs critical
+WARNING  test_2:test_2.py:23 test_fail info
+
+
+for junit report =>
+pytest -o junit_logging=all --junit-xml=abc.xml  (--log-level info)  => function log  <system-out> </system-out> <system-err> </system-err> ( >= pytest 3.5.0) tag for log messages per test case  (fixed on see https://github.com/pytest-dev/pytest/issues/5430 )
+
+trx  
+
+for separated file =>
+
+dotnet test --nologo --verbosity q >& buildoutput.txt
+only write log lines and total result
+
+for junit report =>
+use ITestOutputHelper for generate trx report which contains logs (see console error, warn outputs for tags) ( https://xunit.net/docs/capturing-output )
+     <Output>
+       <StdOut>This is output from my class!</StdOut>
+     </Output>
+dotnet test --logger "trx;LogFileName=TestResults.trx" 
+
+xunit2 
+for separated file =>
+
+dotnet test --nologo --verbosity q >& buildoutput.txt
+only write log lines and total result
+
+for junit report =>
+use ITestOutputHelper for generate trx report which contains logs (see console error, warn outputs for tags) ( https://xunit.net/docs/capturing-output )
+<output>This is output from my class MyTest2!</output>
+
+dotnet test --logger "xunit;LogFileName=TestResults.xml"
+

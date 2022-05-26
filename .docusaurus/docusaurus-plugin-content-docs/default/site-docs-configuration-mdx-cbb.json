@@ -5,14 +5,14 @@
   "description": "Foresight can monitor all GitHub Actions workflows and test frameworks such as JUnit, Jest, Python, TestNG, Trx and xUnit 2.",
   "source": "@site/docs/configuration.mdx",
   "sourceDirName": ".",
-  "slug": "/configuration",
-  "permalink": "/configuration",
+  "slug": "/step-by-step-guide",
+  "permalink": "/step-by-step-guide",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2,
-    "slug": "/configuration"
+    "slug": "/step-by-step-guide"
   },
   "sidebar": "sidebar",
   "previous": {

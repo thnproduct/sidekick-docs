@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/team-management copy",
+  "id": "features/team-management copy",
+  "title": "Features",
+  "description": "Test framework limitations",
+  "source": "@site/docs/features/team-management copy.mdx",
+  "sourceDirName": "features",
+  "slug": "/features/team-management",
+  "permalink": "/features/team-management",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Features",
+    "slug": "/features/team-management",
+    "sidebar_position": 1
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Analyze code change impact",
+    "permalink": "/use-cases/analyze-code-change-impact"
+  },
+  "next": {
+    "title": "Features",
+    "permalink": "/features/team-management"
+  }
+}

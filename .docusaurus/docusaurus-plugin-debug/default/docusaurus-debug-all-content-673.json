@@ -17,47 +17,20 @@
           "contentPathLocalized": "/Users/burakkantarci/Dev/foresight-docs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "advanced/test-logs",
-              "id": "advanced/test-logs",
-              "title": "Test logs",
-              "description": "Test framework limitations",
-              "source": "@site/docs/advanced/test-logs.mdx",
-              "sourceDirName": "advanced",
-              "slug": "/advanced/test-logs",
-              "permalink": "/advanced/test-logs",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "title": "Test logs",
-                "slug": "/advanced/test-logs",
-                "sidebar_position": 1
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "Analyze code change impact",
-                "permalink": "/use-cases/analyze-code-change-impact"
-              },
-              "next": {
-                "title": "FAQ",
-                "permalink": "/other/faq"
-              }
-            },
-            {
               "unversionedId": "configuration",
               "id": "configuration",
               "title": "Configuration",
               "description": "Foresight can monitor all GitHub Actions workflows and test frameworks such as JUnit, Jest, Python, TestNG, Trx and xUnit 2.",
               "source": "@site/docs/configuration.mdx",
               "sourceDirName": ".",
-              "slug": "/configuration",
-              "permalink": "/configuration",
+              "slug": "/step-by-step-guide",
+              "permalink": "/step-by-step-guide",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
                 "sidebar_position": 2,
-                "slug": "/configuration"
+                "slug": "/step-by-step-guide"
               },
               "sidebar": "sidebar",
               "previous": {
@@ -73,7 +46,7 @@
               "unversionedId": "examples",
               "id": "examples",
               "title": "Examples",
-              "description": "",
+              "description": "TBD",
               "source": "@site/docs/examples.mdx",
               "sourceDirName": ".",
               "slug": "/examples",
@@ -88,11 +61,146 @@
               "sidebar": "sidebar",
               "previous": {
                 "title": "Configuration",
-                "permalink": "/configuration"
+                "permalink": "/step-by-step-guide"
               },
               "next": {
                 "title": "Optimize duration",
                 "permalink": "/use-cases/optimize-duration"
+              }
+            },
+            {
+              "unversionedId": "features/highlights",
+              "id": "features/highlights",
+              "title": "Highlights",
+              "description": "Docs in progress",
+              "source": "@site/docs/features/highlights.mdx",
+              "sourceDirName": "features",
+              "slug": "/features/highlights",
+              "permalink": "/features/highlights",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Highlights",
+                "slug": "/features/highlights",
+                "sidebar_position": 1
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Analyze code change impact",
+                "permalink": "/use-cases/analyze-code-change-impact"
+              },
+              "next": {
+                "title": "Workflow runs",
+                "permalink": "/features/workflow-runs"
+              }
+            },
+            {
+              "unversionedId": "features/team-management",
+              "id": "features/team-management",
+              "title": "Team management",
+              "description": "Docs in progress",
+              "source": "@site/docs/features/team-management.mdx",
+              "sourceDirName": "features",
+              "slug": "/features/team-management",
+              "permalink": "/features/team-management",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "title": "Team management",
+                "slug": "/features/team-management",
+                "sidebar_position": 5
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Test logs",
+                "permalink": "/features/test-logs"
+              },
+              "next": {
+                "title": "FAQ",
+                "permalink": "/other/faq"
+              }
+            },
+            {
+              "unversionedId": "features/test-logs",
+              "id": "features/test-logs",
+              "title": "Test logs",
+              "description": "Logs are still one of the best ways of debugging your software. When it comes to writing log lines,",
+              "source": "@site/docs/features/test-logs.mdx",
+              "sourceDirName": "features",
+              "slug": "/features/test-logs",
+              "permalink": "/features/test-logs",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "title": "Test logs",
+                "slug": "/features/test-logs",
+                "sidebar_position": 4
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Test runs",
+                "permalink": "/features/test-runs"
+              },
+              "next": {
+                "title": "Team management",
+                "permalink": "/features/team-management"
+              }
+            },
+            {
+              "unversionedId": "features/test-runs",
+              "id": "features/test-runs",
+              "title": "Test runs",
+              "description": "Your tests will be captured when you trigger your CI build. You will see your runs will be listed under the Test Runs menu.",
+              "source": "@site/docs/features/test-runs.mdx",
+              "sourceDirName": "features",
+              "slug": "/features/test-runs",
+              "permalink": "/features/test-runs",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "Test runs",
+                "slug": "/features/test-runs",
+                "sidebar_position": 3
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Workflow runs",
+                "permalink": "/features/workflow-runs"
+              },
+              "next": {
+                "title": "Test logs",
+                "permalink": "/features/test-logs"
+              }
+            },
+            {
+              "unversionedId": "features/workflow-runs",
+              "id": "features/workflow-runs",
+              "title": "Workflow runs",
+              "description": "With Foresight, you can easily list your and analyze your CI workflows in a repository. Foresight provides a high-level",
+              "source": "@site/docs/features/workflow-runs.mdx",
+              "sourceDirName": "features",
+              "slug": "/features/workflow-runs",
+              "permalink": "/features/workflow-runs",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Workflow runs",
+                "slug": "/features/workflow-runs",
+                "sidebar_position": 2
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Highlights",
+                "permalink": "/features/highlights"
+              },
+              "next": {
+                "title": "Test runs",
+                "permalink": "/features/test-runs"
               }
             },
             {
@@ -114,14 +222,14 @@
               "sidebar": "sidebar",
               "next": {
                 "title": "Configuration",
-                "permalink": "/configuration"
+                "permalink": "/step-by-step-guide"
               }
             },
             {
               "unversionedId": "other/faq",
               "id": "other/faq",
               "title": "FAQ",
-              "description": "Using Layers",
+              "description": "Docs in progress",
               "source": "@site/docs/other/faq.mdx",
               "sourceDirName": "other",
               "slug": "/other/faq",
@@ -136,8 +244,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Test logs",
-                "permalink": "/advanced/test-logs"
+                "title": "Team management",
+                "permalink": "/features/team-management"
               },
               "next": {
                 "title": "Troubleshooting",
@@ -148,7 +256,7 @@
               "unversionedId": "other/troubleshooting",
               "id": "other/troubleshooting",
               "title": "Troubleshooting",
-              "description": "Using Layers",
+              "description": "Docs in progress",
               "source": "@site/docs/other/troubleshooting.mdx",
               "sourceDirName": "other",
               "slug": "/other/troubleshooting",
@@ -171,7 +279,7 @@
               "unversionedId": "use-cases/bottleneck-workflow",
               "id": "use-cases/bottleneck-workflow",
               "title": "Find bottlenecks",
-              "description": "",
+              "description": "Docs in progress",
               "source": "@site/docs/use-cases/bottleneck-workflow.mdx",
               "sourceDirName": "use-cases",
               "slug": "/use-cases/find-bottlenecks",
@@ -198,7 +306,7 @@
               "unversionedId": "use-cases/change-impact-analysis copy",
               "id": "use-cases/change-impact-analysis copy",
               "title": "Analyze code change impact",
-              "description": "",
+              "description": "Docs in progress",
               "source": "@site/docs/use-cases/change-impact-analysis copy.mdx",
               "sourceDirName": "use-cases",
               "slug": "/use-cases/analyze-code-change-impact",
@@ -217,15 +325,15 @@
                 "permalink": "/use-cases/find-bottlenecks"
               },
               "next": {
-                "title": "Test logs",
-                "permalink": "/advanced/test-logs"
+                "title": "Highlights",
+                "permalink": "/features/highlights"
               }
             },
             {
               "unversionedId": "use-cases/detect-failed-tests",
               "id": "use-cases/detect-failed-tests",
               "title": "Detect failed tests",
-              "description": "",
+              "description": "Finding failed tests and test suites are easy with Foresight. You can use both",
               "source": "@site/docs/use-cases/detect-failed-tests.mdx",
               "sourceDirName": "use-cases",
               "slug": "/use-cases/detect-failed-tests",
@@ -252,7 +360,7 @@
               "unversionedId": "use-cases/identify-flaky-tests",
               "id": "use-cases/identify-flaky-tests",
               "title": "Identify flaky tests",
-              "description": "",
+              "description": "What is a Flaky test?",
               "source": "@site/docs/use-cases/identify-flaky-tests.mdx",
               "sourceDirName": "use-cases",
               "slug": "/use-cases/identify-flaky-tests",
@@ -378,13 +486,29 @@
               },
               {
                 "type": "category",
-                "label": "Advanced",
+                "label": "Features",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "advanced/test-logs"
+                    "id": "features/highlights"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "features/workflow-runs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "features/test-runs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "features/test-logs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "features/team-management"
                   }
                 ]
               },

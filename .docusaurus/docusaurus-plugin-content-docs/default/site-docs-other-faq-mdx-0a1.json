@@ -2,7 +2,7 @@
   "unversionedId": "other/faq",
   "id": "other/faq",
   "title": "FAQ",
-  "description": "Using Layers",
+  "description": "Docs in progress",
   "source": "@site/docs/other/faq.mdx",
   "sourceDirName": "other",
   "slug": "/other/faq",
@@ -17,8 +17,8 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Test logs",
-    "permalink": "/advanced/test-logs"
+    "title": "Team management",
+    "permalink": "/features/team-management"
   },
   "next": {
     "title": "Troubleshooting",

@@ -2,7 +2,7 @@
   "unversionedId": "examples",
   "id": "examples",
   "title": "Examples",
-  "description": "",
+  "description": "TBD",
   "source": "@site/docs/examples.mdx",
   "sourceDirName": ".",
   "slug": "/examples",
@@ -17,7 +17,7 @@
   "sidebar": "sidebar",
   "previous": {
     "title": "Configuration",
-    "permalink": "/configuration"
+    "permalink": "/step-by-step-guide"
   },
   "next": {
     "title": "Optimize duration",

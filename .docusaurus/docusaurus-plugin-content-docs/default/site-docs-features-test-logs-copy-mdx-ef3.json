@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/test-logs copy",
+  "id": "features/test-logs copy",
+  "title": "Features",
+  "description": "Test framework limitations",
+  "source": "@site/docs/features/test-logs copy.mdx",
+  "sourceDirName": "features",
+  "slug": "/features/test-logs",
+  "permalink": "/features/test-logs",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Features",
+    "slug": "/features/test-logs",
+    "sidebar_position": 1
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Analyze code change impact",
+    "permalink": "/use-cases/analyze-code-change-impact"
+  },
+  "next": {
+    "title": "Features",
+    "permalink": "/features/test-logs"
+  }
+}

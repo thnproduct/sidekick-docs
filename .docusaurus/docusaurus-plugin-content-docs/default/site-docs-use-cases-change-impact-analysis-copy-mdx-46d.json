@@ -2,7 +2,7 @@
   "unversionedId": "use-cases/change-impact-analysis copy",
   "id": "use-cases/change-impact-analysis copy",
   "title": "Analyze code change impact",
-  "description": "",
+  "description": "Docs in progress",
   "source": "@site/docs/use-cases/change-impact-analysis copy.mdx",
   "sourceDirName": "use-cases",
   "slug": "/use-cases/analyze-code-change-impact",
@@ -21,7 +21,7 @@
     "permalink": "/use-cases/find-bottlenecks"
   },
   "next": {
-    "title": "Test logs",
-    "permalink": "/advanced/test-logs"
+    "title": "Highlights",
+    "permalink": "/features/highlights"
   }
 }

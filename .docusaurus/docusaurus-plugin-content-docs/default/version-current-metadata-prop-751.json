@@ -17,7 +17,7 @@
       {
         "type": "link",
         "label": "Configuration",
-        "href": "/configuration",
+        "href": "/step-by-step-guide",
         "docId": "configuration"
       },
       {
@@ -72,15 +72,39 @@
       },
       {
         "type": "category",
-        "label": "Advanced",
+        "label": "Features",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
+            "label": "Highlights",
+            "href": "/features/highlights",
+            "docId": "features/highlights"
+          },
+          {
+            "type": "link",
+            "label": "Workflow runs",
+            "href": "/features/workflow-runs",
+            "docId": "features/workflow-runs"
+          },
+          {
+            "type": "link",
+            "label": "Test runs",
+            "href": "/features/test-runs",
+            "docId": "features/test-runs"
+          },
+          {
+            "type": "link",
             "label": "Test logs",
-            "href": "/advanced/test-logs",
-            "docId": "advanced/test-logs"
+            "href": "/features/test-logs",
+            "docId": "features/test-logs"
+          },
+          {
+            "type": "link",
+            "label": "Team management",
+            "href": "/features/team-management",
+            "docId": "features/team-management"
           }
         ]
       },
@@ -107,12 +131,6 @@
     ]
   },
   "docs": {
-    "advanced/test-logs": {
-      "id": "advanced/test-logs",
-      "title": "Test logs",
-      "description": "Test framework limitations",
-      "sidebar": "sidebar"
-    },
     "configuration": {
       "id": "configuration",
       "title": "Configuration",
@@ -122,7 +140,37 @@
     "examples": {
       "id": "examples",
       "title": "Examples",
-      "description": "",
+      "description": "TBD",
+      "sidebar": "sidebar"
+    },
+    "features/highlights": {
+      "id": "features/highlights",
+      "title": "Highlights",
+      "description": "Docs in progress",
+      "sidebar": "sidebar"
+    },
+    "features/team-management": {
+      "id": "features/team-management",
+      "title": "Team management",
+      "description": "Docs in progress",
+      "sidebar": "sidebar"
+    },
+    "features/test-logs": {
+      "id": "features/test-logs",
+      "title": "Test logs",
+      "description": "Logs are still one of the best ways of debugging your software. When it comes to writing log lines,",
+      "sidebar": "sidebar"
+    },
+    "features/test-runs": {
+      "id": "features/test-runs",
+      "title": "Test runs",
+      "description": "Your tests will be captured when you trigger your CI build. You will see your runs will be listed under the Test Runs menu.",
+      "sidebar": "sidebar"
+    },
+    "features/workflow-runs": {
+      "id": "features/workflow-runs",
+      "title": "Workflow runs",
+      "description": "With Foresight, you can easily list your and analyze your CI workflows in a repository. Foresight provides a high-level",
       "sidebar": "sidebar"
     },
     "intro": {
@@ -134,37 +182,37 @@
     "other/faq": {
       "id": "other/faq",
       "title": "FAQ",
-      "description": "Using Layers",
+      "description": "Docs in progress",
       "sidebar": "sidebar"
     },
     "other/troubleshooting": {
       "id": "other/troubleshooting",
       "title": "Troubleshooting",
-      "description": "Using Layers",
+      "description": "Docs in progress",
       "sidebar": "sidebar"
     },
     "use-cases/bottleneck-workflow": {
       "id": "use-cases/bottleneck-workflow",
       "title": "Find bottlenecks",
-      "description": "",
+      "description": "Docs in progress",
       "sidebar": "sidebar"
     },
     "use-cases/change-impact-analysis copy": {
       "id": "use-cases/change-impact-analysis copy",
       "title": "Analyze code change impact",
-      "description": "",
+      "description": "Docs in progress",
       "sidebar": "sidebar"
     },
     "use-cases/detect-failed-tests": {
       "id": "use-cases/detect-failed-tests",
       "title": "Detect failed tests",
-      "description": "",
+      "description": "Finding failed tests and test suites are easy with Foresight. You can use both",
       "sidebar": "sidebar"
     },
     "use-cases/identify-flaky-tests": {
       "id": "use-cases/identify-flaky-tests",
       "title": "Identify flaky tests",
-      "description": "",
+      "description": "What is a Flaky test?",
       "sidebar": "sidebar"
     },
     "use-cases/monitor-costs": {

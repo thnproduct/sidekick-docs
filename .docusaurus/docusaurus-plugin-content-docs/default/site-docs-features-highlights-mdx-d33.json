@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/highlights",
+  "id": "features/highlights",
+  "title": "Highlights",
+  "description": "Docs in progress",
+  "source": "@site/docs/features/highlights.mdx",
+  "sourceDirName": "features",
+  "slug": "/features/highlights",
+  "permalink": "/features/highlights",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Highlights",
+    "slug": "/features/highlights",
+    "sidebar_position": 1
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Analyze code change impact",
+    "permalink": "/use-cases/analyze-code-change-impact"
+  },
+  "next": {
+    "title": "Workflow runs",
+    "permalink": "/features/workflow-runs"
+  }
+}

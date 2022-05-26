@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/test-runs",
+  "id": "features/test-runs",
+  "title": "Test runs",
+  "description": "Your tests will be captured when you trigger your CI build. You will see your runs will be listed under the Test Runs menu.",
+  "source": "@site/docs/features/test-runs.mdx",
+  "sourceDirName": "features",
+  "slug": "/features/test-runs",
+  "permalink": "/features/test-runs",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Test runs",
+    "slug": "/features/test-runs",
+    "sidebar_position": 3
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Workflow runs",
+    "permalink": "/features/workflow-runs"
+  },
+  "next": {
+    "title": "Test logs",
+    "permalink": "/features/test-logs"
+  }
+}
