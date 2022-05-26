@@ -47,7 +47,7 @@ const config = {
         title: 'Foresight',
         logo: {
           alt: ' ',
-          src: 'img/alogo.svg',
+          src: 'img/logo.svg',
         },
         items: [
           {
@@ -57,8 +57,6 @@ const config = {
             label: 'Docs',
           },
           {to: '/blog', label: 'Changelog', position: 'left'},
-          {to: '#', label: 'Community', position: 'right'},
-          {to: '#', label: 'Sign up', position: 'right'},
         ],
       },
       footer: {

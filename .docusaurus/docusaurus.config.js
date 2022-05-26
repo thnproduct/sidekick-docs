@@ -36,7 +36,7 @@ export default {
       "title": "Foresight",
       "logo": {
         "alt": " ",
-        "src": "img/alogo.svg"
+        "src": "img/logo.svg"
       },
       "items": [
         {
@@ -49,16 +49,6 @@ export default {
           "to": "/blog",
           "label": "Changelog",
           "position": "left"
-        },
-        {
-          "to": "#",
-          "label": "Community",
-          "position": "right"
-        },
-        {
-          "to": "#",
-          "label": "Sign up",
-          "position": "right"
         }
       ],
       "hideOnScroll": false
