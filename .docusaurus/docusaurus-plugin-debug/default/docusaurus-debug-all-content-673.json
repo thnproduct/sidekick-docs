@@ -46,7 +46,7 @@
               "unversionedId": "examples",
               "id": "examples",
               "title": "Examples",
-              "description": "TBD",
+              "description": "You can explore Foresight with our demo repositories:",
               "source": "@site/docs/examples.mdx",
               "sourceDirName": ".",
               "slug": "/examples",

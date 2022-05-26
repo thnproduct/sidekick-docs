@@ -44,11 +44,6 @@ export default {
           "docId": "intro",
           "position": "left",
           "label": "Docs"
-        },
-        {
-          "to": "/blog",
-          "label": "Changelog",
-          "position": "left"
         }
       ],
       "hideOnScroll": false
