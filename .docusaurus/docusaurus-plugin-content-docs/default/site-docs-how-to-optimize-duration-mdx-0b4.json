@@ -1,9 +1,9 @@
 {
-  "unversionedId": "how-to/optimize-workflow-duration",
-  "id": "how-to/optimize-workflow-duration",
+  "unversionedId": "how-to/optimize-duration",
+  "id": "how-to/optimize-duration",
   "title": "Optimize duration",
   "description": "",
-  "source": "@site/docs/how-to/optimize-workflow-duration.mdx",
+  "source": "@site/docs/how-to/optimize-duration.mdx",
   "sourceDirName": "how-to",
   "slug": "/configuration/optimize-duration",
   "permalink": "/configuration/optimize-duration",

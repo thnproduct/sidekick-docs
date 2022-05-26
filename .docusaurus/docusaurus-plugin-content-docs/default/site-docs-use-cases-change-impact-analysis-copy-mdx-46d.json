@@ -1,0 +1,27 @@
+{
+  "unversionedId": "use-cases/change-impact-analysis copy",
+  "id": "use-cases/change-impact-analysis copy",
+  "title": "Analyze code change impact",
+  "description": "",
+  "source": "@site/docs/use-cases/change-impact-analysis copy.mdx",
+  "sourceDirName": "use-cases",
+  "slug": "/use-cases/analyze-code-change-impact",
+  "permalink": "/use-cases/analyze-code-change-impact",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Analyze code change impact",
+    "slug": "/use-cases/analyze-code-change-impact",
+    "sidebar_position": 5
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Find bottlenecks",
+    "permalink": "/use-cases/find-bottlenecks"
+  },
+  "next": {
+    "title": "Test logs",
+    "permalink": "/advanced/test-logs"
+  }
+}

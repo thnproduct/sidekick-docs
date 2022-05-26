@@ -1,10 +1,10 @@
 {
-  "unversionedId": "how-to/monitor-ci-costs copy",
-  "id": "how-to/monitor-ci-costs copy",
+  "unversionedId": "workflow-highlights/monitor-ci-costs",
+  "id": "workflow-highlights/monitor-ci-costs",
   "title": "Monitor CI costs",
   "description": "Using Layers",
-  "source": "@site/docs/how-to/monitor-ci-costs copy.mdx",
-  "sourceDirName": "how-to",
+  "source": "@site/docs/workflow-highlights/monitor-ci-costs.mdx",
+  "sourceDirName": "workflow-highlights",
   "slug": "/configuration/monitor-ci-costs",
   "permalink": "/configuration/monitor-ci-costs",
   "tags": [],
@@ -21,7 +21,7 @@
     "permalink": "/configuration/optimize-workflow-duration"
   },
   "next": {
-    "title": "Monitor CI costs",
-    "permalink": "/configuration/monitor-ci-costs"
+    "title": "Flaky tests",
+    "permalink": "/configuration/detecting-flaky-tests"
   }
 }

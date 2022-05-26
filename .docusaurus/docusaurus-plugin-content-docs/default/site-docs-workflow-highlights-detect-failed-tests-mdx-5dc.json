@@ -1,0 +1,27 @@
+{
+  "unversionedId": "workflow-highlights/detect-failed-tests",
+  "id": "workflow-highlights/detect-failed-tests",
+  "title": "Detect failed tests",
+  "description": "Using Layers",
+  "source": "@site/docs/workflow-highlights/detect-failed-tests.mdx",
+  "sourceDirName": "workflow-highlights",
+  "slug": "/configuration/detect-failed-tests",
+  "permalink": "/configuration/detect-failed-tests",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Detect failed tests",
+    "slug": "/configuration/detect-failed-tests",
+    "sidebar_position": 4
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Flaky tests",
+    "permalink": "/configuration/detecting-flaky-tests"
+  },
+  "next": {
+    "title": "Change impact analysis",
+    "permalink": "/configuration/change-impact-analysis"
+  }
+}

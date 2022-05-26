@@ -1,0 +1,27 @@
+{
+  "unversionedId": "use-cases/detect-failed-tests",
+  "id": "use-cases/detect-failed-tests",
+  "title": "Detect failed tests",
+  "description": "",
+  "source": "@site/docs/use-cases/detect-failed-tests.mdx",
+  "sourceDirName": "use-cases",
+  "slug": "/use-cases/detect-failed-tests",
+  "permalink": "/use-cases/detect-failed-tests",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Detect failed tests",
+    "slug": "/use-cases/detect-failed-tests",
+    "sidebar_position": 4
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Identify flaky tests",
+    "permalink": "/use-cases/identify-flaky-tests"
+  },
+  "next": {
+    "title": "Find bottlenecks",
+    "permalink": "/use-cases/find-bottlenecks"
+  }
+}

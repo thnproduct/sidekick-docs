@@ -11,6 +11,11 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "advanced/test-logs",
+              "path": "/advanced/test-logs",
+              "sidebar": "sidebar"
+            },
+            {
               "id": "configuration",
               "path": "/configuration",
               "sidebar": "sidebar"
@@ -18,26 +23,6 @@
             {
               "id": "examples",
               "path": "/examples",
-              "sidebar": "sidebar"
-            },
-            {
-              "id": "how-to/detect-failed-tests",
-              "path": "/configuration/detect-failed-tests",
-              "sidebar": "sidebar"
-            },
-            {
-              "id": "how-to/detecting-flaky-tests",
-              "path": "/configuration/detecting-flaky-tests",
-              "sidebar": "sidebar"
-            },
-            {
-              "id": "how-to/monitor-ci-costs",
-              "path": "/configuration/monitor-ci-costs",
-              "sidebar": "sidebar"
-            },
-            {
-              "id": "how-to/optimize-workflow-duration",
-              "path": "/configuration/optimize-workflow-duration",
               "sidebar": "sidebar"
             },
             {
@@ -53,6 +38,36 @@
             {
               "id": "other/troubleshooting",
               "path": "/other/troubleshooting",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "use-cases/bottleneck-workflow",
+              "path": "/use-cases/find-bottlenecks",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "use-cases/change-impact-analysis copy",
+              "path": "/use-cases/analyze-code-change-impact",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "use-cases/detect-failed-tests",
+              "path": "/use-cases/detect-failed-tests",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "use-cases/identify-flaky-tests",
+              "path": "/use-cases/identify-flaky-tests",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "use-cases/monitor-costs",
+              "path": "/use-cases/monitor-costs",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "use-cases/optimize-duration",
+              "path": "/use-cases/optimize-duration",
               "sidebar": "sidebar"
             }
           ],

@@ -17,10 +17,37 @@
           "contentPathLocalized": "/Users/burakkantarci/Dev/foresight-docs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "unversionedId": "advanced/test-logs",
+              "id": "advanced/test-logs",
+              "title": "Test logs",
+              "description": "Test framework limitations",
+              "source": "@site/docs/advanced/test-logs.mdx",
+              "sourceDirName": "advanced",
+              "slug": "/advanced/test-logs",
+              "permalink": "/advanced/test-logs",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Test logs",
+                "slug": "/advanced/test-logs",
+                "sidebar_position": 1
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Analyze code change impact",
+                "permalink": "/use-cases/analyze-code-change-impact"
+              },
+              "next": {
+                "title": "FAQ",
+                "permalink": "/other/faq"
+              }
+            },
+            {
               "unversionedId": "configuration",
               "id": "configuration",
               "title": "Configuration",
-              "description": "Go to GitHub Marketplace and install it for free.",
+              "description": "Foresight can monitor all GitHub Actions workflows and test frameworks such as JUnit, Jest, Python, TestNG, Trx and xUnit 2.",
               "source": "@site/docs/configuration.mdx",
               "sourceDirName": ".",
               "slug": "/configuration",
@@ -64,116 +91,8 @@
                 "permalink": "/configuration"
               },
               "next": {
-                "title": "Optimize workflow duration",
-                "permalink": "/configuration/optimize-workflow-duration"
-              }
-            },
-            {
-              "unversionedId": "how-to/detect-failed-tests",
-              "id": "how-to/detect-failed-tests",
-              "title": "Detect failed tests",
-              "description": "Using Layers",
-              "source": "@site/docs/how-to/detect-failed-tests.mdx",
-              "sourceDirName": "how-to",
-              "slug": "/configuration/detect-failed-tests",
-              "permalink": "/configuration/detect-failed-tests",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "title": "Detect failed tests",
-                "slug": "/configuration/detect-failed-tests",
-                "sidebar_position": 4
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "Flaky tests",
-                "permalink": "/configuration/detecting-flaky-tests"
-              },
-              "next": {
-                "title": "FAQ",
-                "permalink": "/other/faq"
-              }
-            },
-            {
-              "unversionedId": "how-to/detecting-flaky-tests",
-              "id": "how-to/detecting-flaky-tests",
-              "title": "Flaky tests",
-              "description": "Using Layers",
-              "source": "@site/docs/how-to/detecting-flaky-tests.mdx",
-              "sourceDirName": "how-to",
-              "slug": "/configuration/detecting-flaky-tests",
-              "permalink": "/configuration/detecting-flaky-tests",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "title": "Flaky tests",
-                "slug": "/configuration/detecting-flaky-tests",
-                "sidebar_position": 3
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "Monitor CI Costs",
-                "permalink": "/configuration/monitor-ci-costs"
-              },
-              "next": {
-                "title": "Detect failed tests",
-                "permalink": "/configuration/detect-failed-tests"
-              }
-            },
-            {
-              "unversionedId": "how-to/monitor-ci-costs",
-              "id": "how-to/monitor-ci-costs",
-              "title": "Monitor CI Costs",
-              "description": "Using Layers",
-              "source": "@site/docs/how-to/monitor-ci-costs.mdx",
-              "sourceDirName": "how-to",
-              "slug": "/configuration/monitor-ci-costs",
-              "permalink": "/configuration/monitor-ci-costs",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "title": "Monitor CI Costs",
-                "slug": "/configuration/monitor-ci-costs",
-                "sidebar_position": 2
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "Optimize workflow duration",
-                "permalink": "/configuration/optimize-workflow-duration"
-              },
-              "next": {
-                "title": "Flaky tests",
-                "permalink": "/configuration/detecting-flaky-tests"
-              }
-            },
-            {
-              "unversionedId": "how-to/optimize-workflow-duration",
-              "id": "how-to/optimize-workflow-duration",
-              "title": "Optimize workflow duration",
-              "description": "Using Layers",
-              "source": "@site/docs/how-to/optimize-workflow-duration.mdx",
-              "sourceDirName": "how-to",
-              "slug": "/configuration/optimize-workflow-duration",
-              "permalink": "/configuration/optimize-workflow-duration",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "title": "Optimize workflow duration",
-                "slug": "/configuration/optimize-workflow-duration",
-                "sidebar_position": 1
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "Examples",
-                "permalink": "/examples"
-              },
-              "next": {
-                "title": "Monitor CI Costs",
-                "permalink": "/configuration/monitor-ci-costs"
+                "title": "Optimize duration",
+                "permalink": "/use-cases/optimize-duration"
               }
             },
             {
@@ -217,8 +136,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Detect failed tests",
-                "permalink": "/configuration/detect-failed-tests"
+                "title": "Test logs",
+                "permalink": "/advanced/test-logs"
               },
               "next": {
                 "title": "Troubleshooting",
@@ -247,6 +166,168 @@
                 "title": "FAQ",
                 "permalink": "/other/faq"
               }
+            },
+            {
+              "unversionedId": "use-cases/bottleneck-workflow",
+              "id": "use-cases/bottleneck-workflow",
+              "title": "Find bottlenecks",
+              "description": "",
+              "source": "@site/docs/use-cases/bottleneck-workflow.mdx",
+              "sourceDirName": "use-cases",
+              "slug": "/use-cases/find-bottlenecks",
+              "permalink": "/use-cases/find-bottlenecks",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "title": "Find bottlenecks",
+                "slug": "/use-cases/find-bottlenecks",
+                "sidebar_position": 5
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Detect failed tests",
+                "permalink": "/use-cases/detect-failed-tests"
+              },
+              "next": {
+                "title": "Analyze code change impact",
+                "permalink": "/use-cases/analyze-code-change-impact"
+              }
+            },
+            {
+              "unversionedId": "use-cases/change-impact-analysis copy",
+              "id": "use-cases/change-impact-analysis copy",
+              "title": "Analyze code change impact",
+              "description": "",
+              "source": "@site/docs/use-cases/change-impact-analysis copy.mdx",
+              "sourceDirName": "use-cases",
+              "slug": "/use-cases/analyze-code-change-impact",
+              "permalink": "/use-cases/analyze-code-change-impact",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "title": "Analyze code change impact",
+                "slug": "/use-cases/analyze-code-change-impact",
+                "sidebar_position": 5
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Find bottlenecks",
+                "permalink": "/use-cases/find-bottlenecks"
+              },
+              "next": {
+                "title": "Test logs",
+                "permalink": "/advanced/test-logs"
+              }
+            },
+            {
+              "unversionedId": "use-cases/detect-failed-tests",
+              "id": "use-cases/detect-failed-tests",
+              "title": "Detect failed tests",
+              "description": "",
+              "source": "@site/docs/use-cases/detect-failed-tests.mdx",
+              "sourceDirName": "use-cases",
+              "slug": "/use-cases/detect-failed-tests",
+              "permalink": "/use-cases/detect-failed-tests",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "title": "Detect failed tests",
+                "slug": "/use-cases/detect-failed-tests",
+                "sidebar_position": 4
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Identify flaky tests",
+                "permalink": "/use-cases/identify-flaky-tests"
+              },
+              "next": {
+                "title": "Find bottlenecks",
+                "permalink": "/use-cases/find-bottlenecks"
+              }
+            },
+            {
+              "unversionedId": "use-cases/identify-flaky-tests",
+              "id": "use-cases/identify-flaky-tests",
+              "title": "Identify flaky tests",
+              "description": "",
+              "source": "@site/docs/use-cases/identify-flaky-tests.mdx",
+              "sourceDirName": "use-cases",
+              "slug": "/use-cases/identify-flaky-tests",
+              "permalink": "/use-cases/identify-flaky-tests",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "Identify flaky tests",
+                "slug": "/use-cases/identify-flaky-tests",
+                "sidebar_position": 3
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Monitor costs",
+                "permalink": "/use-cases/monitor-costs"
+              },
+              "next": {
+                "title": "Detect failed tests",
+                "permalink": "/use-cases/detect-failed-tests"
+              }
+            },
+            {
+              "unversionedId": "use-cases/monitor-costs",
+              "id": "use-cases/monitor-costs",
+              "title": "Monitor costs",
+              "description": "",
+              "source": "@site/docs/use-cases/monitor-costs.mdx",
+              "sourceDirName": "use-cases",
+              "slug": "/use-cases/monitor-costs",
+              "permalink": "/use-cases/monitor-costs",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Monitor costs",
+                "slug": "/use-cases/monitor-costs",
+                "sidebar_position": 2
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Optimize duration",
+                "permalink": "/use-cases/optimize-duration"
+              },
+              "next": {
+                "title": "Identify flaky tests",
+                "permalink": "/use-cases/identify-flaky-tests"
+              }
+            },
+            {
+              "unversionedId": "use-cases/optimize-duration",
+              "id": "use-cases/optimize-duration",
+              "title": "Optimize duration",
+              "description": "",
+              "source": "@site/docs/use-cases/optimize-duration.mdx",
+              "sourceDirName": "use-cases",
+              "slug": "/use-cases/optimize-duration",
+              "permalink": "/use-cases/optimize-duration",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Optimize duration",
+                "slug": "/use-cases/optimize-duration",
+                "sidebar_position": 1
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Examples",
+                "permalink": "/examples"
+              },
+              "next": {
+                "title": "Monitor costs",
+                "permalink": "/use-cases/monitor-costs"
+              }
             }
           ],
           "sidebars": {
@@ -265,33 +346,53 @@
               },
               {
                 "type": "category",
-                "label": "How to",
-                "collapsible": false,
-                "collapsed": false,
+                "label": "Use cases",
+                "collapsible": true,
+                "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "how-to/optimize-workflow-duration"
+                    "id": "use-cases/optimize-duration"
                   },
                   {
                     "type": "doc",
-                    "id": "how-to/monitor-ci-costs"
+                    "id": "use-cases/monitor-costs"
                   },
                   {
                     "type": "doc",
-                    "id": "how-to/detecting-flaky-tests"
+                    "id": "use-cases/identify-flaky-tests"
                   },
                   {
                     "type": "doc",
-                    "id": "how-to/detect-failed-tests"
+                    "id": "use-cases/detect-failed-tests"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "use-cases/bottleneck-workflow"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "use-cases/change-impact-analysis copy"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Advanced",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "advanced/test-logs"
                   }
                 ]
               },
               {
                 "type": "category",
                 "label": "Other",
-                "collapsible": false,
-                "collapsed": false,
+                "collapsible": true,
+                "collapsed": true,
                 "items": [
                   {
                     "type": "doc",

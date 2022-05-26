@@ -2,7 +2,7 @@
   "unversionedId": "configuration",
   "id": "configuration",
   "title": "Configuration",
-  "description": "Go to GitHub Marketplace and install it for free.",
+  "description": "Foresight can monitor all GitHub Actions workflows and test frameworks such as JUnit, Jest, Python, TestNG, Trx and xUnit 2.",
   "source": "@site/docs/configuration.mdx",
   "sourceDirName": ".",
   "slug": "/configuration",

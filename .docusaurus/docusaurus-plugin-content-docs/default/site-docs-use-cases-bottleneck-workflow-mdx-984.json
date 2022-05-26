@@ -1,0 +1,27 @@
+{
+  "unversionedId": "use-cases/bottleneck-workflow",
+  "id": "use-cases/bottleneck-workflow",
+  "title": "Find bottlenecks",
+  "description": "",
+  "source": "@site/docs/use-cases/bottleneck-workflow.mdx",
+  "sourceDirName": "use-cases",
+  "slug": "/use-cases/find-bottlenecks",
+  "permalink": "/use-cases/find-bottlenecks",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Find bottlenecks",
+    "slug": "/use-cases/find-bottlenecks",
+    "sidebar_position": 5
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Detect failed tests",
+    "permalink": "/use-cases/detect-failed-tests"
+  },
+  "next": {
+    "title": "Analyze code change impact",
+    "permalink": "/use-cases/analyze-code-change-impact"
+  }
+}

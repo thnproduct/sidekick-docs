@@ -1,0 +1,27 @@
+{
+  "unversionedId": "use-cases/identify-flaky-tests",
+  "id": "use-cases/identify-flaky-tests",
+  "title": "Identify flaky tests",
+  "description": "",
+  "source": "@site/docs/use-cases/identify-flaky-tests.mdx",
+  "sourceDirName": "use-cases",
+  "slug": "/use-cases/identify-flaky-tests",
+  "permalink": "/use-cases/identify-flaky-tests",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Identify flaky tests",
+    "slug": "/use-cases/identify-flaky-tests",
+    "sidebar_position": 3
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Monitor costs",
+    "permalink": "/use-cases/monitor-costs"
+  },
+  "next": {
+    "title": "Detect failed tests",
+    "permalink": "/use-cases/detect-failed-tests"
+  }
+}

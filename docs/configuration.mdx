@@ -7,22 +7,66 @@ slug: /configuration
 
 import {Step} from '@site/src/components/Step';
 import {Container} from '@site/src/components/Container';
+import {Card} from '@site/src/components/Card';
+
+Foresight can monitor all GitHub Actions workflows and test frameworks such as JUnit, Jest, Python, TestNG, Trx and xUnit 2. 
+All you need to do is installing Foresight's GitHub app and updating your YAML file so that Foresight can analyze your test report.  
+
+It's fast, secure, and reliable — with zero-overhead.
 
 <Container>
+  <Step step="🚀" stepHeader="Quick onboarding video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rBciUV8BX7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </Step>
   <Step step="1" stepHeader="Create an account">
+    In order to get started with Foresight, you need to create a Foresight account. You can sign up from <a href="https://foresight.thundra.io/signup">here</a>.
+    <br /><br />
+    <img src="img/configuration/ST-Sign-up.png" alt="Sign up to Foresight" />
   </Step>
   <Step step="2" stepHeader="Start connecting pipeline">
+    In order to list your pipelines, click on the "Connect pipeline" button.  
+    <br /><br />
+    <img src="img/configuration/Step1Connect.jpg" alt="Connect pipeline" />
   </Step>
   <Step step="3" stepHeader="Install Foresight's GitHub app">
     <a href="https://github.com/marketplace/thundra-foresight">Go to GitHub Marketplace</a> and install it for free.
   </Step>
   <Step step="4" stepHeader="Choose repositories to watch">
-  
+    After installing the app successfully, you will see the project creation and repositories screen. 
+    Please name your first project and select the repositories you want to montior.
+    <br /><br />
+    <img src="img/configuration/Step4-ChooseRepo.png" alt="Connect pipeline" />
   </Step>
-  <Step step="5" stepHeader="Update your YAML files (optional)">
-  
+  <Step step="5" stepHeader="Upload your test reports (optional)">
+    <p>Don't get lost with the log piles in the GitHub Actions results. Group tests, test suites along with their logs, 
+    screenshots, and more to understand why even the most complex integration test failed.</p>
+    <br />
+    <p>Update your YAML file with Foresight's report uploader step and troubleshoot your test failures easily.</p>
+    <br />
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sEuYDwja6lM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </Step>
   <Step step="6" stepHeader="Start monitoring">
-  
+    Execute your pipeline with the updated configuration. You'll see your repositories listed under the Repositories section. 
+    <br /><br />
+    <img src="img/configuration/CIMonitoring-Repos.png" alt="Repos" />
   </Step>
+  <br/>
+  <h3>What's Next?</h3>
+  <br/>
+  <div className="w-full cols-2">
+    <Card title="Highlights" target="/extensions/vs-code">
+      More granular GitHub Actions metrics
+    </Card>
+    <Card title="Workflow Runs" target="/extensions/vs-code">
+      List all the workflow runs 
+    </Card>
+  </div>
+  <div className="w-full cols-2">
+    <Card title="Test Runs" target="/extensions/vs-code">
+      List all the test runs
+    </Card>
+    <Card title="Collaborate" target="/extensions/vs-code">
+      You can invite your teammates
+    </Card>
+  </div>
 </Container> 

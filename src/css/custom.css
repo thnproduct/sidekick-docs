@@ -93,16 +93,19 @@ h3{
 ul{
   @apply list-disc pl-4
 }
-.menu__list-item-collapsible a{
+/* .menu__list-item-collapsible a{
   @apply text-sm text-gray-400 mt-2;
 }
 .menu__list-item-collapsible:hover,
 .menu__list-item-collapsible a:hover{
   @apply text-gray-400;
   background:none;
-}
+} */
 .cols-2{
   @apply grid grid-cols-2 gap-4 mb-4;
+}
+.cols-3{
+  @apply grid grid-cols-3 gap-4 mb-4;
 }
 .flex-x{
   @apply flex;
@@ -131,4 +134,7 @@ a[class*="link"] span {
 }
 .plugin-card-title{
   @apply text-xl font-semibold mb-1;
+}
+p img {
+  @apply rounded-md
 }

@@ -28,41 +28,67 @@
       },
       {
         "type": "category",
-        "label": "How to",
-        "collapsible": false,
-        "collapsed": false,
+        "label": "Use cases",
+        "collapsible": true,
+        "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Optimize workflow duration",
-            "href": "/configuration/optimize-workflow-duration",
-            "docId": "how-to/optimize-workflow-duration"
+            "label": "Optimize duration",
+            "href": "/use-cases/optimize-duration",
+            "docId": "use-cases/optimize-duration"
           },
           {
             "type": "link",
-            "label": "Monitor CI Costs",
-            "href": "/configuration/monitor-ci-costs",
-            "docId": "how-to/monitor-ci-costs"
+            "label": "Monitor costs",
+            "href": "/use-cases/monitor-costs",
+            "docId": "use-cases/monitor-costs"
           },
           {
             "type": "link",
-            "label": "Flaky tests",
-            "href": "/configuration/detecting-flaky-tests",
-            "docId": "how-to/detecting-flaky-tests"
+            "label": "Identify flaky tests",
+            "href": "/use-cases/identify-flaky-tests",
+            "docId": "use-cases/identify-flaky-tests"
           },
           {
             "type": "link",
             "label": "Detect failed tests",
-            "href": "/configuration/detect-failed-tests",
-            "docId": "how-to/detect-failed-tests"
+            "href": "/use-cases/detect-failed-tests",
+            "docId": "use-cases/detect-failed-tests"
+          },
+          {
+            "type": "link",
+            "label": "Find bottlenecks",
+            "href": "/use-cases/find-bottlenecks",
+            "docId": "use-cases/bottleneck-workflow"
+          },
+          {
+            "type": "link",
+            "label": "Analyze code change impact",
+            "href": "/use-cases/analyze-code-change-impact",
+            "docId": "use-cases/change-impact-analysis copy"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Advanced",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Test logs",
+            "href": "/advanced/test-logs",
+            "docId": "advanced/test-logs"
           }
         ]
       },
       {
         "type": "category",
         "label": "Other",
-        "collapsible": false,
-        "collapsed": false,
+        "collapsible": true,
+        "collapsed": true,
         "items": [
           {
             "type": "link",
@@ -81,40 +107,22 @@
     ]
   },
   "docs": {
+    "advanced/test-logs": {
+      "id": "advanced/test-logs",
+      "title": "Test logs",
+      "description": "Test framework limitations",
+      "sidebar": "sidebar"
+    },
     "configuration": {
       "id": "configuration",
       "title": "Configuration",
-      "description": "Go to GitHub Marketplace and install it for free.",
+      "description": "Foresight can monitor all GitHub Actions workflows and test frameworks such as JUnit, Jest, Python, TestNG, Trx and xUnit 2.",
       "sidebar": "sidebar"
     },
     "examples": {
       "id": "examples",
       "title": "Examples",
       "description": "",
-      "sidebar": "sidebar"
-    },
-    "how-to/detect-failed-tests": {
-      "id": "how-to/detect-failed-tests",
-      "title": "Detect failed tests",
-      "description": "Using Layers",
-      "sidebar": "sidebar"
-    },
-    "how-to/detecting-flaky-tests": {
-      "id": "how-to/detecting-flaky-tests",
-      "title": "Flaky tests",
-      "description": "Using Layers",
-      "sidebar": "sidebar"
-    },
-    "how-to/monitor-ci-costs": {
-      "id": "how-to/monitor-ci-costs",
-      "title": "Monitor CI Costs",
-      "description": "Using Layers",
-      "sidebar": "sidebar"
-    },
-    "how-to/optimize-workflow-duration": {
-      "id": "how-to/optimize-workflow-duration",
-      "title": "Optimize workflow duration",
-      "description": "Using Layers",
       "sidebar": "sidebar"
     },
     "intro": {
@@ -133,6 +141,42 @@
       "id": "other/troubleshooting",
       "title": "Troubleshooting",
       "description": "Using Layers",
+      "sidebar": "sidebar"
+    },
+    "use-cases/bottleneck-workflow": {
+      "id": "use-cases/bottleneck-workflow",
+      "title": "Find bottlenecks",
+      "description": "",
+      "sidebar": "sidebar"
+    },
+    "use-cases/change-impact-analysis copy": {
+      "id": "use-cases/change-impact-analysis copy",
+      "title": "Analyze code change impact",
+      "description": "",
+      "sidebar": "sidebar"
+    },
+    "use-cases/detect-failed-tests": {
+      "id": "use-cases/detect-failed-tests",
+      "title": "Detect failed tests",
+      "description": "",
+      "sidebar": "sidebar"
+    },
+    "use-cases/identify-flaky-tests": {
+      "id": "use-cases/identify-flaky-tests",
+      "title": "Identify flaky tests",
+      "description": "",
+      "sidebar": "sidebar"
+    },
+    "use-cases/monitor-costs": {
+      "id": "use-cases/monitor-costs",
+      "title": "Monitor costs",
+      "description": "",
+      "sidebar": "sidebar"
+    },
+    "use-cases/optimize-duration": {
+      "id": "use-cases/optimize-duration",
+      "title": "Optimize duration",
+      "description": "",
       "sidebar": "sidebar"
     }
   }

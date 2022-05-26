@@ -1,0 +1,27 @@
+{
+  "unversionedId": "advanced/test-logs",
+  "id": "advanced/test-logs",
+  "title": "Test logs",
+  "description": "Test framework limitations",
+  "source": "@site/docs/advanced/test-logs.mdx",
+  "sourceDirName": "advanced",
+  "slug": "/advanced/test-logs",
+  "permalink": "/advanced/test-logs",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Test logs",
+    "slug": "/advanced/test-logs",
+    "sidebar_position": 1
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Analyze code change impact",
+    "permalink": "/use-cases/analyze-code-change-impact"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/other/faq"
+  }
+}

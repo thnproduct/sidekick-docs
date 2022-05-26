@@ -1,0 +1,27 @@
+{
+  "unversionedId": "how-to/change-impact-analysis",
+  "id": "how-to/change-impact-analysis",
+  "title": "Change impact analysis",
+  "description": "Using Layers",
+  "source": "@site/docs/how-to/change-impact-analysis.mdx",
+  "sourceDirName": "how-to",
+  "slug": "/configuration/change-impact-analysis",
+  "permalink": "/configuration/change-impact-analysis",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Change impact analysis",
+    "slug": "/configuration/change-impact-analysis",
+    "sidebar_position": 5
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Change impact analysis",
+    "permalink": "/configuration/change-impact-analysis"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/other/faq"
+  }
+}

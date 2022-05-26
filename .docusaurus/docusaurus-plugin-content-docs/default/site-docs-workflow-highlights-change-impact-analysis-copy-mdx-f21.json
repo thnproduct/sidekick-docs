@@ -1,0 +1,27 @@
+{
+  "unversionedId": "workflow-highlights/change-impact-analysis copy",
+  "id": "workflow-highlights/change-impact-analysis copy",
+  "title": "Change impact analysis",
+  "description": "Using Layers",
+  "source": "@site/docs/workflow-highlights/change-impact-analysis copy.mdx",
+  "sourceDirName": "workflow-highlights",
+  "slug": "/configuration/change-impact-analysis",
+  "permalink": "/configuration/change-impact-analysis",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Change impact analysis",
+    "slug": "/configuration/change-impact-analysis",
+    "sidebar_position": 5
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Detect failed tests",
+    "permalink": "/configuration/detect-failed-tests"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/other/faq"
+  }
+}

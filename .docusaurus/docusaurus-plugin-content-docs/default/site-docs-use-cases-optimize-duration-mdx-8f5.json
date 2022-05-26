@@ -1,0 +1,27 @@
+{
+  "unversionedId": "use-cases/optimize-duration",
+  "id": "use-cases/optimize-duration",
+  "title": "Optimize duration",
+  "description": "",
+  "source": "@site/docs/use-cases/optimize-duration.mdx",
+  "sourceDirName": "use-cases",
+  "slug": "/use-cases/optimize-duration",
+  "permalink": "/use-cases/optimize-duration",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Optimize duration",
+    "slug": "/use-cases/optimize-duration",
+    "sidebar_position": 1
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Examples",
+    "permalink": "/examples"
+  },
+  "next": {
+    "title": "Monitor costs",
+    "permalink": "/use-cases/monitor-costs"
+  }
+}

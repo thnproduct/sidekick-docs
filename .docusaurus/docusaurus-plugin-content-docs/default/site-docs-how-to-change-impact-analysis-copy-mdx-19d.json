@@ -1,0 +1,27 @@
+{
+  "unversionedId": "how-to/change-impact-analysis copy",
+  "id": "how-to/change-impact-analysis copy",
+  "title": "Analyze code change impact",
+  "description": "",
+  "source": "@site/docs/how-to/change-impact-analysis copy.mdx",
+  "sourceDirName": "how-to",
+  "slug": "/configuration/analyze-code-change-impact",
+  "permalink": "/configuration/analyze-code-change-impact",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Analyze code change impact",
+    "slug": "/configuration/analyze-code-change-impact",
+    "sidebar_position": 5
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Find bottlenecks",
+    "permalink": "/configuration/find-bottlenecks"
+  },
+  "next": {
+    "title": "Test logs",
+    "permalink": "/advanced/test-logs"
+  }
+}

@@ -20,7 +20,7 @@ export default {
         "docs": {
           "routeBasePath": "/",
           "sidebarPath": "/Users/burakkantarci/Dev/foresight-docs/sidebars.js",
-          "sidebarCollapsible": false
+          "sidebarCollapsible": true
         },
         "blog": {
           "showReadingTime": true

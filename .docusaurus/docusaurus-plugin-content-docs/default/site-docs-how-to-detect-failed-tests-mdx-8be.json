@@ -2,7 +2,7 @@
   "unversionedId": "how-to/detect-failed-tests",
   "id": "how-to/detect-failed-tests",
   "title": "Detect failed tests",
-  "description": "Using Layers",
+  "description": "",
   "source": "@site/docs/how-to/detect-failed-tests.mdx",
   "sourceDirName": "how-to",
   "slug": "/configuration/detect-failed-tests",
@@ -17,11 +17,11 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Flaky tests",
-    "permalink": "/configuration/detecting-flaky-tests"
+    "title": "Identify flaky tests",
+    "permalink": "/configuration/identify-flaky-tests"
   },
   "next": {
-    "title": "FAQ",
-    "permalink": "/other/faq"
+    "title": "Find bottlenecks",
+    "permalink": "/configuration/find-bottlenecks"
   }
 }

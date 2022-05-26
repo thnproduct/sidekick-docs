@@ -1,0 +1,27 @@
+{
+  "unversionedId": "use-cases/monitor-costs",
+  "id": "use-cases/monitor-costs",
+  "title": "Monitor costs",
+  "description": "",
+  "source": "@site/docs/use-cases/monitor-costs.mdx",
+  "sourceDirName": "use-cases",
+  "slug": "/use-cases/monitor-costs",
+  "permalink": "/use-cases/monitor-costs",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Monitor costs",
+    "slug": "/use-cases/monitor-costs",
+    "sidebar_position": 2
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Optimize duration",
+    "permalink": "/use-cases/optimize-duration"
+  },
+  "next": {
+    "title": "Identify flaky tests",
+    "permalink": "/use-cases/identify-flaky-tests"
+  }
+}

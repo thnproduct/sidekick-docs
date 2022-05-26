@@ -1,9 +1,9 @@
 {
-  "unversionedId": "how-to/detecting-flaky-tests",
-  "id": "how-to/detecting-flaky-tests",
+  "unversionedId": "how-to/identify-flaky-tests copy",
+  "id": "how-to/identify-flaky-tests copy",
   "title": "Identify flaky tests",
   "description": "",
-  "source": "@site/docs/how-to/detecting-flaky-tests.mdx",
+  "source": "@site/docs/how-to/identify-flaky-tests copy.mdx",
   "sourceDirName": "how-to",
   "slug": "/configuration/detecting-flaky-tests",
   "permalink": "/configuration/detecting-flaky-tests",
@@ -17,11 +17,11 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Monitor CI costs",
+    "title": "Visualize costs",
     "permalink": "/configuration/monitor-ci-costs"
   },
   "next": {
-    "title": "Detect failed tests",
-    "permalink": "/configuration/detect-failed-tests"
+    "title": "Identify flaky tests",
+    "permalink": "/configuration/detecting-flaky-tests"
   }
 }

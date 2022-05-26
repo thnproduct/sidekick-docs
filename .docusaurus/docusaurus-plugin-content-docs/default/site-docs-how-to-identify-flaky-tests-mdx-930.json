@@ -1,0 +1,27 @@
+{
+  "unversionedId": "how-to/identify-flaky-tests",
+  "id": "how-to/identify-flaky-tests",
+  "title": "Identify flaky tests",
+  "description": "",
+  "source": "@site/docs/how-to/identify-flaky-tests.mdx",
+  "sourceDirName": "how-to",
+  "slug": "/configuration/identify-flaky-tests",
+  "permalink": "/configuration/identify-flaky-tests",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Identify flaky tests",
+    "slug": "/configuration/identify-flaky-tests",
+    "sidebar_position": 3
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Monitor costs",
+    "permalink": "/configuration/monitor-costs"
+  },
+  "next": {
+    "title": "Detect failed tests",
+    "permalink": "/configuration/detect-failed-tests"
+  }
+}

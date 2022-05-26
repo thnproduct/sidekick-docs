@@ -1,0 +1,27 @@
+{
+  "unversionedId": "how-to/bottleneck-workflow",
+  "id": "how-to/bottleneck-workflow",
+  "title": "Find bottlenecks",
+  "description": "",
+  "source": "@site/docs/how-to/bottleneck-workflow.mdx",
+  "sourceDirName": "how-to",
+  "slug": "/configuration/find-bottlenecks",
+  "permalink": "/configuration/find-bottlenecks",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Find bottlenecks",
+    "slug": "/configuration/find-bottlenecks",
+    "sidebar_position": 5
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Detect failed tests",
+    "permalink": "/configuration/detect-failed-tests"
+  },
+  "next": {
+    "title": "Analyze code change impact",
+    "permalink": "/configuration/analyze-code-change-impact"
+  }
+}

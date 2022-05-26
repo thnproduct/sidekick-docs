@@ -17,8 +17,8 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Detect failed tests",
-    "permalink": "/configuration/detect-failed-tests"
+    "title": "Test logs",
+    "permalink": "/advanced/test-logs"
   },
   "next": {
     "title": "Troubleshooting",

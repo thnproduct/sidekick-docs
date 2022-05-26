@@ -4,6 +4,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug','3d6'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config','914'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content','c28'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData','3cf'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata','31b'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry','0da'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes','244'),
+    exact: true
+  },
+  {
     path: '/blog',
     component: ComponentCreator('/blog','520'),
     exact: true
@@ -65,7 +100,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','e36'),
+    component: ComponentCreator('/','c13'),
     routes: [
       {
         path: '/',
@@ -74,32 +109,14 @@ export default [
         'sidebar': "sidebar"
       },
       {
+        path: '/advanced/test-logs',
+        component: ComponentCreator('/advanced/test-logs','f20'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
         path: '/configuration',
         component: ComponentCreator('/configuration','971'),
-        exact: true,
-        'sidebar': "sidebar"
-      },
-      {
-        path: '/configuration/detect-failed-tests',
-        component: ComponentCreator('/configuration/detect-failed-tests','6f0'),
-        exact: true,
-        'sidebar': "sidebar"
-      },
-      {
-        path: '/configuration/detecting-flaky-tests',
-        component: ComponentCreator('/configuration/detecting-flaky-tests','0cd'),
-        exact: true,
-        'sidebar': "sidebar"
-      },
-      {
-        path: '/configuration/monitor-ci-costs',
-        component: ComponentCreator('/configuration/monitor-ci-costs','b09'),
-        exact: true,
-        'sidebar': "sidebar"
-      },
-      {
-        path: '/configuration/optimize-workflow-duration',
-        component: ComponentCreator('/configuration/optimize-workflow-duration','2e4'),
         exact: true,
         'sidebar': "sidebar"
       },
@@ -118,6 +135,42 @@ export default [
       {
         path: '/other/troubleshooting',
         component: ComponentCreator('/other/troubleshooting','8fa'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/use-cases/analyze-code-change-impact',
+        component: ComponentCreator('/use-cases/analyze-code-change-impact','78d'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/use-cases/detect-failed-tests',
+        component: ComponentCreator('/use-cases/detect-failed-tests','831'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/use-cases/find-bottlenecks',
+        component: ComponentCreator('/use-cases/find-bottlenecks','bbf'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/use-cases/identify-flaky-tests',
+        component: ComponentCreator('/use-cases/identify-flaky-tests','3c0'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/use-cases/monitor-costs',
+        component: ComponentCreator('/use-cases/monitor-costs','3b3'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/use-cases/optimize-duration',
+        component: ComponentCreator('/use-cases/optimize-duration','275'),
         exact: true,
         'sidebar': "sidebar"
       }

@@ -1,9 +1,9 @@
 {
-  "unversionedId": "how-to/monitor-ci-costs",
-  "id": "how-to/monitor-ci-costs",
+  "unversionedId": "how-to/monitor-costs",
+  "id": "how-to/monitor-costs",
   "title": "Monitor costs",
   "description": "",
-  "source": "@site/docs/how-to/monitor-ci-costs.mdx",
+  "source": "@site/docs/how-to/monitor-costs.mdx",
   "sourceDirName": "how-to",
   "slug": "/configuration/monitor-costs",
   "permalink": "/configuration/monitor-costs",
@@ -18,7 +18,7 @@
   "sidebar": "sidebar",
   "previous": {
     "title": "Optimize duration",
-    "permalink": "/configuration/optimize-workflow-duration"
+    "permalink": "/configuration/optimize-duration"
   },
   "next": {
     "title": "Identify flaky tests",
