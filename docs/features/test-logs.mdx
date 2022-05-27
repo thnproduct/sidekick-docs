@@ -53,16 +53,17 @@ Reporter.log("LOG_CONTENT")
 
 
 ## Jest
+Foresight can parse JUnit formatted test reports. For Jest framework, you can use **jest-junit** reporter for generate Junit reports.
 If you are using Jest, you need to configure your report settings for Foresight to capture your test results.
 
 #### Set an env variable
-You can both set as an environment variable or as a parameter to your ```package.json```
+You need to set the following environment
 
 ```javascript
 JEST_JUNIT_INCLUDE_SHORT_CONSOLE_OUTPUT=true
 ```
 
-#### Add reporter to your config
+#### Configuring reporter
 Add reporter parameter ```jest-junit``` to your Jest configuration or your command.
 
 ```javascript
@@ -94,7 +95,7 @@ pytest -o junit_logging=all --junit-xml=abc.xml
 ## Trx 
 
 :::warning
-You need to use **ITestOutputHelper** for generate Trx report
+You can configure  **ITestOutputHelper** for capture test logs help with this guide [https://xunit.net/docs/capturing-output](https://xunit.net/docs/capturing-output)
 :::
 
 Foresight captures the following outputs from your test report:
@@ -107,7 +108,7 @@ Foresight captures the following outputs from your test report:
 ## XUnit2 
 
 :::warning
-You need to use **ITestOutputHelper** for generate XUnit2 report
+You can configure **ITestOutputHelper** for capture test logs help with this guide [https://xunit.net/docs/capturing-output](https://xunit.net/docs/capturing-output)
 :::
 
 Foresight captures the following outputs from your test report:
