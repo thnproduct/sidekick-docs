@@ -69,6 +69,10 @@ p a{
   color: var(--ifm-color-primary);
   border-bottom-color: var(--ifm-color-primary);
 }
+.theme-doc-markdown ul li a{
+  @apply font-semibold;
+  color: var(--ifm-color-primary);
+}
 p img{
   @apply inline 
 }
