@@ -72,7 +72,7 @@
               "unversionedId": "features/highlights",
               "id": "features/highlights",
               "title": "Highlights",
-              "description": "Docs in progress",
+              "description": "As code flows through your CI workflows, it is processed by plenty of different steps. Each step depends",
               "source": "@site/docs/features/highlights.mdx",
               "sourceDirName": "features",
               "slug": "/features/highlights",
