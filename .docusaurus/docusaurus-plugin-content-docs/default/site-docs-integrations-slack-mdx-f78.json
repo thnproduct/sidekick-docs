@@ -16,8 +16,8 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Team management",
-    "permalink": "/features/team-management"
+    "title": "Test logs",
+    "permalink": "/features/test-logs"
   },
   "next": {
     "title": "FAQ",

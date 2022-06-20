@@ -9,19 +9,19 @@
   "permalink": "/features/test-logs",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 6,
   "frontMatter": {
     "title": "Test logs",
     "slug": "/features/test-logs",
-    "sidebar_position": 4
+    "sidebar_position": 6
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Test runs",
-    "permalink": "/features/test-runs"
-  },
-  "next": {
     "title": "Team management",
     "permalink": "/features/team-management"
+  },
+  "next": {
+    "title": "Slack",
+    "permalink": "/integrations/slack"
   }
 }

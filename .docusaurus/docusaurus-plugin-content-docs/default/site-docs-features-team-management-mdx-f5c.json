@@ -17,11 +17,11 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Test logs",
-    "permalink": "/features/test-logs"
+    "title": "Test runs",
+    "permalink": "/features/test-runs"
   },
   "next": {
-    "title": "Slack",
-    "permalink": "/integrations/slack"
+    "title": "Test logs",
+    "permalink": "/features/test-logs"
   }
 }

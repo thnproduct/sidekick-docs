@@ -17,8 +17,8 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Highlights",
-    "permalink": "/features/highlights"
+    "title": "Change impact analysis",
+    "permalink": "/features/analyze-code-change-impact"
   },
   "next": {
     "title": "Test runs",

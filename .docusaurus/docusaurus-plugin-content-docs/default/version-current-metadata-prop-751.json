@@ -61,12 +61,6 @@
             "label": "Find bottlenecks",
             "href": "/use-cases/find-bottlenecks",
             "docId": "use-cases/bottleneck-workflow"
-          },
-          {
-            "type": "link",
-            "label": "Analyze code change impact",
-            "href": "/use-cases/analyze-code-change-impact",
-            "docId": "use-cases/change-impact-analysis copy"
           }
         ]
       },
@@ -84,6 +78,12 @@
           },
           {
             "type": "link",
+            "label": "Change impact analysis",
+            "href": "/features/analyze-code-change-impact",
+            "docId": "features/change-impact-analysis"
+          },
+          {
+            "type": "link",
             "label": "Workflow runs",
             "href": "/features/workflow-runs",
             "docId": "features/workflow-runs"
@@ -96,15 +96,15 @@
           },
           {
             "type": "link",
-            "label": "Test logs",
-            "href": "/features/test-logs",
-            "docId": "features/test-logs"
-          },
-          {
-            "type": "link",
             "label": "Team management",
             "href": "/features/team-management",
             "docId": "features/team-management"
+          },
+          {
+            "type": "link",
+            "label": "Test logs",
+            "href": "/features/test-logs",
+            "docId": "features/test-logs"
           }
         ]
       },
@@ -155,6 +155,12 @@
       "id": "examples",
       "title": "Examples",
       "description": "You can explore Foresight with our demo repositories:",
+      "sidebar": "sidebar"
+    },
+    "features/change-impact-analysis": {
+      "id": "features/change-impact-analysis",
+      "title": "Change impact analysis",
+      "description": "This feature is currently under private beta.",
       "sidebar": "sidebar"
     },
     "features/highlights": {
@@ -214,12 +220,6 @@
     "use-cases/bottleneck-workflow": {
       "id": "use-cases/bottleneck-workflow",
       "title": "Find bottlenecks",
-      "description": "Docs in progress",
-      "sidebar": "sidebar"
-    },
-    "use-cases/change-impact-analysis copy": {
-      "id": "use-cases/change-impact-analysis copy",
-      "title": "Analyze code change impact",
       "description": "Docs in progress",
       "sidebar": "sidebar"
     },

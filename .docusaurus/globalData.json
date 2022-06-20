@@ -21,6 +21,11 @@
               "sidebar": "sidebar"
             },
             {
+              "id": "features/change-impact-analysis",
+              "path": "/features/analyze-code-change-impact",
+              "sidebar": "sidebar"
+            },
+            {
               "id": "features/highlights",
               "path": "/features/highlights",
               "sidebar": "sidebar"
@@ -68,11 +73,6 @@
             {
               "id": "use-cases/bottleneck-workflow",
               "path": "/use-cases/find-bottlenecks",
-              "sidebar": "sidebar"
-            },
-            {
-              "id": "use-cases/change-impact-analysis copy",
-              "path": "/use-cases/analyze-code-change-impact",
               "sidebar": "sidebar"
             },
             {

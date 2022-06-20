@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/change-impact-analysis",
+  "id": "features/change-impact-analysis",
+  "title": "Change impact analysis",
+  "description": "This feature is currently under private beta.",
+  "source": "@site/docs/features/change-impact-analysis.mdx",
+  "sourceDirName": "features",
+  "slug": "/features/analyze-code-change-impact",
+  "permalink": "/features/analyze-code-change-impact",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Change impact analysis",
+    "slug": "/features/analyze-code-change-impact",
+    "sidebar_position": 2
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Highlights",
+    "permalink": "/features/highlights"
+  },
+  "next": {
+    "title": "Workflow runs",
+    "permalink": "/features/workflow-runs"
+  }
+}

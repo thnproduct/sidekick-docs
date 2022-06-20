@@ -17,11 +17,11 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Analyze code change impact",
-    "permalink": "/use-cases/analyze-code-change-impact"
+    "title": "Find bottlenecks",
+    "permalink": "/use-cases/find-bottlenecks"
   },
   "next": {
-    "title": "Workflow runs",
-    "permalink": "/features/workflow-runs"
+    "title": "Change impact analysis",
+    "permalink": "/features/analyze-code-change-impact"
   }
 }

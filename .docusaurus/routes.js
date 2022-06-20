@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','371'),
+    component: ComponentCreator('/','af6'),
     routes: [
       {
         path: '/',
@@ -111,6 +111,12 @@ export default [
       {
         path: '/examples',
         component: ComponentCreator('/examples','b2d'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/features/analyze-code-change-impact',
+        component: ComponentCreator('/features/analyze-code-change-impact','6c6'),
         exact: true,
         'sidebar': "sidebar"
       },
@@ -165,12 +171,6 @@ export default [
       {
         path: '/step-by-step-guide',
         component: ComponentCreator('/step-by-step-guide','59c'),
-        exact: true,
-        'sidebar': "sidebar"
-      },
-      {
-        path: '/use-cases/analyze-code-change-impact',
-        component: ComponentCreator('/use-cases/analyze-code-change-impact','78d'),
         exact: true,
         'sidebar': "sidebar"
       },

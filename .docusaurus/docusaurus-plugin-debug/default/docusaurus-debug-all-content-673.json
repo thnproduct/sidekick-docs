@@ -69,6 +69,33 @@
               }
             },
             {
+              "unversionedId": "features/change-impact-analysis",
+              "id": "features/change-impact-analysis",
+              "title": "Change impact analysis",
+              "description": "This feature is currently under private beta.",
+              "source": "@site/docs/features/change-impact-analysis.mdx",
+              "sourceDirName": "features",
+              "slug": "/features/analyze-code-change-impact",
+              "permalink": "/features/analyze-code-change-impact",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Change impact analysis",
+                "slug": "/features/analyze-code-change-impact",
+                "sidebar_position": 2
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Highlights",
+                "permalink": "/features/highlights"
+              },
+              "next": {
+                "title": "Workflow runs",
+                "permalink": "/features/workflow-runs"
+              }
+            },
+            {
               "unversionedId": "features/highlights",
               "id": "features/highlights",
               "title": "Highlights",
@@ -87,12 +114,12 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Analyze code change impact",
-                "permalink": "/use-cases/analyze-code-change-impact"
+                "title": "Find bottlenecks",
+                "permalink": "/use-cases/find-bottlenecks"
               },
               "next": {
-                "title": "Workflow runs",
-                "permalink": "/features/workflow-runs"
+                "title": "Change impact analysis",
+                "permalink": "/features/analyze-code-change-impact"
               }
             },
             {
@@ -114,12 +141,12 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Test logs",
-                "permalink": "/features/test-logs"
+                "title": "Test runs",
+                "permalink": "/features/test-runs"
               },
               "next": {
-                "title": "Slack",
-                "permalink": "/integrations/slack"
+                "title": "Test logs",
+                "permalink": "/features/test-logs"
               }
             },
             {
@@ -133,20 +160,20 @@
               "permalink": "/features/test-logs",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 4,
+              "sidebarPosition": 6,
               "frontMatter": {
                 "title": "Test logs",
                 "slug": "/features/test-logs",
-                "sidebar_position": 4
+                "sidebar_position": 6
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Test runs",
-                "permalink": "/features/test-runs"
-              },
-              "next": {
                 "title": "Team management",
                 "permalink": "/features/team-management"
+              },
+              "next": {
+                "title": "Slack",
+                "permalink": "/integrations/slack"
               }
             },
             {
@@ -172,8 +199,8 @@
                 "permalink": "/features/workflow-runs"
               },
               "next": {
-                "title": "Test logs",
-                "permalink": "/features/test-logs"
+                "title": "Team management",
+                "permalink": "/features/team-management"
               }
             },
             {
@@ -195,8 +222,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Highlights",
-                "permalink": "/features/highlights"
+                "title": "Change impact analysis",
+                "permalink": "/features/analyze-code-change-impact"
               },
               "next": {
                 "title": "Test runs",
@@ -221,8 +248,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Team management",
-                "permalink": "/features/team-management"
+                "title": "Test logs",
+                "permalink": "/features/test-logs"
               },
               "next": {
                 "title": "FAQ",
@@ -322,33 +349,6 @@
               "previous": {
                 "title": "Detect failed tests",
                 "permalink": "/use-cases/detect-failed-tests"
-              },
-              "next": {
-                "title": "Analyze code change impact",
-                "permalink": "/use-cases/analyze-code-change-impact"
-              }
-            },
-            {
-              "unversionedId": "use-cases/change-impact-analysis copy",
-              "id": "use-cases/change-impact-analysis copy",
-              "title": "Analyze code change impact",
-              "description": "Docs in progress",
-              "source": "@site/docs/use-cases/change-impact-analysis copy.mdx",
-              "sourceDirName": "use-cases",
-              "slug": "/use-cases/analyze-code-change-impact",
-              "permalink": "/use-cases/analyze-code-change-impact",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "title": "Analyze code change impact",
-                "slug": "/use-cases/analyze-code-change-impact",
-                "sidebar_position": 5
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "Find bottlenecks",
-                "permalink": "/use-cases/find-bottlenecks"
               },
               "next": {
                 "title": "Highlights",
@@ -503,10 +503,6 @@
                   {
                     "type": "doc",
                     "id": "use-cases/bottleneck-workflow"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "use-cases/change-impact-analysis copy"
                   }
                 ]
               },
@@ -522,6 +518,10 @@
                   },
                   {
                     "type": "doc",
+                    "id": "features/change-impact-analysis"
+                  },
+                  {
+                    "type": "doc",
                     "id": "features/workflow-runs"
                   },
                   {
@@ -530,11 +530,11 @@
                   },
                   {
                     "type": "doc",
-                    "id": "features/test-logs"
+                    "id": "features/team-management"
                   },
                   {
                     "type": "doc",
-                    "id": "features/team-management"
+                    "id": "features/test-logs"
                   }
                 ]
               },

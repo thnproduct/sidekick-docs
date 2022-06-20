@@ -1,0 +1,34 @@
+---
+title: Change impact analysis
+slug: /features/analyze-code-change-impact
+sidebar_position: 2
+---
+
+:::info
+
+This feature is currently under private beta.
+
+:::
+
+Foresight correlates the changes to the codebase with the test coverage reports to determine 
+how much of the changes are covered by the tests, empowering teams with clear quality risk metrics 
+to facilitate the right change management process. Pull requests can be automatically approved or 
+passed through reviews depending on the quality risk to ensure only high-quality builds are moved
+to production. 
+
+## Prerequisites
+- You need to add Foresight's Test Kit into your CI pipeline
+- Supported coverage frameworks:
+  - JaCoCo
+  - Cobertura 
+
+:::note
+
+[Tell us](https://www.thundra.io/contact-us) which coverage report you would like to see on Foresight.
+
+:::
+
+## Results
+
+![Change impact analysis](/img/features/change-impact-analysis.png)
+
