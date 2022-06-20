@@ -99,7 +99,7 @@
               "unversionedId": "features/team-management",
               "id": "features/team-management",
               "title": "Team management",
-              "description": "Docs in progress",
+              "description": "",
               "source": "@site/docs/features/team-management.mdx",
               "sourceDirName": "features",
               "slug": "/features/team-management",
@@ -118,8 +118,8 @@
                 "permalink": "/features/test-logs"
               },
               "next": {
-                "title": "FAQ",
-                "permalink": "/other/faq"
+                "title": "Slack",
+                "permalink": "/integrations/slack"
               }
             },
             {
@@ -204,6 +204,32 @@
               }
             },
             {
+              "unversionedId": "integrations/slack",
+              "id": "integrations/slack",
+              "title": "Slack",
+              "description": "With the help of the Incoming WebHooks Foresight now supports Slack!",
+              "source": "@site/docs/integrations/slack.mdx",
+              "sourceDirName": "integrations",
+              "slug": "/integrations/slack",
+              "permalink": "/integrations/slack",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "slug": "/integrations/slack"
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Team management",
+                "permalink": "/features/team-management"
+              },
+              "next": {
+                "title": "FAQ",
+                "permalink": "/other/faq"
+              }
+            },
+            {
               "unversionedId": "intro",
               "id": "intro",
               "title": "Introduction",
@@ -244,8 +270,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Team management",
-                "permalink": "/features/team-management"
+                "title": "Slack",
+                "permalink": "/integrations/slack"
               },
               "next": {
                 "title": "Troubleshooting",
@@ -509,6 +535,18 @@
                   {
                     "type": "doc",
                     "id": "features/team-management"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Integrations",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "integrations/slack"
                   }
                 ]
               },

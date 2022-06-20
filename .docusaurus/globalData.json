@@ -46,6 +46,11 @@
               "sidebar": "sidebar"
             },
             {
+              "id": "integrations/slack",
+              "path": "/integrations/slack",
+              "sidebar": "sidebar"
+            },
+            {
               "id": "intro",
               "path": "/",
               "sidebar": "sidebar"

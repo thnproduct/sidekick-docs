@@ -17,8 +17,8 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Team management",
-    "permalink": "/features/team-management"
+    "title": "Slack",
+    "permalink": "/integrations/slack"
   },
   "next": {
     "title": "Troubleshooting",

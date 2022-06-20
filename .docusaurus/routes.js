@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','aae'),
+    component: ComponentCreator('/','371'),
     routes: [
       {
         path: '/',
@@ -141,6 +141,12 @@ export default [
       {
         path: '/features/workflow-runs',
         component: ComponentCreator('/features/workflow-runs','c2d'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/integrations/slack',
+        component: ComponentCreator('/integrations/slack','222'),
         exact: true,
         'sidebar': "sidebar"
       },

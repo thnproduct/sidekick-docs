@@ -1,0 +1,26 @@
+{
+  "unversionedId": "integrations/slack",
+  "id": "integrations/slack",
+  "title": "Slack",
+  "description": "With the help of the Incoming WebHooks Foresight now supports Slack!",
+  "source": "@site/docs/integrations/slack.mdx",
+  "sourceDirName": "integrations",
+  "slug": "/integrations/slack",
+  "permalink": "/integrations/slack",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "slug": "/integrations/slack"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Team management",
+    "permalink": "/features/team-management"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/other/faq"
+  }
+}

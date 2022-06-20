@@ -2,7 +2,7 @@
   "unversionedId": "features/team-management",
   "id": "features/team-management",
   "title": "Team management",
-  "description": "Docs in progress",
+  "description": "",
   "source": "@site/docs/features/team-management.mdx",
   "sourceDirName": "features",
   "slug": "/features/team-management",
@@ -21,7 +21,7 @@
     "permalink": "/features/test-logs"
   },
   "next": {
-    "title": "FAQ",
-    "permalink": "/other/faq"
+    "title": "Slack",
+    "permalink": "/integrations/slack"
   }
 }

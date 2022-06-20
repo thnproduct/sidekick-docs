@@ -110,6 +110,20 @@
       },
       {
         "type": "category",
+        "label": "Integrations",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Slack",
+            "href": "/integrations/slack",
+            "docId": "integrations/slack"
+          }
+        ]
+      },
+      {
+        "type": "category",
         "label": "Other",
         "collapsible": true,
         "collapsed": true,
@@ -152,7 +166,7 @@
     "features/team-management": {
       "id": "features/team-management",
       "title": "Team management",
-      "description": "Docs in progress",
+      "description": "",
       "sidebar": "sidebar"
     },
     "features/test-logs": {
@@ -171,6 +185,12 @@
       "id": "features/workflow-runs",
       "title": "Workflow runs",
       "description": "With Foresight, you can easily list your and analyze your CI workflows in a repository. Foresight provides a high-level",
+      "sidebar": "sidebar"
+    },
+    "integrations/slack": {
+      "id": "integrations/slack",
+      "title": "Slack",
+      "description": "With the help of the Incoming WebHooks Foresight now supports Slack!",
       "sidebar": "sidebar"
     },
     "intro": {
