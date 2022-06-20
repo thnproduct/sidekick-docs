@@ -252,8 +252,8 @@
                 "permalink": "/features/test-logs"
               },
               "next": {
-                "title": "FAQ",
-                "permalink": "/other/faq"
+                "title": "Dynamically generated test badges",
+                "permalink": "/other/badges"
               }
             },
             {
@@ -279,6 +279,33 @@
               }
             },
             {
+              "unversionedId": "other/badges",
+              "id": "other/badges",
+              "title": "Dynamically generated test badges",
+              "description": "Since badges provide users with a fast way to capture repository metrics, they increase the readability of the",
+              "source": "@site/docs/other/badges.mdx",
+              "sourceDirName": "other",
+              "slug": "/other/badges",
+              "permalink": "/other/badges",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "title": "Dynamically generated test badges",
+                "slug": "/other/badges",
+                "sidebar_position": 5
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Slack",
+                "permalink": "/integrations/slack"
+              },
+              "next": {
+                "title": "FAQ",
+                "permalink": "/other/faq"
+              }
+            },
+            {
               "unversionedId": "other/faq",
               "id": "other/faq",
               "title": "FAQ",
@@ -297,8 +324,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Slack",
-                "permalink": "/integrations/slack"
+                "title": "Dynamically generated test badges",
+                "permalink": "/other/badges"
               },
               "next": {
                 "title": "Troubleshooting",
@@ -556,6 +583,10 @@
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
+                  {
+                    "type": "doc",
+                    "id": "other/badges"
+                  },
                   {
                     "type": "doc",
                     "id": "other/faq"

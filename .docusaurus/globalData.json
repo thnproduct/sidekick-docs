@@ -61,6 +61,11 @@
               "sidebar": "sidebar"
             },
             {
+              "id": "other/badges",
+              "path": "/other/badges",
+              "sidebar": "sidebar"
+            },
+            {
               "id": "other/faq",
               "path": "/other/faq",
               "sidebar": "sidebar"

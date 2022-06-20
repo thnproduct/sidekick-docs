@@ -17,8 +17,8 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Slack",
-    "permalink": "/integrations/slack"
+    "title": "Dynamically generated test badges",
+    "permalink": "/other/badges"
   },
   "next": {
     "title": "Troubleshooting",

@@ -129,7 +129,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/-af6": {
+  "/-f51": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---935-fcf"
   },
@@ -168,6 +168,10 @@
   "/integrations/slack-222": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---integrations-slackf-78-2b9"
+  },
+  "/other/badges-47a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---other-badges-487-472"
   },
   "/other/faq-5c7": {
     "component": "component---theme-doc-item-178-a40",

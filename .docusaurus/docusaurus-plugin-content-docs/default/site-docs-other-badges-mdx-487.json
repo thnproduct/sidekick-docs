@@ -1,0 +1,27 @@
+{
+  "unversionedId": "other/badges",
+  "id": "other/badges",
+  "title": "Dynamically generated test badges",
+  "description": "Since badges provide users with a fast way to capture repository metrics, they increase the readability of the",
+  "source": "@site/docs/other/badges.mdx",
+  "sourceDirName": "other",
+  "slug": "/other/badges",
+  "permalink": "/other/badges",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Dynamically generated test badges",
+    "slug": "/other/badges",
+    "sidebar_position": 5
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Slack",
+    "permalink": "/integrations/slack"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/other/faq"
+  }
+}

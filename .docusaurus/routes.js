@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','af6'),
+    component: ComponentCreator('/','f51'),
     routes: [
       {
         path: '/',
@@ -153,6 +153,12 @@ export default [
       {
         path: '/integrations/slack',
         component: ComponentCreator('/integrations/slack','222'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/other/badges',
+        component: ComponentCreator('/other/badges','47a'),
         exact: true,
         'sidebar': "sidebar"
       },

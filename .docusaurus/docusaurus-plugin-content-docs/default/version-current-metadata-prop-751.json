@@ -130,6 +130,12 @@
         "items": [
           {
             "type": "link",
+            "label": "Dynamically generated test badges",
+            "href": "/other/badges",
+            "docId": "other/badges"
+          },
+          {
+            "type": "link",
             "label": "FAQ",
             "href": "/other/faq",
             "docId": "other/faq"
@@ -203,6 +209,12 @@
       "id": "intro",
       "title": "Introduction",
       "description": "Foresight helps you to monitor & troubleshoot your CI Workflows & Tests, exclusively for GitHub Actions.",
+      "sidebar": "sidebar"
+    },
+    "other/badges": {
+      "id": "other/badges",
+      "title": "Dynamically generated test badges",
+      "description": "Since badges provide users with a fast way to capture repository metrics, they increase the readability of the",
       "sidebar": "sidebar"
     },
     "other/faq": {
