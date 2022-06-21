@@ -2,22 +2,26 @@
   "unversionedId": "other/troubleshooting",
   "id": "other/troubleshooting",
   "title": "Troubleshooting",
-  "description": "Docs in progress",
+  "description": "I have connected my GitHub repo but cannot see anything",
   "source": "@site/docs/other/troubleshooting.mdx",
   "sourceDirName": "other",
   "slug": "/other/troubleshooting",
   "permalink": "/other/troubleshooting",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 5,
+  "sidebarPosition": 3,
   "frontMatter": {
     "title": "Troubleshooting",
     "slug": "/other/troubleshooting",
-    "sidebar_position": 5
+    "sidebar_position": 3
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "FAQ",
-    "permalink": "/other/faq"
+    "title": "Slack",
+    "permalink": "/integrations/slack"
+  },
+  "next": {
+    "title": "Dynamically generated test badges",
+    "permalink": "/other/badges"
   }
 }

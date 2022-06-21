@@ -97,6 +97,12 @@ h3{
 ul{
   @apply list-disc pl-4
 }
+ol{
+  @apply list-decimal pl-4
+}
+strong {
+  @apply font-bold
+}
 /* .menu__list-item-collapsible a{
   @apply text-sm text-gray-400 mt-2;
 }

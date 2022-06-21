@@ -252,8 +252,8 @@
                 "permalink": "/features/test-logs"
               },
               "next": {
-                "title": "Dynamically generated test badges",
-                "permalink": "/other/badges"
+                "title": "Troubleshooting",
+                "permalink": "/other/troubleshooting"
               }
             },
             {
@@ -297,8 +297,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Slack",
-                "permalink": "/integrations/slack"
+                "title": "Troubleshooting",
+                "permalink": "/other/troubleshooting"
               },
               "next": {
                 "title": "FAQ",
@@ -326,33 +326,33 @@
               "previous": {
                 "title": "Dynamically generated test badges",
                 "permalink": "/other/badges"
-              },
-              "next": {
-                "title": "Troubleshooting",
-                "permalink": "/other/troubleshooting"
               }
             },
             {
               "unversionedId": "other/troubleshooting",
               "id": "other/troubleshooting",
               "title": "Troubleshooting",
-              "description": "Docs in progress",
+              "description": "I have connected my GitHub repo but cannot see anything",
               "source": "@site/docs/other/troubleshooting.mdx",
               "sourceDirName": "other",
               "slug": "/other/troubleshooting",
               "permalink": "/other/troubleshooting",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 5,
+              "sidebarPosition": 3,
               "frontMatter": {
                 "title": "Troubleshooting",
                 "slug": "/other/troubleshooting",
-                "sidebar_position": 5
+                "sidebar_position": 3
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "FAQ",
-                "permalink": "/other/faq"
+                "title": "Slack",
+                "permalink": "/integrations/slack"
+              },
+              "next": {
+                "title": "Dynamically generated test badges",
+                "permalink": "/other/badges"
               }
             },
             {
@@ -585,15 +585,15 @@
                 "items": [
                   {
                     "type": "doc",
+                    "id": "other/troubleshooting"
+                  },
+                  {
+                    "type": "doc",
                     "id": "other/badges"
                   },
                   {
                     "type": "doc",
                     "id": "other/faq"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "other/troubleshooting"
                   }
                 ]
               }

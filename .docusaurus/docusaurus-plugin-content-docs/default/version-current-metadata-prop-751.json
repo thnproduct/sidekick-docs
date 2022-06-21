@@ -130,6 +130,12 @@
         "items": [
           {
             "type": "link",
+            "label": "Troubleshooting",
+            "href": "/other/troubleshooting",
+            "docId": "other/troubleshooting"
+          },
+          {
+            "type": "link",
             "label": "Dynamically generated test badges",
             "href": "/other/badges",
             "docId": "other/badges"
@@ -139,12 +145,6 @@
             "label": "FAQ",
             "href": "/other/faq",
             "docId": "other/faq"
-          },
-          {
-            "type": "link",
-            "label": "Troubleshooting",
-            "href": "/other/troubleshooting",
-            "docId": "other/troubleshooting"
           }
         ]
       }
@@ -226,7 +226,7 @@
     "other/troubleshooting": {
       "id": "other/troubleshooting",
       "title": "Troubleshooting",
-      "description": "Docs in progress",
+      "description": "I have connected my GitHub repo but cannot see anything",
       "sidebar": "sidebar"
     },
     "use-cases/bottleneck-workflow": {

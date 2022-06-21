@@ -1,7 +1,36 @@
 ---
 title: Troubleshooting
 slug: /other/troubleshooting
-sidebar_position: 5
+sidebar_position: 3
 ---
 
-Docs in progress
+### I have connected my GitHub repo but cannot see anything
+After [connecting a pipeline](/step-by-step-guide), Foresight tries to fetch the initial workflow data, beware it may take a while to complete this process.
+
+Even though you added your pipeline successfully, if you are not able to see the workflows, and see the cards as below. There might be several reasons for this. 
+
+![Empty cards](/img/others/empty-cards.png)
+
+#### If you don't see the workflows
+1. There are no workflows in your repository
+2. You haven't triggered your workflows in the last 14 days
+3. You have uninstalled [Foresight's GitHub app](https://github.com/marketplace/thundra-foresight)
+
+#### If you don't see the tests
+1. You haven't updated your YAML with Foresight's Actions added
+2. You haven't run your tests
+
+:::info
+We suggest you to take a look for our [Step by step installation guide](/step-by-step-guide).
+:::
+
+### I installed GitHub App but can't see any repository
+
+![No repo](/img/others/no-repo.png)
+
+1. You may request from your organization admin to install Foresight's GitHub app. In this case, you need to wait until your admin installs, and sets up an account
+on Foresight. Then, your admin needs to [invite you](/features/team-management) to the organization that Foresight has installed.
+
+2. You didn't authorize at least one repository while installing Foresight's GitHub app.
+
+
