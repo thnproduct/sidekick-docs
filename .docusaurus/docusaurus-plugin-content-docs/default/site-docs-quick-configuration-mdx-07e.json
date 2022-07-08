@@ -1,9 +1,9 @@
 {
-  "unversionedId": "configuration",
-  "id": "configuration",
-  "title": "Quick Configuration",
+  "unversionedId": "quick-configuration",
+  "id": "quick-configuration",
+  "title": "⚡️ Quick configuration",
   "description": "Foresight can monitor all GitHub Actions workflows and test frameworks such as JUnit, Jest, Python, TestNG, Trx and xUnit 2.",
-  "source": "@site/docs/configuration.mdx",
+  "source": "@site/docs/quick-configuration.mdx",
   "sourceDirName": ".",
   "slug": "/step-by-step-guide",
   "permalink": "/step-by-step-guide",
@@ -11,16 +11,17 @@
   "version": "current",
   "sidebarPosition": 2,
   "frontMatter": {
+    "title": "⚡️ Quick configuration",
     "sidebar_position": 2,
     "slug": "/step-by-step-guide"
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Introduction",
+    "title": "👋🏻 Introduction",
     "permalink": "/"
   },
   "next": {
-    "title": "Find bottlenecks",
-    "permalink": "/advanced-configuration/workflow-kit"
+    "title": "Test kit",
+    "permalink": "/advanced-configuration/test-kit"
   }
 }

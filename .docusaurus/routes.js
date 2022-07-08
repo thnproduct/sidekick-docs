@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','f51'),
+    component: ComponentCreator('/','279'),
     routes: [
       {
         path: '/',
@@ -109,8 +109,14 @@ export default [
         'sidebar': "sidebar"
       },
       {
-        path: '/examples',
-        component: ComponentCreator('/examples','b2d'),
+        path: '/advanced-configuration/test-kit',
+        component: ComponentCreator('/advanced-configuration/test-kit','898'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/advanced-configuration/workflow-kit',
+        component: ComponentCreator('/advanced-configuration/workflow-kit','a37'),
         exact: true,
         'sidebar': "sidebar"
       },
@@ -176,7 +182,7 @@ export default [
       },
       {
         path: '/step-by-step-guide',
-        component: ComponentCreator('/step-by-step-guide','59c'),
+        component: ComponentCreator('/step-by-step-guide','f0e'),
         exact: true,
         'sidebar': "sidebar"
       },
@@ -187,26 +193,8 @@ export default [
         'sidebar': "sidebar"
       },
       {
-        path: '/use-cases/find-bottlenecks',
-        component: ComponentCreator('/use-cases/find-bottlenecks','bbf'),
-        exact: true,
-        'sidebar': "sidebar"
-      },
-      {
         path: '/use-cases/identify-flaky-tests',
         component: ComponentCreator('/use-cases/identify-flaky-tests','3c0'),
-        exact: true,
-        'sidebar': "sidebar"
-      },
-      {
-        path: '/use-cases/monitor-costs',
-        component: ComponentCreator('/use-cases/monitor-costs','3b3'),
-        exact: true,
-        'sidebar': "sidebar"
-      },
-      {
-        path: '/use-cases/optimize-duration',
-        component: ComponentCreator('/use-cases/optimize-duration','275'),
         exact: true,
         'sidebar': "sidebar"
       }

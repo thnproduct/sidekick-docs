@@ -1,7 +1,7 @@
 {
   "unversionedId": "intro",
   "id": "intro",
-  "title": "Introduction",
+  "title": "👋🏻 Introduction",
   "description": "Foresight helps you to monitor & troubleshoot your CI Workflows & Tests, exclusively for GitHub Actions.",
   "source": "@site/docs/intro.mdx",
   "sourceDirName": ".",
@@ -11,12 +11,13 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
+    "title": "👋🏻 Introduction",
     "sidebar_position": 1,
     "slug": "/"
   },
   "sidebar": "sidebar",
   "next": {
-    "title": "Configuration",
+    "title": "⚡️ Quick configuration",
     "permalink": "/step-by-step-guide"
   }
 }

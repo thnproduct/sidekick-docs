@@ -1,0 +1,27 @@
+{
+  "unversionedId": "advanced-configurations/workflow-kit",
+  "id": "advanced-configurations/workflow-kit",
+  "title": "Workflow kit",
+  "description": "A GitHub Action to track and monitor the resource metrics of your GitHub Action workflow runs. If the run is triggered via a Pull Request, it will create a comment on the connected PR with the results and/or publishes the results to the job summary. The action collects the following metrics:",
+  "source": "@site/docs/advanced-configurations/workflow-kit.mdx",
+  "sourceDirName": "advanced-configurations",
+  "slug": "/advanced-configuration/workflow-kit",
+  "permalink": "/advanced-configuration/workflow-kit",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Workflow kit",
+    "slug": "/advanced-configuration/workflow-kit",
+    "sidebar_position": 2
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Test kit",
+    "permalink": "/advanced-configuration/test-kit"
+  },
+  "next": {
+    "title": "Identify flaky tests",
+    "permalink": "/use-cases/identify-flaky-tests"
+  }
+}

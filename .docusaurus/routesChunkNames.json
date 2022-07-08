@@ -129,7 +129,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/-f51": {
+  "/-279": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---935-fcf"
   },
@@ -137,9 +137,13 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---f-84-df3"
   },
-  "/examples-b2d": {
+  "/advanced-configuration/test-kit-898": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---examples-675-0f7"
+    "content": "content---advanced-configuration-workflow-kit-4-f-5-289"
+  },
+  "/advanced-configuration/workflow-kit-a37": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---advanced-configuration-workflow-kit-3-cb-958"
   },
   "/features/analyze-code-change-impact-6c6": {
     "component": "component---theme-doc-item-178-a40",
@@ -181,28 +185,16 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---other-troubleshooting-1-c-8-b7d"
   },
-  "/step-by-step-guide-59c": {
+  "/step-by-step-guide-f0e": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---step-by-step-guidecbb-348"
+    "content": "content---step-by-step-guide-07-e-bfd"
   },
   "/use-cases/detect-failed-tests-831": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---use-cases-detect-failed-testsacd-d53"
   },
-  "/use-cases/find-bottlenecks-bbf": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---use-cases-find-bottlenecks-984-d36"
-  },
   "/use-cases/identify-flaky-tests-3c0": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---use-cases-identify-flaky-tests-630-fcf"
-  },
-  "/use-cases/monitor-costs-3b3": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---use-cases-monitor-costsdc-6-0cf"
-  },
-  "/use-cases/optimize-duration-275": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---use-cases-optimize-duration-8-f-5-648"
   }
 }

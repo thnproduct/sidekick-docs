@@ -17,8 +17,8 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Find bottlenecks",
-    "permalink": "/use-cases/find-bottlenecks"
+    "title": "Detect failed tests",
+    "permalink": "/use-cases/detect-failed-tests"
   },
   "next": {
     "title": "Change impact analysis",

@@ -10,40 +10,42 @@
     "sidebar": [
       {
         "type": "link",
-        "label": "Introduction",
+        "label": "👋🏻 Introduction",
         "href": "/",
         "docId": "intro"
       },
       {
         "type": "link",
-        "label": "Configuration",
+        "label": "⚡️ Quick configuration",
         "href": "/step-by-step-guide",
-        "docId": "configuration"
-      },
-      {
-        "type": "link",
-        "label": "Examples",
-        "href": "/examples",
-        "docId": "examples"
+        "docId": "quick-configuration"
       },
       {
         "type": "category",
-        "label": "Use cases",
+        "label": "🔋 Advanced configuration",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Optimize duration",
-            "href": "/use-cases/optimize-duration",
-            "docId": "use-cases/optimize-duration"
+            "label": "Test kit",
+            "href": "/advanced-configuration/test-kit",
+            "docId": "advanced-configurations/test-kit"
           },
           {
             "type": "link",
-            "label": "Monitor costs",
-            "href": "/use-cases/monitor-costs",
-            "docId": "use-cases/monitor-costs"
-          },
+            "label": "Workflow kit",
+            "href": "/advanced-configuration/workflow-kit",
+            "docId": "advanced-configurations/workflow-kit"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "🧪 Use cases",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
           {
             "type": "link",
             "label": "Identify flaky tests",
@@ -55,18 +57,12 @@
             "label": "Detect failed tests",
             "href": "/use-cases/detect-failed-tests",
             "docId": "use-cases/detect-failed-tests"
-          },
-          {
-            "type": "link",
-            "label": "Find bottlenecks",
-            "href": "/use-cases/find-bottlenecks",
-            "docId": "use-cases/bottleneck-workflow"
           }
         ]
       },
       {
         "type": "category",
-        "label": "Features",
+        "label": "🔮 Features",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -110,7 +106,7 @@
       },
       {
         "type": "category",
-        "label": "Integrations",
+        "label": "🧩 Integrations",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -124,7 +120,7 @@
       },
       {
         "type": "category",
-        "label": "Other",
+        "label": "🆘 Other",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -151,16 +147,16 @@
     ]
   },
   "docs": {
-    "configuration": {
-      "id": "configuration",
-      "title": "Configuration",
-      "description": "Foresight can monitor all GitHub Actions workflows and test frameworks such as JUnit, Jest, Python, TestNG, Trx and xUnit 2.",
+    "advanced-configurations/test-kit": {
+      "id": "advanced-configurations/test-kit",
+      "title": "Test kit",
+      "description": "A GitHub Action to analyze test and/or coverage results.",
       "sidebar": "sidebar"
     },
-    "examples": {
-      "id": "examples",
-      "title": "Examples",
-      "description": "You can explore Foresight with our demo repositories:",
+    "advanced-configurations/workflow-kit": {
+      "id": "advanced-configurations/workflow-kit",
+      "title": "Workflow kit",
+      "description": "A GitHub Action to track and monitor the resource metrics of your GitHub Action workflow runs. If the run is triggered via a Pull Request, it will create a comment on the connected PR with the results and/or publishes the results to the job summary. The action collects the following metrics:",
       "sidebar": "sidebar"
     },
     "features/change-impact-analysis": {
@@ -207,7 +203,7 @@
     },
     "intro": {
       "id": "intro",
-      "title": "Introduction",
+      "title": "👋🏻 Introduction",
       "description": "Foresight helps you to monitor & troubleshoot your CI Workflows & Tests, exclusively for GitHub Actions.",
       "sidebar": "sidebar"
     },
@@ -229,10 +225,10 @@
       "description": "I have connected my GitHub repo but cannot see anything",
       "sidebar": "sidebar"
     },
-    "use-cases/bottleneck-workflow": {
-      "id": "use-cases/bottleneck-workflow",
-      "title": "Find bottlenecks",
-      "description": "Docs in progress",
+    "quick-configuration": {
+      "id": "quick-configuration",
+      "title": "⚡️ Quick configuration",
+      "description": "Foresight can monitor all GitHub Actions workflows and test frameworks such as JUnit, Jest, Python, TestNG, Trx and xUnit 2.",
       "sidebar": "sidebar"
     },
     "use-cases/detect-failed-tests": {
@@ -245,18 +241,6 @@
       "id": "use-cases/identify-flaky-tests",
       "title": "Identify flaky tests",
       "description": "What is a Flaky test?",
-      "sidebar": "sidebar"
-    },
-    "use-cases/monitor-costs": {
-      "id": "use-cases/monitor-costs",
-      "title": "Monitor costs",
-      "description": "",
-      "sidebar": "sidebar"
-    },
-    "use-cases/optimize-duration": {
-      "id": "use-cases/optimize-duration",
-      "title": "Optimize duration",
-      "description": "",
       "sidebar": "sidebar"
     }
   }

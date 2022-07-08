@@ -17,8 +17,8 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Monitor costs",
-    "permalink": "/use-cases/monitor-costs"
+    "title": "Workflow kit",
+    "permalink": "/advanced-configuration/workflow-kit"
   },
   "next": {
     "title": "Detect failed tests",

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "advanced-configurations/workflow-kit copy",
+  "id": "advanced-configurations/workflow-kit copy",
+  "title": "Find bottlenecks",
+  "description": "Docs in progress",
+  "source": "@site/docs/advanced-configurations/workflow-kit copy.mdx",
+  "sourceDirName": "advanced-configurations",
+  "slug": "/advanced-configuration/workflow-kit",
+  "permalink": "/advanced-configuration/workflow-kit",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Find bottlenecks",
+    "slug": "/advanced-configuration/workflow-kit",
+    "sidebar_position": 1
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Configuration",
+    "permalink": "/step-by-step-guide"
+  },
+  "next": {
+    "title": "Find bottlenecks",
+    "permalink": "/advanced-configuration/workflow-kit"
+  }
+}

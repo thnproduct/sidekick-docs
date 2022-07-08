@@ -17,8 +17,8 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Optimize duration",
-    "permalink": "/use-cases/optimize-duration"
+    "title": "Examples",
+    "permalink": "/examples"
   },
   "next": {
     "title": "Identify flaky tests",

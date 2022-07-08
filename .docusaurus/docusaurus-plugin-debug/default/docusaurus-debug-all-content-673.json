@@ -17,55 +17,57 @@
           "contentPathLocalized": "/Users/burakkantarci/Dev/foresight-docs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "configuration",
-              "id": "configuration",
-              "title": "Configuration",
-              "description": "Foresight can monitor all GitHub Actions workflows and test frameworks such as JUnit, Jest, Python, TestNG, Trx and xUnit 2.",
-              "source": "@site/docs/configuration.mdx",
-              "sourceDirName": ".",
-              "slug": "/step-by-step-guide",
-              "permalink": "/step-by-step-guide",
+              "unversionedId": "advanced-configurations/test-kit",
+              "id": "advanced-configurations/test-kit",
+              "title": "Test kit",
+              "description": "A GitHub Action to analyze test and/or coverage results.",
+              "source": "@site/docs/advanced-configurations/test-kit.mdx",
+              "sourceDirName": "advanced-configurations",
+              "slug": "/advanced-configuration/test-kit",
+              "permalink": "/advanced-configuration/test-kit",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Test kit",
+                "slug": "/advanced-configuration/test-kit",
+                "sidebar_position": 1
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "⚡️ Quick configuration",
+                "permalink": "/step-by-step-guide"
+              },
+              "next": {
+                "title": "Workflow kit",
+                "permalink": "/advanced-configuration/workflow-kit"
+              }
+            },
+            {
+              "unversionedId": "advanced-configurations/workflow-kit",
+              "id": "advanced-configurations/workflow-kit",
+              "title": "Workflow kit",
+              "description": "A GitHub Action to track and monitor the resource metrics of your GitHub Action workflow runs. If the run is triggered via a Pull Request, it will create a comment on the connected PR with the results and/or publishes the results to the job summary. The action collects the following metrics:",
+              "source": "@site/docs/advanced-configurations/workflow-kit.mdx",
+              "sourceDirName": "advanced-configurations",
+              "slug": "/advanced-configuration/workflow-kit",
+              "permalink": "/advanced-configuration/workflow-kit",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
-                "sidebar_position": 2,
-                "slug": "/step-by-step-guide"
+                "title": "Workflow kit",
+                "slug": "/advanced-configuration/workflow-kit",
+                "sidebar_position": 2
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Introduction",
-                "permalink": "/"
+                "title": "Test kit",
+                "permalink": "/advanced-configuration/test-kit"
               },
               "next": {
-                "title": "Examples",
-                "permalink": "/examples"
-              }
-            },
-            {
-              "unversionedId": "examples",
-              "id": "examples",
-              "title": "Examples",
-              "description": "You can explore Foresight with our demo repositories:",
-              "source": "@site/docs/examples.mdx",
-              "sourceDirName": ".",
-              "slug": "/examples",
-              "permalink": "/examples",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3,
-                "slug": "/examples"
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "Configuration",
-                "permalink": "/step-by-step-guide"
-              },
-              "next": {
-                "title": "Optimize duration",
-                "permalink": "/use-cases/optimize-duration"
+                "title": "Identify flaky tests",
+                "permalink": "/use-cases/identify-flaky-tests"
               }
             },
             {
@@ -114,8 +116,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Find bottlenecks",
-                "permalink": "/use-cases/find-bottlenecks"
+                "title": "Detect failed tests",
+                "permalink": "/use-cases/detect-failed-tests"
               },
               "next": {
                 "title": "Change impact analysis",
@@ -259,7 +261,7 @@
             {
               "unversionedId": "intro",
               "id": "intro",
-              "title": "Introduction",
+              "title": "👋🏻 Introduction",
               "description": "Foresight helps you to monitor & troubleshoot your CI Workflows & Tests, exclusively for GitHub Actions.",
               "source": "@site/docs/intro.mdx",
               "sourceDirName": ".",
@@ -269,12 +271,13 @@
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
+                "title": "👋🏻 Introduction",
                 "sidebar_position": 1,
                 "slug": "/"
               },
               "sidebar": "sidebar",
               "next": {
-                "title": "Configuration",
+                "title": "⚡️ Quick configuration",
                 "permalink": "/step-by-step-guide"
               }
             },
@@ -356,30 +359,30 @@
               }
             },
             {
-              "unversionedId": "use-cases/bottleneck-workflow",
-              "id": "use-cases/bottleneck-workflow",
-              "title": "Find bottlenecks",
-              "description": "Docs in progress",
-              "source": "@site/docs/use-cases/bottleneck-workflow.mdx",
-              "sourceDirName": "use-cases",
-              "slug": "/use-cases/find-bottlenecks",
-              "permalink": "/use-cases/find-bottlenecks",
+              "unversionedId": "quick-configuration",
+              "id": "quick-configuration",
+              "title": "⚡️ Quick configuration",
+              "description": "Foresight can monitor all GitHub Actions workflows and test frameworks such as JUnit, Jest, Python, TestNG, Trx and xUnit 2.",
+              "source": "@site/docs/quick-configuration.mdx",
+              "sourceDirName": ".",
+              "slug": "/step-by-step-guide",
+              "permalink": "/step-by-step-guide",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 5,
+              "sidebarPosition": 2,
               "frontMatter": {
-                "title": "Find bottlenecks",
-                "slug": "/use-cases/find-bottlenecks",
-                "sidebar_position": 5
+                "title": "⚡️ Quick configuration",
+                "sidebar_position": 2,
+                "slug": "/step-by-step-guide"
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Detect failed tests",
-                "permalink": "/use-cases/detect-failed-tests"
+                "title": "👋🏻 Introduction",
+                "permalink": "/"
               },
               "next": {
-                "title": "Highlights",
-                "permalink": "/features/highlights"
+                "title": "Test kit",
+                "permalink": "/advanced-configuration/test-kit"
               }
             },
             {
@@ -405,8 +408,8 @@
                 "permalink": "/use-cases/identify-flaky-tests"
               },
               "next": {
-                "title": "Find bottlenecks",
-                "permalink": "/use-cases/find-bottlenecks"
+                "title": "Highlights",
+                "permalink": "/features/highlights"
               }
             },
             {
@@ -428,66 +431,12 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Monitor costs",
-                "permalink": "/use-cases/monitor-costs"
+                "title": "Workflow kit",
+                "permalink": "/advanced-configuration/workflow-kit"
               },
               "next": {
                 "title": "Detect failed tests",
                 "permalink": "/use-cases/detect-failed-tests"
-              }
-            },
-            {
-              "unversionedId": "use-cases/monitor-costs",
-              "id": "use-cases/monitor-costs",
-              "title": "Monitor costs",
-              "description": "",
-              "source": "@site/docs/use-cases/monitor-costs.mdx",
-              "sourceDirName": "use-cases",
-              "slug": "/use-cases/monitor-costs",
-              "permalink": "/use-cases/monitor-costs",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "title": "Monitor costs",
-                "slug": "/use-cases/monitor-costs",
-                "sidebar_position": 2
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "Optimize duration",
-                "permalink": "/use-cases/optimize-duration"
-              },
-              "next": {
-                "title": "Identify flaky tests",
-                "permalink": "/use-cases/identify-flaky-tests"
-              }
-            },
-            {
-              "unversionedId": "use-cases/optimize-duration",
-              "id": "use-cases/optimize-duration",
-              "title": "Optimize duration",
-              "description": "",
-              "source": "@site/docs/use-cases/optimize-duration.mdx",
-              "sourceDirName": "use-cases",
-              "slug": "/use-cases/optimize-duration",
-              "permalink": "/use-cases/optimize-duration",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "title": "Optimize duration",
-                "slug": "/use-cases/optimize-duration",
-                "sidebar_position": 1
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "Examples",
-                "permalink": "/examples"
-              },
-              "next": {
-                "title": "Monitor costs",
-                "permalink": "/use-cases/monitor-costs"
               }
             }
           ],
@@ -499,26 +448,30 @@
               },
               {
                 "type": "doc",
-                "id": "configuration"
-              },
-              {
-                "type": "doc",
-                "id": "examples"
+                "id": "quick-configuration"
               },
               {
                 "type": "category",
-                "label": "Use cases",
+                "label": "🔋 Advanced configuration",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "use-cases/optimize-duration"
+                    "id": "advanced-configurations/test-kit"
                   },
                   {
                     "type": "doc",
-                    "id": "use-cases/monitor-costs"
-                  },
+                    "id": "advanced-configurations/workflow-kit"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "🧪 Use cases",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
                   {
                     "type": "doc",
                     "id": "use-cases/identify-flaky-tests"
@@ -526,16 +479,12 @@
                   {
                     "type": "doc",
                     "id": "use-cases/detect-failed-tests"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "use-cases/bottleneck-workflow"
                   }
                 ]
               },
               {
                 "type": "category",
-                "label": "Features",
+                "label": "🔮 Features",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -567,7 +516,7 @@
               },
               {
                 "type": "category",
-                "label": "Integrations",
+                "label": "🧩 Integrations",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -579,7 +528,7 @@
               },
               {
                 "type": "category",
-                "label": "Other",
+                "label": "🆘 Other",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [

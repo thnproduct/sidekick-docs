@@ -1,0 +1,27 @@
+{
+  "unversionedId": "advanced-configurations/test-kit",
+  "id": "advanced-configurations/test-kit",
+  "title": "Test kit",
+  "description": "A GitHub Action to analyze test and/or coverage results.",
+  "source": "@site/docs/advanced-configurations/test-kit.mdx",
+  "sourceDirName": "advanced-configurations",
+  "slug": "/advanced-configuration/test-kit",
+  "permalink": "/advanced-configuration/test-kit",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Test kit",
+    "slug": "/advanced-configuration/test-kit",
+    "sidebar_position": 1
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "⚡️ Quick configuration",
+    "permalink": "/step-by-step-guide"
+  },
+  "next": {
+    "title": "Workflow kit",
+    "permalink": "/advanced-configuration/workflow-kit"
+  }
+}

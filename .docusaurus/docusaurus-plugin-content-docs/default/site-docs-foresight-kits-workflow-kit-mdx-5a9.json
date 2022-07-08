@@ -1,0 +1,27 @@
+{
+  "unversionedId": "foresight-kits/workflow-kit",
+  "id": "foresight-kits/workflow-kit",
+  "title": "Find bottlenecks",
+  "description": "Docs in progress",
+  "source": "@site/docs/foresight-kits/workflow-kit.mdx",
+  "sourceDirName": "foresight-kits",
+  "slug": "/setup-pipeline/workflow-kit",
+  "permalink": "/setup-pipeline/workflow-kit",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Find bottlenecks",
+    "slug": "/setup-pipeline/workflow-kit",
+    "sidebar_position": 1
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Examples",
+    "permalink": "/examples"
+  },
+  "next": {
+    "title": "Optimize duration",
+    "permalink": "/use-cases/optimize-duration"
+  }
+}

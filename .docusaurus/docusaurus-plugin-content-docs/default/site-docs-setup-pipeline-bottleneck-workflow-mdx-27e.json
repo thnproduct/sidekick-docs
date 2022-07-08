@@ -1,0 +1,27 @@
+{
+  "unversionedId": "setup-pipeline/bottleneck-workflow",
+  "id": "setup-pipeline/bottleneck-workflow",
+  "title": "Find bottlenecks",
+  "description": "Docs in progress",
+  "source": "@site/docs/setup-pipeline/bottleneck-workflow.mdx",
+  "sourceDirName": "setup-pipeline",
+  "slug": "/setup-pipeline/workflow-kit",
+  "permalink": "/setup-pipeline/workflow-kit",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Find bottlenecks",
+    "slug": "/setup-pipeline/workflow-kit",
+    "sidebar_position": 1
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Test logs",
+    "permalink": "/features/test-logs"
+  },
+  "next": {
+    "title": "Slack",
+    "permalink": "/integrations/slack"
+  }
+}

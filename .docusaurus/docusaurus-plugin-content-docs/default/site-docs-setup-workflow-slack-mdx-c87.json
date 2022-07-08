@@ -1,0 +1,26 @@
+{
+  "unversionedId": "setup-workflow/slack",
+  "id": "setup-workflow/slack",
+  "title": "Slack",
+  "description": "With the help of the Incoming WebHooks Foresight now supports Slack!",
+  "source": "@site/docs/setup-workflow/slack.mdx",
+  "sourceDirName": "setup-workflow",
+  "slug": "/integrations/slack",
+  "permalink": "/integrations/slack",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "slug": "/integrations/slack"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Test logs",
+    "permalink": "/features/test-logs"
+  },
+  "next": {
+    "title": "Find bottlenecks",
+    "permalink": "/use-cases/find-bottlenecks"
+  }
+}

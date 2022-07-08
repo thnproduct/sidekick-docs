@@ -11,13 +11,13 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "configuration",
-              "path": "/step-by-step-guide",
+              "id": "advanced-configurations/test-kit",
+              "path": "/advanced-configuration/test-kit",
               "sidebar": "sidebar"
             },
             {
-              "id": "examples",
-              "path": "/examples",
+              "id": "advanced-configurations/workflow-kit",
+              "path": "/advanced-configuration/workflow-kit",
               "sidebar": "sidebar"
             },
             {
@@ -76,8 +76,8 @@
               "sidebar": "sidebar"
             },
             {
-              "id": "use-cases/bottleneck-workflow",
-              "path": "/use-cases/find-bottlenecks",
+              "id": "quick-configuration",
+              "path": "/step-by-step-guide",
               "sidebar": "sidebar"
             },
             {
@@ -88,16 +88,6 @@
             {
               "id": "use-cases/identify-flaky-tests",
               "path": "/use-cases/identify-flaky-tests",
-              "sidebar": "sidebar"
-            },
-            {
-              "id": "use-cases/monitor-costs",
-              "path": "/use-cases/monitor-costs",
-              "sidebar": "sidebar"
-            },
-            {
-              "id": "use-cases/optimize-duration",
-              "path": "/use-cases/optimize-duration",
               "sidebar": "sidebar"
             }
           ],
