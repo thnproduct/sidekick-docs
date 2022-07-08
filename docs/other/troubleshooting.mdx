@@ -11,12 +11,12 @@ Even though you added your pipeline successfully, if you are not able to see the
 
 ![Empty cards](/img/others/empty-cards.png)
 
-#### If you don't see the workflows
+#### I can't see my workflows
 1. There are no workflows in your repository
 2. You haven't triggered your workflows in the last 14 days
 3. You have uninstalled [Foresight's GitHub app](https://github.com/marketplace/thundra-foresight)
 
-#### If you don't see the tests
+#### I can't see my tests
 1. You haven't updated your YAML with Foresight's Actions added
 2. You haven't run your tests
 
@@ -34,3 +34,11 @@ on Foresight. Then, your admin needs to [invite you](/features/team-management) 
 2. You didn't authorize at least one repository while installing Foresight's GitHub app.
 
 
+### I can't see your test and change impact analysis?
+
+![No change](/img/others/no-change-test.png)
+
+Even though you integrated [Foresight Test Kit](https://github.com/runforesight/foresight-test-kit-action) to your CI pipeline, if you can't see your test and change impact analysis:
+
+1. Your workflow may not generate test and coverage reports on the path you defined in your Test Kit.
+2. Change impact analysis is generated in the workflows triggered by a Pull Request. If you trigger it by commit or etc, the coverage reports may not be generated.  
