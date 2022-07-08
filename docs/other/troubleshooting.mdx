@@ -34,7 +34,7 @@ on Foresight. Then, your admin needs to [invite you](/features/team-management) 
 2. You didn't authorize at least one repository while installing Foresight's GitHub app.
 
 
-### I can't see your test and change impact analysis?
+### I can't see my test and change impact analysis
 
 ![No change](/img/others/no-change-test.png)
 
@@ -42,3 +42,8 @@ Even though you integrated [Foresight Test Kit](https://github.com/runforesight/
 
 1. Your workflow may not generate test and coverage reports on the path you defined in your Test Kit.
 2. Change impact analysis is generated in the workflows triggered by a Pull Request. If you trigger it by commit or etc, the coverage reports may not be generated.  
+
+### I can't see my process and metrics
+
+1. Make sure that you have integrated [Foresight Workflow Kit](https://github.com/runforesight/foresight-workflow-kit-action) to your CI pipeline
+2. Workflow Kit action needs to be on top of all the other steps. Please check the position of the Workflow Kit Action.
