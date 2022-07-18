@@ -2,7 +2,7 @@
   "unversionedId": "advanced-configurations/test-kit",
   "id": "advanced-configurations/test-kit",
   "title": "Test kit",
-  "description": "A GitHub Action to analyze test and/or coverage results.",
+  "description": "A GitHub Action to analyze test and/or coverage results. Foresight’s Test Kit action integrates with your Github Actions pipelines.",
   "source": "@site/docs/advanced-configurations/test-kit.mdx",
   "sourceDirName": "advanced-configurations",
   "slug": "/advanced-configuration/test-kit",

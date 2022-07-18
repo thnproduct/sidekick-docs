@@ -150,7 +150,7 @@
     "advanced-configurations/test-kit": {
       "id": "advanced-configurations/test-kit",
       "title": "Test kit",
-      "description": "A GitHub Action to analyze test and/or coverage results.",
+      "description": "A GitHub Action to analyze test and/or coverage results. Foresight’s Test Kit action integrates with your Github Actions pipelines.",
       "sidebar": "sidebar"
     },
     "advanced-configurations/workflow-kit": {
