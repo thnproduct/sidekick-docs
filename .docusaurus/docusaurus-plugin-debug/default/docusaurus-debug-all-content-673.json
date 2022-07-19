@@ -66,8 +66,8 @@
                 "permalink": "/advanced-configuration/test-kit"
               },
               "next": {
-                "title": "Identify flaky tests",
-                "permalink": "/use-cases/identify-flaky-tests"
+                "title": "Highlights",
+                "permalink": "/features/highlights"
               }
             },
             {
@@ -116,8 +116,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Detect failed tests",
-                "permalink": "/use-cases/detect-failed-tests"
+                "title": "Workflow kit",
+                "permalink": "/advanced-configuration/workflow-kit"
               },
               "next": {
                 "title": "Change impact analysis",
@@ -174,8 +174,8 @@
                 "permalink": "/features/team-management"
               },
               "next": {
-                "title": "Slack",
-                "permalink": "/integrations/slack"
+                "title": "Identify flaky tests",
+                "permalink": "/use-cases/identify-flaky-tests"
               }
             },
             {
@@ -250,8 +250,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Test logs",
-                "permalink": "/features/test-logs"
+                "title": "Detect failed tests",
+                "permalink": "/use-cases/detect-failed-tests"
               },
               "next": {
                 "title": "Troubleshooting",
@@ -262,7 +262,7 @@
               "unversionedId": "intro",
               "id": "intro",
               "title": "👋🏻 Introduction",
-              "description": "Foresight helps you to monitor & troubleshoot your CI Workflows & Tests, exclusively for GitHub Actions.",
+              "description": "Foresight provides full visibility and deep insights into the health and performance of your tests and CI/CD pipelines.",
               "source": "@site/docs/intro.mdx",
               "sourceDirName": ".",
               "slug": "/",
@@ -408,8 +408,8 @@
                 "permalink": "/use-cases/identify-flaky-tests"
               },
               "next": {
-                "title": "Highlights",
-                "permalink": "/features/highlights"
+                "title": "Slack",
+                "permalink": "/integrations/slack"
               }
             },
             {
@@ -431,8 +431,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Workflow kit",
-                "permalink": "/advanced-configuration/workflow-kit"
+                "title": "Test logs",
+                "permalink": "/features/test-logs"
               },
               "next": {
                 "title": "Detect failed tests",
@@ -468,22 +468,6 @@
               },
               {
                 "type": "category",
-                "label": "🧪 Use cases",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "use-cases/identify-flaky-tests"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "use-cases/detect-failed-tests"
-                  }
-                ]
-              },
-              {
-                "type": "category",
                 "label": "🔮 Features",
                 "collapsible": true,
                 "collapsed": true,
@@ -511,6 +495,22 @@
                   {
                     "type": "doc",
                     "id": "features/test-logs"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "🧪 Use cases",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "use-cases/identify-flaky-tests"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "use-cases/detect-failed-tests"
                   }
                 ]
               },

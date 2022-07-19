@@ -17,8 +17,8 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Detect failed tests",
-    "permalink": "/use-cases/detect-failed-tests"
+    "title": "Workflow kit",
+    "permalink": "/advanced-configuration/workflow-kit"
   },
   "next": {
     "title": "Change impact analysis",

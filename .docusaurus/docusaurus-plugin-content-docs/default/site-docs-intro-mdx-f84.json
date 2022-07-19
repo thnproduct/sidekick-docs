@@ -2,7 +2,7 @@
   "unversionedId": "intro",
   "id": "intro",
   "title": "👋🏻 Introduction",
-  "description": "Foresight helps you to monitor & troubleshoot your CI Workflows & Tests, exclusively for GitHub Actions.",
+  "description": "Foresight provides full visibility and deep insights into the health and performance of your tests and CI/CD pipelines.",
   "source": "@site/docs/intro.mdx",
   "sourceDirName": ".",
   "slug": "/",

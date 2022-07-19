@@ -21,7 +21,7 @@
     "permalink": "/features/team-management"
   },
   "next": {
-    "title": "Slack",
-    "permalink": "/integrations/slack"
+    "title": "Identify flaky tests",
+    "permalink": "/use-cases/identify-flaky-tests"
   }
 }

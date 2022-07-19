@@ -42,26 +42,6 @@
       },
       {
         "type": "category",
-        "label": "🧪 Use cases",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Identify flaky tests",
-            "href": "/use-cases/identify-flaky-tests",
-            "docId": "use-cases/identify-flaky-tests"
-          },
-          {
-            "type": "link",
-            "label": "Detect failed tests",
-            "href": "/use-cases/detect-failed-tests",
-            "docId": "use-cases/detect-failed-tests"
-          }
-        ]
-      },
-      {
-        "type": "category",
         "label": "🔮 Features",
         "collapsible": true,
         "collapsed": true,
@@ -101,6 +81,26 @@
             "label": "Test logs",
             "href": "/features/test-logs",
             "docId": "features/test-logs"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "🧪 Use cases",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Identify flaky tests",
+            "href": "/use-cases/identify-flaky-tests",
+            "docId": "use-cases/identify-flaky-tests"
+          },
+          {
+            "type": "link",
+            "label": "Detect failed tests",
+            "href": "/use-cases/detect-failed-tests",
+            "docId": "use-cases/detect-failed-tests"
           }
         ]
       },
@@ -204,7 +204,7 @@
     "intro": {
       "id": "intro",
       "title": "👋🏻 Introduction",
-      "description": "Foresight helps you to monitor & troubleshoot your CI Workflows & Tests, exclusively for GitHub Actions.",
+      "description": "Foresight provides full visibility and deep insights into the health and performance of your tests and CI/CD pipelines.",
       "sidebar": "sidebar"
     },
     "other/badges": {

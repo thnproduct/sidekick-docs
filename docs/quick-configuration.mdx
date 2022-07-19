@@ -55,8 +55,32 @@ It's fast, secure, and reliable — with zero-overhead.
       and displays workflow telemetry data using OTLP to your workflow run results.</p>
     <br />
     <p>To start, update your YAML file with Foresight's <a href="/advanced-configuration/test-kit">Test Kit</a> and <a href="/advanced-configuration/workflow-kit">Workflow Kit</a> Actions</p>
-    <br />
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/sEuYDwja6lM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br />   
+
+
+```yaml
+# ...
+
+steps:
+  # Make sure you put workflow kit action on top of all the steps 
+  - name: Collect Workflow Telemetry
+    uses: runforesight/foresight-workflow-kit-action@v1
+    with:
+      api_key: <foresight_api_key>
+
+  # Make sure you put test kit action after your test execution step 
+  - name: Analyze Test and/or Coverage Results
+    uses: thundra-io/foresight-test-kit-action@v1
+    with:
+      api_key: <your_api_key_required>
+      test_format: <test_format_optional>
+      test_framework: <test_framework_optional>
+      test_path: <test_results_path_optional>
+      coverage_format: <coverage_format_optional>
+      coverage_path: <coverage_results_path_optional>
+```
+
+
   </Step>
   <Step step="6" stepHeader="Start monitoring">
     Execute your pipeline with the updated configuration. You'll see your repositories listed under the Repositories section. 
@@ -83,3 +107,5 @@ It's fast, secure, and reliable — with zero-overhead.
     </Card>
   </div>
 </Container> 
+
+
