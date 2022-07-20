@@ -254,8 +254,8 @@
                 "permalink": "/use-cases/detect-failed-tests"
               },
               "next": {
-                "title": "Troubleshooting",
-                "permalink": "/other/troubleshooting"
+                "title": "Dynamically generated test badges",
+                "permalink": "/how-to/badges"
               }
             },
             {
@@ -282,53 +282,57 @@
               }
             },
             {
+              "unversionedId": "other/api-key",
+              "id": "other/api-key",
+              "title": "Get your API Key",
+              "description": "To use Foresight's Workflow Kit and Test Kit Actions, you need to gather your API Key.",
+              "source": "@site/docs/other/api-key.mdx",
+              "sourceDirName": "other",
+              "slug": "/how-to/get-api-key",
+              "permalink": "/how-to/get-api-key",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Get your API Key",
+                "slug": "/how-to/get-api-key",
+                "sidebar_position": 2
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Dynamically generated test badges",
+                "permalink": "/how-to/badges"
+              },
+              "next": {
+                "title": "Troubleshooting",
+                "permalink": "/how-to/troubleshooting"
+              }
+            },
+            {
               "unversionedId": "other/badges",
               "id": "other/badges",
               "title": "Dynamically generated test badges",
               "description": "Since badges provide users with a fast way to capture repository metrics, they increase the readability of the",
               "source": "@site/docs/other/badges.mdx",
               "sourceDirName": "other",
-              "slug": "/other/badges",
-              "permalink": "/other/badges",
+              "slug": "/how-to/badges",
+              "permalink": "/how-to/badges",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 5,
+              "sidebarPosition": 1,
               "frontMatter": {
                 "title": "Dynamically generated test badges",
-                "slug": "/other/badges",
-                "sidebar_position": 5
+                "slug": "/how-to/badges",
+                "sidebar_position": 1
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Troubleshooting",
-                "permalink": "/other/troubleshooting"
+                "title": "Slack",
+                "permalink": "/integrations/slack"
               },
               "next": {
-                "title": "FAQ",
-                "permalink": "/other/faq"
-              }
-            },
-            {
-              "unversionedId": "other/faq",
-              "id": "other/faq",
-              "title": "FAQ",
-              "description": "Docs in progress",
-              "source": "@site/docs/other/faq.mdx",
-              "sourceDirName": "other",
-              "slug": "/other/faq",
-              "permalink": "/other/faq",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "title": "FAQ",
-                "slug": "/other/faq",
-                "sidebar_position": 5
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "Dynamically generated test badges",
-                "permalink": "/other/badges"
+                "title": "Get your API Key",
+                "permalink": "/how-to/get-api-key"
               }
             },
             {
@@ -338,24 +342,20 @@
               "description": "I have connected my GitHub repo but cannot see anything",
               "source": "@site/docs/other/troubleshooting.mdx",
               "sourceDirName": "other",
-              "slug": "/other/troubleshooting",
-              "permalink": "/other/troubleshooting",
+              "slug": "/how-to/troubleshooting",
+              "permalink": "/how-to/troubleshooting",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
               "frontMatter": {
                 "title": "Troubleshooting",
-                "slug": "/other/troubleshooting",
+                "slug": "/how-to/troubleshooting",
                 "sidebar_position": 3
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Slack",
-                "permalink": "/integrations/slack"
-              },
-              "next": {
-                "title": "Dynamically generated test badges",
-                "permalink": "/other/badges"
+                "title": "Get your API Key",
+                "permalink": "/how-to/get-api-key"
               }
             },
             {
@@ -528,21 +528,21 @@
               },
               {
                 "type": "category",
-                "label": "🆘 Other",
+                "label": "🆘 How to",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
-                  {
-                    "type": "doc",
-                    "id": "other/troubleshooting"
-                  },
                   {
                     "type": "doc",
                     "id": "other/badges"
                   },
                   {
                     "type": "doc",
-                    "id": "other/faq"
+                    "id": "other/api-key"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "other/troubleshooting"
                   }
                 ]
               }

@@ -20,7 +20,7 @@
     "permalink": "/use-cases/detect-failed-tests"
   },
   "next": {
-    "title": "Troubleshooting",
-    "permalink": "/other/troubleshooting"
+    "title": "Dynamically generated test badges",
+    "permalink": "/how-to/badges"
   }
 }

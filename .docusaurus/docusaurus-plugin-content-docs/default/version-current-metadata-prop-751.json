@@ -120,27 +120,27 @@
       },
       {
         "type": "category",
-        "label": "🆘 Other",
+        "label": "🆘 How to",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Troubleshooting",
-            "href": "/other/troubleshooting",
-            "docId": "other/troubleshooting"
-          },
-          {
-            "type": "link",
             "label": "Dynamically generated test badges",
-            "href": "/other/badges",
+            "href": "/how-to/badges",
             "docId": "other/badges"
           },
           {
             "type": "link",
-            "label": "FAQ",
-            "href": "/other/faq",
-            "docId": "other/faq"
+            "label": "Get your API Key",
+            "href": "/how-to/get-api-key",
+            "docId": "other/api-key"
+          },
+          {
+            "type": "link",
+            "label": "Troubleshooting",
+            "href": "/how-to/troubleshooting",
+            "docId": "other/troubleshooting"
           }
         ]
       }
@@ -207,16 +207,16 @@
       "description": "Foresight provides full visibility and deep insights into the health and performance of your tests and CI/CD pipelines.",
       "sidebar": "sidebar"
     },
+    "other/api-key": {
+      "id": "other/api-key",
+      "title": "Get your API Key",
+      "description": "To use Foresight's Workflow Kit and Test Kit Actions, you need to gather your API Key.",
+      "sidebar": "sidebar"
+    },
     "other/badges": {
       "id": "other/badges",
       "title": "Dynamically generated test badges",
       "description": "Since badges provide users with a fast way to capture repository metrics, they increase the readability of the",
-      "sidebar": "sidebar"
-    },
-    "other/faq": {
-      "id": "other/faq",
-      "title": "FAQ",
-      "description": "Docs in progress",
       "sidebar": "sidebar"
     },
     "other/troubleshooting": {

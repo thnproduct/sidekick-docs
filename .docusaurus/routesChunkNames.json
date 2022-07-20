@@ -129,7 +129,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/-279": {
+  "/-179": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---935-fcf"
   },
@@ -169,21 +169,21 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---features-workflow-runs-0-b-0-200"
   },
+  "/how-to/badges-97a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---how-to-badges-487-896"
+  },
+  "/how-to/get-api-key-cc6": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---how-to-get-api-keyf-14-050"
+  },
+  "/how-to/troubleshooting-27e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---how-to-troubleshooting-1-c-8-d1d"
+  },
   "/integrations/slack-222": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---integrations-slackf-78-2b9"
-  },
-  "/other/badges-47a": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---other-badges-487-472"
-  },
-  "/other/faq-5c7": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---other-faq-0-a-1-1a1"
-  },
-  "/other/troubleshooting-8fa": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---other-troubleshooting-1-c-8-b7d"
   },
   "/step-by-step-guide-f0e": {
     "component": "component---theme-doc-item-178-a40",

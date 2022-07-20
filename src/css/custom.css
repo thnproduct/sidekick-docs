@@ -62,7 +62,7 @@ a:hover{
   @apply text-pink-300 border-pink-300;
 }
 p{
-  @apply leading-relaxed font-light;
+  @apply leading-relaxed font-normal;
 }
 p a{
   @apply font-semibold border-b-2;

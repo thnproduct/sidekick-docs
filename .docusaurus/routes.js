@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','279'),
+    component: ComponentCreator('/','179'),
     routes: [
       {
         path: '/',
@@ -157,26 +157,26 @@ export default [
         'sidebar': "sidebar"
       },
       {
+        path: '/how-to/badges',
+        component: ComponentCreator('/how-to/badges','97a'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/how-to/get-api-key',
+        component: ComponentCreator('/how-to/get-api-key','cc6'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/how-to/troubleshooting',
+        component: ComponentCreator('/how-to/troubleshooting','27e'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
         path: '/integrations/slack',
         component: ComponentCreator('/integrations/slack','222'),
-        exact: true,
-        'sidebar': "sidebar"
-      },
-      {
-        path: '/other/badges',
-        component: ComponentCreator('/other/badges','47a'),
-        exact: true,
-        'sidebar': "sidebar"
-      },
-      {
-        path: '/other/faq',
-        component: ComponentCreator('/other/faq','5c7'),
-        exact: true,
-        'sidebar': "sidebar"
-      },
-      {
-        path: '/other/troubleshooting',
-        component: ComponentCreator('/other/troubleshooting','8fa'),
         exact: true,
         'sidebar': "sidebar"
       },

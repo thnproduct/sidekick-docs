@@ -5,23 +5,23 @@
   "description": "Since badges provide users with a fast way to capture repository metrics, they increase the readability of the",
   "source": "@site/docs/other/badges.mdx",
   "sourceDirName": "other",
-  "slug": "/other/badges",
-  "permalink": "/other/badges",
+  "slug": "/how-to/badges",
+  "permalink": "/how-to/badges",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 5,
+  "sidebarPosition": 1,
   "frontMatter": {
     "title": "Dynamically generated test badges",
-    "slug": "/other/badges",
-    "sidebar_position": 5
+    "slug": "/how-to/badges",
+    "sidebar_position": 1
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Troubleshooting",
-    "permalink": "/other/troubleshooting"
+    "title": "Slack",
+    "permalink": "/integrations/slack"
   },
   "next": {
-    "title": "FAQ",
-    "permalink": "/other/faq"
+    "title": "Get your API Key",
+    "permalink": "/how-to/get-api-key"
   }
 }

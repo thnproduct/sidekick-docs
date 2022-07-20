@@ -5,23 +5,19 @@
   "description": "I have connected my GitHub repo but cannot see anything",
   "source": "@site/docs/other/troubleshooting.mdx",
   "sourceDirName": "other",
-  "slug": "/other/troubleshooting",
-  "permalink": "/other/troubleshooting",
+  "slug": "/how-to/troubleshooting",
+  "permalink": "/how-to/troubleshooting",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
   "frontMatter": {
     "title": "Troubleshooting",
-    "slug": "/other/troubleshooting",
+    "slug": "/how-to/troubleshooting",
     "sidebar_position": 3
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Slack",
-    "permalink": "/integrations/slack"
-  },
-  "next": {
-    "title": "Dynamically generated test badges",
-    "permalink": "/other/badges"
+    "title": "Get your API Key",
+    "permalink": "/how-to/get-api-key"
   }
 }

@@ -61,18 +61,18 @@
               "sidebar": "sidebar"
             },
             {
-              "id": "other/badges",
-              "path": "/other/badges",
+              "id": "other/api-key",
+              "path": "/how-to/get-api-key",
               "sidebar": "sidebar"
             },
             {
-              "id": "other/faq",
-              "path": "/other/faq",
+              "id": "other/badges",
+              "path": "/how-to/badges",
               "sidebar": "sidebar"
             },
             {
               "id": "other/troubleshooting",
-              "path": "/other/troubleshooting",
+              "path": "/how-to/troubleshooting",
               "sidebar": "sidebar"
             },
             {

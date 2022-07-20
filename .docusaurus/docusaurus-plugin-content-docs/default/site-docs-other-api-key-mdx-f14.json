@@ -1,0 +1,27 @@
+{
+  "unversionedId": "other/api-key",
+  "id": "other/api-key",
+  "title": "Get your API Key",
+  "description": "To use Foresight's Workflow Kit and Test Kit Actions, you need to gather your API Key.",
+  "source": "@site/docs/other/api-key.mdx",
+  "sourceDirName": "other",
+  "slug": "/how-to/get-api-key",
+  "permalink": "/how-to/get-api-key",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Get your API Key",
+    "slug": "/how-to/get-api-key",
+    "sidebar_position": 2
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Dynamically generated test badges",
+    "permalink": "/how-to/badges"
+  },
+  "next": {
+    "title": "Troubleshooting",
+    "permalink": "/how-to/troubleshooting"
+  }
+}
