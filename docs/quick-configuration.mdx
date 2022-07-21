@@ -34,11 +34,11 @@ It's fast, secure, and reliable — with zero-overhead.
     <br /><br />
     <div class="admonition admonition-warning alert alert--warning">
       <div class="admonition-heading">
-        <h5><span class="admonition-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>If you are not an organization admin</h5></div>
+        <h5><span class="admonition-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>If you are not an admin in your GitHub Organization</h5></div>
         <div class="admonition-content">
           <p>
-              You may request from your organization admin to install Foresight's GitHub app. In this case, you need 
-              to wait until your admin installs, and sets up an account on Foresight. 
+              You can request from your organization admin to install Foresight's GitHub app. In this case, you need 
+              to wait until your admin approves your request and installs, and sets up an account on Foresight. 
               Then, your admin needs to <a href="/features/team-management">invite you to the organization</a> that Foresight has installed.
           </p>
         </div>
@@ -51,8 +51,9 @@ It's fast, secure, and reliable — with zero-overhead.
     <img src="img/configuration/Step4-ChooseRepo.png" alt="Connect pipeline" />
   </Step>
   <Step step="5" stepHeader="Add Foresight’s GitHub actions (optional)">
-    <p>Foresight’s Test and Workflow actions integrates with your Github Actions pipelines. Making it simple to see failed tests, upload test and coverage reports, 
-      and displays workflow telemetry data using OTLP to your workflow run results.</p>
+    <p>Foresight’s Test and Workflow actions integrate with your Github Actions pipelines. 
+      Make it simple to upload test and coverage reports for seeing your test analytics, 
+      displaying workflow telemetry data, and determining how much of the changes are covered by the tests.</p>
     <br />
     <p>To start, update your YAML file with Foresight's <a href="/advanced-configuration/test-kit">Test Kit</a> and <a href="/advanced-configuration/workflow-kit">Workflow Kit</a> Actions</p>
     <br />   
