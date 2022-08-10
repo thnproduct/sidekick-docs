@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','179'),
+    component: ComponentCreator('/','baf'),
     routes: [
       {
         path: '/',
@@ -129,6 +129,12 @@ export default [
       {
         path: '/features/highlights',
         component: ComponentCreator('/features/highlights','ad8'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/features/process-trace-chart',
+        component: ComponentCreator('/features/process-trace-chart','ef1'),
         exact: true,
         'sidebar': "sidebar"
       },

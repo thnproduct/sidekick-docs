@@ -31,6 +31,11 @@
               "sidebar": "sidebar"
             },
             {
+              "id": "features/process-trace-chart",
+              "path": "/features/process-trace-chart",
+              "sidebar": "sidebar"
+            },
+            {
               "id": "features/team-management",
               "path": "/features/team-management",
               "sidebar": "sidebar"

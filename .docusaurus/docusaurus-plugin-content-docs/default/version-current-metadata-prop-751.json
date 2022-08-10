@@ -78,6 +78,12 @@
           },
           {
             "type": "link",
+            "label": "Process Trace Chart",
+            "href": "/features/process-trace-chart",
+            "docId": "features/process-trace-chart"
+          },
+          {
+            "type": "link",
             "label": "Test logs",
             "href": "/features/test-logs",
             "docId": "features/test-logs"
@@ -169,6 +175,12 @@
       "id": "features/highlights",
       "title": "Highlights",
       "description": "As code flows through your CI workflows, it is processed by plenty of different steps. Each step depends",
+      "sidebar": "sidebar"
+    },
+    "features/process-trace-chart": {
+      "id": "features/process-trace-chart",
+      "title": "Process Trace Chart",
+      "description": "Process Trace Chart",
       "sidebar": "sidebar"
     },
     "features/team-management": {

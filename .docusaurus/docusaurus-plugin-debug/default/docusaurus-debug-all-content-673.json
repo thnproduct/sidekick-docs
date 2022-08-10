@@ -125,6 +125,33 @@
               }
             },
             {
+              "unversionedId": "features/process-trace-chart",
+              "id": "features/process-trace-chart",
+              "title": "Process Trace Chart",
+              "description": "Process Trace Chart",
+              "source": "@site/docs/features/process-trace-chart.mdx",
+              "sourceDirName": "features",
+              "slug": "/features/process-trace-chart",
+              "permalink": "/features/process-trace-chart",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "title": "Process Trace Chart",
+                "slug": "/features/process-trace-chart",
+                "sidebar_position": 6
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Team management",
+                "permalink": "/features/team-management"
+              },
+              "next": {
+                "title": "Test logs",
+                "permalink": "/features/test-logs"
+              }
+            },
+            {
               "unversionedId": "features/team-management",
               "id": "features/team-management",
               "title": "Team management",
@@ -147,8 +174,8 @@
                 "permalink": "/features/test-runs"
               },
               "next": {
-                "title": "Test logs",
-                "permalink": "/features/test-logs"
+                "title": "Process Trace Chart",
+                "permalink": "/features/process-trace-chart"
               }
             },
             {
@@ -170,8 +197,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Team management",
-                "permalink": "/features/team-management"
+                "title": "Process Trace Chart",
+                "permalink": "/features/process-trace-chart"
               },
               "next": {
                 "title": "Identify flaky tests",
@@ -491,6 +518,10 @@
                   {
                     "type": "doc",
                     "id": "features/team-management"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "features/process-trace-chart"
                   },
                   {
                     "type": "doc",
