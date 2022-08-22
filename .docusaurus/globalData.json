@@ -21,6 +21,11 @@
               "sidebar": "sidebar"
             },
             {
+              "id": "examples",
+              "path": "/examples",
+              "sidebar": "sidebar"
+            },
+            {
               "id": "features/change-impact-analysis",
               "path": "/features/analyze-code-change-impact",
               "sidebar": "sidebar"

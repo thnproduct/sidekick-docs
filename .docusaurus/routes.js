@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','baf'),
+    component: ComponentCreator('/','9a1'),
     routes: [
       {
         path: '/',
@@ -117,6 +117,12 @@ export default [
       {
         path: '/advanced-configuration/workflow-kit',
         component: ComponentCreator('/advanced-configuration/workflow-kit','a37'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/examples',
+        component: ComponentCreator('/examples','b2d'),
         exact: true,
         'sidebar': "sidebar"
       },
