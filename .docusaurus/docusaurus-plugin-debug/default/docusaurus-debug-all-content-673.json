@@ -71,6 +71,33 @@
               }
             },
             {
+              "unversionedId": "examples",
+              "id": "examples",
+              "title": "🧭 Example Projects",
+              "description": "Below you can find the Foresight-ready repositories.",
+              "source": "@site/docs/examples.mdx",
+              "sourceDirName": ".",
+              "slug": "/examples",
+              "permalink": "/examples",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "🧭 Example Projects",
+                "sidebar_position": 2,
+                "slug": "/examples"
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "👋🏻 Introduction",
+                "permalink": "/"
+              },
+              "next": {
+                "title": "⚡️ Quick configuration",
+                "permalink": "/step-by-step-guide"
+              }
+            },
+            {
               "unversionedId": "features/change-impact-analysis",
               "id": "features/change-impact-analysis",
               "title": "Change impact analysis",
@@ -127,7 +154,7 @@
             {
               "unversionedId": "features/process-trace-chart",
               "id": "features/process-trace-chart",
-              "title": "Process Trace Chart",
+              "title": "Process trace chart",
               "description": "Process Trace Chart",
               "source": "@site/docs/features/process-trace-chart.mdx",
               "sourceDirName": "features",
@@ -137,7 +164,7 @@
               "version": "current",
               "sidebarPosition": 6,
               "frontMatter": {
-                "title": "Process Trace Chart",
+                "title": "Process trace chart",
                 "slug": "/features/process-trace-chart",
                 "sidebar_position": 6
               },
@@ -174,7 +201,7 @@
                 "permalink": "/features/test-runs"
               },
               "next": {
-                "title": "Process Trace Chart",
+                "title": "Process trace chart",
                 "permalink": "/features/process-trace-chart"
               }
             },
@@ -197,7 +224,7 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Process Trace Chart",
+                "title": "Process trace chart",
                 "permalink": "/features/process-trace-chart"
               },
               "next": {
@@ -304,8 +331,8 @@
               },
               "sidebar": "sidebar",
               "next": {
-                "title": "⚡️ Quick configuration",
-                "permalink": "/step-by-step-guide"
+                "title": "🧭 Example Projects",
+                "permalink": "/examples"
               }
             },
             {
@@ -396,16 +423,16 @@
               "permalink": "/step-by-step-guide",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 3,
               "frontMatter": {
                 "title": "⚡️ Quick configuration",
-                "sidebar_position": 2,
+                "sidebar_position": 3,
                 "slug": "/step-by-step-guide"
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "👋🏻 Introduction",
-                "permalink": "/"
+                "title": "🧭 Example Projects",
+                "permalink": "/examples"
               },
               "next": {
                 "title": "Test kit",
@@ -472,6 +499,10 @@
               {
                 "type": "doc",
                 "id": "intro"
+              },
+              {
+                "type": "doc",
+                "id": "examples"
               },
               {
                 "type": "doc",

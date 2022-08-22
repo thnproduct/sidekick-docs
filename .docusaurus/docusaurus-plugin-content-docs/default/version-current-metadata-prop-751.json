@@ -16,6 +16,12 @@
       },
       {
         "type": "link",
+        "label": "🧭 Example Projects",
+        "href": "/examples",
+        "docId": "examples"
+      },
+      {
+        "type": "link",
         "label": "⚡️ Quick configuration",
         "href": "/step-by-step-guide",
         "docId": "quick-configuration"
@@ -78,7 +84,7 @@
           },
           {
             "type": "link",
-            "label": "Process Trace Chart",
+            "label": "Process trace chart",
             "href": "/features/process-trace-chart",
             "docId": "features/process-trace-chart"
           },
@@ -165,6 +171,12 @@
       "description": "A GitHub Action to track and monitor the resource metrics of your GitHub Action workflow runs. If the run is triggered via a Pull Request, it will create a comment on the connected PR with the results and/or publishes the results to the job summary. The action collects the following metrics:",
       "sidebar": "sidebar"
     },
+    "examples": {
+      "id": "examples",
+      "title": "🧭 Example Projects",
+      "description": "Below you can find the Foresight-ready repositories.",
+      "sidebar": "sidebar"
+    },
     "features/change-impact-analysis": {
       "id": "features/change-impact-analysis",
       "title": "Change impact analysis",
@@ -179,7 +191,7 @@
     },
     "features/process-trace-chart": {
       "id": "features/process-trace-chart",
-      "title": "Process Trace Chart",
+      "title": "Process trace chart",
       "description": "Process Trace Chart",
       "sidebar": "sidebar"
     },
