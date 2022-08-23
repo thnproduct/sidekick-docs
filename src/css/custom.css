@@ -80,6 +80,9 @@ p img{
 .navbar{
   @apply backdrop-blur-3xl bg-white/90 shadow-sm
 }
+.theme-doc-sidebar-item-link.theme-doc-sidebar-item-link-level-1 , .theme-doc-sidebar-item-category {
+  margin-bottom: 8px;
+}
 [data-theme='dark'] .navbar{
   @apply backdrop-blur-3xl bg-zinc-900/90 shadow-sm
 }
@@ -157,4 +160,10 @@ p img {
   font-style: italic;
   padding-bottom: 4px;
   color: #353535;
+}
+.github-banner{
+  @apply bg-gradient-to-r from-yellow-300 to-yellow-400 rounded-xl shadow-md shadow-yellow-600/10 p-8 mb-4 flex gap-8 items-center text-gray-800
+}
+.github-banner .cta{
+  @apply px-4 py-3 rounded-xl bg-purple-600 shadow-lg shadow-purple-500/40 text-center font-mono font-bold inline-block mt-2 text-white hover:bg-purple-500;
 }
