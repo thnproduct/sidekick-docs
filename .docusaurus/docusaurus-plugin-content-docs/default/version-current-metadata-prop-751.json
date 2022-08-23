@@ -93,6 +93,12 @@
             "label": "Test logs",
             "href": "/features/test-logs",
             "docId": "features/test-logs"
+          },
+          {
+            "type": "link",
+            "label": "Workflow metrics",
+            "href": "/features/workflow-metrics",
+            "docId": "features/workflow-metrics"
           }
         ]
       },
@@ -211,6 +217,12 @@
       "id": "features/test-runs",
       "title": "Test runs",
       "description": "Your tests will be captured when you trigger your CI build. You will see your runs will be listed under the Test Runs menu.",
+      "sidebar": "sidebar"
+    },
+    "features/workflow-metrics": {
+      "id": "features/workflow-metrics",
+      "title": "Workflow metrics",
+      "description": "Workflow metrics",
       "sidebar": "sidebar"
     },
     "features/workflow-runs": {

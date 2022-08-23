@@ -17,8 +17,8 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Test logs",
-    "permalink": "/features/test-logs"
+    "title": "Workflow metrics",
+    "permalink": "/features/workflow-metrics"
   },
   "next": {
     "title": "Detect failed tests",

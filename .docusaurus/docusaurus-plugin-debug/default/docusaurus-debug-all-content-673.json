@@ -228,8 +228,8 @@
                 "permalink": "/features/process-trace-chart"
               },
               "next": {
-                "title": "Identify flaky tests",
-                "permalink": "/use-cases/identify-flaky-tests"
+                "title": "Workflow metrics",
+                "permalink": "/features/workflow-metrics"
               }
             },
             {
@@ -257,6 +257,33 @@
               "next": {
                 "title": "Team management",
                 "permalink": "/features/team-management"
+              }
+            },
+            {
+              "unversionedId": "features/workflow-metrics",
+              "id": "features/workflow-metrics",
+              "title": "Workflow metrics",
+              "description": "Workflow metrics",
+              "source": "@site/docs/features/workflow-metrics.mdx",
+              "sourceDirName": "features",
+              "slug": "/features/workflow-metrics",
+              "permalink": "/features/workflow-metrics",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "title": "Workflow metrics",
+                "slug": "/features/workflow-metrics",
+                "sidebar_position": 7
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Test logs",
+                "permalink": "/features/test-logs"
+              },
+              "next": {
+                "title": "Identify flaky tests",
+                "permalink": "/use-cases/identify-flaky-tests"
               }
             },
             {
@@ -485,8 +512,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Test logs",
-                "permalink": "/features/test-logs"
+                "title": "Workflow metrics",
+                "permalink": "/features/workflow-metrics"
               },
               "next": {
                 "title": "Detect failed tests",
@@ -557,6 +584,10 @@
                   {
                     "type": "doc",
                     "id": "features/test-logs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "features/workflow-metrics"
                   }
                 ]
               },
