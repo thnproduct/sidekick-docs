@@ -127,7 +127,7 @@
             {
               "unversionedId": "features/process-trace-chart",
               "id": "features/process-trace-chart",
-              "title": "Process Trace Chart",
+              "title": "Process trace chart",
               "description": "Process Trace Chart",
               "source": "@site/docs/features/process-trace-chart.mdx",
               "sourceDirName": "features",
@@ -137,7 +137,7 @@
               "version": "current",
               "sidebarPosition": 6,
               "frontMatter": {
-                "title": "Process Trace Chart",
+                "title": "Process trace chart",
                 "slug": "/features/process-trace-chart",
                 "sidebar_position": 6
               },
@@ -174,7 +174,7 @@
                 "permalink": "/features/test-runs"
               },
               "next": {
-                "title": "Process Trace Chart",
+                "title": "Process trace chart",
                 "permalink": "/features/process-trace-chart"
               }
             },
@@ -197,7 +197,7 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Process Trace Chart",
+                "title": "Process trace chart",
                 "permalink": "/features/process-trace-chart"
               },
               "next": {

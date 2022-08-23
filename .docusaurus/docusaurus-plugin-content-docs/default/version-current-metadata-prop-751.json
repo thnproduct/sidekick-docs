@@ -78,7 +78,7 @@
           },
           {
             "type": "link",
-            "label": "Process Trace Chart",
+            "label": "Process trace chart",
             "href": "/features/process-trace-chart",
             "docId": "features/process-trace-chart"
           },
@@ -179,7 +179,7 @@
     },
     "features/process-trace-chart": {
       "id": "features/process-trace-chart",
-      "title": "Process Trace Chart",
+      "title": "Process trace chart",
       "description": "Process Trace Chart",
       "sidebar": "sidebar"
     },
