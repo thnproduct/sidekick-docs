@@ -154,7 +154,7 @@
             {
               "unversionedId": "features/process-trace-chart",
               "id": "features/process-trace-chart",
-              "title": "Process trace chart",
+              "title": "↳ Process trace chart",
               "description": "Process Trace Chart",
               "source": "@site/docs/features/process-trace-chart.mdx",
               "sourceDirName": "features",
@@ -162,20 +162,20 @@
               "permalink": "/features/process-trace-chart",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 6,
+              "sidebarPosition": 5,
               "frontMatter": {
-                "title": "Process trace chart",
+                "title": "↳ Process trace chart",
                 "slug": "/features/process-trace-chart",
-                "sidebar_position": 6
+                "sidebar_position": 5
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Team management",
-                "permalink": "/features/team-management"
+                "title": "↳ Workflow metrics",
+                "permalink": "/features/workflow-metrics"
               },
               "next": {
-                "title": "Test logs",
-                "permalink": "/features/test-logs"
+                "title": "Test runs",
+                "permalink": "/features/test-runs"
               }
             },
             {
@@ -189,26 +189,26 @@
               "permalink": "/features/team-management",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 5,
+              "sidebarPosition": 8,
               "frontMatter": {
                 "title": "Team management",
                 "slug": "/features/team-management",
-                "sidebar_position": 5
+                "sidebar_position": 8
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Test runs",
-                "permalink": "/features/test-runs"
+                "title": "↳ Test logs",
+                "permalink": "/features/test-logs"
               },
               "next": {
-                "title": "Process trace chart",
-                "permalink": "/features/process-trace-chart"
+                "title": "Identify flaky tests",
+                "permalink": "/use-cases/identify-flaky-tests"
               }
             },
             {
               "unversionedId": "features/test-logs",
               "id": "features/test-logs",
-              "title": "Test logs",
+              "title": "↳ Test logs",
               "description": "Logs are still one of the best ways of debugging your software. When it comes to writing log lines,",
               "source": "@site/docs/features/test-logs.mdx",
               "sourceDirName": "features",
@@ -216,20 +216,20 @@
               "permalink": "/features/test-logs",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 6,
+              "sidebarPosition": 7,
               "frontMatter": {
-                "title": "Test logs",
+                "title": "↳ Test logs",
                 "slug": "/features/test-logs",
-                "sidebar_position": 6
+                "sidebar_position": 7
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Process trace chart",
-                "permalink": "/features/process-trace-chart"
+                "title": "Test runs",
+                "permalink": "/features/test-runs"
               },
               "next": {
-                "title": "Workflow metrics",
-                "permalink": "/features/workflow-metrics"
+                "title": "Team management",
+                "permalink": "/features/team-management"
               }
             },
             {
@@ -243,26 +243,26 @@
               "permalink": "/features/test-runs",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
+              "sidebarPosition": 6,
               "frontMatter": {
                 "title": "Test runs",
                 "slug": "/features/test-runs",
-                "sidebar_position": 3
+                "sidebar_position": 6
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Workflow runs",
-                "permalink": "/features/workflow-runs"
+                "title": "↳ Process trace chart",
+                "permalink": "/features/process-trace-chart"
               },
               "next": {
-                "title": "Team management",
-                "permalink": "/features/team-management"
+                "title": "↳ Test logs",
+                "permalink": "/features/test-logs"
               }
             },
             {
               "unversionedId": "features/workflow-metrics",
               "id": "features/workflow-metrics",
-              "title": "Workflow metrics",
+              "title": "↳ Workflow metrics",
               "description": "Workflow metrics",
               "source": "@site/docs/features/workflow-metrics.mdx",
               "sourceDirName": "features",
@@ -270,20 +270,20 @@
               "permalink": "/features/workflow-metrics",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 7,
+              "sidebarPosition": 4,
               "frontMatter": {
-                "title": "Workflow metrics",
+                "title": "↳ Workflow metrics",
                 "slug": "/features/workflow-metrics",
-                "sidebar_position": 7
+                "sidebar_position": 4
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Test logs",
-                "permalink": "/features/test-logs"
+                "title": "Workflow runs",
+                "permalink": "/features/workflow-runs"
               },
               "next": {
-                "title": "Identify flaky tests",
-                "permalink": "/use-cases/identify-flaky-tests"
+                "title": "↳ Process trace chart",
+                "permalink": "/features/process-trace-chart"
               }
             },
             {
@@ -297,11 +297,11 @@
               "permalink": "/features/workflow-runs",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 3,
               "frontMatter": {
                 "title": "Workflow runs",
                 "slug": "/features/workflow-runs",
-                "sidebar_position": 2
+                "sidebar_position": 3
               },
               "sidebar": "sidebar",
               "previous": {
@@ -309,8 +309,8 @@
                 "permalink": "/features/analyze-code-change-impact"
               },
               "next": {
-                "title": "Test runs",
-                "permalink": "/features/test-runs"
+                "title": "↳ Workflow metrics",
+                "permalink": "/features/workflow-metrics"
               }
             },
             {
@@ -512,8 +512,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Workflow metrics",
-                "permalink": "/features/workflow-metrics"
+                "title": "Team management",
+                "permalink": "/features/team-management"
               },
               "next": {
                 "title": "Detect failed tests",
@@ -571,11 +571,7 @@
                   },
                   {
                     "type": "doc",
-                    "id": "features/test-runs"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "features/team-management"
+                    "id": "features/workflow-metrics"
                   },
                   {
                     "type": "doc",
@@ -583,11 +579,15 @@
                   },
                   {
                     "type": "doc",
+                    "id": "features/test-runs"
+                  },
+                  {
+                    "type": "doc",
                     "id": "features/test-logs"
                   },
                   {
                     "type": "doc",
-                    "id": "features/workflow-metrics"
+                    "id": "features/team-management"
                   }
                 ]
               },

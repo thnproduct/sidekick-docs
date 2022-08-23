@@ -9,19 +9,19 @@
   "permalink": "/features/team-management",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 5,
+  "sidebarPosition": 8,
   "frontMatter": {
     "title": "Team management",
     "slug": "/features/team-management",
-    "sidebar_position": 5
+    "sidebar_position": 8
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Test runs",
-    "permalink": "/features/test-runs"
+    "title": "↳ Test logs",
+    "permalink": "/features/test-logs"
   },
   "next": {
-    "title": "Process trace chart",
-    "permalink": "/features/process-trace-chart"
+    "title": "Identify flaky tests",
+    "permalink": "/use-cases/identify-flaky-tests"
   }
 }

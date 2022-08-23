@@ -72,33 +72,33 @@
           },
           {
             "type": "link",
+            "label": "↳ Workflow metrics",
+            "href": "/features/workflow-metrics",
+            "docId": "features/workflow-metrics"
+          },
+          {
+            "type": "link",
+            "label": "↳ Process trace chart",
+            "href": "/features/process-trace-chart",
+            "docId": "features/process-trace-chart"
+          },
+          {
+            "type": "link",
             "label": "Test runs",
             "href": "/features/test-runs",
             "docId": "features/test-runs"
           },
           {
             "type": "link",
-            "label": "Team management",
-            "href": "/features/team-management",
-            "docId": "features/team-management"
-          },
-          {
-            "type": "link",
-            "label": "Process trace chart",
-            "href": "/features/process-trace-chart",
-            "docId": "features/process-trace-chart"
-          },
-          {
-            "type": "link",
-            "label": "Test logs",
+            "label": "↳ Test logs",
             "href": "/features/test-logs",
             "docId": "features/test-logs"
           },
           {
             "type": "link",
-            "label": "Workflow metrics",
-            "href": "/features/workflow-metrics",
-            "docId": "features/workflow-metrics"
+            "label": "Team management",
+            "href": "/features/team-management",
+            "docId": "features/team-management"
           }
         ]
       },
@@ -197,7 +197,7 @@
     },
     "features/process-trace-chart": {
       "id": "features/process-trace-chart",
-      "title": "Process trace chart",
+      "title": "↳ Process trace chart",
       "description": "Process Trace Chart",
       "sidebar": "sidebar"
     },
@@ -209,7 +209,7 @@
     },
     "features/test-logs": {
       "id": "features/test-logs",
-      "title": "Test logs",
+      "title": "↳ Test logs",
       "description": "Logs are still one of the best ways of debugging your software. When it comes to writing log lines,",
       "sidebar": "sidebar"
     },
@@ -221,7 +221,7 @@
     },
     "features/workflow-metrics": {
       "id": "features/workflow-metrics",
-      "title": "Workflow metrics",
+      "title": "↳ Workflow metrics",
       "description": "Workflow metrics",
       "sidebar": "sidebar"
     },

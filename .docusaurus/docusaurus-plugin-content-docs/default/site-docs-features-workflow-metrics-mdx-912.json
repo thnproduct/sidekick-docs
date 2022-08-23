@@ -1,7 +1,7 @@
 {
   "unversionedId": "features/workflow-metrics",
   "id": "features/workflow-metrics",
-  "title": "Workflow metrics",
+  "title": "↳ Workflow metrics",
   "description": "Workflow metrics",
   "source": "@site/docs/features/workflow-metrics.mdx",
   "sourceDirName": "features",
@@ -9,19 +9,19 @@
   "permalink": "/features/workflow-metrics",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 7,
+  "sidebarPosition": 4,
   "frontMatter": {
-    "title": "Workflow metrics",
+    "title": "↳ Workflow metrics",
     "slug": "/features/workflow-metrics",
-    "sidebar_position": 7
+    "sidebar_position": 4
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Test logs",
-    "permalink": "/features/test-logs"
+    "title": "Workflow runs",
+    "permalink": "/features/workflow-runs"
   },
   "next": {
-    "title": "Identify flaky tests",
-    "permalink": "/use-cases/identify-flaky-tests"
+    "title": "↳ Process trace chart",
+    "permalink": "/features/process-trace-chart"
   }
 }

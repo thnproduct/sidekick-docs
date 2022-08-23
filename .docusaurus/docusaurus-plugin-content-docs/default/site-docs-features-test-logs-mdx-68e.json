@@ -1,7 +1,7 @@
 {
   "unversionedId": "features/test-logs",
   "id": "features/test-logs",
-  "title": "Test logs",
+  "title": "↳ Test logs",
   "description": "Logs are still one of the best ways of debugging your software. When it comes to writing log lines,",
   "source": "@site/docs/features/test-logs.mdx",
   "sourceDirName": "features",
@@ -9,19 +9,19 @@
   "permalink": "/features/test-logs",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 6,
+  "sidebarPosition": 7,
   "frontMatter": {
-    "title": "Test logs",
+    "title": "↳ Test logs",
     "slug": "/features/test-logs",
-    "sidebar_position": 6
+    "sidebar_position": 7
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Process trace chart",
-    "permalink": "/features/process-trace-chart"
+    "title": "Test runs",
+    "permalink": "/features/test-runs"
   },
   "next": {
-    "title": "Workflow metrics",
-    "permalink": "/features/workflow-metrics"
+    "title": "Team management",
+    "permalink": "/features/team-management"
   }
 }

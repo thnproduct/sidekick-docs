@@ -55,7 +55,22 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: 'Docs',
-          }
+          },
+          {
+            href: 'https://foresight.thundra.live',
+            label: 'Playground',
+            position: 'left',
+          },
+          {
+            href: 'https://runforesight.com/pricing',
+            label: 'Pricing',
+            position: 'left',
+          },
+          {
+            href: 'https://discord.gg/bCtCmzP2ge',
+            label: 'Discord',
+            position: 'right',
+          },
         ],
       },
       footer: {

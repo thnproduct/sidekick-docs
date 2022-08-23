@@ -9,19 +9,19 @@
   "permalink": "/features/test-runs",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 3,
+  "sidebarPosition": 6,
   "frontMatter": {
     "title": "Test runs",
     "slug": "/features/test-runs",
-    "sidebar_position": 3
+    "sidebar_position": 6
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Workflow runs",
-    "permalink": "/features/workflow-runs"
+    "title": "↳ Process trace chart",
+    "permalink": "/features/process-trace-chart"
   },
   "next": {
-    "title": "Team management",
-    "permalink": "/features/team-management"
+    "title": "↳ Test logs",
+    "permalink": "/features/test-logs"
   }
 }

@@ -9,11 +9,11 @@
   "permalink": "/features/workflow-runs",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
+  "sidebarPosition": 3,
   "frontMatter": {
     "title": "Workflow runs",
     "slug": "/features/workflow-runs",
-    "sidebar_position": 2
+    "sidebar_position": 3
   },
   "sidebar": "sidebar",
   "previous": {
@@ -21,7 +21,7 @@
     "permalink": "/features/analyze-code-change-impact"
   },
   "next": {
-    "title": "Test runs",
-    "permalink": "/features/test-runs"
+    "title": "↳ Workflow metrics",
+    "permalink": "/features/workflow-metrics"
   }
 }

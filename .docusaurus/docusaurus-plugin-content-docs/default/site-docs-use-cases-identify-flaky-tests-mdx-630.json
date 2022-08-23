@@ -17,8 +17,8 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Workflow metrics",
-    "permalink": "/features/workflow-metrics"
+    "title": "Team management",
+    "permalink": "/features/team-management"
   },
   "next": {
     "title": "Detect failed tests",
