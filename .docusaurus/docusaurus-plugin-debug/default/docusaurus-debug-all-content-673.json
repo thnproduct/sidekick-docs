@@ -71,6 +71,33 @@
               }
             },
             {
+              "unversionedId": "examples",
+              "id": "examples",
+              "title": "🧭 Example Projects",
+              "description": "Below you can find the Foresight-ready repositories.",
+              "source": "@site/docs/examples.mdx",
+              "sourceDirName": ".",
+              "slug": "/examples",
+              "permalink": "/examples",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "🧭 Example Projects",
+                "sidebar_position": 2,
+                "slug": "/examples"
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "👋🏻 Introduction",
+                "permalink": "/"
+              },
+              "next": {
+                "title": "⚡️ Quick configuration",
+                "permalink": "/step-by-step-guide"
+              }
+            },
+            {
               "unversionedId": "features/change-impact-analysis",
               "id": "features/change-impact-analysis",
               "title": "Change impact analysis",
@@ -201,8 +228,8 @@
                 "permalink": "/features/process-trace-chart"
               },
               "next": {
-                "title": "Identify flaky tests",
-                "permalink": "/use-cases/identify-flaky-tests"
+                "title": "Workflow metrics",
+                "permalink": "/features/workflow-metrics"
               }
             },
             {
@@ -230,6 +257,33 @@
               "next": {
                 "title": "Team management",
                 "permalink": "/features/team-management"
+              }
+            },
+            {
+              "unversionedId": "features/workflow-metrics",
+              "id": "features/workflow-metrics",
+              "title": "Workflow metrics",
+              "description": "Workflow metrics",
+              "source": "@site/docs/features/workflow-metrics.mdx",
+              "sourceDirName": "features",
+              "slug": "/features/workflow-metrics",
+              "permalink": "/features/workflow-metrics",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "title": "Workflow metrics",
+                "slug": "/features/workflow-metrics",
+                "sidebar_position": 7
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Test logs",
+                "permalink": "/features/test-logs"
+              },
+              "next": {
+                "title": "Identify flaky tests",
+                "permalink": "/use-cases/identify-flaky-tests"
               }
             },
             {
@@ -304,8 +358,8 @@
               },
               "sidebar": "sidebar",
               "next": {
-                "title": "⚡️ Quick configuration",
-                "permalink": "/step-by-step-guide"
+                "title": "🧭 Example Projects",
+                "permalink": "/examples"
               }
             },
             {
@@ -396,16 +450,16 @@
               "permalink": "/step-by-step-guide",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 3,
               "frontMatter": {
                 "title": "⚡️ Quick configuration",
-                "sidebar_position": 2,
+                "sidebar_position": 3,
                 "slug": "/step-by-step-guide"
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "👋🏻 Introduction",
-                "permalink": "/"
+                "title": "🧭 Example Projects",
+                "permalink": "/examples"
               },
               "next": {
                 "title": "Test kit",
@@ -458,8 +512,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Test logs",
-                "permalink": "/features/test-logs"
+                "title": "Workflow metrics",
+                "permalink": "/features/workflow-metrics"
               },
               "next": {
                 "title": "Detect failed tests",
@@ -472,6 +526,10 @@
               {
                 "type": "doc",
                 "id": "intro"
+              },
+              {
+                "type": "doc",
+                "id": "examples"
               },
               {
                 "type": "doc",
@@ -526,6 +584,10 @@
                   {
                     "type": "doc",
                     "id": "features/test-logs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "features/workflow-metrics"
                   }
                 ]
               },

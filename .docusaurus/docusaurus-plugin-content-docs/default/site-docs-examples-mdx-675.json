@@ -1,26 +1,27 @@
 {
   "unversionedId": "examples",
   "id": "examples",
-  "title": "Examples",
-  "description": "You can explore Foresight with our demo repositories:",
+  "title": "🧭 Example Projects",
+  "description": "Below you can find the Foresight-ready repositories.",
   "source": "@site/docs/examples.mdx",
   "sourceDirName": ".",
   "slug": "/examples",
   "permalink": "/examples",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 3,
+  "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar_position": 3,
+    "title": "🧭 Example Projects",
+    "sidebar_position": 2,
     "slug": "/examples"
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Workflow kit",
-    "permalink": "/advanced-configuration/workflow-kit"
+    "title": "👋🏻 Introduction",
+    "permalink": "/"
   },
   "next": {
-    "title": "Identify flaky tests",
-    "permalink": "/use-cases/identify-flaky-tests"
+    "title": "⚡️ Quick configuration",
+    "permalink": "/step-by-step-guide"
   }
 }

@@ -21,6 +21,11 @@
               "sidebar": "sidebar"
             },
             {
+              "id": "examples",
+              "path": "/examples",
+              "sidebar": "sidebar"
+            },
+            {
               "id": "features/change-impact-analysis",
               "path": "/features/analyze-code-change-impact",
               "sidebar": "sidebar"
@@ -48,6 +53,11 @@
             {
               "id": "features/test-runs",
               "path": "/features/test-runs",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "features/workflow-metrics",
+              "path": "/features/workflow-metrics",
               "sidebar": "sidebar"
             },
             {
