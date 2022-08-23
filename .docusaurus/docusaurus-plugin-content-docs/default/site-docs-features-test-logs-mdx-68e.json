@@ -21,7 +21,7 @@
     "permalink": "/features/process-trace-chart"
   },
   "next": {
-    "title": "Identify flaky tests",
-    "permalink": "/use-cases/identify-flaky-tests"
+    "title": "Workflow metrics",
+    "permalink": "/features/workflow-metrics"
   }
 }

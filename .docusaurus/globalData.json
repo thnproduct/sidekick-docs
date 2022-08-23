@@ -56,6 +56,11 @@
               "sidebar": "sidebar"
             },
             {
+              "id": "features/workflow-metrics",
+              "path": "/features/workflow-metrics",
+              "sidebar": "sidebar"
+            },
+            {
               "id": "features/workflow-runs",
               "path": "/features/workflow-runs",
               "sidebar": "sidebar"

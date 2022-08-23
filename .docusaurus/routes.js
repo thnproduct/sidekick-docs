@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','9a1'),
+    component: ComponentCreator('/','eeb'),
     routes: [
       {
         path: '/',
@@ -159,6 +159,12 @@ export default [
       {
         path: '/features/test-runs',
         component: ComponentCreator('/features/test-runs','01c'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/features/workflow-metrics',
+        component: ComponentCreator('/features/workflow-metrics','9a5'),
         exact: true,
         'sidebar': "sidebar"
       },
