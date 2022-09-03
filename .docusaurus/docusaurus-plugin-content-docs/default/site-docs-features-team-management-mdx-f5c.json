@@ -21,7 +21,7 @@
     "permalink": "/features/test-logs"
   },
   "next": {
-    "title": "Identify flaky tests",
-    "permalink": "/use-cases/identify-flaky-tests"
+    "title": "Monitor GitHub Actions workflows",
+    "permalink": "/use-cases/monitor-github-actions"
   }
 }

@@ -110,6 +110,12 @@
         "items": [
           {
             "type": "link",
+            "label": "Monitor GitHub Actions workflows",
+            "href": "/use-cases/monitor-github-actions",
+            "docId": "use-cases/monitor-github-actions"
+          },
+          {
+            "type": "link",
             "label": "Identify flaky tests",
             "href": "/use-cases/identify-flaky-tests",
             "docId": "use-cases/identify-flaky-tests"
@@ -277,6 +283,12 @@
       "id": "use-cases/identify-flaky-tests",
       "title": "Identify flaky tests",
       "description": "What is a Flaky test?",
+      "sidebar": "sidebar"
+    },
+    "use-cases/monitor-github-actions": {
+      "id": "use-cases/monitor-github-actions",
+      "title": "Monitor GitHub Actions workflows",
+      "description": "As the number of managed repositories and workflows grows for the profound engineering teams,",
       "sidebar": "sidebar"
     }
   }

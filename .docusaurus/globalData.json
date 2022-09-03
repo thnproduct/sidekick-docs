@@ -104,6 +104,11 @@
               "id": "use-cases/identify-flaky-tests",
               "path": "/use-cases/identify-flaky-tests",
               "sidebar": "sidebar"
+            },
+            {
+              "id": "use-cases/monitor-github-actions",
+              "path": "/use-cases/monitor-github-actions",
+              "sidebar": "sidebar"
             }
           ],
           "sidebars": {

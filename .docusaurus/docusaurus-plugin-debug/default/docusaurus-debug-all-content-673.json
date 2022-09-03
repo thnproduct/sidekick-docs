@@ -201,8 +201,8 @@
                 "permalink": "/features/test-logs"
               },
               "next": {
-                "title": "Identify flaky tests",
-                "permalink": "/use-cases/identify-flaky-tests"
+                "title": "Monitor GitHub Actions workflows",
+                "permalink": "/use-cases/monitor-github-actions"
               }
             },
             {
@@ -477,11 +477,11 @@
               "permalink": "/use-cases/detect-failed-tests",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 4,
+              "sidebarPosition": 3,
               "frontMatter": {
                 "title": "Detect failed tests",
                 "slug": "/use-cases/detect-failed-tests",
-                "sidebar_position": 4
+                "sidebar_position": 3
               },
               "sidebar": "sidebar",
               "previous": {
@@ -504,11 +504,38 @@
               "permalink": "/use-cases/identify-flaky-tests",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
+              "sidebarPosition": 2,
               "frontMatter": {
                 "title": "Identify flaky tests",
                 "slug": "/use-cases/identify-flaky-tests",
-                "sidebar_position": 3
+                "sidebar_position": 2
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Monitor GitHub Actions workflows",
+                "permalink": "/use-cases/monitor-github-actions"
+              },
+              "next": {
+                "title": "Detect failed tests",
+                "permalink": "/use-cases/detect-failed-tests"
+              }
+            },
+            {
+              "unversionedId": "use-cases/monitor-github-actions",
+              "id": "use-cases/monitor-github-actions",
+              "title": "Monitor GitHub Actions workflows",
+              "description": "As the number of managed repositories and workflows grows for the profound engineering teams,",
+              "source": "@site/docs/use-cases/monitor-github-actions.mdx",
+              "sourceDirName": "use-cases",
+              "slug": "/use-cases/monitor-github-actions",
+              "permalink": "/use-cases/monitor-github-actions",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Monitor GitHub Actions workflows",
+                "slug": "/use-cases/monitor-github-actions",
+                "sidebar_position": 1
               },
               "sidebar": "sidebar",
               "previous": {
@@ -516,8 +543,8 @@
                 "permalink": "/features/team-management"
               },
               "next": {
-                "title": "Detect failed tests",
-                "permalink": "/use-cases/detect-failed-tests"
+                "title": "Identify flaky tests",
+                "permalink": "/use-cases/identify-flaky-tests"
               }
             }
           ],
@@ -597,6 +624,10 @@
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
+                  {
+                    "type": "doc",
+                    "id": "use-cases/monitor-github-actions"
+                  },
                   {
                     "type": "doc",
                     "id": "use-cases/identify-flaky-tests"

@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','eeb'),
+    component: ComponentCreator('/','8d4'),
     routes: [
       {
         path: '/',
@@ -213,6 +213,12 @@ export default [
       {
         path: '/use-cases/identify-flaky-tests',
         component: ComponentCreator('/use-cases/identify-flaky-tests','3c0'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/use-cases/monitor-github-actions',
+        component: ComponentCreator('/use-cases/monitor-github-actions','4fc'),
         exact: true,
         'sidebar': "sidebar"
       }

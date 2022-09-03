@@ -9,16 +9,16 @@
   "permalink": "/use-cases/identify-flaky-tests",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 3,
+  "sidebarPosition": 2,
   "frontMatter": {
     "title": "Identify flaky tests",
     "slug": "/use-cases/identify-flaky-tests",
-    "sidebar_position": 3
+    "sidebar_position": 2
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Team management",
-    "permalink": "/features/team-management"
+    "title": "Monitor GitHub Actions workflows",
+    "permalink": "/use-cases/monitor-github-actions"
   },
   "next": {
     "title": "Detect failed tests",

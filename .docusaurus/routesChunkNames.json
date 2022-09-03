@@ -129,7 +129,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/-eeb": {
+  "/-8d4": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---935-fcf"
   },
@@ -175,7 +175,7 @@
   },
   "/features/workflow-metrics-9a5": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---features-process-trace-chart-912-601"
+    "content": "content---features-workflow-metrics-912-f01"
   },
   "/features/workflow-runs-c2d": {
     "component": "component---theme-doc-item-178-a40",
@@ -208,5 +208,9 @@
   "/use-cases/identify-flaky-tests-3c0": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---use-cases-identify-flaky-tests-630-fcf"
+  },
+  "/use-cases/monitor-github-actions-4fc": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---use-cases-monitor-github-actionsafa-b5b"
   }
 }
