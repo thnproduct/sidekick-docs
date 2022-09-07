@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/nightOwl');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Foresight',
-  tagline: 'CI Monitoring for GitHub Actions',
-  url: 'https://foresight.docs.thundra.io',
+  tagline: 'Foresight provides full visibility and deep insights into the health and performance of your tests and CI/CD pipelines.',
+  url: 'https://docs.runforesight.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
