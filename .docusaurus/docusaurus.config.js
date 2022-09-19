@@ -5,8 +5,8 @@ Modify the docusaurus.config.js file at your site's root instead.
 */
 export default {
   "title": "Foresight",
-  "tagline": "CI Monitoring for GitHub Actions",
-  "url": "https://foresight.docs.thundra.io",
+  "tagline": "Foresight provides full visibility and deep insights into the health and performance of your tests and CI/CD pipelines.",
+  "url": "https://docs.runforesight.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
