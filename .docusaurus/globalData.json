@@ -41,6 +41,11 @@
               "sidebar": "sidebar"
             },
             {
+              "id": "features/rules",
+              "path": "/features/rules",
+              "sidebar": "sidebar"
+            },
+            {
               "id": "features/team-management",
               "path": "/features/team-management",
               "sidebar": "sidebar"
