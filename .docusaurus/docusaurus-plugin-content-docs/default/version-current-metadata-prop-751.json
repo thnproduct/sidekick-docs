@@ -96,6 +96,12 @@
           },
           {
             "type": "link",
+            "label": "Rules",
+            "href": "/features/rules",
+            "docId": "features/rules"
+          },
+          {
+            "type": "link",
             "label": "Team management",
             "href": "/features/team-management",
             "docId": "features/team-management"
@@ -205,6 +211,12 @@
       "id": "features/process-trace-chart",
       "title": "↳ Process trace chart",
       "description": "Process Trace Chart",
+      "sidebar": "sidebar"
+    },
+    "features/rules": {
+      "id": "features/rules",
+      "title": "Rules",
+      "description": "Rules lets you set up robust and customizable policies for your workflows and tests. Receive notifications for fluctuations",
       "sidebar": "sidebar"
     },
     "features/team-management": {
