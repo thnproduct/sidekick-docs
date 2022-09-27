@@ -198,7 +198,7 @@
     "features/change-impact-analysis": {
       "id": "features/change-impact-analysis",
       "title": "Change impact analysis",
-      "description": "This feature is currently under private beta.",
+      "description": "Foresight correlates the changes to the codebase with the test coverage reports to determine",
       "sidebar": "sidebar"
     },
     "features/highlights": {
