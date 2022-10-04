@@ -57,7 +57,7 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://foresight.thundra.live',
+            href: 'https://app.runforesight.live',
             label: 'Playground',
             position: 'left',
           },
