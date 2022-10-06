@@ -57,6 +57,11 @@ const config = {
             label: 'Docs',
           },
           {
+            href: 'https://changelog.runforesight.com',
+            label: 'Changelog',
+            position: 'left',
+          },
+          {
             href: 'https://app.runforesight.live',
             label: 'Playground',
             position: 'left',

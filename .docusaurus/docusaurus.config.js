@@ -46,7 +46,12 @@ export default {
           "label": "Docs"
         },
         {
-          "href": "https://foresight.thundra.live",
+          "href": "https://changelog.runforesight.com",
+          "label": "Changelog",
+          "position": "left"
+        },
+        {
+          "href": "https://app.runforesight.live",
           "label": "Playground",
           "position": "left"
         },

@@ -114,6 +114,11 @@
               "id": "use-cases/monitor-github-actions",
               "path": "/use-cases/monitor-github-actions",
               "sidebar": "sidebar"
+            },
+            {
+              "id": "use-cases/monitor-github-actions copy",
+              "path": "/use-cases/the-cost-of-missing-critical-ci-metrics",
+              "sidebar": "sidebar"
             }
           ],
           "sidebars": {

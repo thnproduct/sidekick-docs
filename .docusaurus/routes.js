@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','1fa'),
+    component: ComponentCreator('/','d0a'),
     routes: [
       {
         path: '/',
@@ -225,6 +225,12 @@ export default [
       {
         path: '/use-cases/monitor-github-actions',
         component: ComponentCreator('/use-cases/monitor-github-actions','4fc'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/use-cases/the-cost-of-missing-critical-ci-metrics',
+        component: ComponentCreator('/use-cases/the-cost-of-missing-critical-ci-metrics','492'),
         exact: true,
         'sidebar': "sidebar"
       }

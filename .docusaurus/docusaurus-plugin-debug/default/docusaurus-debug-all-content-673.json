@@ -228,8 +228,8 @@
                 "permalink": "/features/rules"
               },
               "next": {
-                "title": "Monitor GitHub Actions workflows",
-                "permalink": "/use-cases/monitor-github-actions"
+                "title": "The cost of missing critical CI metrics",
+                "permalink": "/use-cases/the-cost-of-missing-critical-ci-metrics"
               }
             },
             {
@@ -566,12 +566,39 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Team management",
-                "permalink": "/features/team-management"
+                "title": "The cost of missing critical CI metrics",
+                "permalink": "/use-cases/the-cost-of-missing-critical-ci-metrics"
               },
               "next": {
                 "title": "Identify flaky tests",
                 "permalink": "/use-cases/identify-flaky-tests"
+              }
+            },
+            {
+              "unversionedId": "use-cases/monitor-github-actions copy",
+              "id": "use-cases/monitor-github-actions copy",
+              "title": "The cost of missing critical CI metrics",
+              "description": "<iframe src=\"https://pitch.com/embed/38207244-8ed7-4607-95e5-ed4aa56068bb\" allow=\"fullscreen\"",
+              "source": "@site/docs/use-cases/monitor-github-actions copy.mdx",
+              "sourceDirName": "use-cases",
+              "slug": "/use-cases/the-cost-of-missing-critical-ci-metrics",
+              "permalink": "/use-cases/the-cost-of-missing-critical-ci-metrics",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "The cost of missing critical CI metrics",
+                "slug": "/use-cases/the-cost-of-missing-critical-ci-metrics",
+                "sidebar_position": 1
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Team management",
+                "permalink": "/features/team-management"
+              },
+              "next": {
+                "title": "Monitor GitHub Actions workflows",
+                "permalink": "/use-cases/monitor-github-actions"
               }
             }
           ],
@@ -655,6 +682,10 @@
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
+                  {
+                    "type": "doc",
+                    "id": "use-cases/monitor-github-actions copy"
+                  },
                   {
                     "type": "doc",
                     "id": "use-cases/monitor-github-actions"
