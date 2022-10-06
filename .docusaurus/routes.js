@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','d0a'),
+    component: ComponentCreator('/','8f0'),
     routes: [
       {
         path: '/',
@@ -230,7 +230,7 @@ export default [
       },
       {
         path: '/use-cases/the-cost-of-missing-critical-ci-metrics',
-        component: ComponentCreator('/use-cases/the-cost-of-missing-critical-ci-metrics','492'),
+        component: ComponentCreator('/use-cases/the-cost-of-missing-critical-ci-metrics','68c'),
         exact: true,
         'sidebar': "sidebar"
       }

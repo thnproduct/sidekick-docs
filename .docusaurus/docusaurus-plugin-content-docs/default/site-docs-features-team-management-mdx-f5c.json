@@ -21,7 +21,7 @@
     "permalink": "/features/rules"
   },
   "next": {
-    "title": "The cost of missing critical CI metrics",
-    "permalink": "/use-cases/the-cost-of-missing-critical-ci-metrics"
+    "title": "Monitor GitHub Actions workflows",
+    "permalink": "/use-cases/monitor-github-actions"
   }
 }

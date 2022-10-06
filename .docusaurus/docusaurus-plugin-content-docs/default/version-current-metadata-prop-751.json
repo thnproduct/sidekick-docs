@@ -116,15 +116,15 @@
         "items": [
           {
             "type": "link",
-            "label": "The cost of missing critical CI metrics",
-            "href": "/use-cases/the-cost-of-missing-critical-ci-metrics",
-            "docId": "use-cases/monitor-github-actions copy"
-          },
-          {
-            "type": "link",
             "label": "Monitor GitHub Actions workflows",
             "href": "/use-cases/monitor-github-actions",
             "docId": "use-cases/monitor-github-actions"
+          },
+          {
+            "type": "link",
+            "label": "The cost of missing critical CI metrics",
+            "href": "/use-cases/the-cost-of-missing-critical-ci-metrics",
+            "docId": "use-cases/the-cost-of-missing-critical-ci-metrics"
           },
           {
             "type": "link",
@@ -309,8 +309,8 @@
       "description": "As the number of managed repositories and workflows grows for the profound engineering teams,",
       "sidebar": "sidebar"
     },
-    "use-cases/monitor-github-actions copy": {
-      "id": "use-cases/monitor-github-actions copy",
+    "use-cases/the-cost-of-missing-critical-ci-metrics": {
+      "id": "use-cases/the-cost-of-missing-critical-ci-metrics",
       "title": "The cost of missing critical CI metrics",
       "description": "<iframe src=\"https://pitch.com/embed/38207244-8ed7-4607-95e5-ed4aa56068bb\" allow=\"fullscreen\"",
       "sidebar": "sidebar"

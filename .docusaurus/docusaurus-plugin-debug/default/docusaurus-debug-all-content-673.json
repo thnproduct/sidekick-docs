@@ -228,8 +228,8 @@
                 "permalink": "/features/rules"
               },
               "next": {
-                "title": "The cost of missing critical CI metrics",
-                "permalink": "/use-cases/the-cost-of-missing-critical-ci-metrics"
+                "title": "Monitor GitHub Actions workflows",
+                "permalink": "/use-cases/monitor-github-actions"
               }
             },
             {
@@ -539,8 +539,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Monitor GitHub Actions workflows",
-                "permalink": "/use-cases/monitor-github-actions"
+                "title": "The cost of missing critical CI metrics",
+                "permalink": "/use-cases/the-cost-of-missing-critical-ci-metrics"
               },
               "next": {
                 "title": "Detect failed tests",
@@ -566,20 +566,20 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "The cost of missing critical CI metrics",
-                "permalink": "/use-cases/the-cost-of-missing-critical-ci-metrics"
+                "title": "Team management",
+                "permalink": "/features/team-management"
               },
               "next": {
-                "title": "Identify flaky tests",
-                "permalink": "/use-cases/identify-flaky-tests"
+                "title": "The cost of missing critical CI metrics",
+                "permalink": "/use-cases/the-cost-of-missing-critical-ci-metrics"
               }
             },
             {
-              "unversionedId": "use-cases/monitor-github-actions copy",
-              "id": "use-cases/monitor-github-actions copy",
+              "unversionedId": "use-cases/the-cost-of-missing-critical-ci-metrics",
+              "id": "use-cases/the-cost-of-missing-critical-ci-metrics",
               "title": "The cost of missing critical CI metrics",
               "description": "<iframe src=\"https://pitch.com/embed/38207244-8ed7-4607-95e5-ed4aa56068bb\" allow=\"fullscreen\"",
-              "source": "@site/docs/use-cases/monitor-github-actions copy.mdx",
+              "source": "@site/docs/use-cases/the-cost-of-missing-critical-ci-metrics.mdx",
               "sourceDirName": "use-cases",
               "slug": "/use-cases/the-cost-of-missing-critical-ci-metrics",
               "permalink": "/use-cases/the-cost-of-missing-critical-ci-metrics",
@@ -593,12 +593,12 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Team management",
-                "permalink": "/features/team-management"
-              },
-              "next": {
                 "title": "Monitor GitHub Actions workflows",
                 "permalink": "/use-cases/monitor-github-actions"
+              },
+              "next": {
+                "title": "Identify flaky tests",
+                "permalink": "/use-cases/identify-flaky-tests"
               }
             }
           ],
@@ -684,11 +684,11 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "use-cases/monitor-github-actions copy"
+                    "id": "use-cases/monitor-github-actions"
                   },
                   {
                     "type": "doc",
-                    "id": "use-cases/monitor-github-actions"
+                    "id": "use-cases/the-cost-of-missing-critical-ci-metrics"
                   },
                   {
                     "type": "doc",

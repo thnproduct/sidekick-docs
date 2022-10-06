@@ -57,6 +57,12 @@ const config = {
             label: 'Docs',
           },
           {
+            href: 'https://app.runforesight.com/signup',
+            label: 'Get Started',
+            position: 'right',
+            className: 'navbar-get-started',
+          },
+          {
             href: 'https://changelog.runforesight.com',
             label: 'Changelog',
             position: 'left',

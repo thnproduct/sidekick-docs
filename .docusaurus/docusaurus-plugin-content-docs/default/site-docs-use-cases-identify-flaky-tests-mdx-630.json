@@ -17,8 +17,8 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Monitor GitHub Actions workflows",
-    "permalink": "/use-cases/monitor-github-actions"
+    "title": "The cost of missing critical CI metrics",
+    "permalink": "/use-cases/the-cost-of-missing-critical-ci-metrics"
   },
   "next": {
     "title": "Detect failed tests",
