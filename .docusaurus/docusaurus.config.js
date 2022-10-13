@@ -383,7 +383,8 @@ export default {
   "plugins": [
     "./plugins/tailwind-config.js",
     "./plugins/heap.js",
-    "./plugins/optimize.js"
+    "./plugins/optimize.js",
+    "./plugins/gtm.js"
   ],
   "baseUrlIssueBanner": true,
   "i18n": {
