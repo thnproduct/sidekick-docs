@@ -382,7 +382,8 @@ export default {
   },
   "plugins": [
     "./plugins/tailwind-config.js",
-    "./plugins/heap.js"
+    "./plugins/heap.js",
+    "./plugins/optimize.js"
   ],
   "baseUrlIssueBanner": true,
   "i18n": {

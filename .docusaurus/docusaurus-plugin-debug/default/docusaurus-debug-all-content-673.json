@@ -1114,5 +1114,8 @@
   },
   "add-heap": {
     "default": null
+  },
+  "add-optimize": {
+    "default": null
   }
 }

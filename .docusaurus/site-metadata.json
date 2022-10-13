@@ -32,6 +32,9 @@
     },
     "add-heap": {
       "type": "project"
+    },
+    "add-optimize": {
+      "type": "project"
     }
   }
 }
