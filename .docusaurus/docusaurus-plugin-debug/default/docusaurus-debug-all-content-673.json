@@ -74,7 +74,7 @@
               "unversionedId": "examples",
               "id": "examples",
               "title": "🧭 Example Projects",
-              "description": "Below you can find the Foresight-ready repositories.",
+              "description": "Below you can find the Foresight-ready repositories. Learn how to use them",
               "source": "@site/docs/examples.mdx",
               "sourceDirName": ".",
               "slug": "/examples",
