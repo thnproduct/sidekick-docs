@@ -45,3 +45,17 @@ Foresight calculates how your test code is performing. Foresight gathers the pur
 ![Successful Tests Badge](/img/others/successful-badge.png)
 
 Successful Tests badge displays the ratio of successful tests of the latest test run
+
+## Configuring your branch and workflow
+If you add the branch and the workflow query at the end of your badge url, you'll 
+get the specific information on your badges.
+```
+&branch=<your-branch-info>&workflowName=<your-workflow-name>
+```
+
+**Example usage**
+```
+https://api-public.service.runforesight.com/api/v1/badge/success?repoId=a2b01877-ab45-49a9-8686-3de3b1df682f&branch=main&workflowName=Keycloak%20CI
+```
+
+[![image](https://api-public.service.runforesight.com/api/v1/badge/success?repoId=a2b01877-ab45-49a9-8686-3de3b1df682f&branch=main&workflowName=Keycloak%20CI)](https://keycloak.app.runforesight.com/repositories/github/keycloak/keycloak/workflow-runs?branch=main&workflowId=1507662)

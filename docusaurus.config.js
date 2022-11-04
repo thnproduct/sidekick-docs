@@ -99,7 +99,7 @@ const config = {
        './plugins/tailwind-config.js',
        './plugins/heap.js',
        './plugins/optimize.js',
-       './plugins/gtm.js'
+       './plugins/gtm.js',
      ], 
     
 };
