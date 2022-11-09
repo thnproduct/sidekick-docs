@@ -105,6 +105,12 @@
             "label": "Team management",
             "href": "/features/team-management",
             "docId": "features/team-management"
+          },
+          {
+            "type": "link",
+            "label": "Pull request view",
+            "href": "/features/pull-request-view",
+            "docId": "features/pull-request-view"
           }
         ]
       },
@@ -217,6 +223,12 @@
       "id": "features/process-trace-chart",
       "title": "↳ Process trace chart",
       "description": "Process Trace Chart",
+      "sidebar": "sidebar"
+    },
+    "features/pull-request-view": {
+      "id": "features/pull-request-view",
+      "title": "Pull request view",
+      "description": "The workflow, test, and test gap results of a pull request can all be",
       "sidebar": "sidebar"
     },
     "features/rules": {

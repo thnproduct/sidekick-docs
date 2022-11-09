@@ -21,7 +21,7 @@
     "permalink": "/features/rules"
   },
   "next": {
-    "title": "Monitor GitHub Actions workflows",
-    "permalink": "/use-cases/monitor-github-actions"
+    "title": "Pull request view",
+    "permalink": "/features/pull-request-view"
   }
 }

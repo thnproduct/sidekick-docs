@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','8f0'),
+    component: ComponentCreator('/','007'),
     routes: [
       {
         path: '/',
@@ -141,6 +141,12 @@ export default [
       {
         path: '/features/process-trace-chart',
         component: ComponentCreator('/features/process-trace-chart','ef1'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/features/pull-request-view',
+        component: ComponentCreator('/features/pull-request-view','68d'),
         exact: true,
         'sidebar': "sidebar"
       },

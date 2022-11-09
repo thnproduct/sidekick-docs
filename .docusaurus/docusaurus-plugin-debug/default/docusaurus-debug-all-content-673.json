@@ -179,6 +179,33 @@
               }
             },
             {
+              "unversionedId": "features/pull-request-view",
+              "id": "features/pull-request-view",
+              "title": "Pull request view",
+              "description": "The workflow, test, and test gap results of a pull request can all be",
+              "source": "@site/docs/features/pull-request-view.mdx",
+              "sourceDirName": "features",
+              "slug": "/features/pull-request-view",
+              "permalink": "/features/pull-request-view",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "title": "Pull request view",
+                "slug": "/features/pull-request-view",
+                "sidebar_position": 10
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Team management",
+                "permalink": "/features/team-management"
+              },
+              "next": {
+                "title": "Monitor GitHub Actions workflows",
+                "permalink": "/use-cases/monitor-github-actions"
+              }
+            },
+            {
               "unversionedId": "features/rules",
               "id": "features/rules",
               "title": "Rules",
@@ -228,8 +255,8 @@
                 "permalink": "/features/rules"
               },
               "next": {
-                "title": "Monitor GitHub Actions workflows",
-                "permalink": "/use-cases/monitor-github-actions"
+                "title": "Pull request view",
+                "permalink": "/features/pull-request-view"
               }
             },
             {
@@ -566,8 +593,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Team management",
-                "permalink": "/features/team-management"
+                "title": "Pull request view",
+                "permalink": "/features/pull-request-view"
               },
               "next": {
                 "title": "The cost of missing critical CI metrics",
@@ -673,6 +700,10 @@
                   {
                     "type": "doc",
                     "id": "features/team-management"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "features/pull-request-view"
                   }
                 ]
               },

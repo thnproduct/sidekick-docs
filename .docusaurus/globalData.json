@@ -41,6 +41,11 @@
               "sidebar": "sidebar"
             },
             {
+              "id": "features/pull-request-view",
+              "path": "/features/pull-request-view",
+              "sidebar": "sidebar"
+            },
+            {
               "id": "features/rules",
               "path": "/features/rules",
               "sidebar": "sidebar"
