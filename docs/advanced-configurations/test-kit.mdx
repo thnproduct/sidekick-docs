@@ -54,16 +54,17 @@ To use the action, add the following step after your test execution step. Please
 You can get your `api_key` after sign up to Foresight.
 
 ```yaml
-- name: Analyze Test and/or Coverage Results
+- name: Foresight Test / Coverage Results
   uses: runforesight/foresight-test-kit-action@v1
   if: success() || failure()
   with:
-    api_key: <your_api_key_required>
-    test_format: <test_format>
-    test_framework: <test_framework>
-    test_path: <test_results_path>
-    coverage_format: <coverage_format>
-    coverage_path: <coverage_results_path>
+    api_key: <your_api_key_required> //optional if you add on public repository 
+    test_format: <test_format> // required if you want to use test monitoring
+    test_framework: <test_framework> // required if you want to use test monitoring
+    test_path: <test_results_path> // required if you want to use test monitoring
+    coverage_format: <coverage_format> // add if you want to use change impact analysis 
+    coverage_path: <coverage_results_path> //required if you use change impact analysis
+    tags: <optional>
 ```
 
 
@@ -74,7 +75,7 @@ You can get your `api_key` after sign up to Foresight.
 
 
 
-## Configuration
+### Configuration
 
 | Option                | Requirement       | Description
 | ---                   | ---               | ---
@@ -87,3 +88,19 @@ You can get your `api_key` after sign up to Foresight.
 | `coverage_path`       | Optional              | Coverage results directory/file path.
 | `cli_version`       | Optional              | Installed Foresight cli version. Default is latest.
 | `disable_action`       | Optional              | Disable Foresight test kit action without removing from yml.
+
+## Tagging your test runs
+
+You can tag your test runs through test kit. This helps you to identify the test run you want to investigate in a quicker way.
+
+### Example
+```
+tags: | 
+  node_version:${{ matrix.node }}
+  event_name:${{github.event_name}}
+  tag_tryer1:"tryer_value1"
+```
+
+After you add your test tags, you are able to filter them on the test runs page.
+
+![Test tags](/img/configuration/test-tags.gif)

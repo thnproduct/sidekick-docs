@@ -240,7 +240,7 @@
     "features/team-management": {
       "id": "features/team-management",
       "title": "Team management",
-      "description": "",
+      "description": "Roles",
       "sidebar": "sidebar"
     },
     "features/test-logs": {

@@ -236,7 +236,7 @@
               "unversionedId": "features/team-management",
               "id": "features/team-management",
               "title": "Team management",
-              "description": "",
+              "description": "Roles",
               "source": "@site/docs/features/team-management.mdx",
               "sourceDirName": "features",
               "slug": "/features/team-management",
