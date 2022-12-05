@@ -21,11 +21,12 @@ You'll need to have a reasonably modern version of `node`. This won't work with 
 ## Prerequisites
 Foresight analyzes your test and coverage report artifacts. 
 
-### Available test framework and report pairs:
+### Available test framework and report pairs
 
 | Test framework | Report format  |
 |----------------|----------------|
 |TESTNG|n/a*|
+|CYPRESS<sup>1</sup>|JUNIT|
 |JUNIT|n/a*|
 |JEST|JUNIT|
 |PYTEST|JUNIT|
@@ -38,7 +39,17 @@ Foresight analyzes your test and coverage report artifacts.
 You don't need to fill report format fields marked as **n/a**.
 :::
 
-### Available coverage formats:
+<br/>
+<strong><sup>1</sup>  Cypress test report generation example</strong>
+<br/>
+<br/>
+
+```
+"e2e:junit": "cypress run --reporter junit --reporter-options 'mochaFile=results/foresight-test-[hash].xml'",
+```
+[See detailed information on Cypress docs](https://docs.cypress.io/guides/tooling/reporters)
+
+### Available coverage formats
 
 | Coverage formats  |
 |----------------|
