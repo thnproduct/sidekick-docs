@@ -199,3 +199,22 @@ iframe {
 code{
   @apply text-purple-600;
 }
+[data-theme='dark'] code{
+  @apply text-yellow-500;
+}
+details{
+  @apply bg-white border-0 !important;
+}
+[data-theme='dark'] details{
+  @apply bg-zinc-800 border-0 !important;
+}
+details summary {
+  @apply text-xl !important;
+}
+details summary::before{
+  top: 0.5rem !important;
+  border-color: transparent transparent transparent var(--ifm-color-primary) !important;
+}
+details a{
+  @apply font-bold !important;
+}

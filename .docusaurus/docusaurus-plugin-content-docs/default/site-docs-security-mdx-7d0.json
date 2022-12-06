@@ -1,23 +1,27 @@
 {
   "unversionedId": "security",
   "id": "security",
-  "title": "Troubleshooting",
-  "description": "Using Layers",
+  "title": "🔐 Security",
+  "description": "Which permissions does Foresight GitHub app requires?",
   "source": "@site/docs/security.mdx",
   "sourceDirName": ".",
-  "slug": "/configuration/troubleshooting",
-  "permalink": "/configuration/troubleshooting",
+  "slug": "/security",
+  "permalink": "/security",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 5,
+  "sidebarPosition": 3,
   "frontMatter": {
-    "title": "Troubleshooting",
-    "slug": "/configuration/troubleshooting",
-    "sidebar_position": 5
+    "title": "🔐 Security",
+    "sidebar_position": 3,
+    "slug": "/security"
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Flaky tests",
-    "permalink": "/configuration/flaky-tests"
+    "title": "⚡️ Quick configuration",
+    "permalink": "/step-by-step-guide"
+  },
+  "next": {
+    "title": "Test kit",
+    "permalink": "/advanced-configuration/test-kit"
   }
 }

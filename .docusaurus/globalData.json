@@ -101,6 +101,11 @@
               "sidebar": "sidebar"
             },
             {
+              "id": "other/hiding-forks",
+              "path": "/how-to/hide-forks",
+              "sidebar": "sidebar"
+            },
+            {
               "id": "other/troubleshooting",
               "path": "/how-to/troubleshooting",
               "sidebar": "sidebar"
@@ -108,6 +113,11 @@
             {
               "id": "quick-configuration",
               "path": "/step-by-step-guide",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "security",
+              "path": "/security",
               "sidebar": "sidebar"
             },
             {
