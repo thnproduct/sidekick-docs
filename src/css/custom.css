@@ -196,3 +196,6 @@ iframe {
 .navbar-get-started .iconExternalLink_I5OW{
   display: none !important;
 }
+code{
+  @apply text-purple-600;
+}

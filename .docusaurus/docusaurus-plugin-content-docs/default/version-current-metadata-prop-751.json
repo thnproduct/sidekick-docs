@@ -60,9 +60,15 @@
           },
           {
             "type": "link",
-            "label": "Change impact analysis",
-            "href": "/features/analyze-code-change-impact",
-            "docId": "features/change-impact-analysis"
+            "label": "Pull request view",
+            "href": "/features/pull-request-view",
+            "docId": "features/pull-request-view"
+          },
+          {
+            "type": "link",
+            "label": "↳ Pull request comments",
+            "href": "/features/pull-request-comments",
+            "docId": "features/pull-request-comments"
           },
           {
             "type": "link",
@@ -108,9 +114,9 @@
           },
           {
             "type": "link",
-            "label": "Pull request view",
-            "href": "/features/pull-request-view",
-            "docId": "features/pull-request-view"
+            "label": "Change impact analysis",
+            "href": "/features/analyze-code-change-impact",
+            "docId": "features/change-impact-analysis"
           }
         ]
       },
@@ -223,6 +229,12 @@
       "id": "features/process-trace-chart",
       "title": "↳ Process trace chart",
       "description": "Process Trace Chart",
+      "sidebar": "sidebar"
+    },
+    "features/pull-request-comments": {
+      "id": "features/pull-request-comments",
+      "title": "↳ Pull request comments",
+      "description": "/img/features/pull-request-comments.png",
       "sidebar": "sidebar"
     },
     "features/pull-request-view": {

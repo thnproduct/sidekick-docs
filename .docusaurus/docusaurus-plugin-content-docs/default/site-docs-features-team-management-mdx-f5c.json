@@ -21,7 +21,7 @@
     "permalink": "/features/rules"
   },
   "next": {
-    "title": "Pull request view",
-    "permalink": "/features/pull-request-view"
+    "title": "Change impact analysis",
+    "permalink": "/features/analyze-code-change-impact"
   }
 }

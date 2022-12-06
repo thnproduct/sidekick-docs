@@ -108,20 +108,20 @@
               "permalink": "/features/analyze-code-change-impact",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 11,
               "frontMatter": {
                 "title": "Change impact analysis",
                 "slug": "/features/analyze-code-change-impact",
-                "sidebar_position": 2
+                "sidebar_position": 11
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Highlights",
-                "permalink": "/features/highlights"
+                "title": "Team management",
+                "permalink": "/features/team-management"
               },
               "next": {
-                "title": "Workflow runs",
-                "permalink": "/features/workflow-runs"
+                "title": "Monitor GitHub Actions workflows",
+                "permalink": "/use-cases/monitor-github-actions"
               }
             },
             {
@@ -147,8 +147,8 @@
                 "permalink": "/advanced-configuration/workflow-kit"
               },
               "next": {
-                "title": "Change impact analysis",
-                "permalink": "/features/analyze-code-change-impact"
+                "title": "Pull request view",
+                "permalink": "/features/pull-request-view"
               }
             },
             {
@@ -179,6 +179,33 @@
               }
             },
             {
+              "unversionedId": "features/pull-request-comments",
+              "id": "features/pull-request-comments",
+              "title": "↳ Pull request comments",
+              "description": "/img/features/pull-request-comments.png",
+              "source": "@site/docs/features/pull-request-comments.mdx",
+              "sourceDirName": "features",
+              "slug": "/features/pull-request-comments",
+              "permalink": "/features/pull-request-comments",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "↳ Pull request comments",
+                "slug": "/features/pull-request-comments",
+                "sidebar_position": 3
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Pull request view",
+                "permalink": "/features/pull-request-view"
+              },
+              "next": {
+                "title": "Workflow runs",
+                "permalink": "/features/workflow-runs"
+              }
+            },
+            {
               "unversionedId": "features/pull-request-view",
               "id": "features/pull-request-view",
               "title": "Pull request view",
@@ -189,20 +216,20 @@
               "permalink": "/features/pull-request-view",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 10,
+              "sidebarPosition": 2,
               "frontMatter": {
                 "title": "Pull request view",
                 "slug": "/features/pull-request-view",
-                "sidebar_position": 10
+                "sidebar_position": 2
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Team management",
-                "permalink": "/features/team-management"
+                "title": "Highlights",
+                "permalink": "/features/highlights"
               },
               "next": {
-                "title": "Monitor GitHub Actions workflows",
-                "permalink": "/use-cases/monitor-github-actions"
+                "title": "↳ Pull request comments",
+                "permalink": "/features/pull-request-comments"
               }
             },
             {
@@ -255,8 +282,8 @@
                 "permalink": "/features/rules"
               },
               "next": {
-                "title": "Pull request view",
-                "permalink": "/features/pull-request-view"
+                "title": "Change impact analysis",
+                "permalink": "/features/analyze-code-change-impact"
               }
             },
             {
@@ -359,8 +386,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Change impact analysis",
-                "permalink": "/features/analyze-code-change-impact"
+                "title": "↳ Pull request comments",
+                "permalink": "/features/pull-request-comments"
               },
               "next": {
                 "title": "↳ Workflow metrics",
@@ -593,8 +620,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Pull request view",
-                "permalink": "/features/pull-request-view"
+                "title": "Change impact analysis",
+                "permalink": "/features/analyze-code-change-impact"
               },
               "next": {
                 "title": "The cost of missing critical CI metrics",
@@ -671,7 +698,11 @@
                   },
                   {
                     "type": "doc",
-                    "id": "features/change-impact-analysis"
+                    "id": "features/pull-request-view"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "features/pull-request-comments"
                   },
                   {
                     "type": "doc",
@@ -703,7 +734,7 @@
                   },
                   {
                     "type": "doc",
-                    "id": "features/pull-request-view"
+                    "id": "features/change-impact-analysis"
                   }
                 ]
               },

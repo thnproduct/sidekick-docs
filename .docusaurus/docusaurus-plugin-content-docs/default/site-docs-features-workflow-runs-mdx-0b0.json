@@ -17,8 +17,8 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Change impact analysis",
-    "permalink": "/features/analyze-code-change-impact"
+    "title": "↳ Pull request comments",
+    "permalink": "/features/pull-request-comments"
   },
   "next": {
     "title": "↳ Workflow metrics",

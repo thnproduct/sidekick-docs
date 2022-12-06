@@ -9,19 +9,19 @@
   "permalink": "/features/analyze-code-change-impact",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
+  "sidebarPosition": 11,
   "frontMatter": {
     "title": "Change impact analysis",
     "slug": "/features/analyze-code-change-impact",
-    "sidebar_position": 2
+    "sidebar_position": 11
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Highlights",
-    "permalink": "/features/highlights"
+    "title": "Team management",
+    "permalink": "/features/team-management"
   },
   "next": {
-    "title": "Workflow runs",
-    "permalink": "/features/workflow-runs"
+    "title": "Monitor GitHub Actions workflows",
+    "permalink": "/use-cases/monitor-github-actions"
   }
 }

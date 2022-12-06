@@ -41,6 +41,11 @@
               "sidebar": "sidebar"
             },
             {
+              "id": "features/pull-request-comments",
+              "path": "/features/pull-request-comments",
+              "sidebar": "sidebar"
+            },
+            {
               "id": "features/pull-request-view",
               "path": "/features/pull-request-view",
               "sidebar": "sidebar"

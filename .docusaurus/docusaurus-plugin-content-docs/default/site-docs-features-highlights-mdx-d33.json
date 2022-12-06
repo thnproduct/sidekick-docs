@@ -21,7 +21,7 @@
     "permalink": "/advanced-configuration/workflow-kit"
   },
   "next": {
-    "title": "Change impact analysis",
-    "permalink": "/features/analyze-code-change-impact"
+    "title": "Pull request view",
+    "permalink": "/features/pull-request-view"
   }
 }

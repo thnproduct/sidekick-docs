@@ -1,0 +1,29 @@
+---
+title: ↳ Pull request comments
+slug: /features/pull-request-comments
+sidebar_position: 3
+---
+# Pull request comments
+
+![/img/features/pull-request-comments.png](/img/features/pull-request-comments.png)
+
+Pull request comments on GitHub can provide a number of benefits, including improving workflows. Pull request comments can be integrated 
+with other tools to automate parts of the code review and deployment process. **PR comments can help engineering teams to improve the quality of their code, enhance collaboration, and streamline their development workflow.**
+
+You can use Foresight's pull request comments with major impacts! This feature allows Foresight to comment on a 
+pull request, making it easier to have discussions and provide feedback on the workflow and the test impacts of the pull request.
+
+[Open Telemetry](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/16610#issuecomment-1337012337) has been using Foresight's pull requests. Let's dive into what was shown in a pull request comment:
+
+**The badges:**
+- Their latest workflows have succeeded `6/7`, and `1` of them has skipped.
+- The latest test runs have succeeded with `27.5K` successful and `237` skipped tests in total. If there were a failed test, it would have been easily detected, and PR would have been blocked.
+- Since the beginning of the pull request, there were `8h 14m` spent on workflows, and `5h 37m` of them were testing. 
+
+**Major impacts**
+- The duration of one of their workflows, load-tests, has jumped from 17m 6s avg to 27m 53s in this PR. It may be an alert that this contribution will slow future workflows down. Therefore, the reviewers should carefully watch the things added/removed in this PR. 
+
+## How to enable / disable PR comments
+To use this feature, simply navigate to your [Organization settings](https://app.runforesight.com/organization/organization), and enable pull request comments and check results. After enabling, your contributors will be able to see the results in each pull request comment in the same thread.
+
+![/img/features/enable-pr-comment.gif](/img/features/enable-pr-comment.gif)
