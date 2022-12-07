@@ -578,7 +578,7 @@
               "unversionedId": "security",
               "id": "security",
               "title": "🔐 Security",
-              "description": "Which permissions does Foresight GitHub app requires?",
+              "description": "Is it safe to use Foresight?",
               "source": "@site/docs/security.mdx",
               "sourceDirName": ".",
               "slug": "/security",

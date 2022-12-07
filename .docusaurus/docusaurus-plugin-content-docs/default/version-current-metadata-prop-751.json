@@ -336,7 +336,7 @@
     "security": {
       "id": "security",
       "title": "🔐 Security",
-      "description": "Which permissions does Foresight GitHub app requires?",
+      "description": "Is it safe to use Foresight?",
       "sidebar": "sidebar"
     },
     "use-cases/detect-failed-tests": {
