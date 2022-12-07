@@ -35,8 +35,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "⚡️ Quick configuration",
-                "permalink": "/step-by-step-guide"
+                "title": "🔐 Security",
+                "permalink": "/security"
               },
               "next": {
                 "title": "Workflow kit",
@@ -498,6 +498,29 @@
               }
             },
             {
+              "unversionedId": "other/hiding-forks",
+              "id": "other/hiding-forks",
+              "title": "Hiding forks",
+              "description": "In GitHub, a \"fork\" is a copy of a repository that is owned by a different user,",
+              "source": "@site/docs/other/hiding-forks.mdx",
+              "sourceDirName": "other",
+              "slug": "/how-to/hide-forks",
+              "permalink": "/how-to/hide-forks",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "title": "Hiding forks",
+                "slug": "/how-to/hide-forks",
+                "sidebar_position": 4
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Troubleshooting",
+                "permalink": "/how-to/troubleshooting"
+              }
+            },
+            {
               "unversionedId": "other/troubleshooting",
               "id": "other/troubleshooting",
               "title": "Troubleshooting",
@@ -518,6 +541,10 @@
               "previous": {
                 "title": "Get your API Key",
                 "permalink": "/how-to/get-api-key"
+              },
+              "next": {
+                "title": "Hiding forks",
+                "permalink": "/how-to/hide-forks"
               }
             },
             {
@@ -541,6 +568,33 @@
               "previous": {
                 "title": "🧭 Example Projects",
                 "permalink": "/examples"
+              },
+              "next": {
+                "title": "🔐 Security",
+                "permalink": "/security"
+              }
+            },
+            {
+              "unversionedId": "security",
+              "id": "security",
+              "title": "🔐 Security",
+              "description": "Security",
+              "source": "@site/docs/security.mdx",
+              "sourceDirName": ".",
+              "slug": "/security",
+              "permalink": "/security",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "🔐 Security",
+                "sidebar_position": 3,
+                "slug": "/security"
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "⚡️ Quick configuration",
+                "permalink": "/step-by-step-guide"
               },
               "next": {
                 "title": "Test kit",
@@ -671,6 +725,10 @@
                 "id": "quick-configuration"
               },
               {
+                "type": "doc",
+                "id": "security"
+              },
+              {
                 "type": "category",
                 "label": "🔋 Advanced configuration",
                 "collapsible": true,
@@ -791,6 +849,10 @@
                   {
                     "type": "doc",
                     "id": "other/troubleshooting"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "other/hiding-forks"
                   }
                 ]
               }

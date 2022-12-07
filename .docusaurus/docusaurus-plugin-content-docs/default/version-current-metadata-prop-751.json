@@ -27,6 +27,12 @@
         "docId": "quick-configuration"
       },
       {
+        "type": "link",
+        "label": "🔐 Security",
+        "href": "/security",
+        "docId": "security"
+      },
+      {
         "type": "category",
         "label": "🔋 Advanced configuration",
         "collapsible": true,
@@ -189,6 +195,12 @@
             "label": "Troubleshooting",
             "href": "/how-to/troubleshooting",
             "docId": "other/troubleshooting"
+          },
+          {
+            "type": "link",
+            "label": "Hiding forks",
+            "href": "/how-to/hide-forks",
+            "docId": "other/hiding-forks"
           }
         ]
       }
@@ -303,6 +315,12 @@
       "description": "Since badges provide users with a fast way to capture repository metrics, they increase the readability of the",
       "sidebar": "sidebar"
     },
+    "other/hiding-forks": {
+      "id": "other/hiding-forks",
+      "title": "Hiding forks",
+      "description": "In GitHub, a \"fork\" is a copy of a repository that is owned by a different user,",
+      "sidebar": "sidebar"
+    },
     "other/troubleshooting": {
       "id": "other/troubleshooting",
       "title": "Troubleshooting",
@@ -313,6 +331,12 @@
       "id": "quick-configuration",
       "title": "⚡️ Quick configuration",
       "description": "Foresight can monitor all GitHub Actions workflows and test frameworks such as JUnit, Jest, Python, TestNG, Trx and xUnit 2.",
+      "sidebar": "sidebar"
+    },
+    "security": {
+      "id": "security",
+      "title": "🔐 Security",
+      "description": "Security",
       "sidebar": "sidebar"
     },
     "use-cases/detect-failed-tests": {

@@ -19,5 +19,9 @@
   "previous": {
     "title": "Get your API Key",
     "permalink": "/how-to/get-api-key"
+  },
+  "next": {
+    "title": "Hiding forks",
+    "permalink": "/how-to/hide-forks"
   }
 }

@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','70d'),
+    component: ComponentCreator('/','749'),
     routes: [
       {
         path: '/',
@@ -205,6 +205,12 @@ export default [
         'sidebar': "sidebar"
       },
       {
+        path: '/how-to/hide-forks',
+        component: ComponentCreator('/how-to/hide-forks','1e2'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
         path: '/how-to/troubleshooting',
         component: ComponentCreator('/how-to/troubleshooting','27e'),
         exact: true,
@@ -213,6 +219,12 @@ export default [
       {
         path: '/integrations/slack',
         component: ComponentCreator('/integrations/slack','222'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/security',
+        component: ComponentCreator('/security','64e'),
         exact: true,
         'sidebar': "sidebar"
       },

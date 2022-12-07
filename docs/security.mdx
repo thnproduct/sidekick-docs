@@ -1,0 +1,64 @@
+---
+title: 🔐 Security
+sidebar_position: 3
+slug: /security
+---
+![Security](/img/others/security.png)
+
+## Is it safe to use Foresight?
+Yes, it is safe. But **actions speak louder.** Hence, our key users are a sign of our safety.
+
+Here is a list of projects using Foresight:
+- Wordpress VIP
+- Stedi
+- Craftgate - a fintech company
+- [Open Telemetry](https://otel.app.runforesight.com) 
+- [Keycloak](https://keycloak.app.runforesight.com) 
+- [Pypa](https://pypa.app.runforesight.com) 
+
+One of our customers, **Craftgate - a fintech company**, has been using Foresight with a custom GitHub app, 
+which is **fully PCI-DSS compliant.** <a href="https://www.youtube.com/watch?v=xs3PyNMeqXc&t=27s" target="_blank">You can watch his words from here.</a>
+
+### FAQ about Security
+<details>
+  <summary>Which permissions does the Foresight GitHub app require?</summary>
+  <div>
+    <h3><strong>Read</strong> access to <strong>actions</strong> and <strong>metadata</strong></h3>
+    <div>For gathering data such as your workflow name, workflow run durations, etc.</div>
+    <div>This is required for using features such as:</div>
+    <ul>
+      <li><a href="/features/highlights" target="_blank">Highlights</a></li>
+      <li><a href="/features/pull-request-view" target="_blank">Pull request view</a></li>
+      <li><a href="/features/workflow-runs" target="_blank">Workflow runs</a></li>
+      <li><a href="/features/rules" target="_blank">Rules</a></li>
+    </ul>
+  </div>
+  <br/>
+  <div>
+    <h3><strong>Read and write</strong> access to issues, pull requests and checks</h3>
+    <div>For commenting on your <a href="/features/pull-request-comments">pull requests</a> and checks. <strong>We don't modify or change any of your PR content</strong>, code base, etc.</div>
+    <ul>
+      <li><a href="/features/pull-request-comments" target="_blank">Pull request comments</a></li>
+    </ul>
+  </div>
+</details>
+<details>
+  <summary>Does Foresight see / modify / change my code?</summary>
+  <div>
+   Foresight will never store, commit, or modify anything on your code. Your code never goes through Foresight's backend servers at any time. We don't have access to your repository contents, secrets, or administrative information.
+  </div>
+  <br/>
+  <div>
+    If you want to use Foresight's <a href="/features/analyze-code-change-impact" target="_blank">change impact analysis</a>, Foresight only shows not tested changed lines of code by looking at your PR and code coverage report.
+  </div>
+</details>
+<details>
+  <summary>Is there any way where I don't install your GitHub app but still use Foresight?</summary>
+  <div>
+    Yes, with our custom GitHub app solution, you can manage your permissions. This way, you will be in charge of which permission you give access to Foresight. However, you may lose access to some of the features by limiting some of the permissions.
+  </div>
+  <br/>
+  <div>
+    If you would like to learn more about the Custom GitHub application, <a href="https://www.runforesight.com/contact-us" target="_blank">please contact us here</a>. 
+  </div>
+</details>
