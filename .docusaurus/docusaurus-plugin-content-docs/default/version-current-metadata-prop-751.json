@@ -336,7 +336,7 @@
     "security": {
       "id": "security",
       "title": "🔐 Security",
-      "description": "Is it safe to use Foresight?",
+      "description": "Security",
       "sidebar": "sidebar"
     },
     "use-cases/detect-failed-tests": {
