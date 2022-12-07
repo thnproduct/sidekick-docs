@@ -1,0 +1,34 @@
+---
+title: ↳ Cypress
+slug: cypress-test-reports
+sidebar_position: 2
+---
+
+# Cypress
+
+Cypress is a popular open-source test automation framework that allows teams to write, run, and debug tests for web applications. With its intuitive API and easy-to-use interface, Cypress makes it simple for teams to create reliable and maintainable test suites for their web applications.
+Now, with Foresight's support for Cypress test reports, teams can easily integrate their Cypress tests to Foresight's advanced analysis and visualization capabilities to gain valuable insights into their test results. This includes features such as real-time monitoring, alerting, and detailed reports and dashboards.
+
+To integrate Cypress to Foresight, just add our [Test kit](/advanced-configurations/test-kit) into your workflow.
+
+```yaml
+- name: Foresight Test Results
+  uses: runforesight/foresight-test-kit-action@v1
+  if: always()
+  with:
+    # api_key is optional if you add on public repository 
+    api_key: <your_api_key> 
+    # following 3 options are required if you want to use test monitoring features
+    test_format: JUNIT
+    test_framework: CYPRESS
+    # path to your test reports e.g. ./results/foresight-test-*.xml
+    test_path: <test_results_path> 
+    # if you want to add multiple tags, add | before the first key
+    tags: <key:value>
+```
+
+### With Foresight's support for Cypress test reports, teams can:
+
+- Easily integrate Cypress into their test workflow
+- Take advantage of Foresight's powerful analysis and visualization capabilities
+- Gain valuable insights into their test results, including automated test case prioritization, real-time monitoring and alerts, and detailed reports and dashboards

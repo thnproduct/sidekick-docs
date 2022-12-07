@@ -11,6 +11,11 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "advanced-configurations/cypress-test-reports",
+              "path": "/advanced-configurations/cypress-test-reports",
+              "sidebar": "sidebar"
+            },
+            {
               "id": "advanced-configurations/test-kit",
               "path": "/advanced-configuration/test-kit",
               "sidebar": "sidebar"

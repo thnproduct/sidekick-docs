@@ -17,6 +17,33 @@
           "contentPathLocalized": "/Users/burakkantarci/Dev/foresight-docs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "unversionedId": "advanced-configurations/cypress-test-reports",
+              "id": "advanced-configurations/cypress-test-reports",
+              "title": "↳ Cypress",
+              "description": "Cypress is a popular open-source test automation framework that allows teams to write, run, and debug tests for web applications. With its intuitive API and easy-to-use interface, Cypress makes it simple for teams to create reliable and maintainable test suites for their web applications.",
+              "source": "@site/docs/advanced-configurations/cypress-test-reports.mdx",
+              "sourceDirName": "advanced-configurations",
+              "slug": "/advanced-configurations/cypress-test-reports",
+              "permalink": "/advanced-configurations/cypress-test-reports",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "↳ Cypress",
+                "slug": "cypress-test-reports",
+                "sidebar_position": 2
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Test kit",
+                "permalink": "/advanced-configuration/test-kit"
+              },
+              "next": {
+                "title": "Workflow kit",
+                "permalink": "/advanced-configuration/workflow-kit"
+              }
+            },
+            {
               "unversionedId": "advanced-configurations/test-kit",
               "id": "advanced-configurations/test-kit",
               "title": "Test kit",
@@ -39,8 +66,8 @@
                 "permalink": "/security"
               },
               "next": {
-                "title": "Workflow kit",
-                "permalink": "/advanced-configuration/workflow-kit"
+                "title": "↳ Cypress",
+                "permalink": "/advanced-configurations/cypress-test-reports"
               }
             },
             {
@@ -54,16 +81,16 @@
               "permalink": "/advanced-configuration/workflow-kit",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 3,
               "frontMatter": {
                 "title": "Workflow kit",
                 "slug": "/advanced-configuration/workflow-kit",
-                "sidebar_position": 2
+                "sidebar_position": 3
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Test kit",
-                "permalink": "/advanced-configuration/test-kit"
+                "title": "↳ Cypress",
+                "permalink": "/advanced-configurations/cypress-test-reports"
               },
               "next": {
                 "title": "Highlights",
@@ -737,6 +764,10 @@
                   {
                     "type": "doc",
                     "id": "advanced-configurations/test-kit"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "advanced-configurations/cypress-test-reports"
                   },
                   {
                     "type": "doc",

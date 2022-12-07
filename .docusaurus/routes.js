@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','749'),
+    component: ComponentCreator('/','2b5'),
     routes: [
       {
         path: '/',
@@ -117,6 +117,12 @@ export default [
       {
         path: '/advanced-configuration/workflow-kit',
         component: ComponentCreator('/advanced-configuration/workflow-kit','a37'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/advanced-configurations/cypress-test-reports',
+        component: ComponentCreator('/advanced-configurations/cypress-test-reports','234'),
         exact: true,
         'sidebar': "sidebar"
       },

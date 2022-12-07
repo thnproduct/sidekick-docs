@@ -21,7 +21,7 @@
     "permalink": "/security"
   },
   "next": {
-    "title": "Workflow kit",
-    "permalink": "/advanced-configuration/workflow-kit"
+    "title": "↳ Cypress",
+    "permalink": "/advanced-configurations/cypress-test-reports"
   }
 }

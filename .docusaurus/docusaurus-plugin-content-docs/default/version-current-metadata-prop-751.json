@@ -46,6 +46,12 @@
           },
           {
             "type": "link",
+            "label": "↳ Cypress",
+            "href": "/advanced-configurations/cypress-test-reports",
+            "docId": "advanced-configurations/cypress-test-reports"
+          },
+          {
+            "type": "link",
             "label": "Workflow kit",
             "href": "/advanced-configuration/workflow-kit",
             "docId": "advanced-configurations/workflow-kit"
@@ -207,6 +213,12 @@
     ]
   },
   "docs": {
+    "advanced-configurations/cypress-test-reports": {
+      "id": "advanced-configurations/cypress-test-reports",
+      "title": "↳ Cypress",
+      "description": "Cypress is a popular open-source test automation framework that allows teams to write, run, and debug tests for web applications. With its intuitive API and easy-to-use interface, Cypress makes it simple for teams to create reliable and maintainable test suites for their web applications.",
+      "sidebar": "sidebar"
+    },
     "advanced-configurations/test-kit": {
       "id": "advanced-configurations/test-kit",
       "title": "Test kit",

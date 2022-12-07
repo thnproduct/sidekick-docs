@@ -9,16 +9,16 @@
   "permalink": "/advanced-configuration/workflow-kit",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
+  "sidebarPosition": 3,
   "frontMatter": {
     "title": "Workflow kit",
     "slug": "/advanced-configuration/workflow-kit",
-    "sidebar_position": 2
+    "sidebar_position": 3
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Test kit",
-    "permalink": "/advanced-configuration/test-kit"
+    "title": "↳ Cypress",
+    "permalink": "/advanced-configurations/cypress-test-reports"
   },
   "next": {
     "title": "Highlights",
