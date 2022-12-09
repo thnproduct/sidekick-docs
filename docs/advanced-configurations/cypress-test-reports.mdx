@@ -23,6 +23,11 @@ To integrate Cypress to Foresight, just add our [Test kit](/advanced-configurati
     test_framework: CYPRESS
     # path to your test reports e.g. ./results/foresight-test-*.xml
     test_path: <test_results_path> 
+    # following 2 options are required if you want to use change impact analysis
+    # Cypress has support for LCOV format 
+    # Learn more from here https://docs.cypress.io/guides/tooling/code-coverage 
+    coverage_format: LCOV/TXT
+    coverage_path: ./coverage/lcov.info
     # if you want to add multiple tags, add | before the first key
     tags: <key:value>
 ```
