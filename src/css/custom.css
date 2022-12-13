@@ -124,6 +124,9 @@ strong {
 .cols-3{
   @apply grid grid-cols-3 gap-4 mb-4;
 }
+.cols-4{
+  @apply grid grid-cols-4 gap-4 mb-4 mt-4;
+}
 .cols-5{
   @apply grid grid-cols-5 gap-4 mb-4;
 }
@@ -217,4 +220,7 @@ details summary::before{
 }
 details a{
   @apply font-bold !important;
+}
+.open-source-section{
+  @apply p-8 border border-blue-100 bg-blue-50 rounded-xl;
 }
