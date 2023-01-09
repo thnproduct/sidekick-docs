@@ -8,141 +8,521 @@
           "label": "Next",
           "isLast": true,
           "path": "/",
-          "mainDocId": "intro",
+          "mainDocId": "README",
           "docs": [
             {
-              "id": "advanced-configurations/cypress-test-reports",
-              "path": "/advanced-configurations/cypress-test-reports",
+              "id": "agents/java/configuration",
+              "path": "/agents/java/configuration",
               "sidebar": "sidebar"
             },
             {
-              "id": "advanced-configurations/test-kit",
-              "path": "/advanced-configuration/test-kit",
+              "id": "agents/java/README",
+              "path": "/agents/java/",
               "sidebar": "sidebar"
             },
             {
-              "id": "advanced-configurations/workflow-kit",
-              "path": "/advanced-configuration/workflow-kit",
+              "id": "agents/java/source-bundling",
+              "path": "/agents/java/source-bundling",
               "sidebar": "sidebar"
             },
             {
-              "id": "examples",
-              "path": "/examples",
+              "id": "agents/node.js/data-redaction",
+              "path": "/agents/node.js/data-redaction",
               "sidebar": "sidebar"
             },
             {
-              "id": "features/change-impact-analysis",
-              "path": "/features/analyze-code-change-impact",
+              "id": "agents/node.js/error-stack-collection",
+              "path": "/agents/node.js/error-stack-collection",
               "sidebar": "sidebar"
             },
             {
-              "id": "features/highlights",
-              "path": "/features/highlights",
+              "id": "agents/node.js/installation",
+              "path": "/agents/node.js/installation",
               "sidebar": "sidebar"
             },
             {
-              "id": "features/process-trace-chart",
-              "path": "/features/process-trace-chart",
+              "id": "agents/node.js/installation-1",
+              "path": "/agents/node.js/installation-1",
               "sidebar": "sidebar"
             },
             {
-              "id": "features/pull-request-comments",
-              "path": "/features/pull-request-comments",
+              "id": "agents/node.js/README",
+              "path": "/agents/node.js/",
               "sidebar": "sidebar"
             },
             {
-              "id": "features/pull-request-view",
-              "path": "/features/pull-request-view",
+              "id": "agents/node.js/troubleshooting",
+              "path": "/agents/node.js/troubleshooting",
               "sidebar": "sidebar"
             },
             {
-              "id": "features/rules",
-              "path": "/features/rules",
+              "id": "agents/python/data-redaction",
+              "path": "/agents/python/data-redaction",
               "sidebar": "sidebar"
             },
             {
-              "id": "features/team-management",
-              "path": "/features/team-management",
+              "id": "agents/python/error-stack-collection",
+              "path": "/agents/python/error-stack-collection",
               "sidebar": "sidebar"
             },
             {
-              "id": "features/test-logs",
-              "path": "/features/test-logs",
+              "id": "agents/python/installation",
+              "path": "/agents/python/installation",
               "sidebar": "sidebar"
             },
             {
-              "id": "features/test-runs",
-              "path": "/features/test-runs",
+              "id": "agents/python/installation-1",
+              "path": "/agents/python/installation-1",
               "sidebar": "sidebar"
             },
             {
-              "id": "features/workflow-metrics",
-              "path": "/features/workflow-metrics",
+              "id": "agents/python/README",
+              "path": "/agents/python/",
               "sidebar": "sidebar"
             },
             {
-              "id": "features/workflow-runs",
-              "path": "/features/workflow-runs",
+              "id": "installation/get-api-key-and-token",
+              "path": "/installation/get-api-key-and-token",
               "sidebar": "sidebar"
             },
             {
-              "id": "integrations/slack",
-              "path": "/integrations/slack",
+              "id": "installation/signup-with-thundra-sidekick",
+              "path": "/installation/signup-with-thundra-sidekick",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "integrations/cypress-plugin-for-e2e-tests",
+              "path": "/integrations/cypress-plugin-for-e2e-tests",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "integrations/grafana-plugin-for-remote-controlling-sidekick-actions",
+              "path": "/integrations/grafana-plugin-for-remote-controlling-sidekick-actions",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "integrations/integrations/coralogix-integration",
+              "path": "/integrations/integrations/coralogix-integration",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "integrations/integrations/elasticsearch-integration",
+              "path": "/integrations/integrations/elasticsearch-integration",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "integrations/integrations/logz.io-integration",
+              "path": "/integrations/integrations/logz.io-integration",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "integrations/integrations/loki-integration",
+              "path": "/integrations/integrations/loki-integration",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "integrations/integrations/new-relic-integration",
+              "path": "/integrations/integrations/new-relic-integration",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "integrations/integrations/README",
+              "path": "/integrations/integrations/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "integrations/integrations/slack-integration",
+              "path": "/integrations/integrations/slack-integration",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "integrations/integrations/solarwinds-loggly-integration",
+              "path": "/integrations/integrations/solarwinds-loggly-integration",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "integrations/integrations/sumo-logic-integration",
+              "path": "/integrations/integrations/sumo-logic-integration",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "integrations/integrations/webhook-integration",
+              "path": "/integrations/integrations/webhook-integration",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "integrations/node.js-client",
+              "path": "/integrations/node.js-client",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "integrations/open-telemetry-tracing-integration",
+              "path": "/integrations/open-telemetry-tracing-integration",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "integrations/rest-api",
+              "path": "/integrations/rest-api",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "integrations/thundra-apm-tracing-integration",
+              "path": "/integrations/thundra-apm-tracing-integration",
               "sidebar": "sidebar"
             },
             {
               "id": "intro",
+              "path": "/intro",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "master",
+              "path": "/master",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "open-source/agent-settings",
+              "path": "/open-source/agent-settings",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "open-source/client-settings",
+              "path": "/open-source/client-settings",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "open-source/quick-start",
+              "path": "/open-source/quick-start",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/intellij-idea-plugin/common-errors",
+              "path": "/plugins/intellij-idea-plugin/common-errors",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/intellij-idea-plugin/getting-started",
+              "path": "/plugins/intellij-idea-plugin/getting-started",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/intellij-idea-plugin/login",
+              "path": "/plugins/intellij-idea-plugin/login",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/intellij-idea-plugin/README",
+              "path": "/plugins/intellij-idea-plugin/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/intellij-idea-plugin/self-hosted-settings",
+              "path": "/plugins/intellij-idea-plugin/self-hosted-settings",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/intellij-idea-plugin/tracepoint-events/README",
+              "path": "/plugins/intellij-idea-plugin/tracepoint-events/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/intellij-idea-plugin/tracepoint-events/tracepoint-event-detail",
+              "path": "/plugins/intellij-idea-plugin/tracepoint-events/tracepoint-event-detail",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/intellij-idea-plugin/tracepoints/conditional-tracepoints",
+              "path": "/plugins/intellij-idea-plugin/tracepoints/conditional-tracepoints",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/intellij-idea-plugin/tracepoints/distributed-tracing-integration",
+              "path": "/plugins/intellij-idea-plugin/tracepoints/distributed-tracing-integration",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/intellij-idea-plugin/tracepoints/edit-tracepoint",
+              "path": "/plugins/intellij-idea-plugin/tracepoints/edit-tracepoint",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/intellij-idea-plugin/tracepoints/enable-disable-tracepoint",
+              "path": "/plugins/intellij-idea-plugin/tracepoints/enable-disable-tracepoint",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/intellij-idea-plugin/tracepoints/expiration-settings",
+              "path": "/plugins/intellij-idea-plugin/tracepoints/expiration-settings",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/intellij-idea-plugin/tracepoints/README",
+              "path": "/plugins/intellij-idea-plugin/tracepoints/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/intellij-idea-plugin/tracepoints/remove-tracepoint",
+              "path": "/plugins/intellij-idea-plugin/tracepoints/remove-tracepoint",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/intellij-idea-plugin/tracepoints/set-tracepoint",
+              "path": "/plugins/intellij-idea-plugin/tracepoints/set-tracepoint",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/pycharm-plugin-python",
+              "path": "/plugins/pycharm-plugin-python",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/sidekick-web-ide/how-to/enable-disable-collaborative-debugging",
+              "path": "/plugins/sidekick-web-ide/how-to/enable-disable-collaborative-debugging",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/sidekick-web-ide/how-to/import-source-code",
+              "path": "/plugins/sidekick-web-ide/how-to/import-source-code",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/sidekick-web-ide/how-to/README",
+              "path": "/plugins/sidekick-web-ide/how-to/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/sidekick-web-ide/how-to/remote-config",
+              "path": "/plugins/sidekick-web-ide/how-to/remote-config",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/sidekick-web-ide/how-to/set-tracepoints",
+              "path": "/plugins/sidekick-web-ide/how-to/set-tracepoints",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events",
+              "path": "/plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging",
+              "path": "/plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/sidekick-web-ide/introduction/apps-and-tracepoints-panel",
+              "path": "/plugins/sidekick-web-ide/introduction/apps-and-tracepoints-panel",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/sidekick-web-ide/introduction/code-panel",
+              "path": "/plugins/sidekick-web-ide/introduction/code-panel",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/sidekick-web-ide/introduction/events-panel",
+              "path": "/plugins/sidekick-web-ide/introduction/events-panel",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/sidekick-web-ide/introduction/README",
+              "path": "/plugins/sidekick-web-ide/introduction/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/sidekick-web-ide/introduction/source-panel",
+              "path": "/plugins/sidekick-web-ide/introduction/source-panel",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/sidekick-web-ide/quick-start-todo-app",
+              "path": "/plugins/sidekick-web-ide/quick-start-todo-app",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/sidekick-web-ide/README",
+              "path": "/plugins/sidekick-web-ide/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/browsing-tracepoint-events",
+              "path": "/plugins/visual-studio-code-extension-python-and-node.js/browsing-tracepoint-events",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/common-problems",
+              "path": "/plugins/visual-studio-code-extension-python-and-node.js/common-problems",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/login-and-on-boarding",
+              "path": "/plugins/visual-studio-code-extension-python-and-node.js/login-and-on-boarding",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/README",
+              "path": "/plugins/visual-studio-code-extension-python-and-node.js/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/select-workspace-and-application",
+              "path": "/plugins/visual-studio-code-extension-python-and-node.js/select-workspace-and-application",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/self-hosted-settings",
+              "path": "/plugins/visual-studio-code-extension-python-and-node.js/self-hosted-settings",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/set-up-vscode-extension",
+              "path": "/plugins/visual-studio-code-extension-python-and-node.js/set-up-vscode-extension",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/conditional-tracepoints",
+              "path": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/conditional-tracepoints",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/edit-tracepoint",
+              "path": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/edit-tracepoint",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/enable-disable-tracepoint",
+              "path": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/enable-disable-tracepoint",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/expiration-settings",
+              "path": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/expiration-settings",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/README",
+              "path": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/remove-tracepoint",
+              "path": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/remove-tracepoint",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/set-tracepoint",
+              "path": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/set-tracepoint",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/webstorm-plugin-node.js",
+              "path": "/plugins/webstorm-plugin-node.js",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "quick-start-to-thundra-sidekick/README",
+              "path": "/quick-start-to-thundra-sidekick/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "README",
               "path": "/",
               "sidebar": "sidebar"
             },
             {
-              "id": "other/api-key",
-              "path": "/how-to/get-api-key",
+              "id": "reference/conditional-tracepoints",
+              "path": "/reference/conditional-tracepoints",
               "sidebar": "sidebar"
             },
             {
-              "id": "other/badges",
-              "path": "/how-to/badges",
+              "id": "reference/faq",
+              "path": "/reference/faq",
               "sidebar": "sidebar"
             },
             {
-              "id": "other/hiding-forks",
-              "path": "/how-to/hide-forks",
+              "id": "reference/logpoint-expressions",
+              "path": "/reference/logpoint-expressions",
               "sidebar": "sidebar"
             },
             {
-              "id": "other/troubleshooting",
-              "path": "/how-to/troubleshooting",
+              "id": "sidekick-actions/error-stack-collection",
+              "path": "/sidekick-actions/error-stack-collection",
               "sidebar": "sidebar"
             },
             {
-              "id": "quick-configuration",
-              "path": "/step-by-step-guide",
+              "id": "sidekick-actions/logpoint",
+              "path": "/sidekick-actions/logpoint",
               "sidebar": "sidebar"
             },
             {
-              "id": "security",
-              "path": "/security",
+              "id": "sidekick-actions/reference-events-and-probe-tags",
+              "path": "/sidekick-actions/reference-events-and-probe-tags",
               "sidebar": "sidebar"
             },
             {
-              "id": "use-cases/detect-failed-tests",
-              "path": "/use-cases/detect-failed-tests",
+              "id": "sidekick-actions/tracepoint",
+              "path": "/sidekick-actions/tracepoint",
               "sidebar": "sidebar"
             },
             {
-              "id": "use-cases/identify-flaky-tests",
-              "path": "/use-cases/identify-flaky-tests",
+              "id": "SUMMARY",
+              "path": "/SUMMARY",
               "sidebar": "sidebar"
             },
             {
-              "id": "use-cases/monitor-github-actions",
-              "path": "/use-cases/monitor-github-actions",
+              "id": "use-cases/conditional-stack-and-log-collection",
+              "path": "/use-cases/conditional-stack-and-log-collection",
               "sidebar": "sidebar"
             },
             {
-              "id": "use-cases/the-cost-of-missing-critical-ci-metrics",
-              "path": "/use-cases/the-cost-of-missing-critical-ci-metrics",
+              "id": "use-cases/cut-monitoring-costs-with-dynamic-logging",
+              "path": "/use-cases/cut-monitoring-costs-with-dynamic-logging",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "use-cases/developer-on-boarding",
+              "path": "/use-cases/developer-on-boarding",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "use-cases/dynamic-logging",
+              "path": "/use-cases/dynamic-logging",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/README",
+              "path": "/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "use-cases/identifying-stack-changes-and-stack-comparison",
+              "path": "/use-cases/identifying-stack-changes-and-stack-comparison",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "use-cases/pinpointing-causes-of-errors",
+              "path": "/use-cases/pinpointing-causes-of-errors",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "use-cases/production-debugging",
+              "path": "/use-cases/production-debugging",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "use-cases/README",
+              "path": "/use-cases/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "use-cases/remote-debugging-kubernetes-cluster-pods-and-containers",
+              "path": "/use-cases/remote-debugging-kubernetes-cluster-pods-and-containers",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "use-cases/using-trace-data-to-find-root-cause-of-an-error",
+              "path": "/use-cases/using-trace-data-to-find-root-cause-of-an-error",
               "sidebar": "sidebar"
             }
           ],
@@ -150,7 +530,7 @@
             "sidebar": {
               "link": {
                 "path": "/",
-                "label": "intro"
+                "label": "README"
               }
             }
           }

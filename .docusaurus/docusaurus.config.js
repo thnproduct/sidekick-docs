@@ -4,36 +4,36 @@ Your edits in this file will be overwritten in the next build!
 Modify the docusaurus.config.js file at your site's root instead.
 */
 export default {
-  "title": "Foresight",
-  "tagline": "Foresight provides full visibility and deep insights into the health and performance of your tests and CI/CD pipelines.",
-  "url": "https://docs.runforesight.com",
+  "title": "Sidekick",
+  "tagline": "Like Chrome DevTools, for your backend",
+  "url": "https://docs.runsidekick.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
   "organizationName": "thundra",
-  "projectName": "foresight",
+  "projectName": "sidekick",
   "presets": [
     [
       "classic",
       {
         "docs": {
           "routeBasePath": "/",
-          "sidebarPath": "/Users/burakkantarci/Dev/foresight-docs/sidebars.js",
+          "sidebarPath": "/Users/bariskaya/dev/thundra/sidekick-docs-v2/sidebars.js",
           "sidebarCollapsible": true
         },
         "blog": {
           "showReadingTime": true
         },
         "theme": {
-          "customCss": "/Users/burakkantarci/Dev/foresight-docs/src/css/custom.css"
+          "customCss": "/Users/bariskaya/dev/thundra/sidekick-docs-v2/src/css/custom.css"
         }
       }
     ]
   ],
   "themeConfig": {
     "navbar": {
-      "title": "Foresight",
+      "title": "Sidekick",
       "logo": {
         "alt": " ",
         "src": "img/logo.svg"
@@ -46,23 +46,13 @@ export default {
           "label": "Docs"
         },
         {
-          "href": "https://app.runforesight.com/signup",
+          "href": "https://app.runsidekick.com/signup",
           "label": "Get Started",
           "position": "right",
           "className": "navbar-get-started"
         },
         {
-          "href": "https://changelog.runforesight.com",
-          "label": "Changelog",
-          "position": "left"
-        },
-        {
-          "href": "https://app.runforesight.live",
-          "label": "Playground",
-          "position": "left"
-        },
-        {
-          "href": "https://runforesight.com/pricing",
+          "href": "https://runsidekick.com/pricing",
           "label": "Pricing",
           "position": "left"
         },
@@ -76,7 +66,7 @@ export default {
     },
     "footer": {
       "style": "dark",
-      "copyright": "Copyright © 2022 Thundra, Inc. Built with Docusaurus.",
+      "copyright": "Copyright © 2023 Thundra, Inc. Built with Docusaurus.",
       "links": []
     },
     "prism": {

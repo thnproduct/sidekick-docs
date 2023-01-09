@@ -1,0 +1,50 @@
+# ❓ Why Sidekick?
+
+Sidekick helps you quickly and easily modify the collected data to understand the application's behavior in real-time better. This is particularly useful in a live production environment, where it is often necessary to understand and troubleshoot issues quickly and efficiently.
+
+{% content-ref url="quick-start-to-thundra-sidekick/" %}
+[quick-start-to-thundra-sidekick](quick-start-to-thundra-sidekick/)
+{% endcontent-ref %}
+
+### What's the idea behind Sidekick?
+
+Debugging applications in remote environments is painful because you can’t set breakpoints to remote applications like you can in your local environment. The primary motivation behind Sidekick is to help developers alleviate the suffering caused by the lack of tooling for debugging during remote development in distributed environments.
+
+{% hint style="info" %}
+If you are looking for a Sidekick Open Source release, visit :  [Broken link](broken-reference "mention")
+{% endhint %}
+
+### What does Sidekick do?&#x20;
+
+Sidekick removes the burden of debugging and enables developers to set a non-intrusive breakpoint to your code, which doesn’t interrupt an execution but can still debug your application even if your app is up and running.
+
+Sidekick provides agents for Java, Python, and NodeJS runtimes. Developers put Sidekick actions (logpoints & tracepoints )in code using either Web IDE, Visual Studio Code, IntelliJ IDEA, PyCharm, or WebStorm, and Sidekick broker conveys the point locations to the agent. When the code executes, the agent takes a snapshot of the application state, the call stack, captured variables, etc., without stopping the application and sends the snapshot or the generated log to your environment as an event.&#x20;
+
+After capturing the snapshots or generating logs with Sidekick, developers can analyze the events to understand the application's behavior.
+
+<figure><img src=".gitbook/assets/HowSidekickWorks.gif" alt="" /><figcaption></figcaption></figure>
+
+
+
+### Who should use Sidekick
+
+While utilizing log data seems the most obvious choice for debugging a remote application, Sidekick provides an extra edge with a seamless experience similar to debugging an application in your local environment.
+
+Whether you're a developer, testing software engineer, or QA engineer, Sidekick is here to help you find the root cause of the errors.
+
+**Benefits of Sidekick for Developers, QA Engineers, and Software Engineers:**
+
+* Debug your remote application (monoliths or microservices on Kubernetes, Docker, VMs, or Local) and collect actionable data from your remote application.
+* Add logs to your production apps without redeploying or restarting
+* Cut your monitoring costs with on-demand & conditional logpoints & tracepoints
+* On-board new developers by showing how your apps work using real-time data.
+* Observe Event-Driven Systems with ease
+* Programmatically control where and when you collect data from your applications.
+* Either use Sidekick's Web IDE, VS Code, IntelliJ IDEA, PyCharm & WebStorm extensions to control your Sidekick Actions or use headless clients to bring Sidekick to your workflow in any way you want!
+* Evaluate the impact of an error on applications with integrated distributed tracing.
+* Collaborate with your colleagues by sharing snapshots taken by Sidekick.
+* Reduce the time spent context-switching between different tools.
+* Triage failures in tests are even faster with snapshots and traces
+* Re-run tests with more added intelligence
+
+****

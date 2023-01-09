@@ -1,6 +1,6 @@
 export default [
-  require('/Users/burakkantarci/Dev/foresight-docs/node_modules/infima/dist/css/default/default.css'),
-  require('/Users/burakkantarci/Dev/foresight-docs/node_modules/@docusaurus/theme-classic/lib/prism-include-languages'),
-  require('/Users/burakkantarci/Dev/foresight-docs/node_modules/@docusaurus/theme-classic/lib/admonitions.css'),
-  require('/Users/burakkantarci/Dev/foresight-docs/src/css/custom.css'),
+  require('/Users/bariskaya/dev/thundra/sidekick-docs-v2/node_modules/infima/dist/css/default/default.css'),
+  require('/Users/bariskaya/dev/thundra/sidekick-docs-v2/node_modules/@docusaurus/theme-classic/lib/prism-include-languages'),
+  require('/Users/bariskaya/dev/thundra/sidekick-docs-v2/node_modules/@docusaurus/theme-classic/lib/admonitions.css'),
+  require('/Users/bariskaya/dev/thundra/sidekick-docs-v2/src/css/custom.css'),
 ];

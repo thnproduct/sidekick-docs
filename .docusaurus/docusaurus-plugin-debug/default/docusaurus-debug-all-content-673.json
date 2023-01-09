@@ -12,728 +12,2288 @@
           "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/burakkantarci/Dev/foresight-docs/sidebars.js",
-          "contentPath": "/Users/burakkantarci/Dev/foresight-docs/docs",
-          "contentPathLocalized": "/Users/burakkantarci/Dev/foresight-docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/bariskaya/dev/thundra/sidekick-docs-v2/sidebars.js",
+          "contentPath": "/Users/bariskaya/dev/thundra/sidekick-docs-v2/docs",
+          "contentPathLocalized": "/Users/bariskaya/dev/thundra/sidekick-docs-v2/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "advanced-configurations/cypress-test-reports",
-              "id": "advanced-configurations/cypress-test-reports",
-              "title": "↳ Cypress",
-              "description": "Cypress is a popular open-source test automation framework that allows teams to write, run, and debug tests for web applications. With its intuitive API and easy-to-use interface, Cypress makes it simple for teams to create reliable and maintainable test suites for their web applications.",
-              "source": "@site/docs/advanced-configurations/cypress-test-reports.mdx",
-              "sourceDirName": "advanced-configurations",
-              "slug": "/advanced-configurations/cypress-test-reports",
-              "permalink": "/advanced-configurations/cypress-test-reports",
+              "unversionedId": "agents/java/configuration",
+              "id": "agents/java/configuration",
+              "title": "Installation",
+              "description": "Follow the below steps to install Sidekick SDK to your application.&#x20;",
+              "source": "@site/docs/agents/java/configuration.md",
+              "sourceDirName": "agents/java",
+              "slug": "/agents/java/configuration",
+              "permalink": "/agents/java/configuration",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "title": "↳ Cypress",
-                "slug": "cypress-test-reports",
-                "sidebar_position": 2
-              },
+              "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "Test kit",
-                "permalink": "/advanced-configuration/test-kit"
+                "title": "☕ Java",
+                "permalink": "/agents/java/"
               },
               "next": {
-                "title": "Workflow kit",
-                "permalink": "/advanced-configuration/workflow-kit"
+                "title": "Source Bundling",
+                "permalink": "/agents/java/source-bundling"
               }
             },
             {
-              "unversionedId": "advanced-configurations/test-kit",
-              "id": "advanced-configurations/test-kit",
-              "title": "Test kit",
-              "description": "A GitHub Action to analyze test and/or coverage results. Foresight’s Test Kit action integrates with your Github Actions pipelines.",
-              "source": "@site/docs/advanced-configurations/test-kit.mdx",
-              "sourceDirName": "advanced-configurations",
-              "slug": "/advanced-configuration/test-kit",
-              "permalink": "/advanced-configuration/test-kit",
+              "unversionedId": "agents/java/README",
+              "id": "agents/java/README",
+              "title": "☕ Java",
+              "description": "This topic describes how to prepare the application environment and install the Sidekick Java Agent",
+              "source": "@site/docs/agents/java/README.md",
+              "sourceDirName": "agents/java",
+              "slug": "/agents/java/",
+              "permalink": "/agents/java/",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 1,
               "frontMatter": {
-                "title": "Test kit",
-                "slug": "/advanced-configuration/test-kit",
-                "sidebar_position": 1
+                "description": "This topic describes how to prepare the application environment and install the Sidekick Java Agent"
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "🔐 Security",
-                "permalink": "/security"
+                "title": "Table of contents",
+                "permalink": "/SUMMARY"
               },
               "next": {
-                "title": "↳ Cypress",
-                "permalink": "/advanced-configurations/cypress-test-reports"
+                "title": "Installation",
+                "permalink": "/agents/java/configuration"
               }
             },
             {
-              "unversionedId": "advanced-configurations/workflow-kit",
-              "id": "advanced-configurations/workflow-kit",
-              "title": "Workflow kit",
-              "description": "A GitHub Action to track and monitor the resource metrics of your GitHub Action workflow runs. If the run is triggered via a Pull Request, it will create a comment on the connected PR with the results and/or publishes the results to the job summary. The action collects the following metrics:",
-              "source": "@site/docs/advanced-configurations/workflow-kit.mdx",
-              "sourceDirName": "advanced-configurations",
-              "slug": "/advanced-configuration/workflow-kit",
-              "permalink": "/advanced-configuration/workflow-kit",
+              "unversionedId": "agents/java/source-bundling",
+              "id": "agents/java/source-bundling",
+              "title": "Source Bundling",
+              "description": "For detecting mismatches between source code on your local and actual code running on remote applications, Sidekick agent requires source codes to be available in the running application artifact (jar). So source codes should be put into artifacts while building. Otherwise, source code incompatibility checks will not be applied as this is optional. In case of code level conflict is detected between local and remote, put tracepoint request will be rejected.\\",
+              "source": "@site/docs/agents/java/source-bundling.md",
+              "sourceDirName": "agents/java",
+              "slug": "/agents/java/source-bundling",
+              "permalink": "/agents/java/source-bundling",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Installation",
+                "permalink": "/agents/java/configuration"
+              },
+              "next": {
+                "title": "🟢 Node.js",
+                "permalink": "/agents/node.js/"
+              }
+            },
+            {
+              "unversionedId": "agents/node.js/data-redaction",
+              "id": "agents/node.js/data-redaction",
+              "title": "Data Redaction",
+              "description": "Sidekick Node agent lets you define custom data redaction functions. Below you can see the related confing and an example:",
+              "source": "@site/docs/agents/node.js/data-redaction.md",
+              "sourceDirName": "agents/node.js",
+              "slug": "/agents/node.js/data-redaction",
+              "permalink": "/agents/node.js/data-redaction",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "🟢 Node.js",
+                "permalink": "/agents/node.js/"
+              },
+              "next": {
+                "title": "Error Stack Collection",
+                "permalink": "/agents/node.js/error-stack-collection"
+              }
+            },
+            {
+              "unversionedId": "agents/node.js/error-stack-collection",
+              "id": "agents/node.js/error-stack-collection",
+              "title": "Error Stack Collection",
+              "description": "With our Node agent’s latest update, developers can now activate automatic error stack collection and start collecting exception call stacks from their running applications without stopping them.",
+              "source": "@site/docs/agents/node.js/error-stack-collection.md",
+              "sourceDirName": "agents/node.js",
+              "slug": "/agents/node.js/error-stack-collection",
+              "permalink": "/agents/node.js/error-stack-collection",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Data Redaction",
+                "permalink": "/agents/node.js/data-redaction"
+              },
+              "next": {
+                "title": "Docker Configuration",
+                "permalink": "/agents/node.js/installation-1"
+              }
+            },
+            {
+              "unversionedId": "agents/node.js/installation",
+              "id": "agents/node.js/installation",
+              "title": "Installation",
+              "description": "First install the node agent by running",
+              "source": "@site/docs/agents/node.js/installation.md",
+              "sourceDirName": "agents/node.js",
+              "slug": "/agents/node.js/installation",
+              "permalink": "/agents/node.js/installation",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Docker Configuration",
+                "permalink": "/agents/node.js/installation-1"
+              },
+              "next": {
+                "title": "Troubleshooting",
+                "permalink": "/agents/node.js/troubleshooting"
+              }
+            },
+            {
+              "unversionedId": "agents/node.js/installation-1",
+              "id": "agents/node.js/installation-1",
+              "title": "Docker Configuration",
+              "description": "In this section we will explain how you can use Sidekick Node.js agent with a containerized application.",
+              "source": "@site/docs/agents/node.js/installation-1.md",
+              "sourceDirName": "agents/node.js",
+              "slug": "/agents/node.js/installation-1",
+              "permalink": "/agents/node.js/installation-1",
+              "tags": [],
+              "version": "current",
               "frontMatter": {
-                "title": "Workflow kit",
-                "slug": "/advanced-configuration/workflow-kit",
-                "sidebar_position": 3
+                "description": "In this section we will explain how you can use Sidekick Node.js agent with a containerized application."
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "↳ Cypress",
-                "permalink": "/advanced-configurations/cypress-test-reports"
+                "title": "Error Stack Collection",
+                "permalink": "/agents/node.js/error-stack-collection"
               },
               "next": {
-                "title": "Highlights",
-                "permalink": "/features/highlights"
+                "title": "Installation",
+                "permalink": "/agents/node.js/installation"
               }
             },
             {
-              "unversionedId": "examples",
-              "id": "examples",
-              "title": "🧭 Example Projects",
-              "description": "Below you can find the Foresight-ready repositories. Learn how to use them",
-              "source": "@site/docs/examples.mdx",
-              "sourceDirName": ".",
-              "slug": "/examples",
-              "permalink": "/examples",
+              "unversionedId": "agents/node.js/README",
+              "id": "agents/node.js/README",
+              "title": "🟢 Node.js",
+              "description": "Sidekick agent Nodejs is a Node.js library that communicate with Sidekick broker to inspect, monitor and debug your application on the fly.",
+              "source": "@site/docs/agents/node.js/README.md",
+              "sourceDirName": "agents/node.js",
+              "slug": "/agents/node.js/",
+              "permalink": "/agents/node.js/",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "title": "🧭 Example Projects",
-                "sidebar_position": 2,
-                "slug": "/examples"
-              },
+              "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "👋🏻 Introduction",
-                "permalink": "/"
+                "title": "Source Bundling",
+                "permalink": "/agents/java/source-bundling"
               },
               "next": {
-                "title": "⚡️ Quick configuration",
-                "permalink": "/step-by-step-guide"
+                "title": "Data Redaction",
+                "permalink": "/agents/node.js/data-redaction"
               }
             },
             {
-              "unversionedId": "features/change-impact-analysis",
-              "id": "features/change-impact-analysis",
-              "title": "Change impact analysis",
-              "description": "Foresight correlates the changes to the codebase with the test coverage reports to determine",
-              "source": "@site/docs/features/change-impact-analysis.mdx",
-              "sourceDirName": "features",
-              "slug": "/features/analyze-code-change-impact",
-              "permalink": "/features/analyze-code-change-impact",
+              "unversionedId": "agents/node.js/troubleshooting",
+              "id": "agents/node.js/troubleshooting",
+              "title": "Troubleshooting",
+              "description": "You can use the parameters below to troubleshoot your agent.",
+              "source": "@site/docs/agents/node.js/troubleshooting.md",
+              "sourceDirName": "agents/node.js",
+              "slug": "/agents/node.js/troubleshooting",
+              "permalink": "/agents/node.js/troubleshooting",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 11,
-              "frontMatter": {
-                "title": "Change impact analysis",
-                "slug": "/features/analyze-code-change-impact",
-                "sidebar_position": 11
-              },
+              "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "Team management",
-                "permalink": "/features/team-management"
+                "title": "Installation",
+                "permalink": "/agents/node.js/installation"
               },
               "next": {
-                "title": "Monitor GitHub Actions workflows",
-                "permalink": "/use-cases/monitor-github-actions"
+                "title": "🐍 Python",
+                "permalink": "/agents/python/"
               }
             },
             {
-              "unversionedId": "features/highlights",
-              "id": "features/highlights",
-              "title": "Highlights",
-              "description": "As code flows through your CI workflows, it is processed by plenty of different steps. Each step depends",
-              "source": "@site/docs/features/highlights.mdx",
-              "sourceDirName": "features",
-              "slug": "/features/highlights",
-              "permalink": "/features/highlights",
+              "unversionedId": "agents/python/data-redaction",
+              "id": "agents/python/data-redaction",
+              "title": "Data Redaction",
+              "description": "Sidekick Python agent lets you define custom data redaction functions. Below you can see an example:",
+              "source": "@site/docs/agents/python/data-redaction.md",
+              "sourceDirName": "agents/python",
+              "slug": "/agents/python/data-redaction",
+              "permalink": "/agents/python/data-redaction",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "title": "Highlights",
-                "slug": "/features/highlights",
-                "sidebar_position": 1
-              },
+              "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "Workflow kit",
-                "permalink": "/advanced-configuration/workflow-kit"
+                "title": "🐍 Python",
+                "permalink": "/agents/python/"
               },
               "next": {
-                "title": "Pull request view",
-                "permalink": "/features/pull-request-view"
+                "title": "Error Stack Collection",
+                "permalink": "/agents/python/error-stack-collection"
               }
             },
             {
-              "unversionedId": "features/process-trace-chart",
-              "id": "features/process-trace-chart",
-              "title": "↳ Process trace chart",
-              "description": "Process Trace Chart",
-              "source": "@site/docs/features/process-trace-chart.mdx",
-              "sourceDirName": "features",
-              "slug": "/features/process-trace-chart",
-              "permalink": "/features/process-trace-chart",
+              "unversionedId": "agents/python/error-stack-collection",
+              "id": "agents/python/error-stack-collection",
+              "title": "Error Stack Collection",
+              "description": "You can now activate automatic error stack collection and start collecting exception call stacks from your running applications without needing for putting a tracepoint beforehand.",
+              "source": "@site/docs/agents/python/error-stack-collection.md",
+              "sourceDirName": "agents/python",
+              "slug": "/agents/python/error-stack-collection",
+              "permalink": "/agents/python/error-stack-collection",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "title": "↳ Process trace chart",
-                "slug": "/features/process-trace-chart",
-                "sidebar_position": 5
-              },
+              "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "↳ Workflow metrics",
-                "permalink": "/features/workflow-metrics"
+                "title": "Data Redaction",
+                "permalink": "/agents/python/data-redaction"
               },
               "next": {
-                "title": "Test runs",
-                "permalink": "/features/test-runs"
+                "title": "Docker Configuration",
+                "permalink": "/agents/python/installation-1"
               }
             },
             {
-              "unversionedId": "features/pull-request-comments",
-              "id": "features/pull-request-comments",
-              "title": "↳ Pull request comments",
-              "description": "/img/features/pull-request-comments.png",
-              "source": "@site/docs/features/pull-request-comments.mdx",
-              "sourceDirName": "features",
-              "slug": "/features/pull-request-comments",
-              "permalink": "/features/pull-request-comments",
+              "unversionedId": "agents/python/installation",
+              "id": "agents/python/installation",
+              "title": "Installation",
+              "description": "Follow the below steps to install Sidekick Agent Python to your application.",
+              "source": "@site/docs/agents/python/installation.md",
+              "sourceDirName": "agents/python",
+              "slug": "/agents/python/installation",
+              "permalink": "/agents/python/installation",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "title": "↳ Pull request comments",
-                "slug": "/features/pull-request-comments",
-                "sidebar_position": 3
-              },
+              "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "Pull request view",
-                "permalink": "/features/pull-request-view"
+                "title": "Docker Configuration",
+                "permalink": "/agents/python/installation-1"
               },
               "next": {
-                "title": "Workflow runs",
-                "permalink": "/features/workflow-runs"
+                "title": "🗝 Get API Key & Token",
+                "permalink": "/installation/get-api-key-and-token"
               }
             },
             {
-              "unversionedId": "features/pull-request-view",
-              "id": "features/pull-request-view",
-              "title": "Pull request view",
-              "description": "The workflow, test, and test gap results of a pull request can all be",
-              "source": "@site/docs/features/pull-request-view.mdx",
-              "sourceDirName": "features",
-              "slug": "/features/pull-request-view",
-              "permalink": "/features/pull-request-view",
+              "unversionedId": "agents/python/installation-1",
+              "id": "agents/python/installation-1",
+              "title": "Docker Configuration",
+              "description": "After installation you can bundle Sidekick agent with your containers to debug them while they are running. Below you can see how you can run your container with related Sidekick configurations.",
+              "source": "@site/docs/agents/python/installation-1.md",
+              "sourceDirName": "agents/python",
+              "slug": "/agents/python/installation-1",
+              "permalink": "/agents/python/installation-1",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "title": "Pull request view",
-                "slug": "/features/pull-request-view",
-                "sidebar_position": 2
-              },
+              "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "Highlights",
-                "permalink": "/features/highlights"
+                "title": "Error Stack Collection",
+                "permalink": "/agents/python/error-stack-collection"
               },
               "next": {
-                "title": "↳ Pull request comments",
-                "permalink": "/features/pull-request-comments"
+                "title": "Installation",
+                "permalink": "/agents/python/installation"
               }
             },
             {
-              "unversionedId": "features/rules",
-              "id": "features/rules",
-              "title": "Rules",
-              "description": "Rules lets you set up robust and customizable policies for your workflows and tests. Receive notifications for fluctuations",
-              "source": "@site/docs/features/rules.mdx",
-              "sourceDirName": "features",
-              "slug": "/features/rules",
-              "permalink": "/features/rules",
+              "unversionedId": "agents/python/README",
+              "id": "agents/python/README",
+              "title": "🐍 Python",
+              "description": "Sidekick is a live application debugger that helps you to diagnose flaws & bugs in Python applications with near zero overhead thanks to the asynchronous approach.",
+              "source": "@site/docs/agents/python/README.md",
+              "sourceDirName": "agents/python",
+              "slug": "/agents/python/",
+              "permalink": "/agents/python/",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 8,
-              "frontMatter": {
-                "title": "Rules",
-                "slug": "/features/rules",
-                "sidebar_position": 8
-              },
+              "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "↳ Test logs",
-                "permalink": "/features/test-logs"
+                "title": "Troubleshooting",
+                "permalink": "/agents/node.js/troubleshooting"
               },
               "next": {
-                "title": "Team management",
-                "permalink": "/features/team-management"
+                "title": "Data Redaction",
+                "permalink": "/agents/python/data-redaction"
               }
             },
             {
-              "unversionedId": "features/team-management",
-              "id": "features/team-management",
-              "title": "Team management",
-              "description": "Roles",
-              "source": "@site/docs/features/team-management.mdx",
-              "sourceDirName": "features",
-              "slug": "/features/team-management",
-              "permalink": "/features/team-management",
+              "unversionedId": "installation/get-api-key-and-token",
+              "id": "installation/get-api-key-and-token",
+              "title": "🗝 Get API Key & Token",
+              "description": "{% hint style=\"warning\" %}",
+              "source": "@site/docs/installation/get-api-key-and-token.md",
+              "sourceDirName": "installation",
+              "slug": "/installation/get-api-key-and-token",
+              "permalink": "/installation/get-api-key-and-token",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 9,
-              "frontMatter": {
-                "title": "Team management",
-                "slug": "/features/team-management",
-                "sidebar_position": 9
-              },
+              "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "Rules",
-                "permalink": "/features/rules"
+                "title": "Installation",
+                "permalink": "/agents/python/installation"
               },
               "next": {
-                "title": "Change impact analysis",
-                "permalink": "/features/analyze-code-change-impact"
+                "title": "🖋 Sign up for Sidekick",
+                "permalink": "/installation/signup-with-thundra-sidekick"
               }
             },
             {
-              "unversionedId": "features/test-logs",
-              "id": "features/test-logs",
-              "title": "↳ Test logs",
-              "description": "Logs are still one of the best ways of debugging your software. When it comes to writing log lines,",
-              "source": "@site/docs/features/test-logs.mdx",
-              "sourceDirName": "features",
-              "slug": "/features/test-logs",
-              "permalink": "/features/test-logs",
+              "unversionedId": "installation/signup-with-thundra-sidekick",
+              "id": "installation/signup-with-thundra-sidekick",
+              "title": "🖋 Sign up for Sidekick",
+              "description": "In order to get started with Sidekick, you need to create an account. You can sign up for Sidekick within a minute after clicking this link.",
+              "source": "@site/docs/installation/signup-with-thundra-sidekick.md",
+              "sourceDirName": "installation",
+              "slug": "/installation/signup-with-thundra-sidekick",
+              "permalink": "/installation/signup-with-thundra-sidekick",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 7,
-              "frontMatter": {
-                "title": "↳ Test logs",
-                "slug": "/features/test-logs",
-                "sidebar_position": 7
-              },
+              "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "Test runs",
-                "permalink": "/features/test-runs"
+                "title": "🗝 Get API Key & Token",
+                "permalink": "/installation/get-api-key-and-token"
               },
               "next": {
-                "title": "Rules",
-                "permalink": "/features/rules"
+                "title": "Cypress Plugin for E2E tests",
+                "permalink": "/integrations/cypress-plugin-for-e2e-tests"
               }
             },
             {
-              "unversionedId": "features/test-runs",
-              "id": "features/test-runs",
-              "title": "Test runs",
-              "description": "Your tests will be captured when you trigger your CI build. You will see your runs will be listed under the Test Runs menu.",
-              "source": "@site/docs/features/test-runs.mdx",
-              "sourceDirName": "features",
-              "slug": "/features/test-runs",
-              "permalink": "/features/test-runs",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "title": "Test runs",
-                "slug": "/features/test-runs",
-                "sidebar_position": 6
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "↳ Process trace chart",
-                "permalink": "/features/process-trace-chart"
-              },
-              "next": {
-                "title": "↳ Test logs",
-                "permalink": "/features/test-logs"
-              }
-            },
-            {
-              "unversionedId": "features/workflow-metrics",
-              "id": "features/workflow-metrics",
-              "title": "↳ Workflow metrics",
-              "description": "Workflow metrics",
-              "source": "@site/docs/features/workflow-metrics.mdx",
-              "sourceDirName": "features",
-              "slug": "/features/workflow-metrics",
-              "permalink": "/features/workflow-metrics",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "title": "↳ Workflow metrics",
-                "slug": "/features/workflow-metrics",
-                "sidebar_position": 4
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "Workflow runs",
-                "permalink": "/features/workflow-runs"
-              },
-              "next": {
-                "title": "↳ Process trace chart",
-                "permalink": "/features/process-trace-chart"
-              }
-            },
-            {
-              "unversionedId": "features/workflow-runs",
-              "id": "features/workflow-runs",
-              "title": "Workflow runs",
-              "description": "With Foresight, you can easily list your and analyze your CI workflows in a repository. Foresight provides a high-level",
-              "source": "@site/docs/features/workflow-runs.mdx",
-              "sourceDirName": "features",
-              "slug": "/features/workflow-runs",
-              "permalink": "/features/workflow-runs",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "title": "Workflow runs",
-                "slug": "/features/workflow-runs",
-                "sidebar_position": 3
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "↳ Pull request comments",
-                "permalink": "/features/pull-request-comments"
-              },
-              "next": {
-                "title": "↳ Workflow metrics",
-                "permalink": "/features/workflow-metrics"
-              }
-            },
-            {
-              "unversionedId": "integrations/slack",
-              "id": "integrations/slack",
-              "title": "Slack",
-              "description": "With the help of the Incoming WebHooks Foresight now supports Slack!",
-              "source": "@site/docs/integrations/slack.mdx",
+              "unversionedId": "integrations/cypress-plugin-for-e2e-tests",
+              "id": "integrations/cypress-plugin-for-e2e-tests",
+              "title": "Cypress Plugin for E2E tests",
+              "description": "{% embed url=\"https://www.npmjs.com/package/@runsidekick/cypress\" %}",
+              "source": "@site/docs/integrations/cypress-plugin-for-e2e-tests.md",
               "sourceDirName": "integrations",
-              "slug": "/integrations/slack",
-              "permalink": "/integrations/slack",
+              "slug": "/integrations/cypress-plugin-for-e2e-tests",
+              "permalink": "/integrations/cypress-plugin-for-e2e-tests",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 1,
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "🖋 Sign up for Sidekick",
+                "permalink": "/installation/signup-with-thundra-sidekick"
+              },
+              "next": {
+                "title": "Grafana Plugin for remote controlling Sidekick Actions",
+                "permalink": "/integrations/grafana-plugin-for-remote-controlling-sidekick-actions"
+              }
+            },
+            {
+              "unversionedId": "integrations/grafana-plugin-for-remote-controlling-sidekick-actions",
+              "id": "integrations/grafana-plugin-for-remote-controlling-sidekick-actions",
+              "title": "Grafana Plugin for remote controlling Sidekick Actions",
+              "description": "This panel plugin lets you to control all your Sidekick tracepoints & logpoints and tags within Grafana.",
+              "source": "@site/docs/integrations/grafana-plugin-for-remote-controlling-sidekick-actions.md",
+              "sourceDirName": "integrations",
+              "slug": "/integrations/grafana-plugin-for-remote-controlling-sidekick-actions",
+              "permalink": "/integrations/grafana-plugin-for-remote-controlling-sidekick-actions",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Cypress Plugin for E2E tests",
+                "permalink": "/integrations/cypress-plugin-for-e2e-tests"
+              },
+              "next": {
+                "title": "Integrations",
+                "permalink": "/integrations/integrations/"
+              }
+            },
+            {
+              "unversionedId": "integrations/integrations/coralogix-integration",
+              "id": "integrations/integrations/coralogix-integration",
+              "title": "Coralogix Integration",
+              "description": "Sidekick Coralogix integration allows you to send your Tracepoint events, logs & error snapshots to your Coralogix instances.",
+              "source": "@site/docs/integrations/integrations/coralogix-integration.md",
+              "sourceDirName": "integrations/integrations",
+              "slug": "/integrations/integrations/coralogix-integration",
+              "permalink": "/integrations/integrations/coralogix-integration",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Integrations",
+                "permalink": "/integrations/integrations/"
+              },
+              "next": {
+                "title": "Elasticsearch Integration",
+                "permalink": "/integrations/integrations/elasticsearch-integration"
+              }
+            },
+            {
+              "unversionedId": "integrations/integrations/elasticsearch-integration",
+              "id": "integrations/integrations/elasticsearch-integration",
+              "title": "Elasticsearch Integration",
+              "description": "Sidekick Elasticsearch integration allows you to send your Tracepoint events, logs & error snapshots to your Elasticsearch instances.",
+              "source": "@site/docs/integrations/integrations/elasticsearch-integration.md",
+              "sourceDirName": "integrations/integrations",
+              "slug": "/integrations/integrations/elasticsearch-integration",
+              "permalink": "/integrations/integrations/elasticsearch-integration",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Coralogix Integration",
+                "permalink": "/integrations/integrations/coralogix-integration"
+              },
+              "next": {
+                "title": "Logz.io Integration",
+                "permalink": "/integrations/integrations/logz.io-integration"
+              }
+            },
+            {
+              "unversionedId": "integrations/integrations/logz.io-integration",
+              "id": "integrations/integrations/logz.io-integration",
+              "title": "Logz.io Integration",
+              "description": "Sidekick Logz.io integration allows you to send your Tracepoint events, logs & error snapshots to your Logz.io instances.",
+              "source": "@site/docs/integrations/integrations/logz.io-integration.md",
+              "sourceDirName": "integrations/integrations",
+              "slug": "/integrations/integrations/logz.io-integration",
+              "permalink": "/integrations/integrations/logz.io-integration",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Elasticsearch Integration",
+                "permalink": "/integrations/integrations/elasticsearch-integration"
+              },
+              "next": {
+                "title": "Loki Integration",
+                "permalink": "/integrations/integrations/loki-integration"
+              }
+            },
+            {
+              "unversionedId": "integrations/integrations/loki-integration",
+              "id": "integrations/integrations/loki-integration",
+              "title": "Loki Integration",
+              "description": "Sidekick Loki integration allows you to send your Tracepoint events, logs & error snapshots to your Loki instances.",
+              "source": "@site/docs/integrations/integrations/loki-integration.md",
+              "sourceDirName": "integrations/integrations",
+              "slug": "/integrations/integrations/loki-integration",
+              "permalink": "/integrations/integrations/loki-integration",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Logz.io Integration",
+                "permalink": "/integrations/integrations/logz.io-integration"
+              },
+              "next": {
+                "title": "New Relic Integration",
+                "permalink": "/integrations/integrations/new-relic-integration"
+              }
+            },
+            {
+              "unversionedId": "integrations/integrations/new-relic-integration",
+              "id": "integrations/integrations/new-relic-integration",
+              "title": "New Relic Integration",
+              "description": "Sidekick New Relic integration allows you to send your Tracepoint events, logs & error snapshots to your New Relic instances.",
+              "source": "@site/docs/integrations/integrations/new-relic-integration.md",
+              "sourceDirName": "integrations/integrations",
+              "slug": "/integrations/integrations/new-relic-integration",
+              "permalink": "/integrations/integrations/new-relic-integration",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Loki Integration",
+                "permalink": "/integrations/integrations/loki-integration"
+              },
+              "next": {
+                "title": "Slack Integration",
+                "permalink": "/integrations/integrations/slack-integration"
+              }
+            },
+            {
+              "unversionedId": "integrations/integrations/README",
+              "id": "integrations/integrations/README",
+              "title": "Integrations",
+              "description": "Data target integrations",
+              "source": "@site/docs/integrations/integrations/README.md",
+              "sourceDirName": "integrations/integrations",
+              "slug": "/integrations/integrations/",
+              "permalink": "/integrations/integrations/",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Grafana Plugin for remote controlling Sidekick Actions",
+                "permalink": "/integrations/grafana-plugin-for-remote-controlling-sidekick-actions"
+              },
+              "next": {
+                "title": "Coralogix Integration",
+                "permalink": "/integrations/integrations/coralogix-integration"
+              }
+            },
+            {
+              "unversionedId": "integrations/integrations/slack-integration",
+              "id": "integrations/integrations/slack-integration",
+              "title": "Slack Integration",
+              "description": "Sidekick Slack integration allows you to send your Tracepoint events, logs & error snapshots to your Slack channels.",
+              "source": "@site/docs/integrations/integrations/slack-integration.md",
+              "sourceDirName": "integrations/integrations",
+              "slug": "/integrations/integrations/slack-integration",
+              "permalink": "/integrations/integrations/slack-integration",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "New Relic Integration",
+                "permalink": "/integrations/integrations/new-relic-integration"
+              },
+              "next": {
+                "title": "SolarWinds Loggly Integration",
+                "permalink": "/integrations/integrations/solarwinds-loggly-integration"
+              }
+            },
+            {
+              "unversionedId": "integrations/integrations/solarwinds-loggly-integration",
+              "id": "integrations/integrations/solarwinds-loggly-integration",
+              "title": "SolarWinds Loggly Integration",
+              "description": "Sidekick Loggly integration allows you to send your Tracepoint events, logs & error snapshots to your Loggly instances.",
+              "source": "@site/docs/integrations/integrations/solarwinds-loggly-integration.md",
+              "sourceDirName": "integrations/integrations",
+              "slug": "/integrations/integrations/solarwinds-loggly-integration",
+              "permalink": "/integrations/integrations/solarwinds-loggly-integration",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Slack Integration",
+                "permalink": "/integrations/integrations/slack-integration"
+              },
+              "next": {
+                "title": "Sumo Logic Integration",
+                "permalink": "/integrations/integrations/sumo-logic-integration"
+              }
+            },
+            {
+              "unversionedId": "integrations/integrations/sumo-logic-integration",
+              "id": "integrations/integrations/sumo-logic-integration",
+              "title": "Sumo Logic Integration",
+              "description": "Sidekick Sumo Logic integration allows you to send your Tracepoint events, logs & error snapshots to your Sumo Logic instances.",
+              "source": "@site/docs/integrations/integrations/sumo-logic-integration.md",
+              "sourceDirName": "integrations/integrations",
+              "slug": "/integrations/integrations/sumo-logic-integration",
+              "permalink": "/integrations/integrations/sumo-logic-integration",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "SolarWinds Loggly Integration",
+                "permalink": "/integrations/integrations/solarwinds-loggly-integration"
+              },
+              "next": {
+                "title": "Webhook Integration",
+                "permalink": "/integrations/integrations/webhook-integration"
+              }
+            },
+            {
+              "unversionedId": "integrations/integrations/webhook-integration",
+              "id": "integrations/integrations/webhook-integration",
+              "title": "Webhook Integration",
+              "description": "Sidekick allows you to set custom webhook targets and send your Tracepoint events, logs & error snapshots to them.&#x20;",
+              "source": "@site/docs/integrations/integrations/webhook-integration.md",
+              "sourceDirName": "integrations/integrations",
+              "slug": "/integrations/integrations/webhook-integration",
+              "permalink": "/integrations/integrations/webhook-integration",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Sumo Logic Integration",
+                "permalink": "/integrations/integrations/sumo-logic-integration"
+              },
+              "next": {
+                "title": "Node.js Client",
+                "permalink": "/integrations/node.js-client"
+              }
+            },
+            {
+              "unversionedId": "integrations/node.js-client",
+              "id": "integrations/node.js-client",
+              "title": "Node.js Client",
+              "description": "Control your Sidekick actions using code!",
+              "source": "@site/docs/integrations/node.js-client.md",
+              "sourceDirName": "integrations",
+              "slug": "/integrations/node.js-client",
+              "permalink": "/integrations/node.js-client",
+              "tags": [],
+              "version": "current",
               "frontMatter": {
-                "sidebar_position": 1,
-                "slug": "/integrations/slack"
+                "description": "Control your Sidekick actions using code!"
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Detect failed tests",
-                "permalink": "/use-cases/detect-failed-tests"
+                "title": "Webhook Integration",
+                "permalink": "/integrations/integrations/webhook-integration"
               },
               "next": {
-                "title": "Dynamically generated test badges",
-                "permalink": "/how-to/badges"
+                "title": "🔌 Open-Telemetry Tracing Integration",
+                "permalink": "/integrations/open-telemetry-tracing-integration"
+              }
+            },
+            {
+              "unversionedId": "integrations/open-telemetry-tracing-integration",
+              "id": "integrations/open-telemetry-tracing-integration",
+              "title": "🔌 Open-Telemetry Tracing Integration",
+              "description": "If you have Open-Telemetry agent installed, then the Sidekick Node.js agent will automatically recognize it and enable its tracing support.",
+              "source": "@site/docs/integrations/open-telemetry-tracing-integration.md",
+              "sourceDirName": "integrations",
+              "slug": "/integrations/open-telemetry-tracing-integration",
+              "permalink": "/integrations/open-telemetry-tracing-integration",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Node.js Client",
+                "permalink": "/integrations/node.js-client"
+              },
+              "next": {
+                "title": "REST API",
+                "permalink": "/integrations/rest-api"
+              }
+            },
+            {
+              "unversionedId": "integrations/rest-api",
+              "id": "integrations/rest-api",
+              "title": "REST API",
+              "description": "{% embed url=\"https://api.service.runsidekick.com/swagger-ui/index.html\" %}",
+              "source": "@site/docs/integrations/rest-api.md",
+              "sourceDirName": "integrations",
+              "slug": "/integrations/rest-api",
+              "permalink": "/integrations/rest-api",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "🔌 Open-Telemetry Tracing Integration",
+                "permalink": "/integrations/open-telemetry-tracing-integration"
+              },
+              "next": {
+                "title": "🔌 Thundra APM Tracing Integration",
+                "permalink": "/integrations/thundra-apm-tracing-integration"
+              }
+            },
+            {
+              "unversionedId": "integrations/thundra-apm-tracing-integration",
+              "id": "integrations/thundra-apm-tracing-integration",
+              "title": "🔌 Thundra APM Tracing Integration",
+              "description": "You can enable distributed tracing by integrating Thundra APM agent as explained here. Note that, to be able to use Thundra APM agent, you need to have a separate Thundra APM account which you can get it here.",
+              "source": "@site/docs/integrations/thundra-apm-tracing-integration.md",
+              "sourceDirName": "integrations",
+              "slug": "/integrations/thundra-apm-tracing-integration",
+              "permalink": "/integrations/thundra-apm-tracing-integration",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "REST API",
+                "permalink": "/integrations/rest-api"
+              },
+              "next": {
+                "title": "🧑🏫 Index",
+                "permalink": "/intro"
               }
             },
             {
               "unversionedId": "intro",
               "id": "intro",
-              "title": "👋🏻 Introduction",
-              "description": "Foresight provides full visibility and deep insights into the health and performance of your tests and CI/CD pipelines.",
-              "source": "@site/docs/intro.mdx",
+              "title": "🧑🏫 Index",
+              "description": "Sidekick is an open-source Live Application Debugger that helps you to debug issues where they happen, when they happen, without stopping, rebuilding, or redeploying applications. Sidekick agents give you powerful dynamic observability features with near-zero overhead.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/intro",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "🔌 Thundra APM Tracing Integration",
+                "permalink": "/integrations/thundra-apm-tracing-integration"
+              },
+              "next": {
+                "title": "❓ Why Sidekick?",
+                "permalink": "/master"
+              }
+            },
+            {
+              "unversionedId": "master",
+              "id": "master",
+              "title": "❓ Why Sidekick?",
+              "description": "Sidekick helps you quickly and easily modify the collected data to understand the application's behavior in real-time better. This is particularly useful in a live production environment, where it is often necessary to understand and troubleshoot issues quickly and efficiently.",
+              "source": "@site/docs/master.md",
+              "sourceDirName": ".",
+              "slug": "/master",
+              "permalink": "/master",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "🧑🏫 Index",
+                "permalink": "/intro"
+              },
+              "next": {
+                "title": "🕵 Agent Settings",
+                "permalink": "/open-source/agent-settings"
+              }
+            },
+            {
+              "unversionedId": "open-source/agent-settings",
+              "id": "open-source/agent-settings",
+              "title": "🕵 Agent Settings",
+              "description": "In order to use Sidekick agents with your self-hosted Sidekick instances you need to override their brokerHost and brokerPort values.&#x20;",
+              "source": "@site/docs/open-source/agent-settings.md",
+              "sourceDirName": "open-source",
+              "slug": "/open-source/agent-settings",
+              "permalink": "/open-source/agent-settings",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "❓ Why Sidekick?",
+                "permalink": "/master"
+              },
+              "next": {
+                "title": "Client Settings",
+                "permalink": "/open-source/client-settings"
+              }
+            },
+            {
+              "unversionedId": "open-source/client-settings",
+              "id": "open-source/client-settings",
+              "title": "Client Settings",
+              "description": "Visual Studio Code:",
+              "source": "@site/docs/open-source/client-settings.md",
+              "sourceDirName": "open-source",
+              "slug": "/open-source/client-settings",
+              "permalink": "/open-source/client-settings",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "🕵 Agent Settings",
+                "permalink": "/open-source/agent-settings"
+              },
+              "next": {
+                "title": "⚡ Quick Start",
+                "permalink": "/open-source/quick-start"
+              }
+            },
+            {
+              "unversionedId": "open-source/quick-start",
+              "id": "open-source/quick-start",
+              "title": "⚡ Quick Start",
+              "description": "We have prepared a quick start application for you.\\",
+              "source": "@site/docs/open-source/quick-start.md",
+              "sourceDirName": "open-source",
+              "slug": "/open-source/quick-start",
+              "permalink": "/open-source/quick-start",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Client Settings",
+                "permalink": "/open-source/client-settings"
+              },
+              "next": {
+                "title": "IntelliJ IDEA Plugin (Java)",
+                "permalink": "/plugins/intellij-idea-plugin/"
+              }
+            },
+            {
+              "unversionedId": "plugins/intellij-idea-plugin/common-errors",
+              "id": "plugins/intellij-idea-plugin/common-errors",
+              "title": "Common Errors",
+              "description": "This tutorial applies to both IntelliJ IDEA, PyCharm & WebStorm",
+              "source": "@site/docs/plugins/intellij-idea-plugin/common-errors.md",
+              "sourceDirName": "plugins/intellij-idea-plugin",
+              "slug": "/plugins/intellij-idea-plugin/common-errors",
+              "permalink": "/plugins/intellij-idea-plugin/common-errors",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "description": "This tutorial applies to both IntelliJ IDEA, PyCharm & WebStorm"
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "IntelliJ IDEA Plugin (Java)",
+                "permalink": "/plugins/intellij-idea-plugin/"
+              },
+              "next": {
+                "title": "Set up IntelliJ Plugin",
+                "permalink": "/plugins/intellij-idea-plugin/getting-started"
+              }
+            },
+            {
+              "unversionedId": "plugins/intellij-idea-plugin/getting-started",
+              "id": "plugins/intellij-idea-plugin/getting-started",
+              "title": "Set up IntelliJ Plugin",
+              "description": "{% embed url=\"https://www.youtube.com/watch?v=jg8tLvCX4Q0\" %}",
+              "source": "@site/docs/plugins/intellij-idea-plugin/getting-started.md",
+              "sourceDirName": "plugins/intellij-idea-plugin",
+              "slug": "/plugins/intellij-idea-plugin/getting-started",
+              "permalink": "/plugins/intellij-idea-plugin/getting-started",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Common Errors",
+                "permalink": "/plugins/intellij-idea-plugin/common-errors"
+              },
+              "next": {
+                "title": "Login and Connecting Broker",
+                "permalink": "/plugins/intellij-idea-plugin/login"
+              }
+            },
+            {
+              "unversionedId": "plugins/intellij-idea-plugin/login",
+              "id": "plugins/intellij-idea-plugin/login",
+              "title": "Login and Connecting Broker",
+              "description": "This tutorial applies to both IntelliJ IDEA, PyCharm & WebStorm",
+              "source": "@site/docs/plugins/intellij-idea-plugin/login.md",
+              "sourceDirName": "plugins/intellij-idea-plugin",
+              "slug": "/plugins/intellij-idea-plugin/login",
+              "permalink": "/plugins/intellij-idea-plugin/login",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "description": "This tutorial applies to both IntelliJ IDEA, PyCharm & WebStorm"
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Set up IntelliJ Plugin",
+                "permalink": "/plugins/intellij-idea-plugin/getting-started"
+              },
+              "next": {
+                "title": "Self-hosted Settings",
+                "permalink": "/plugins/intellij-idea-plugin/self-hosted-settings"
+              }
+            },
+            {
+              "unversionedId": "plugins/intellij-idea-plugin/README",
+              "id": "plugins/intellij-idea-plugin/README",
+              "title": "IntelliJ IDEA Plugin (Java)",
+              "description": "Sidekick IDEA Plugin enables developers to debug their Java applications remotely from the comfort of their IDE. With this plugin, developers can build faster by resolving the issues in production & pre-production better.",
+              "source": "@site/docs/plugins/intellij-idea-plugin/README.md",
+              "sourceDirName": "plugins/intellij-idea-plugin",
+              "slug": "/plugins/intellij-idea-plugin/",
+              "permalink": "/plugins/intellij-idea-plugin/",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "⚡ Quick Start",
+                "permalink": "/open-source/quick-start"
+              },
+              "next": {
+                "title": "Common Errors",
+                "permalink": "/plugins/intellij-idea-plugin/common-errors"
+              }
+            },
+            {
+              "unversionedId": "plugins/intellij-idea-plugin/self-hosted-settings",
+              "id": "plugins/intellij-idea-plugin/self-hosted-settings",
+              "title": "Self-hosted Settings",
+              "description": "This tutorial applies to both IntelliJ IDEA, PyCharm & WebStorm",
+              "source": "@site/docs/plugins/intellij-idea-plugin/self-hosted-settings.md",
+              "sourceDirName": "plugins/intellij-idea-plugin",
+              "slug": "/plugins/intellij-idea-plugin/self-hosted-settings",
+              "permalink": "/plugins/intellij-idea-plugin/self-hosted-settings",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "description": "This tutorial applies to both IntelliJ IDEA, PyCharm & WebStorm"
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Login and Connecting Broker",
+                "permalink": "/plugins/intellij-idea-plugin/login"
+              },
+              "next": {
+                "title": "Browsing Tracepoint Events",
+                "permalink": "/plugins/intellij-idea-plugin/tracepoint-events/"
+              }
+            },
+            {
+              "unversionedId": "plugins/intellij-idea-plugin/tracepoint-events/README",
+              "id": "plugins/intellij-idea-plugin/tracepoint-events/README",
+              "title": "Browsing Tracepoint Events",
+              "description": "This tutorial applies to both IntelliJ IDEA, PyCharm & WebStorm",
+              "source": "@site/docs/plugins/intellij-idea-plugin/tracepoint-events/README.md",
+              "sourceDirName": "plugins/intellij-idea-plugin/tracepoint-events",
+              "slug": "/plugins/intellij-idea-plugin/tracepoint-events/",
+              "permalink": "/plugins/intellij-idea-plugin/tracepoint-events/",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "description": "This tutorial applies to both IntelliJ IDEA, PyCharm & WebStorm"
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Self-hosted Settings",
+                "permalink": "/plugins/intellij-idea-plugin/self-hosted-settings"
+              },
+              "next": {
+                "title": "Tracepoint Event Detail",
+                "permalink": "/plugins/intellij-idea-plugin/tracepoint-events/tracepoint-event-detail"
+              }
+            },
+            {
+              "unversionedId": "plugins/intellij-idea-plugin/tracepoint-events/tracepoint-event-detail",
+              "id": "plugins/intellij-idea-plugin/tracepoint-events/tracepoint-event-detail",
+              "title": "Tracepoint Event Detail",
+              "description": "When you double-click an event on the events table, you can see the snapshot details right next to the tracepoint list&#x20;",
+              "source": "@site/docs/plugins/intellij-idea-plugin/tracepoint-events/tracepoint-event-detail.md",
+              "sourceDirName": "plugins/intellij-idea-plugin/tracepoint-events",
+              "slug": "/plugins/intellij-idea-plugin/tracepoint-events/tracepoint-event-detail",
+              "permalink": "/plugins/intellij-idea-plugin/tracepoint-events/tracepoint-event-detail",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Browsing Tracepoint Events",
+                "permalink": "/plugins/intellij-idea-plugin/tracepoint-events/"
+              },
+              "next": {
+                "title": "Tracepoints",
+                "permalink": "/plugins/intellij-idea-plugin/tracepoints/"
+              }
+            },
+            {
+              "unversionedId": "plugins/intellij-idea-plugin/tracepoints/conditional-tracepoints",
+              "id": "plugins/intellij-idea-plugin/tracepoints/conditional-tracepoints",
+              "title": "Conditional Tracepoints",
+              "description": "You may need to take snapshots only when certain conditions are met. Use the “Condition” box in the edit popup to specify an optional condition:",
+              "source": "@site/docs/plugins/intellij-idea-plugin/tracepoints/conditional-tracepoints.md",
+              "sourceDirName": "plugins/intellij-idea-plugin/tracepoints",
+              "slug": "/plugins/intellij-idea-plugin/tracepoints/conditional-tracepoints",
+              "permalink": "/plugins/intellij-idea-plugin/tracepoints/conditional-tracepoints",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Tracepoints",
+                "permalink": "/plugins/intellij-idea-plugin/tracepoints/"
+              },
+              "next": {
+                "title": "Distributed Tracing Integration",
+                "permalink": "/plugins/intellij-idea-plugin/tracepoints/distributed-tracing-integration"
+              }
+            },
+            {
+              "unversionedId": "plugins/intellij-idea-plugin/tracepoints/distributed-tracing-integration",
+              "id": "plugins/intellij-idea-plugin/tracepoints/distributed-tracing-integration",
+              "title": "Distributed Tracing Integration",
+              "description": "Sidekick integrates all tracepoints automatically with the rich distributed tracing so that you can see the tracepoint events with all the other actions that your application does end-to-end.&#x20;",
+              "source": "@site/docs/plugins/intellij-idea-plugin/tracepoints/distributed-tracing-integration.md",
+              "sourceDirName": "plugins/intellij-idea-plugin/tracepoints",
+              "slug": "/plugins/intellij-idea-plugin/tracepoints/distributed-tracing-integration",
+              "permalink": "/plugins/intellij-idea-plugin/tracepoints/distributed-tracing-integration",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Conditional Tracepoints",
+                "permalink": "/plugins/intellij-idea-plugin/tracepoints/conditional-tracepoints"
+              },
+              "next": {
+                "title": "Edit Tracepoint",
+                "permalink": "/plugins/intellij-idea-plugin/tracepoints/edit-tracepoint"
+              }
+            },
+            {
+              "unversionedId": "plugins/intellij-idea-plugin/tracepoints/edit-tracepoint",
+              "id": "plugins/intellij-idea-plugin/tracepoints/edit-tracepoint",
+              "title": "Edit Tracepoint",
+              "description": "It is possible to edit a tracepoint by right-clicking on the tracepoint icon, similar to any arbitrary breakpoint. From this window, it’s possible to enable or disable the tracepoint, enable or disable distributed tracing (disabled by default), to define the condition for taking snapshots, and to change the default expiration settings of the tracepoint.",
+              "source": "@site/docs/plugins/intellij-idea-plugin/tracepoints/edit-tracepoint.md",
+              "sourceDirName": "plugins/intellij-idea-plugin/tracepoints",
+              "slug": "/plugins/intellij-idea-plugin/tracepoints/edit-tracepoint",
+              "permalink": "/plugins/intellij-idea-plugin/tracepoints/edit-tracepoint",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Distributed Tracing Integration",
+                "permalink": "/plugins/intellij-idea-plugin/tracepoints/distributed-tracing-integration"
+              },
+              "next": {
+                "title": "Enable/Disable Tracepoint",
+                "permalink": "/plugins/intellij-idea-plugin/tracepoints/enable-disable-tracepoint"
+              }
+            },
+            {
+              "unversionedId": "plugins/intellij-idea-plugin/tracepoints/enable-disable-tracepoint",
+              "id": "plugins/intellij-idea-plugin/tracepoints/enable-disable-tracepoint",
+              "title": "Enable/Disable Tracepoint",
+              "description": "When a tracepoint is disabled, it will not be removed but it will stop capturing snapshots. A disabled tracepoint can be enabled back again later till it gets expired. So, disabling a tracepoint is useful when you need to remove it temporarily.",
+              "source": "@site/docs/plugins/intellij-idea-plugin/tracepoints/enable-disable-tracepoint.md",
+              "sourceDirName": "plugins/intellij-idea-plugin/tracepoints",
+              "slug": "/plugins/intellij-idea-plugin/tracepoints/enable-disable-tracepoint",
+              "permalink": "/plugins/intellij-idea-plugin/tracepoints/enable-disable-tracepoint",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Edit Tracepoint",
+                "permalink": "/plugins/intellij-idea-plugin/tracepoints/edit-tracepoint"
+              },
+              "next": {
+                "title": "Expiration Settings",
+                "permalink": "/plugins/intellij-idea-plugin/tracepoints/expiration-settings"
+              }
+            },
+            {
+              "unversionedId": "plugins/intellij-idea-plugin/tracepoints/expiration-settings",
+              "id": "plugins/intellij-idea-plugin/tracepoints/expiration-settings",
+              "title": "Expiration Settings",
+              "description": "Any tracepoint will expire after certain hit count or time (age) limits are exceeded. When a tracepoint expires, it will be removed automatically. There won't be any tracepoint events for this tracepoint.&#x20;",
+              "source": "@site/docs/plugins/intellij-idea-plugin/tracepoints/expiration-settings.md",
+              "sourceDirName": "plugins/intellij-idea-plugin/tracepoints",
+              "slug": "/plugins/intellij-idea-plugin/tracepoints/expiration-settings",
+              "permalink": "/plugins/intellij-idea-plugin/tracepoints/expiration-settings",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Enable/Disable Tracepoint",
+                "permalink": "/plugins/intellij-idea-plugin/tracepoints/enable-disable-tracepoint"
+              },
+              "next": {
+                "title": "Remove Tracepoint",
+                "permalink": "/plugins/intellij-idea-plugin/tracepoints/remove-tracepoint"
+              }
+            },
+            {
+              "unversionedId": "plugins/intellij-idea-plugin/tracepoints/README",
+              "id": "plugins/intellij-idea-plugin/tracepoints/README",
+              "title": "Tracepoints",
+              "description": "This tutorial applies to both IntelliJ IDEA, PyCharm & WebStorm",
+              "source": "@site/docs/plugins/intellij-idea-plugin/tracepoints/README.md",
+              "sourceDirName": "plugins/intellij-idea-plugin/tracepoints",
+              "slug": "/plugins/intellij-idea-plugin/tracepoints/",
+              "permalink": "/plugins/intellij-idea-plugin/tracepoints/",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "description": "This tutorial applies to both IntelliJ IDEA, PyCharm & WebStorm"
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Tracepoint Event Detail",
+                "permalink": "/plugins/intellij-idea-plugin/tracepoint-events/tracepoint-event-detail"
+              },
+              "next": {
+                "title": "Conditional Tracepoints",
+                "permalink": "/plugins/intellij-idea-plugin/tracepoints/conditional-tracepoints"
+              }
+            },
+            {
+              "unversionedId": "plugins/intellij-idea-plugin/tracepoints/remove-tracepoint",
+              "id": "plugins/intellij-idea-plugin/tracepoints/remove-tracepoint",
+              "title": "Remove Tracepoint",
+              "description": "There are multiple ways to remove a tracepoint.",
+              "source": "@site/docs/plugins/intellij-idea-plugin/tracepoints/remove-tracepoint.md",
+              "sourceDirName": "plugins/intellij-idea-plugin/tracepoints",
+              "slug": "/plugins/intellij-idea-plugin/tracepoints/remove-tracepoint",
+              "permalink": "/plugins/intellij-idea-plugin/tracepoints/remove-tracepoint",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Expiration Settings",
+                "permalink": "/plugins/intellij-idea-plugin/tracepoints/expiration-settings"
+              },
+              "next": {
+                "title": "Set Tracepoint",
+                "permalink": "/plugins/intellij-idea-plugin/tracepoints/set-tracepoint"
+              }
+            },
+            {
+              "unversionedId": "plugins/intellij-idea-plugin/tracepoints/set-tracepoint",
+              "id": "plugins/intellij-idea-plugin/tracepoints/set-tracepoint",
+              "title": "Set Tracepoint",
+              "description": "{% embed url=\"https://www.youtube.com/watch?v=y7LUcyF5jp8\" %}",
+              "source": "@site/docs/plugins/intellij-idea-plugin/tracepoints/set-tracepoint.md",
+              "sourceDirName": "plugins/intellij-idea-plugin/tracepoints",
+              "slug": "/plugins/intellij-idea-plugin/tracepoints/set-tracepoint",
+              "permalink": "/plugins/intellij-idea-plugin/tracepoints/set-tracepoint",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Remove Tracepoint",
+                "permalink": "/plugins/intellij-idea-plugin/tracepoints/remove-tracepoint"
+              },
+              "next": {
+                "title": "PyCharm Plugin (Python)",
+                "permalink": "/plugins/pycharm-plugin-python"
+              }
+            },
+            {
+              "unversionedId": "plugins/pycharm-plugin-python",
+              "id": "plugins/pycharm-plugin-python",
+              "title": "PyCharm Plugin (Python)",
+              "description": "Sidekick PyCharm Plugin enables developers to debug their Python applications remotely from the comfort of their IDE. With this plugin, developers can build faster by resolving the issues in production & pre-production better.",
+              "source": "@site/docs/plugins/pycharm-plugin-python.md",
+              "sourceDirName": "plugins",
+              "slug": "/plugins/pycharm-plugin-python",
+              "permalink": "/plugins/pycharm-plugin-python",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Set Tracepoint",
+                "permalink": "/plugins/intellij-idea-plugin/tracepoints/set-tracepoint"
+              },
+              "next": {
+                "title": "🌐 Sidekick Web IDE",
+                "permalink": "/plugins/sidekick-web-ide/"
+              }
+            },
+            {
+              "unversionedId": "plugins/sidekick-web-ide/how-to/enable-disable-collaborative-debugging",
+              "id": "plugins/sidekick-web-ide/how-to/enable-disable-collaborative-debugging",
+              "title": "Enable/Disable Collaborative Debugging",
+              "description": "In progress",
+              "source": "@site/docs/plugins/sidekick-web-ide/how-to/enable-disable-collaborative-debugging.md",
+              "sourceDirName": "plugins/sidekick-web-ide/how-to",
+              "slug": "/plugins/sidekick-web-ide/how-to/enable-disable-collaborative-debugging",
+              "permalink": "/plugins/sidekick-web-ide/how-to/enable-disable-collaborative-debugging",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "description": "In progress"
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "How to",
+                "permalink": "/plugins/sidekick-web-ide/how-to/"
+              },
+              "next": {
+                "title": "Connect Source Code",
+                "permalink": "/plugins/sidekick-web-ide/how-to/import-source-code"
+              }
+            },
+            {
+              "unversionedId": "plugins/sidekick-web-ide/how-to/import-source-code",
+              "id": "plugins/sidekick-web-ide/how-to/import-source-code",
+              "title": "Connect Source Code",
+              "description": "It's essential for Sidekick agents to know which branch/code you want to debug. By connecting your source code, you allow Sidekick to understand the correct source code and the correct tracepoint location. Currently, you can import your source code from your GitHub and Gitlab repositories.&#x20;",
+              "source": "@site/docs/plugins/sidekick-web-ide/how-to/import-source-code.md",
+              "sourceDirName": "plugins/sidekick-web-ide/how-to",
+              "slug": "/plugins/sidekick-web-ide/how-to/import-source-code",
+              "permalink": "/plugins/sidekick-web-ide/how-to/import-source-code",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Enable/Disable Collaborative Debugging",
+                "permalink": "/plugins/sidekick-web-ide/how-to/enable-disable-collaborative-debugging"
+              },
+              "next": {
+                "title": "🎇 Remote Config",
+                "permalink": "/plugins/sidekick-web-ide/how-to/remote-config"
+              }
+            },
+            {
+              "unversionedId": "plugins/sidekick-web-ide/how-to/README",
+              "id": "plugins/sidekick-web-ide/how-to/README",
+              "title": "How to",
+              "description": "These pages describe the core concepts on how to start using Sidekick for debugging your application. In order to start and get the best out of Sidekick, you need to perform essential actions. In this section, we'll provide the below guides about those actions:&#x20;",
+              "source": "@site/docs/plugins/sidekick-web-ide/how-to/README.md",
+              "sourceDirName": "plugins/sidekick-web-ide/how-to",
+              "slug": "/plugins/sidekick-web-ide/how-to/",
+              "permalink": "/plugins/sidekick-web-ide/how-to/",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "🌐 Sidekick Web IDE",
+                "permalink": "/plugins/sidekick-web-ide/"
+              },
+              "next": {
+                "title": "Enable/Disable Collaborative Debugging",
+                "permalink": "/plugins/sidekick-web-ide/how-to/enable-disable-collaborative-debugging"
+              }
+            },
+            {
+              "unversionedId": "plugins/sidekick-web-ide/how-to/remote-config",
+              "id": "plugins/sidekick-web-ide/how-to/remote-config",
+              "title": "🎇 Remote Config",
+              "description": "Remote Config allows us to easily attach and detach Sidekick agents from running applications as well as change agent settings remotely using the Sidekick WebIDE. This can be particularly useful for users with multiple apps with Sidekick agents installed, as it allows us to manage the agents from a central location.",
+              "source": "@site/docs/plugins/sidekick-web-ide/how-to/remote-config.md",
+              "sourceDirName": "plugins/sidekick-web-ide/how-to",
+              "slug": "/plugins/sidekick-web-ide/how-to/remote-config",
+              "permalink": "/plugins/sidekick-web-ide/how-to/remote-config",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Connect Source Code",
+                "permalink": "/plugins/sidekick-web-ide/how-to/import-source-code"
+              },
+              "next": {
+                "title": "Put Tracepoints & Logpoints",
+                "permalink": "/plugins/sidekick-web-ide/how-to/set-tracepoints"
+              }
+            },
+            {
+              "unversionedId": "plugins/sidekick-web-ide/how-to/set-tracepoints",
+              "id": "plugins/sidekick-web-ide/how-to/set-tracepoints",
+              "title": "Put Tracepoints & Logpoints",
+              "description": "In order to gather valuable insights from your application, you can start setting tracepoints for your applications. Before setting a tracepoint, make sure that:&#x20;",
+              "source": "@site/docs/plugins/sidekick-web-ide/how-to/set-tracepoints.md",
+              "sourceDirName": "plugins/sidekick-web-ide/how-to",
+              "slug": "/plugins/sidekick-web-ide/how-to/set-tracepoints",
+              "permalink": "/plugins/sidekick-web-ide/how-to/set-tracepoints",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "🎇 Remote Config",
+                "permalink": "/plugins/sidekick-web-ide/how-to/remote-config"
+              },
+              "next": {
+                "title": "Take Snapshots (a.k.a Tracepoint Events)",
+                "permalink": "/plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events"
+              }
+            },
+            {
+              "unversionedId": "plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events",
+              "id": "plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events",
+              "title": "Take Snapshots (a.k.a Tracepoint Events)",
+              "description": "After you connect your source code, select applications to debug, and put tracepoints, Sidekick will automatically start taking snapshots, in other words; generating tracepoint events, when the remote application is executed.&#x20;",
+              "source": "@site/docs/plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events.md",
+              "sourceDirName": "plugins/sidekick-web-ide/how-to",
+              "slug": "/plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events",
+              "permalink": "/plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Put Tracepoints & Logpoints",
+                "permalink": "/plugins/sidekick-web-ide/how-to/set-tracepoints"
+              },
+              "next": {
+                "title": "Enable TraceMap for Debugging",
+                "permalink": "/plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging"
+              }
+            },
+            {
+              "unversionedId": "plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging",
+              "id": "plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging",
+              "title": "Enable TraceMap for Debugging",
+              "description": "Sidekick integrates all tracepoints automatically with the rich distributed tracing so that you can see the tracepoint events with all the other actions that your application does end-to-end.&#x20;",
+              "source": "@site/docs/plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging.md",
+              "sourceDirName": "plugins/sidekick-web-ide/how-to",
+              "slug": "/plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging",
+              "permalink": "/plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Take Snapshots (a.k.a Tracepoint Events)",
+                "permalink": "/plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events"
+              },
+              "next": {
+                "title": "Introduction to Web Application",
+                "permalink": "/plugins/sidekick-web-ide/introduction/"
+              }
+            },
+            {
+              "unversionedId": "plugins/sidekick-web-ide/introduction/apps-and-tracepoints-panel",
+              "id": "plugins/sidekick-web-ide/introduction/apps-and-tracepoints-panel",
+              "title": "Apps and Sidekick Actions Panels",
+              "description": "In order to start debugging with Sidekick, one of the pre-requisites is to install Sidekick agent into your app and select it on the Sidekick dashboard. Apps and tracepoints panel let developers manage their Sidekick agent installed applications and tracepoints set on those applications.",
+              "source": "@site/docs/plugins/sidekick-web-ide/introduction/apps-and-tracepoints-panel.md",
+              "sourceDirName": "plugins/sidekick-web-ide/introduction",
+              "slug": "/plugins/sidekick-web-ide/introduction/apps-and-tracepoints-panel",
+              "permalink": "/plugins/sidekick-web-ide/introduction/apps-and-tracepoints-panel",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Introduction to Web Application",
+                "permalink": "/plugins/sidekick-web-ide/introduction/"
+              },
+              "next": {
+                "title": "Code Panel",
+                "permalink": "/plugins/sidekick-web-ide/introduction/code-panel"
+              }
+            },
+            {
+              "unversionedId": "plugins/sidekick-web-ide/introduction/code-panel",
+              "id": "plugins/sidekick-web-ide/introduction/code-panel",
+              "title": "Code Panel",
+              "description": "After you connect your code, you can open any file that you'd like to view or debug to the code panel. Sidekick lets you put tracepoints for the application code.",
+              "source": "@site/docs/plugins/sidekick-web-ide/introduction/code-panel.md",
+              "sourceDirName": "plugins/sidekick-web-ide/introduction",
+              "slug": "/plugins/sidekick-web-ide/introduction/code-panel",
+              "permalink": "/plugins/sidekick-web-ide/introduction/code-panel",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Apps and Sidekick Actions Panels",
+                "permalink": "/plugins/sidekick-web-ide/introduction/apps-and-tracepoints-panel"
+              },
+              "next": {
+                "title": "Events Panel",
+                "permalink": "/plugins/sidekick-web-ide/introduction/events-panel"
+              }
+            },
+            {
+              "unversionedId": "plugins/sidekick-web-ide/introduction/events-panel",
+              "id": "plugins/sidekick-web-ide/introduction/events-panel",
+              "title": "Events Panel",
+              "description": "After you put a tracepoint and execute the code, Sidekick will take a snapshot of the application. You will be able to see the list and the details of snapshot events taken by the Sidekick on the Events panel.&#x20;",
+              "source": "@site/docs/plugins/sidekick-web-ide/introduction/events-panel.md",
+              "sourceDirName": "plugins/sidekick-web-ide/introduction",
+              "slug": "/plugins/sidekick-web-ide/introduction/events-panel",
+              "permalink": "/plugins/sidekick-web-ide/introduction/events-panel",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Code Panel",
+                "permalink": "/plugins/sidekick-web-ide/introduction/code-panel"
+              },
+              "next": {
+                "title": "Sources Panel",
+                "permalink": "/plugins/sidekick-web-ide/introduction/source-panel"
+              }
+            },
+            {
+              "unversionedId": "plugins/sidekick-web-ide/introduction/README",
+              "id": "plugins/sidekick-web-ide/introduction/README",
+              "title": "Introduction to Web Application",
+              "description": "This guide explains the components of Sidekick's Web Application.&#x20;",
+              "source": "@site/docs/plugins/sidekick-web-ide/introduction/README.md",
+              "sourceDirName": "plugins/sidekick-web-ide/introduction",
+              "slug": "/plugins/sidekick-web-ide/introduction/",
+              "permalink": "/plugins/sidekick-web-ide/introduction/",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Enable TraceMap for Debugging",
+                "permalink": "/plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging"
+              },
+              "next": {
+                "title": "Apps and Sidekick Actions Panels",
+                "permalink": "/plugins/sidekick-web-ide/introduction/apps-and-tracepoints-panel"
+              }
+            },
+            {
+              "unversionedId": "plugins/sidekick-web-ide/introduction/source-panel",
+              "id": "plugins/sidekick-web-ide/introduction/source-panel",
+              "title": "Sources Panel",
+              "description": "It's essential for Sidekick agents to know which branch/code you want to debug. By connecting your source code, you allow Sidekick to understand the correct source code and the correct tracepoint location.",
+              "source": "@site/docs/plugins/sidekick-web-ide/introduction/source-panel.md",
+              "sourceDirName": "plugins/sidekick-web-ide/introduction",
+              "slug": "/plugins/sidekick-web-ide/introduction/source-panel",
+              "permalink": "/plugins/sidekick-web-ide/introduction/source-panel",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Events Panel",
+                "permalink": "/plugins/sidekick-web-ide/introduction/events-panel"
+              },
+              "next": {
+                "title": "🏃♀ Quick Start: To-Do App",
+                "permalink": "/plugins/sidekick-web-ide/quick-start-todo-app"
+              }
+            },
+            {
+              "unversionedId": "plugins/sidekick-web-ide/quick-start-todo-app",
+              "id": "plugins/sidekick-web-ide/quick-start-todo-app",
+              "title": "🏃♀ Quick Start: To-Do App",
+              "description": "Option 1: Sandbox",
+              "source": "@site/docs/plugins/sidekick-web-ide/quick-start-todo-app.md",
+              "sourceDirName": "plugins/sidekick-web-ide",
+              "slug": "/plugins/sidekick-web-ide/quick-start-todo-app",
+              "permalink": "/plugins/sidekick-web-ide/quick-start-todo-app",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Sources Panel",
+                "permalink": "/plugins/sidekick-web-ide/introduction/source-panel"
+              },
+              "next": {
+                "title": "Visual Studio Code Extension (Python & Node.js)",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/"
+              }
+            },
+            {
+              "unversionedId": "plugins/sidekick-web-ide/README",
+              "id": "plugins/sidekick-web-ide/README",
+              "title": "🌐 Sidekick Web IDE",
+              "description": "",
+              "source": "@site/docs/plugins/sidekick-web-ide/README.md",
+              "sourceDirName": "plugins/sidekick-web-ide",
+              "slug": "/plugins/sidekick-web-ide/",
+              "permalink": "/plugins/sidekick-web-ide/",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "PyCharm Plugin (Python)",
+                "permalink": "/plugins/pycharm-plugin-python"
+              },
+              "next": {
+                "title": "How to",
+                "permalink": "/plugins/sidekick-web-ide/how-to/"
+              }
+            },
+            {
+              "unversionedId": "plugins/visual-studio-code-extension-python-and-node.js/browsing-tracepoint-events",
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/browsing-tracepoint-events",
+              "title": "Browsing Tracepoint Events",
+              "description": "After your application triggered on line that is put tracepoint, you can see incoming events by clicking tracepoint or opening Sidekick Panel.",
+              "source": "@site/docs/plugins/visual-studio-code-extension-python-and-node.js/browsing-tracepoint-events.md",
+              "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js",
+              "slug": "/plugins/visual-studio-code-extension-python-and-node.js/browsing-tracepoint-events",
+              "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/browsing-tracepoint-events",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Visual Studio Code Extension (Python & Node.js)",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/"
+              },
+              "next": {
+                "title": "Common Problems",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/common-problems"
+              }
+            },
+            {
+              "unversionedId": "plugins/visual-studio-code-extension-python-and-node.js/common-problems",
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/common-problems",
+              "title": "Common Problems",
+              "description": "* Safari login issues: We are working on this issue. Until then you can try changing your default browser to Mozilla Firefox or Google Chrome.",
+              "source": "@site/docs/plugins/visual-studio-code-extension-python-and-node.js/common-problems.md",
+              "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js",
+              "slug": "/plugins/visual-studio-code-extension-python-and-node.js/common-problems",
+              "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/common-problems",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Browsing Tracepoint Events",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/browsing-tracepoint-events"
+              },
+              "next": {
+                "title": "Login & On-boarding",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/login-and-on-boarding"
+              }
+            },
+            {
+              "unversionedId": "plugins/visual-studio-code-extension-python-and-node.js/login-and-on-boarding",
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/login-and-on-boarding",
+              "title": "Login & On-boarding",
+              "description": "This guide explains how to log in to your Sidekick account on Visual Studio Code.",
+              "source": "@site/docs/plugins/visual-studio-code-extension-python-and-node.js/login-and-on-boarding.md",
+              "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js",
+              "slug": "/plugins/visual-studio-code-extension-python-and-node.js/login-and-on-boarding",
+              "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/login-and-on-boarding",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "description": "This guide explains how to log in to your Sidekick account on Visual Studio Code."
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Common Problems",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/common-problems"
+              },
+              "next": {
+                "title": "Select Workspace & Application",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/select-workspace-and-application"
+              }
+            },
+            {
+              "unversionedId": "plugins/visual-studio-code-extension-python-and-node.js/README",
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/README",
+              "title": "Visual Studio Code Extension (Python & Node.js)",
+              "description": "Sidekick VSCode extension enables developers to debug applications remotely from the comfort of their IDE. With this plugin, developers can build faster by resolving the issues in pre-production & production using real data.",
+              "source": "@site/docs/plugins/visual-studio-code-extension-python-and-node.js/README.md",
+              "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js",
+              "slug": "/plugins/visual-studio-code-extension-python-and-node.js/",
+              "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "🏃♀ Quick Start: To-Do App",
+                "permalink": "/plugins/sidekick-web-ide/quick-start-todo-app"
+              },
+              "next": {
+                "title": "Browsing Tracepoint Events",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/browsing-tracepoint-events"
+              }
+            },
+            {
+              "unversionedId": "plugins/visual-studio-code-extension-python-and-node.js/select-workspace-and-application",
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/select-workspace-and-application",
+              "title": "Select Workspace & Application",
+              "description": "Sidekick allows you to have more than one workspace so that you can seperate your apps for different contexts or environments.",
+              "source": "@site/docs/plugins/visual-studio-code-extension-python-and-node.js/select-workspace-and-application.md",
+              "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js",
+              "slug": "/plugins/visual-studio-code-extension-python-and-node.js/select-workspace-and-application",
+              "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/select-workspace-and-application",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Login & On-boarding",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/login-and-on-boarding"
+              },
+              "next": {
+                "title": "Self-hosted Settings",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/self-hosted-settings"
+              }
+            },
+            {
+              "unversionedId": "plugins/visual-studio-code-extension-python-and-node.js/self-hosted-settings",
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/self-hosted-settings",
+              "title": "Self-hosted Settings",
+              "description": "You need to change your broker host and port at the Sidekick settings.",
+              "source": "@site/docs/plugins/visual-studio-code-extension-python-and-node.js/self-hosted-settings.md",
+              "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js",
+              "slug": "/plugins/visual-studio-code-extension-python-and-node.js/self-hosted-settings",
+              "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/self-hosted-settings",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Select Workspace & Application",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/select-workspace-and-application"
+              },
+              "next": {
+                "title": "Set up VSCode extension",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/set-up-vscode-extension"
+              }
+            },
+            {
+              "unversionedId": "plugins/visual-studio-code-extension-python-and-node.js/set-up-vscode-extension",
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/set-up-vscode-extension",
+              "title": "Set up VSCode extension",
+              "description": "You can download our extension and participate in our public beta through VSCode Marketplace.",
+              "source": "@site/docs/plugins/visual-studio-code-extension-python-and-node.js/set-up-vscode-extension.md",
+              "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js",
+              "slug": "/plugins/visual-studio-code-extension-python-and-node.js/set-up-vscode-extension",
+              "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/set-up-vscode-extension",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Self-hosted Settings",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/self-hosted-settings"
+              },
+              "next": {
+                "title": "Tracepoints & Logpoints",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/"
+              }
+            },
+            {
+              "unversionedId": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/conditional-tracepoints",
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/conditional-tracepoints",
+              "title": "Conditional tracepoints",
+              "description": "You may need to take snapshots only when certain conditions are met. Use the “Condition” box in the edit popup to specify an optional condition:",
+              "source": "@site/docs/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/conditional-tracepoints.md",
+              "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints",
+              "slug": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/conditional-tracepoints",
+              "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/conditional-tracepoints",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Tracepoints & Logpoints",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/"
+              },
+              "next": {
+                "title": "Edit Tracepoint",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/edit-tracepoint"
+              }
+            },
+            {
+              "unversionedId": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/edit-tracepoint",
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/edit-tracepoint",
+              "title": "Edit Tracepoint",
+              "description": "You can edit your tracepoints by clicking on the Pen icon next to each tracepoint under the Tracepoints panel.",
+              "source": "@site/docs/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/edit-tracepoint.md",
+              "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints",
+              "slug": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/edit-tracepoint",
+              "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/edit-tracepoint",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Conditional tracepoints",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/conditional-tracepoints"
+              },
+              "next": {
+                "title": "Enable/Disable Tracepoint",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/enable-disable-tracepoint"
+              }
+            },
+            {
+              "unversionedId": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/enable-disable-tracepoint",
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/enable-disable-tracepoint",
+              "title": "Enable/Disable Tracepoint",
+              "description": "When a tracepoint is disabled, it will not be removed but it will stop capturing snapshots. A disabled tracepoint can be enabled back again later till it gets expired. So, disabling a tracepoint is useful when you need to remove it temporarily.",
+              "source": "@site/docs/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/enable-disable-tracepoint.md",
+              "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints",
+              "slug": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/enable-disable-tracepoint",
+              "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/enable-disable-tracepoint",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Edit Tracepoint",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/edit-tracepoint"
+              },
+              "next": {
+                "title": "Expiration Settings",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/expiration-settings"
+              }
+            },
+            {
+              "unversionedId": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/expiration-settings",
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/expiration-settings",
+              "title": "Expiration Settings",
+              "description": "Any tracepoint will expire after certain hit count or time (age) limits are exceeded. When a tracepoint expires, it will be removed automatically. There won't be any tracepoint events for this tracepoint.&#x20;",
+              "source": "@site/docs/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/expiration-settings.md",
+              "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints",
+              "slug": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/expiration-settings",
+              "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/expiration-settings",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Enable/Disable Tracepoint",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/enable-disable-tracepoint"
+              },
+              "next": {
+                "title": "Remove Tracepoint",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/remove-tracepoint"
+              }
+            },
+            {
+              "unversionedId": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/README",
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/README",
+              "title": "Tracepoints & Logpoints",
+              "description": "When you put a tracepoint on a line, the Sidekick agent on the corresponding remote application takes a snapshot of the local variables on that point when the execution passes from that point and sends them as tracepoint snapshot events back to your VSCode instance.",
+              "source": "@site/docs/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/README.md",
+              "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints",
+              "slug": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/",
+              "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Set up VSCode extension",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/set-up-vscode-extension"
+              },
+              "next": {
+                "title": "Conditional tracepoints",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/conditional-tracepoints"
+              }
+            },
+            {
+              "unversionedId": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/remove-tracepoint",
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/remove-tracepoint",
+              "title": "Remove Tracepoint",
+              "description": "You can delete your tracepoints by clicking on the Bin icon next to each tracepoint under the Tracepoints panel.",
+              "source": "@site/docs/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/remove-tracepoint.md",
+              "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints",
+              "slug": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/remove-tracepoint",
+              "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/remove-tracepoint",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Expiration Settings",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/expiration-settings"
+              },
+              "next": {
+                "title": "Set Tracepoint",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/set-tracepoint"
+              }
+            },
+            {
+              "unversionedId": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/set-tracepoint",
+              "id": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/set-tracepoint",
+              "title": "Set Tracepoint",
+              "description": "Setting up a tracepoint helps developers understand code execution on specific parts of an application. It’s as easy as setting up an ordinary line breakpoint with just one right-click on the desired line and selecting the Add Tracepoint button under the Sidekick section.&#x20;",
+              "source": "@site/docs/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/set-tracepoint.md",
+              "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints",
+              "slug": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/set-tracepoint",
+              "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/set-tracepoint",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Remove Tracepoint",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/remove-tracepoint"
+              },
+              "next": {
+                "title": "WebStorm Plugin (Node.js)",
+                "permalink": "/plugins/webstorm-plugin-node.js"
+              }
+            },
+            {
+              "unversionedId": "plugins/webstorm-plugin-node.js",
+              "id": "plugins/webstorm-plugin-node.js",
+              "title": "WebStorm Plugin (Node.js)",
+              "description": "Sidekick WebStorm Plugin enables developers to debug their Node.js applications remotely from the comfort of their IDE. With this plugin, developers can build faster by resolving the issues in production & pre-production better.",
+              "source": "@site/docs/plugins/webstorm-plugin-node.js.md",
+              "sourceDirName": "plugins",
+              "slug": "/plugins/webstorm-plugin-node.js",
+              "permalink": "/plugins/webstorm-plugin-node.js",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Set Tracepoint",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/set-tracepoint"
+              },
+              "next": {
+                "title": "🏃♂ Get Started With Sidekick",
+                "permalink": "/quick-start-to-thundra-sidekick/"
+              }
+            },
+            {
+              "unversionedId": "quick-start-to-thundra-sidekick/README",
+              "id": "quick-start-to-thundra-sidekick/README",
+              "title": "🏃♂ Get Started With Sidekick",
+              "description": "{% embed url=\"https://app.arcade.software/share/C5McEt0bJRU6bkxvOGNJ\" %}",
+              "source": "@site/docs/quick-start-to-thundra-sidekick/README.md",
+              "sourceDirName": "quick-start-to-thundra-sidekick",
+              "slug": "/quick-start-to-thundra-sidekick/",
+              "permalink": "/quick-start-to-thundra-sidekick/",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "WebStorm Plugin (Node.js)",
+                "permalink": "/plugins/webstorm-plugin-node.js"
+              },
+              "next": {
+                "title": "Conditional Expressions",
+                "permalink": "/reference/conditional-tracepoints"
+              }
+            },
+            {
+              "unversionedId": "README",
+              "id": "README",
+              "title": "🧑🏫 Index",
+              "description": "Sidekick is an open-source Live Application Debugger that helps you to debug issues where they happen, when they happen, without stopping, rebuilding, or redeploying applications. Sidekick agents give you powerful dynamic observability features with near-zero overhead.",
+              "source": "@site/docs/README.md",
               "sourceDirName": ".",
               "slug": "/",
               "permalink": "/",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "title": "👋🏻 Introduction",
-                "sidebar_position": 1,
-                "slug": "/"
-              },
+              "frontMatter": {},
               "sidebar": "sidebar",
               "next": {
-                "title": "🧭 Example Projects",
-                "permalink": "/examples"
+                "title": "Table of contents",
+                "permalink": "/SUMMARY"
               }
             },
             {
-              "unversionedId": "other/api-key",
-              "id": "other/api-key",
-              "title": "Get your API Key",
-              "description": "To use Foresight's Workflow Kit and Test Kit Actions, you need to gather your API Key.",
-              "source": "@site/docs/other/api-key.mdx",
-              "sourceDirName": "other",
-              "slug": "/how-to/get-api-key",
-              "permalink": "/how-to/get-api-key",
+              "unversionedId": "reference/conditional-tracepoints",
+              "id": "reference/conditional-tracepoints",
+              "title": "Conditional Expressions",
+              "description": "You may need to take snapshots only when certain conditions are met. Use the “Condition” box in the edit popup to specify an optional condition:",
+              "source": "@site/docs/reference/conditional-tracepoints.md",
+              "sourceDirName": "reference",
+              "slug": "/reference/conditional-tracepoints",
+              "permalink": "/reference/conditional-tracepoints",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "🏃♂ Get Started With Sidekick",
+                "permalink": "/quick-start-to-thundra-sidekick/"
+              },
+              "next": {
+                "title": "⁉ FAQ",
+                "permalink": "/reference/faq"
+              }
+            },
+            {
+              "unversionedId": "reference/faq",
+              "id": "reference/faq",
+              "title": "⁉ FAQ",
+              "description": "What does a Tracepoint mean?",
+              "source": "@site/docs/reference/faq.md",
+              "sourceDirName": "reference",
+              "slug": "/reference/faq",
+              "permalink": "/reference/faq",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Conditional Expressions",
+                "permalink": "/reference/conditional-tracepoints"
+              },
+              "next": {
+                "title": "Logpoint Expressions",
+                "permalink": "/reference/logpoint-expressions"
+              }
+            },
+            {
+              "unversionedId": "reference/logpoint-expressions",
+              "id": "reference/logpoint-expressions",
+              "title": "Logpoint Expressions",
+              "description": "Sidekick Logpoint expressions are based on \\{{ mustache \\}}. You can get detailed information about the mustache library from here//mustache.github.io/mustache.5.html",
+              "source": "@site/docs/reference/logpoint-expressions.md",
+              "sourceDirName": "reference",
+              "slug": "/reference/logpoint-expressions",
+              "permalink": "/reference/logpoint-expressions",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "⁉ FAQ",
+                "permalink": "/reference/faq"
+              },
+              "next": {
+                "title": "🚨 Error Stack Collection",
+                "permalink": "/sidekick-actions/error-stack-collection"
+              }
+            },
+            {
+              "unversionedId": "sidekick-actions/error-stack-collection",
+              "id": "sidekick-actions/error-stack-collection",
+              "title": "🚨 Error Stack Collection",
+              "description": "Automatic error stack collection is a feature of Sidekick that allows you to automatically collect the stack trace of an error as it occurs without requiring manual intervention. This can be a valuable tool for debugging and troubleshooting issues in an application, as it provides a detailed record of the application's execution at the time of the error, which can help you understand what caused the error and how to fix it.",
+              "source": "@site/docs/sidekick-actions/error-stack-collection.md",
+              "sourceDirName": "sidekick-actions",
+              "slug": "/sidekick-actions/error-stack-collection",
+              "permalink": "/sidekick-actions/error-stack-collection",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Logpoint Expressions",
+                "permalink": "/reference/logpoint-expressions"
+              },
+              "next": {
+                "title": "🪵 Logpoint",
+                "permalink": "/sidekick-actions/logpoint"
+              }
+            },
+            {
+              "unversionedId": "sidekick-actions/logpoint",
+              "id": "sidekick-actions/logpoint",
+              "title": "🪵 Logpoint",
+              "description": "Logpoints bring the power of dynamic logging to Sidekick users. Replacing traditional logging with dynamic logging has potential to lower stage sizes, costs and time for log searching while giving ability to add new logpoints without editing the source code, redeploying or restarting the application.",
+              "source": "@site/docs/sidekick-actions/logpoint.md",
+              "sourceDirName": "sidekick-actions",
+              "slug": "/sidekick-actions/logpoint",
+              "permalink": "/sidekick-actions/logpoint",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "🚨 Error Stack Collection",
+                "permalink": "/sidekick-actions/error-stack-collection"
+              },
+              "next": {
+                "title": "💾 Reference Events & Probe Tags",
+                "permalink": "/sidekick-actions/reference-events-and-probe-tags"
+              }
+            },
+            {
+              "unversionedId": "sidekick-actions/reference-events-and-probe-tags",
+              "id": "sidekick-actions/reference-events-and-probe-tags",
+              "title": "💾 Reference Events & Probe Tags",
+              "description": "Sidekick allows you to save reference stack events,  compare stacks, and control multiple logpoints and tracepoints using tags.",
+              "source": "@site/docs/sidekick-actions/reference-events-and-probe-tags.md",
+              "sourceDirName": "sidekick-actions",
+              "slug": "/sidekick-actions/reference-events-and-probe-tags",
+              "permalink": "/sidekick-actions/reference-events-and-probe-tags",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "🪵 Logpoint",
+                "permalink": "/sidekick-actions/logpoint"
+              },
+              "next": {
+                "title": "🔎 Tracepoint",
+                "permalink": "/sidekick-actions/tracepoint"
+              }
+            },
+            {
+              "unversionedId": "sidekick-actions/tracepoint",
+              "id": "sidekick-actions/tracepoint",
+              "title": "🔎 Tracepoint",
+              "description": "Non-breaking breakpoints that bring the ease of local debugging to production!",
+              "source": "@site/docs/sidekick-actions/tracepoint.md",
+              "sourceDirName": "sidekick-actions",
+              "slug": "/sidekick-actions/tracepoint",
+              "permalink": "/sidekick-actions/tracepoint",
+              "tags": [],
+              "version": "current",
               "frontMatter": {
-                "title": "Get your API Key",
-                "slug": "/how-to/get-api-key",
-                "sidebar_position": 2
+                "description": "Non-breaking breakpoints that bring the ease of local debugging to production!"
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Dynamically generated test badges",
-                "permalink": "/how-to/badges"
+                "title": "💾 Reference Events & Probe Tags",
+                "permalink": "/sidekick-actions/reference-events-and-probe-tags"
               },
               "next": {
-                "title": "Troubleshooting",
-                "permalink": "/how-to/troubleshooting"
+                "title": "🥞 Use Cases",
+                "permalink": "/use-cases/"
               }
             },
             {
-              "unversionedId": "other/badges",
-              "id": "other/badges",
-              "title": "Dynamically generated test badges",
-              "description": "Since badges provide users with a fast way to capture repository metrics, they increase the readability of the",
-              "source": "@site/docs/other/badges.mdx",
-              "sourceDirName": "other",
-              "slug": "/how-to/badges",
-              "permalink": "/how-to/badges",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "title": "Dynamically generated test badges",
-                "slug": "/how-to/badges",
-                "sidebar_position": 1
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "Slack",
-                "permalink": "/integrations/slack"
-              },
-              "next": {
-                "title": "Get your API Key",
-                "permalink": "/how-to/get-api-key"
-              }
-            },
-            {
-              "unversionedId": "other/hiding-forks",
-              "id": "other/hiding-forks",
-              "title": "Hiding forks",
-              "description": "In GitHub, a \"fork\" is a copy of a repository that is owned by a different user,",
-              "source": "@site/docs/other/hiding-forks.mdx",
-              "sourceDirName": "other",
-              "slug": "/how-to/hide-forks",
-              "permalink": "/how-to/hide-forks",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "title": "Hiding forks",
-                "slug": "/how-to/hide-forks",
-                "sidebar_position": 4
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "Troubleshooting",
-                "permalink": "/how-to/troubleshooting"
-              }
-            },
-            {
-              "unversionedId": "other/troubleshooting",
-              "id": "other/troubleshooting",
-              "title": "Troubleshooting",
-              "description": "I have connected my GitHub repo but cannot see anything",
-              "source": "@site/docs/other/troubleshooting.mdx",
-              "sourceDirName": "other",
-              "slug": "/how-to/troubleshooting",
-              "permalink": "/how-to/troubleshooting",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "title": "Troubleshooting",
-                "slug": "/how-to/troubleshooting",
-                "sidebar_position": 3
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "Get your API Key",
-                "permalink": "/how-to/get-api-key"
-              },
-              "next": {
-                "title": "Hiding forks",
-                "permalink": "/how-to/hide-forks"
-              }
-            },
-            {
-              "unversionedId": "quick-configuration",
-              "id": "quick-configuration",
-              "title": "⚡️ Quick configuration",
-              "description": "Foresight can monitor all GitHub Actions workflows and test frameworks such as JUnit, Jest, Python, TestNG, Trx and xUnit 2.",
-              "source": "@site/docs/quick-configuration.mdx",
+              "unversionedId": "SUMMARY",
+              "id": "SUMMARY",
+              "title": "Table of contents",
+              "description": "* 🧑🏫 Index",
+              "source": "@site/docs/SUMMARY.md",
               "sourceDirName": ".",
-              "slug": "/step-by-step-guide",
-              "permalink": "/step-by-step-guide",
+              "slug": "/SUMMARY",
+              "permalink": "/SUMMARY",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "title": "⚡️ Quick configuration",
-                "sidebar_position": 3,
-                "slug": "/step-by-step-guide"
-              },
+              "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "🧭 Example Projects",
-                "permalink": "/examples"
+                "title": "🧑🏫 Index",
+                "permalink": "/"
               },
               "next": {
-                "title": "🔐 Security",
-                "permalink": "/security"
+                "title": "☕ Java",
+                "permalink": "/agents/java/"
               }
             },
             {
-              "unversionedId": "security",
-              "id": "security",
-              "title": "🔐 Security",
-              "description": "Security",
-              "source": "@site/docs/security.mdx",
-              "sourceDirName": ".",
-              "slug": "/security",
-              "permalink": "/security",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "title": "🔐 Security",
-                "sidebar_position": 3,
-                "slug": "/security"
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "⚡️ Quick configuration",
-                "permalink": "/step-by-step-guide"
-              },
-              "next": {
-                "title": "Test kit",
-                "permalink": "/advanced-configuration/test-kit"
-              }
-            },
-            {
-              "unversionedId": "use-cases/detect-failed-tests",
-              "id": "use-cases/detect-failed-tests",
-              "title": "Detect failed tests",
-              "description": "Finding failed tests and test suites are easy with Foresight. You can use both",
-              "source": "@site/docs/use-cases/detect-failed-tests.mdx",
+              "unversionedId": "use-cases/conditional-stack-and-log-collection",
+              "id": "use-cases/conditional-stack-and-log-collection",
+              "title": "Conditional Stack & Log Collection",
+              "description": "Conditional stack and log collection is a debugging technique that allows you to selectively collect stack traces and log messages based on specified conditions. This can be useful in various situations, such as when you are trying to troubleshoot an issue in a live production environment or when you want to optimize the performance of your application.",
+              "source": "@site/docs/use-cases/conditional-stack-and-log-collection.md",
               "sourceDirName": "use-cases",
-              "slug": "/use-cases/detect-failed-tests",
-              "permalink": "/use-cases/detect-failed-tests",
+              "slug": "/use-cases/conditional-stack-and-log-collection",
+              "permalink": "/use-cases/conditional-stack-and-log-collection",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "title": "Detect failed tests",
-                "slug": "/use-cases/detect-failed-tests",
-                "sidebar_position": 3
-              },
+              "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "Identify flaky tests",
-                "permalink": "/use-cases/identify-flaky-tests"
+                "title": "🥞 Use Cases",
+                "permalink": "/use-cases/"
               },
               "next": {
-                "title": "Slack",
-                "permalink": "/integrations/slack"
+                "title": "Cut Monitoring Costs with Dynamic Logging",
+                "permalink": "/use-cases/cut-monitoring-costs-with-dynamic-logging"
               }
             },
             {
-              "unversionedId": "use-cases/identify-flaky-tests",
-              "id": "use-cases/identify-flaky-tests",
-              "title": "Identify flaky tests",
-              "description": "What is a Flaky test?",
-              "source": "@site/docs/use-cases/identify-flaky-tests.mdx",
+              "unversionedId": "use-cases/cut-monitoring-costs-with-dynamic-logging",
+              "id": "use-cases/cut-monitoring-costs-with-dynamic-logging",
+              "title": "Cut Monitoring Costs with Dynamic Logging",
+              "description": "Dynamic logging with logpoints is a debugging technique that allows you to modify an application's log output while running without requiring a restart. This can be useful for debugging and troubleshooting issues in a live production environment. It allows developers to quickly and easily add or modify log statements in the application to collect more detailed information about its behavior.",
+              "source": "@site/docs/use-cases/cut-monitoring-costs-with-dynamic-logging.md",
               "sourceDirName": "use-cases",
-              "slug": "/use-cases/identify-flaky-tests",
-              "permalink": "/use-cases/identify-flaky-tests",
+              "slug": "/use-cases/cut-monitoring-costs-with-dynamic-logging",
+              "permalink": "/use-cases/cut-monitoring-costs-with-dynamic-logging",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "title": "Identify flaky tests",
-                "slug": "/use-cases/identify-flaky-tests",
-                "sidebar_position": 2
-              },
+              "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "The cost of missing critical CI metrics",
-                "permalink": "/use-cases/the-cost-of-missing-critical-ci-metrics"
+                "title": "Conditional Stack & Log Collection",
+                "permalink": "/use-cases/conditional-stack-and-log-collection"
               },
               "next": {
-                "title": "Detect failed tests",
-                "permalink": "/use-cases/detect-failed-tests"
+                "title": "Developer on-boarding",
+                "permalink": "/use-cases/developer-on-boarding"
               }
             },
             {
-              "unversionedId": "use-cases/monitor-github-actions",
-              "id": "use-cases/monitor-github-actions",
-              "title": "Monitor GitHub Actions workflows",
-              "description": "As the number of managed repositories and workflows grows for the profound engineering teams,",
-              "source": "@site/docs/use-cases/monitor-github-actions.mdx",
+              "unversionedId": "use-cases/developer-on-boarding",
+              "id": "use-cases/developer-on-boarding",
+              "title": "Developer on-boarding",
+              "description": "Logpoints and tracepoints are features of live application debuggers that can be particularly useful for onboarding new developers.",
+              "source": "@site/docs/use-cases/developer-on-boarding.md",
               "sourceDirName": "use-cases",
-              "slug": "/use-cases/monitor-github-actions",
-              "permalink": "/use-cases/monitor-github-actions",
+              "slug": "/use-cases/developer-on-boarding",
+              "permalink": "/use-cases/developer-on-boarding",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "title": "Monitor GitHub Actions workflows",
-                "slug": "/use-cases/monitor-github-actions",
-                "sidebar_position": 1
-              },
+              "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "Change impact analysis",
-                "permalink": "/features/analyze-code-change-impact"
+                "title": "Cut Monitoring Costs with Dynamic Logging",
+                "permalink": "/use-cases/cut-monitoring-costs-with-dynamic-logging"
               },
               "next": {
-                "title": "The cost of missing critical CI metrics",
-                "permalink": "/use-cases/the-cost-of-missing-critical-ci-metrics"
+                "title": "Dynamic Logging",
+                "permalink": "/use-cases/dynamic-logging"
               }
             },
             {
-              "unversionedId": "use-cases/the-cost-of-missing-critical-ci-metrics",
-              "id": "use-cases/the-cost-of-missing-critical-ci-metrics",
-              "title": "The cost of missing critical CI metrics",
-              "description": "<iframe src=\"https://pitch.com/embed/38207244-8ed7-4607-95e5-ed4aa56068bb\" allow=\"fullscreen\"",
-              "source": "@site/docs/use-cases/the-cost-of-missing-critical-ci-metrics.mdx",
+              "unversionedId": "use-cases/dynamic-logging",
+              "id": "use-cases/dynamic-logging",
+              "title": "Dynamic Logging",
+              "description": "Dynamic logging refers to modifying an application's log output while running without requiring a restart. This can be useful for debugging and troubleshooting issues in a live production environment. It allows developers to quickly and easily add or modify log statements in the application to collect more detailed information about its behavior.",
+              "source": "@site/docs/use-cases/dynamic-logging.md",
               "sourceDirName": "use-cases",
-              "slug": "/use-cases/the-cost-of-missing-critical-ci-metrics",
-              "permalink": "/use-cases/the-cost-of-missing-critical-ci-metrics",
+              "slug": "/use-cases/dynamic-logging",
+              "permalink": "/use-cases/dynamic-logging",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "title": "The cost of missing critical CI metrics",
-                "slug": "/use-cases/the-cost-of-missing-critical-ci-metrics",
-                "sidebar_position": 1
-              },
+              "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "Monitor GitHub Actions workflows",
-                "permalink": "/use-cases/monitor-github-actions"
+                "title": "Developer on-boarding",
+                "permalink": "/use-cases/developer-on-boarding"
               },
               "next": {
-                "title": "Identify flaky tests",
-                "permalink": "/use-cases/identify-flaky-tests"
+                "title": "Error stack collection & stack-based backend tests in E2E tests",
+                "permalink": "/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/"
+              }
+            },
+            {
+              "unversionedId": "use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/README",
+              "id": "use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/README",
+              "title": "Error stack collection & stack-based backend tests in E2E tests",
+              "description": "E2E tests ensure that the application performs as expected by running the test cases based on user workflows. Tools such as Cypress, Playwright & Selenium enable us to define and apply those tests easily.&#x20;",
+              "source": "@site/docs/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/README.md",
+              "sourceDirName": "use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests",
+              "slug": "/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/",
+              "permalink": "/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Dynamic Logging",
+                "permalink": "/use-cases/dynamic-logging"
+              },
+              "next": {
+                "title": "Identifying Stack Changes & Stack Comparison",
+                "permalink": "/use-cases/identifying-stack-changes-and-stack-comparison"
+              }
+            },
+            {
+              "unversionedId": "use-cases/identifying-stack-changes-and-stack-comparison",
+              "id": "use-cases/identifying-stack-changes-and-stack-comparison",
+              "title": "Identifying Stack Changes & Stack Comparison",
+              "description": "Identifying stack changes and stack comparison is a debugging technique that involves comparing the stack traces of two different executions of an application to understand how the application's behavior has changed. This can be useful in various situations, such as when you are trying to troubleshoot an issue in a live production environment or trying to understand how changes to the application's code have affected its behavior.",
+              "source": "@site/docs/use-cases/identifying-stack-changes-and-stack-comparison.md",
+              "sourceDirName": "use-cases",
+              "slug": "/use-cases/identifying-stack-changes-and-stack-comparison",
+              "permalink": "/use-cases/identifying-stack-changes-and-stack-comparison",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Error stack collection & stack-based backend tests in E2E tests",
+                "permalink": "/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/"
+              },
+              "next": {
+                "title": "Pinpointing Causes of Errors",
+                "permalink": "/use-cases/pinpointing-causes-of-errors"
+              }
+            },
+            {
+              "unversionedId": "use-cases/pinpointing-causes-of-errors",
+              "id": "use-cases/pinpointing-causes-of-errors",
+              "title": "Pinpointing Causes of Errors",
+              "description": "Pinpointing the cause of errors is a common task when debugging an application, and tracepoints can be helpful for this purpose.",
+              "source": "@site/docs/use-cases/pinpointing-causes-of-errors.md",
+              "sourceDirName": "use-cases",
+              "slug": "/use-cases/pinpointing-causes-of-errors",
+              "permalink": "/use-cases/pinpointing-causes-of-errors",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Identifying Stack Changes & Stack Comparison",
+                "permalink": "/use-cases/identifying-stack-changes-and-stack-comparison"
+              },
+              "next": {
+                "title": "Production Debugging",
+                "permalink": "/use-cases/production-debugging"
+              }
+            },
+            {
+              "unversionedId": "use-cases/production-debugging",
+              "id": "use-cases/production-debugging",
+              "title": "Production Debugging",
+              "description": "Production debugging refers to identifying and fixing issues that occur in a production environment, which is the environment where a software application or system is deployed and used by real users. Production debugging can be challenging, as it involves diagnosing and fixing problems that may not have been identified during the development or testing phases of the software.",
+              "source": "@site/docs/use-cases/production-debugging.md",
+              "sourceDirName": "use-cases",
+              "slug": "/use-cases/production-debugging",
+              "permalink": "/use-cases/production-debugging",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Pinpointing Causes of Errors",
+                "permalink": "/use-cases/pinpointing-causes-of-errors"
+              },
+              "next": {
+                "title": "Remote Debugging Kubernetes Cluster, Pods, and Containers",
+                "permalink": "/use-cases/remote-debugging-kubernetes-cluster-pods-and-containers"
+              }
+            },
+            {
+              "unversionedId": "use-cases/README",
+              "id": "use-cases/README",
+              "title": "🥞 Use Cases",
+              "description": "Sidekick comes with many different features. It is not limited to the ones we offer.&#x20;",
+              "source": "@site/docs/use-cases/README.md",
+              "sourceDirName": "use-cases",
+              "slug": "/use-cases/",
+              "permalink": "/use-cases/",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "🔎 Tracepoint",
+                "permalink": "/sidekick-actions/tracepoint"
+              },
+              "next": {
+                "title": "Conditional Stack & Log Collection",
+                "permalink": "/use-cases/conditional-stack-and-log-collection"
+              }
+            },
+            {
+              "unversionedId": "use-cases/remote-debugging-kubernetes-cluster-pods-and-containers",
+              "id": "use-cases/remote-debugging-kubernetes-cluster-pods-and-containers",
+              "title": "Remote Debugging Kubernetes Cluster, Pods, and Containers",
+              "description": "In the context of live application debugging, remote debugging refers to the practice of debugging an application that runs on a remote machine rather than on the local machine where the debugger is running. This can be particularly useful when the application runs in a Kubernetes cluster, as it allows developers to troubleshoot and fix issues without setting up a local development environment or manually deploying the application to their local machine.",
+              "source": "@site/docs/use-cases/remote-debugging-kubernetes-cluster-pods-and-containers.md",
+              "sourceDirName": "use-cases",
+              "slug": "/use-cases/remote-debugging-kubernetes-cluster-pods-and-containers",
+              "permalink": "/use-cases/remote-debugging-kubernetes-cluster-pods-and-containers",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Production Debugging",
+                "permalink": "/use-cases/production-debugging"
+              },
+              "next": {
+                "title": "Using Trace Data to Find Root Cause of an Error",
+                "permalink": "/use-cases/using-trace-data-to-find-root-cause-of-an-error"
+              }
+            },
+            {
+              "unversionedId": "use-cases/using-trace-data-to-find-root-cause-of-an-error",
+              "id": "use-cases/using-trace-data-to-find-root-cause-of-an-error",
+              "title": "Using Trace Data to Find Root Cause of an Error",
+              "description": "Trace data refer to the detailed information that is collected about the execution of an application. This data can help debug and troubleshoot issues in an application, as it provides a detailed record of what the application was doing at different points in time.",
+              "source": "@site/docs/use-cases/using-trace-data-to-find-root-cause-of-an-error.md",
+              "sourceDirName": "use-cases",
+              "slug": "/use-cases/using-trace-data-to-find-root-cause-of-an-error",
+              "permalink": "/use-cases/using-trace-data-to-find-root-cause-of-an-error",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Remote Debugging Kubernetes Cluster, Pods, and Containers",
+                "permalink": "/use-cases/remote-debugging-kubernetes-cluster-pods-and-containers"
               }
             }
           ],
@@ -741,155 +2301,581 @@
             "sidebar": [
               {
                 "type": "doc",
+                "id": "README"
+              },
+              {
+                "type": "doc",
+                "id": "SUMMARY"
+              },
+              {
+                "type": "category",
+                "label": "agents",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "java",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "agents/java/configuration"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "agents/java/source-bundling"
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "agents/java/README"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "node.js",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "agents/node.js/data-redaction"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "agents/node.js/error-stack-collection"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "agents/node.js/installation-1"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "agents/node.js/installation"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "agents/node.js/troubleshooting"
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "agents/node.js/README"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "python",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "agents/python/data-redaction"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "agents/python/error-stack-collection"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "agents/python/installation-1"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "agents/python/installation"
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "agents/python/README"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "installation",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "installation/get-api-key-and-token"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "installation/signup-with-thundra-sidekick"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "integrations",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "integrations/cypress-plugin-for-e2e-tests"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "integrations/grafana-plugin-for-remote-controlling-sidekick-actions"
+                  },
+                  {
+                    "type": "category",
+                    "label": "integrations",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "integrations/integrations/coralogix-integration"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "integrations/integrations/elasticsearch-integration"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "integrations/integrations/logz.io-integration"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "integrations/integrations/loki-integration"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "integrations/integrations/new-relic-integration"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "integrations/integrations/slack-integration"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "integrations/integrations/solarwinds-loggly-integration"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "integrations/integrations/sumo-logic-integration"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "integrations/integrations/webhook-integration"
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "integrations/integrations/README"
+                    }
+                  },
+                  {
+                    "type": "doc",
+                    "id": "integrations/node.js-client"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "integrations/open-telemetry-tracing-integration"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "integrations/rest-api"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "integrations/thundra-apm-tracing-integration"
+                  }
+                ]
+              },
+              {
+                "type": "doc",
                 "id": "intro"
               },
               {
                 "type": "doc",
-                "id": "examples"
+                "id": "master"
+              },
+              {
+                "type": "category",
+                "label": "open-source",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "open-source/agent-settings"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "open-source/client-settings"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "open-source/quick-start"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "plugins",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "intellij-idea-plugin",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "plugins/intellij-idea-plugin/common-errors"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "plugins/intellij-idea-plugin/getting-started"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "plugins/intellij-idea-plugin/login"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "plugins/intellij-idea-plugin/self-hosted-settings"
+                      },
+                      {
+                        "type": "category",
+                        "label": "tracepoint-events",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "plugins/intellij-idea-plugin/tracepoint-events/tracepoint-event-detail"
+                          }
+                        ],
+                        "link": {
+                          "type": "doc",
+                          "id": "plugins/intellij-idea-plugin/tracepoint-events/README"
+                        }
+                      },
+                      {
+                        "type": "category",
+                        "label": "tracepoints",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "plugins/intellij-idea-plugin/tracepoints/conditional-tracepoints"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/intellij-idea-plugin/tracepoints/distributed-tracing-integration"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/intellij-idea-plugin/tracepoints/edit-tracepoint"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/intellij-idea-plugin/tracepoints/enable-disable-tracepoint"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/intellij-idea-plugin/tracepoints/expiration-settings"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/intellij-idea-plugin/tracepoints/remove-tracepoint"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/intellij-idea-plugin/tracepoints/set-tracepoint"
+                          }
+                        ],
+                        "link": {
+                          "type": "doc",
+                          "id": "plugins/intellij-idea-plugin/tracepoints/README"
+                        }
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "plugins/intellij-idea-plugin/README"
+                    }
+                  },
+                  {
+                    "type": "doc",
+                    "id": "plugins/pycharm-plugin-python"
+                  },
+                  {
+                    "type": "category",
+                    "label": "sidekick-web-ide",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "category",
+                        "label": "how-to",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "plugins/sidekick-web-ide/how-to/enable-disable-collaborative-debugging"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/sidekick-web-ide/how-to/import-source-code"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/sidekick-web-ide/how-to/remote-config"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/sidekick-web-ide/how-to/set-tracepoints"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging"
+                          }
+                        ],
+                        "link": {
+                          "type": "doc",
+                          "id": "plugins/sidekick-web-ide/how-to/README"
+                        }
+                      },
+                      {
+                        "type": "category",
+                        "label": "introduction",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "plugins/sidekick-web-ide/introduction/apps-and-tracepoints-panel"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/sidekick-web-ide/introduction/code-panel"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/sidekick-web-ide/introduction/events-panel"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/sidekick-web-ide/introduction/source-panel"
+                          }
+                        ],
+                        "link": {
+                          "type": "doc",
+                          "id": "plugins/sidekick-web-ide/introduction/README"
+                        }
+                      },
+                      {
+                        "type": "doc",
+                        "id": "plugins/sidekick-web-ide/quick-start-todo-app"
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "plugins/sidekick-web-ide/README"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "visual-studio-code-extension-python-and-node.js",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "plugins/visual-studio-code-extension-python-and-node.js/browsing-tracepoint-events"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "plugins/visual-studio-code-extension-python-and-node.js/common-problems"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "plugins/visual-studio-code-extension-python-and-node.js/login-and-on-boarding"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "plugins/visual-studio-code-extension-python-and-node.js/select-workspace-and-application"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "plugins/visual-studio-code-extension-python-and-node.js/self-hosted-settings"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "plugins/visual-studio-code-extension-python-and-node.js/set-up-vscode-extension"
+                      },
+                      {
+                        "type": "category",
+                        "label": "tracepoints-and-logpoints",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/conditional-tracepoints"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/edit-tracepoint"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/enable-disable-tracepoint"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/expiration-settings"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/remove-tracepoint"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/set-tracepoint"
+                          }
+                        ],
+                        "link": {
+                          "type": "doc",
+                          "id": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/README"
+                        }
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "plugins/visual-studio-code-extension-python-and-node.js/README"
+                    }
+                  },
+                  {
+                    "type": "doc",
+                    "id": "plugins/webstorm-plugin-node.js"
+                  }
+                ]
               },
               {
                 "type": "doc",
-                "id": "quick-configuration"
-              },
-              {
-                "type": "doc",
-                "id": "security"
+                "label": "quick-start-to-thundra-sidekick",
+                "id": "quick-start-to-thundra-sidekick/README"
               },
               {
                 "type": "category",
-                "label": "🔋 Advanced configuration",
+                "label": "reference",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "advanced-configurations/test-kit"
+                    "id": "reference/conditional-tracepoints"
                   },
                   {
                     "type": "doc",
-                    "id": "advanced-configurations/cypress-test-reports"
+                    "id": "reference/faq"
                   },
                   {
                     "type": "doc",
-                    "id": "advanced-configurations/workflow-kit"
+                    "id": "reference/logpoint-expressions"
                   }
                 ]
               },
               {
                 "type": "category",
-                "label": "🔮 Features",
+                "label": "sidekick-actions",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "features/highlights"
+                    "id": "sidekick-actions/error-stack-collection"
                   },
                   {
                     "type": "doc",
-                    "id": "features/pull-request-view"
+                    "id": "sidekick-actions/logpoint"
                   },
                   {
                     "type": "doc",
-                    "id": "features/pull-request-comments"
+                    "id": "sidekick-actions/reference-events-and-probe-tags"
                   },
                   {
                     "type": "doc",
-                    "id": "features/workflow-runs"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "features/workflow-metrics"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "features/process-trace-chart"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "features/test-runs"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "features/test-logs"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "features/rules"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "features/team-management"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "features/change-impact-analysis"
+                    "id": "sidekick-actions/tracepoint"
                   }
                 ]
               },
               {
                 "type": "category",
-                "label": "🧪 Use cases",
+                "label": "use-cases",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "use-cases/monitor-github-actions"
+                    "id": "use-cases/conditional-stack-and-log-collection"
                   },
                   {
                     "type": "doc",
-                    "id": "use-cases/the-cost-of-missing-critical-ci-metrics"
+                    "id": "use-cases/cut-monitoring-costs-with-dynamic-logging"
                   },
                   {
                     "type": "doc",
-                    "id": "use-cases/identify-flaky-tests"
+                    "id": "use-cases/developer-on-boarding"
                   },
                   {
                     "type": "doc",
-                    "id": "use-cases/detect-failed-tests"
+                    "id": "use-cases/dynamic-logging"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "error-stack-collection-and-stack-based-backend-tests-in-e2e-tests",
+                    "id": "use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/README"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "use-cases/identifying-stack-changes-and-stack-comparison"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "use-cases/pinpointing-causes-of-errors"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "use-cases/production-debugging"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "use-cases/remote-debugging-kubernetes-cluster-pods-and-containers"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "use-cases/using-trace-data-to-find-root-cause-of-an-error"
                   }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "🧩 Integrations",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "integrations/slack"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "🆘 How to",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "other/badges"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "other/api-key"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "other/troubleshooting"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "other/hiding-forks"
-                  }
-                ]
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "use-cases/README"
+                }
               }
             ]
           },
-          "mainDocId": "intro",
+          "mainDocId": "README",
           "categoryGeneratedIndices": []
         }
       ]
@@ -898,350 +2884,11 @@
   "docusaurus-plugin-content-blog": {
     "default": {
       "blogSidebarTitle": "Recent posts",
-      "blogPosts": [
-        {
-          "id": "welcome",
-          "metadata": {
-            "permalink": "/blog/welcome",
-            "source": "@site/blog/2021-08-26-welcome/index.md",
-            "title": "Welcome",
-            "description": "Docusaurus blogging features are powered by the blog plugin.",
-            "date": "2021-08-26T00:00:00.000Z",
-            "formattedDate": "August 26, 2021",
-            "tags": [
-              {
-                "label": "facebook",
-                "permalink": "/blog/tags/facebook"
-              },
-              {
-                "label": "hello",
-                "permalink": "/blog/tags/hello"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.405,
-            "truncated": false,
-            "authors": [
-              {
-                "name": "Sébastien Lorber",
-                "title": "Docusaurus maintainer",
-                "url": "https://sebastienlorber.com",
-                "imageURL": "https://github.com/slorber.png",
-                "key": "slorber"
-              },
-              {
-                "name": "Yangshun Tay",
-                "title": "Front End Engineer @ Facebook",
-                "url": "https://github.com/yangshun",
-                "imageURL": "https://github.com/yangshun.png",
-                "key": "yangshun"
-              }
-            ],
-            "frontMatter": {
-              "slug": "welcome",
-              "title": "Welcome",
-              "authors": [
-                "slorber",
-                "yangshun"
-              ],
-              "tags": [
-                "facebook",
-                "hello",
-                "docusaurus"
-              ]
-            },
-            "nextItem": {
-              "title": "MDX Blog Post",
-              "permalink": "/blog/mdx-blog-post"
-            }
-          },
-          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
-        },
-        {
-          "id": "mdx-blog-post",
-          "metadata": {
-            "permalink": "/blog/mdx-blog-post",
-            "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
-            "title": "MDX Blog Post",
-            "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
-            "date": "2021-08-01T00:00:00.000Z",
-            "formattedDate": "August 1, 2021",
-            "tags": [
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.175,
-            "truncated": false,
-            "authors": [
-              {
-                "name": "Sébastien Lorber",
-                "title": "Docusaurus maintainer",
-                "url": "https://sebastienlorber.com",
-                "imageURL": "https://github.com/slorber.png",
-                "key": "slorber"
-              }
-            ],
-            "frontMatter": {
-              "slug": "mdx-blog-post",
-              "title": "MDX Blog Post",
-              "authors": [
-                "slorber"
-              ],
-              "tags": [
-                "docusaurus"
-              ]
-            },
-            "prevItem": {
-              "title": "Welcome",
-              "permalink": "/blog/welcome"
-            },
-            "nextItem": {
-              "title": "Long Blog Post",
-              "permalink": "/blog/long-blog-post"
-            }
-          },
-          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
-        },
-        {
-          "id": "long-blog-post",
-          "metadata": {
-            "permalink": "/blog/long-blog-post",
-            "source": "@site/blog/2019-05-29-long-blog-post.md",
-            "title": "Long Blog Post",
-            "description": "This is the summary of a very long blog post,",
-            "date": "2019-05-29T00:00:00.000Z",
-            "formattedDate": "May 29, 2019",
-            "tags": [
-              {
-                "label": "hello",
-                "permalink": "/blog/tags/hello"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 2.05,
-            "truncated": true,
-            "authors": [
-              {
-                "name": "Endilie Yacop Sucipto",
-                "title": "Maintainer of Docusaurus",
-                "url": "https://github.com/endiliey",
-                "imageURL": "https://github.com/endiliey.png",
-                "key": "endi"
-              }
-            ],
-            "frontMatter": {
-              "slug": "long-blog-post",
-              "title": "Long Blog Post",
-              "authors": "endi",
-              "tags": [
-                "hello",
-                "docusaurus"
-              ]
-            },
-            "prevItem": {
-              "title": "MDX Blog Post",
-              "permalink": "/blog/mdx-blog-post"
-            },
-            "nextItem": {
-              "title": "First Blog Post",
-              "permalink": "/blog/first-blog-post"
-            }
-          },
-          "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
-        },
-        {
-          "id": "first-blog-post",
-          "metadata": {
-            "permalink": "/blog/first-blog-post",
-            "source": "@site/blog/2019-05-28-first-blog-post.md",
-            "title": "First Blog Post",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
-            "date": "2019-05-28T00:00:00.000Z",
-            "formattedDate": "May 28, 2019",
-            "tags": [
-              {
-                "label": "hola",
-                "permalink": "/blog/tags/hola"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.12,
-            "truncated": false,
-            "authors": [
-              {
-                "name": "Gao Wei",
-                "title": "Docusaurus Core Team",
-                "url": "https://github.com/wgao19",
-                "image_url": "https://github.com/wgao19.png",
-                "imageURL": "https://github.com/wgao19.png"
-              }
-            ],
-            "frontMatter": {
-              "slug": "first-blog-post",
-              "title": "First Blog Post",
-              "authors": {
-                "name": "Gao Wei",
-                "title": "Docusaurus Core Team",
-                "url": "https://github.com/wgao19",
-                "image_url": "https://github.com/wgao19.png",
-                "imageURL": "https://github.com/wgao19.png"
-              },
-              "tags": [
-                "hola",
-                "docusaurus"
-              ]
-            },
-            "prevItem": {
-              "title": "Long Blog Post",
-              "permalink": "/blog/long-blog-post"
-            }
-          },
-          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
-        }
-      ],
-      "blogListPaginated": [
-        {
-          "items": [
-            "welcome",
-            "mdx-blog-post",
-            "long-blog-post",
-            "first-blog-post"
-          ],
-          "metadata": {
-            "permalink": "/blog",
-            "page": 1,
-            "postsPerPage": 10,
-            "totalPages": 1,
-            "totalCount": 4,
-            "previousPage": null,
-            "nextPage": null,
-            "blogDescription": "Blog",
-            "blogTitle": "Blog"
-          }
-        }
-      ],
-      "blogTags": {
-        "/blog/tags/facebook": {
-          "name": "facebook",
-          "items": [
-            "welcome"
-          ],
-          "permalink": "/blog/tags/facebook",
-          "pages": [
-            {
-              "items": [
-                "welcome"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/facebook",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 1,
-                "previousPage": null,
-                "nextPage": null,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
-        "/blog/tags/hello": {
-          "name": "hello",
-          "items": [
-            "welcome",
-            "long-blog-post"
-          ],
-          "permalink": "/blog/tags/hello",
-          "pages": [
-            {
-              "items": [
-                "welcome",
-                "long-blog-post"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/hello",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 2,
-                "previousPage": null,
-                "nextPage": null,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
-        "/blog/tags/docusaurus": {
-          "name": "docusaurus",
-          "items": [
-            "welcome",
-            "mdx-blog-post",
-            "long-blog-post",
-            "first-blog-post"
-          ],
-          "permalink": "/blog/tags/docusaurus",
-          "pages": [
-            {
-              "items": [
-                "welcome",
-                "mdx-blog-post",
-                "long-blog-post",
-                "first-blog-post"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/docusaurus",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 4,
-                "previousPage": null,
-                "nextPage": null,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
-        "/blog/tags/hola": {
-          "name": "hola",
-          "items": [
-            "first-blog-post"
-          ],
-          "permalink": "/blog/tags/hola",
-          "pages": [
-            {
-              "items": [
-                "first-blog-post"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/hola",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 1,
-                "previousPage": null,
-                "nextPage": null,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        }
-      },
-      "blogTagsListPath": "/blog/tags"
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": null,
+      "blogTagsPaginated": []
     }
   },
   "docusaurus-plugin-content-pages": {

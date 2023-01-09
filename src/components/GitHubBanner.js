@@ -8,7 +8,7 @@ export const GitHubBanner = (props) => (
     </div>
     <div>
       <h2>{props.title}</h2>
-      <a href="https://github.com/marketplace/thundra-foresight" target="_blank" className="cta">Try for free</a>
+      <a href="https://github.com/runsidekick/sidekick" target="_blank" className="cta">Try for free</a>
     </div>
   </div>
 );

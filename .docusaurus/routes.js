@@ -39,58 +39,8 @@ export default [
     exact: true
   },
   {
-    path: '/blog',
-    component: ComponentCreator('/blog','520'),
-    exact: true
-  },
-  {
     path: '/blog/archive',
     component: ComponentCreator('/blog/archive','f4c'),
-    exact: true
-  },
-  {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post','6c7'),
-    exact: true
-  },
-  {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post','f06'),
-    exact: true
-  },
-  {
-    path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post','bee'),
-    exact: true
-  },
-  {
-    path: '/blog/tags',
-    component: ComponentCreator('/blog/tags','e13'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus','a87'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook','d62'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello','d09'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola','192'),
-    exact: true
-  },
-  {
-    path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome','bfa'),
     exact: true
   },
   {
@@ -100,167 +50,623 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','2b5'),
+    component: ComponentCreator('/','de2'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/','206'),
+        component: ComponentCreator('/','8f3'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/advanced-configuration/test-kit',
-        component: ComponentCreator('/advanced-configuration/test-kit','898'),
+        path: '/agents/java/',
+        component: ComponentCreator('/agents/java/','761'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/advanced-configuration/workflow-kit',
-        component: ComponentCreator('/advanced-configuration/workflow-kit','a37'),
+        path: '/agents/java/configuration',
+        component: ComponentCreator('/agents/java/configuration','24c'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/advanced-configurations/cypress-test-reports',
-        component: ComponentCreator('/advanced-configurations/cypress-test-reports','234'),
+        path: '/agents/java/source-bundling',
+        component: ComponentCreator('/agents/java/source-bundling','301'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/examples',
-        component: ComponentCreator('/examples','b2d'),
+        path: '/agents/node.js/',
+        component: ComponentCreator('/agents/node.js/','eb8'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/features/analyze-code-change-impact',
-        component: ComponentCreator('/features/analyze-code-change-impact','6c6'),
+        path: '/agents/node.js/data-redaction',
+        component: ComponentCreator('/agents/node.js/data-redaction','691'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/features/highlights',
-        component: ComponentCreator('/features/highlights','ad8'),
+        path: '/agents/node.js/error-stack-collection',
+        component: ComponentCreator('/agents/node.js/error-stack-collection','7c3'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/features/process-trace-chart',
-        component: ComponentCreator('/features/process-trace-chart','ef1'),
+        path: '/agents/node.js/installation',
+        component: ComponentCreator('/agents/node.js/installation','530'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/features/pull-request-comments',
-        component: ComponentCreator('/features/pull-request-comments','cde'),
+        path: '/agents/node.js/installation-1',
+        component: ComponentCreator('/agents/node.js/installation-1','129'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/features/pull-request-view',
-        component: ComponentCreator('/features/pull-request-view','68d'),
+        path: '/agents/node.js/troubleshooting',
+        component: ComponentCreator('/agents/node.js/troubleshooting','f0d'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/features/rules',
-        component: ComponentCreator('/features/rules','0f6'),
+        path: '/agents/python/',
+        component: ComponentCreator('/agents/python/','6cb'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/features/team-management',
-        component: ComponentCreator('/features/team-management','e02'),
+        path: '/agents/python/data-redaction',
+        component: ComponentCreator('/agents/python/data-redaction','d6d'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/features/test-logs',
-        component: ComponentCreator('/features/test-logs','6bf'),
+        path: '/agents/python/error-stack-collection',
+        component: ComponentCreator('/agents/python/error-stack-collection','aaa'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/features/test-runs',
-        component: ComponentCreator('/features/test-runs','01c'),
+        path: '/agents/python/installation',
+        component: ComponentCreator('/agents/python/installation','e3e'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/features/workflow-metrics',
-        component: ComponentCreator('/features/workflow-metrics','9a5'),
+        path: '/agents/python/installation-1',
+        component: ComponentCreator('/agents/python/installation-1','f25'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/features/workflow-runs',
-        component: ComponentCreator('/features/workflow-runs','c2d'),
+        path: '/installation/get-api-key-and-token',
+        component: ComponentCreator('/installation/get-api-key-and-token','67c'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/how-to/badges',
-        component: ComponentCreator('/how-to/badges','97a'),
+        path: '/installation/signup-with-thundra-sidekick',
+        component: ComponentCreator('/installation/signup-with-thundra-sidekick','6d0'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/how-to/get-api-key',
-        component: ComponentCreator('/how-to/get-api-key','cc6'),
+        path: '/integrations/cypress-plugin-for-e2e-tests',
+        component: ComponentCreator('/integrations/cypress-plugin-for-e2e-tests','7ec'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/how-to/hide-forks',
-        component: ComponentCreator('/how-to/hide-forks','1e2'),
+        path: '/integrations/grafana-plugin-for-remote-controlling-sidekick-actions',
+        component: ComponentCreator('/integrations/grafana-plugin-for-remote-controlling-sidekick-actions','d09'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/how-to/troubleshooting',
-        component: ComponentCreator('/how-to/troubleshooting','27e'),
+        path: '/integrations/integrations/',
+        component: ComponentCreator('/integrations/integrations/','056'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/integrations/slack',
-        component: ComponentCreator('/integrations/slack','222'),
+        path: '/integrations/integrations/coralogix-integration',
+        component: ComponentCreator('/integrations/integrations/coralogix-integration','34b'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/security',
-        component: ComponentCreator('/security','64e'),
+        path: '/integrations/integrations/elasticsearch-integration',
+        component: ComponentCreator('/integrations/integrations/elasticsearch-integration','5bc'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/step-by-step-guide',
-        component: ComponentCreator('/step-by-step-guide','f0e'),
+        path: '/integrations/integrations/logz.io-integration',
+        component: ComponentCreator('/integrations/integrations/logz.io-integration','5d5'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/use-cases/detect-failed-tests',
-        component: ComponentCreator('/use-cases/detect-failed-tests','831'),
+        path: '/integrations/integrations/loki-integration',
+        component: ComponentCreator('/integrations/integrations/loki-integration','275'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/use-cases/identify-flaky-tests',
-        component: ComponentCreator('/use-cases/identify-flaky-tests','3c0'),
+        path: '/integrations/integrations/new-relic-integration',
+        component: ComponentCreator('/integrations/integrations/new-relic-integration','42f'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/use-cases/monitor-github-actions',
-        component: ComponentCreator('/use-cases/monitor-github-actions','4fc'),
+        path: '/integrations/integrations/slack-integration',
+        component: ComponentCreator('/integrations/integrations/slack-integration','759'),
         exact: true,
         'sidebar': "sidebar"
       },
       {
-        path: '/use-cases/the-cost-of-missing-critical-ci-metrics',
-        component: ComponentCreator('/use-cases/the-cost-of-missing-critical-ci-metrics','68c'),
+        path: '/integrations/integrations/solarwinds-loggly-integration',
+        component: ComponentCreator('/integrations/integrations/solarwinds-loggly-integration','54f'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/integrations/integrations/sumo-logic-integration',
+        component: ComponentCreator('/integrations/integrations/sumo-logic-integration','261'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/integrations/integrations/webhook-integration',
+        component: ComponentCreator('/integrations/integrations/webhook-integration','4e5'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/integrations/node.js-client',
+        component: ComponentCreator('/integrations/node.js-client','08c'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/integrations/open-telemetry-tracing-integration',
+        component: ComponentCreator('/integrations/open-telemetry-tracing-integration','b35'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/integrations/rest-api',
+        component: ComponentCreator('/integrations/rest-api','c7e'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/integrations/thundra-apm-tracing-integration',
+        component: ComponentCreator('/integrations/thundra-apm-tracing-integration','324'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/intro',
+        component: ComponentCreator('/intro','abc'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/master',
+        component: ComponentCreator('/master','67f'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/open-source/agent-settings',
+        component: ComponentCreator('/open-source/agent-settings','c29'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/open-source/client-settings',
+        component: ComponentCreator('/open-source/client-settings','131'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/open-source/quick-start',
+        component: ComponentCreator('/open-source/quick-start','a78'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/intellij-idea-plugin/',
+        component: ComponentCreator('/plugins/intellij-idea-plugin/','085'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/intellij-idea-plugin/common-errors',
+        component: ComponentCreator('/plugins/intellij-idea-plugin/common-errors','b58'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/intellij-idea-plugin/getting-started',
+        component: ComponentCreator('/plugins/intellij-idea-plugin/getting-started','585'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/intellij-idea-plugin/login',
+        component: ComponentCreator('/plugins/intellij-idea-plugin/login','4a7'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/intellij-idea-plugin/self-hosted-settings',
+        component: ComponentCreator('/plugins/intellij-idea-plugin/self-hosted-settings','dd4'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/intellij-idea-plugin/tracepoint-events/',
+        component: ComponentCreator('/plugins/intellij-idea-plugin/tracepoint-events/','309'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/intellij-idea-plugin/tracepoint-events/tracepoint-event-detail',
+        component: ComponentCreator('/plugins/intellij-idea-plugin/tracepoint-events/tracepoint-event-detail','f23'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/intellij-idea-plugin/tracepoints/',
+        component: ComponentCreator('/plugins/intellij-idea-plugin/tracepoints/','c00'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/intellij-idea-plugin/tracepoints/conditional-tracepoints',
+        component: ComponentCreator('/plugins/intellij-idea-plugin/tracepoints/conditional-tracepoints','c16'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/intellij-idea-plugin/tracepoints/distributed-tracing-integration',
+        component: ComponentCreator('/plugins/intellij-idea-plugin/tracepoints/distributed-tracing-integration','3a2'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/intellij-idea-plugin/tracepoints/edit-tracepoint',
+        component: ComponentCreator('/plugins/intellij-idea-plugin/tracepoints/edit-tracepoint','28a'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/intellij-idea-plugin/tracepoints/enable-disable-tracepoint',
+        component: ComponentCreator('/plugins/intellij-idea-plugin/tracepoints/enable-disable-tracepoint','031'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/intellij-idea-plugin/tracepoints/expiration-settings',
+        component: ComponentCreator('/plugins/intellij-idea-plugin/tracepoints/expiration-settings','728'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/intellij-idea-plugin/tracepoints/remove-tracepoint',
+        component: ComponentCreator('/plugins/intellij-idea-plugin/tracepoints/remove-tracepoint','8be'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/intellij-idea-plugin/tracepoints/set-tracepoint',
+        component: ComponentCreator('/plugins/intellij-idea-plugin/tracepoints/set-tracepoint','9b0'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/pycharm-plugin-python',
+        component: ComponentCreator('/plugins/pycharm-plugin-python','5f2'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/sidekick-web-ide/',
+        component: ComponentCreator('/plugins/sidekick-web-ide/','8f3'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/sidekick-web-ide/how-to/',
+        component: ComponentCreator('/plugins/sidekick-web-ide/how-to/','e97'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/sidekick-web-ide/how-to/enable-disable-collaborative-debugging',
+        component: ComponentCreator('/plugins/sidekick-web-ide/how-to/enable-disable-collaborative-debugging','466'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/sidekick-web-ide/how-to/import-source-code',
+        component: ComponentCreator('/plugins/sidekick-web-ide/how-to/import-source-code','25b'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/sidekick-web-ide/how-to/remote-config',
+        component: ComponentCreator('/plugins/sidekick-web-ide/how-to/remote-config','9a2'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/sidekick-web-ide/how-to/set-tracepoints',
+        component: ComponentCreator('/plugins/sidekick-web-ide/how-to/set-tracepoints','192'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events',
+        component: ComponentCreator('/plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events','772'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging',
+        component: ComponentCreator('/plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging','fd8'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/sidekick-web-ide/introduction/',
+        component: ComponentCreator('/plugins/sidekick-web-ide/introduction/','310'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/sidekick-web-ide/introduction/apps-and-tracepoints-panel',
+        component: ComponentCreator('/plugins/sidekick-web-ide/introduction/apps-and-tracepoints-panel','04c'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/sidekick-web-ide/introduction/code-panel',
+        component: ComponentCreator('/plugins/sidekick-web-ide/introduction/code-panel','ef9'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/sidekick-web-ide/introduction/events-panel',
+        component: ComponentCreator('/plugins/sidekick-web-ide/introduction/events-panel','e35'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/sidekick-web-ide/introduction/source-panel',
+        component: ComponentCreator('/plugins/sidekick-web-ide/introduction/source-panel','86e'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/sidekick-web-ide/quick-start-todo-app',
+        component: ComponentCreator('/plugins/sidekick-web-ide/quick-start-todo-app','768'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/visual-studio-code-extension-python-and-node.js/',
+        component: ComponentCreator('/plugins/visual-studio-code-extension-python-and-node.js/','b0e'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/visual-studio-code-extension-python-and-node.js/browsing-tracepoint-events',
+        component: ComponentCreator('/plugins/visual-studio-code-extension-python-and-node.js/browsing-tracepoint-events','d83'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/visual-studio-code-extension-python-and-node.js/common-problems',
+        component: ComponentCreator('/plugins/visual-studio-code-extension-python-and-node.js/common-problems','a22'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/visual-studio-code-extension-python-and-node.js/login-and-on-boarding',
+        component: ComponentCreator('/plugins/visual-studio-code-extension-python-and-node.js/login-and-on-boarding','69e'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/visual-studio-code-extension-python-and-node.js/select-workspace-and-application',
+        component: ComponentCreator('/plugins/visual-studio-code-extension-python-and-node.js/select-workspace-and-application','587'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/visual-studio-code-extension-python-and-node.js/self-hosted-settings',
+        component: ComponentCreator('/plugins/visual-studio-code-extension-python-and-node.js/self-hosted-settings','bce'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/visual-studio-code-extension-python-and-node.js/set-up-vscode-extension',
+        component: ComponentCreator('/plugins/visual-studio-code-extension-python-and-node.js/set-up-vscode-extension','964'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/',
+        component: ComponentCreator('/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/','a95'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/conditional-tracepoints',
+        component: ComponentCreator('/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/conditional-tracepoints','921'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/edit-tracepoint',
+        component: ComponentCreator('/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/edit-tracepoint','322'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/enable-disable-tracepoint',
+        component: ComponentCreator('/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/enable-disable-tracepoint','130'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/expiration-settings',
+        component: ComponentCreator('/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/expiration-settings','16d'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/remove-tracepoint',
+        component: ComponentCreator('/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/remove-tracepoint','c24'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/set-tracepoint',
+        component: ComponentCreator('/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/set-tracepoint','fcb'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/plugins/webstorm-plugin-node.js',
+        component: ComponentCreator('/plugins/webstorm-plugin-node.js','9cb'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/quick-start-to-thundra-sidekick/',
+        component: ComponentCreator('/quick-start-to-thundra-sidekick/','48f'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/reference/conditional-tracepoints',
+        component: ComponentCreator('/reference/conditional-tracepoints','e37'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/reference/faq',
+        component: ComponentCreator('/reference/faq','881'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/reference/logpoint-expressions',
+        component: ComponentCreator('/reference/logpoint-expressions','9f6'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/sidekick-actions/error-stack-collection',
+        component: ComponentCreator('/sidekick-actions/error-stack-collection','115'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/sidekick-actions/logpoint',
+        component: ComponentCreator('/sidekick-actions/logpoint','3f3'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/sidekick-actions/reference-events-and-probe-tags',
+        component: ComponentCreator('/sidekick-actions/reference-events-and-probe-tags','345'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/sidekick-actions/tracepoint',
+        component: ComponentCreator('/sidekick-actions/tracepoint','6e5'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/SUMMARY',
+        component: ComponentCreator('/SUMMARY','3f3'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/use-cases/',
+        component: ComponentCreator('/use-cases/','263'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/use-cases/conditional-stack-and-log-collection',
+        component: ComponentCreator('/use-cases/conditional-stack-and-log-collection','333'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/use-cases/cut-monitoring-costs-with-dynamic-logging',
+        component: ComponentCreator('/use-cases/cut-monitoring-costs-with-dynamic-logging','c8d'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/use-cases/developer-on-boarding',
+        component: ComponentCreator('/use-cases/developer-on-boarding','d91'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/use-cases/dynamic-logging',
+        component: ComponentCreator('/use-cases/dynamic-logging','975'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/',
+        component: ComponentCreator('/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/','021'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/use-cases/identifying-stack-changes-and-stack-comparison',
+        component: ComponentCreator('/use-cases/identifying-stack-changes-and-stack-comparison','f1e'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/use-cases/pinpointing-causes-of-errors',
+        component: ComponentCreator('/use-cases/pinpointing-causes-of-errors','4e9'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/use-cases/production-debugging',
+        component: ComponentCreator('/use-cases/production-debugging','56b'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/use-cases/remote-debugging-kubernetes-cluster-pods-and-containers',
+        component: ComponentCreator('/use-cases/remote-debugging-kubernetes-cluster-pods-and-containers','03b'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/use-cases/using-trace-data-to-find-root-cause-of-an-error',
+        component: ComponentCreator('/use-cases/using-trace-data-to-find-root-cause-of-an-error','523'),
         exact: true,
         'sidebar': "sidebar"
       }

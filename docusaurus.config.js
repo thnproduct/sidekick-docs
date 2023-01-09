@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/nightOwl');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Foresight',
-  tagline: 'Foresight provides full visibility and deep insights into the health and performance of your tests and CI/CD pipelines.',
-  url: 'https://docs.runforesight.com',
+  title: 'Sidekick',
+  tagline: 'Like Chrome DevTools, for your backend',
+  url: 'https://docs.runsidekick.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'thundra', // Usually your GitHub org/user name.
-  projectName: 'foresight', // Usually your repo name.
+  projectName: 'sidekick', // Usually your repo name.
 
   presets: [
     [
@@ -44,7 +44,7 @@ const config = {
     
     ({
       navbar: {
-        title: 'Foresight',
+        title: 'Sidekick',
         logo: {
           alt: ' ',
           src: 'img/logo.svg',
@@ -57,23 +57,13 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://app.runforesight.com/signup',
+            href: 'https://app.runsidekick.com/signup',
             label: 'Get Started',
             position: 'right',
             className: 'navbar-get-started',
           },
           {
-            href: 'https://changelog.runforesight.com',
-            label: 'Changelog',
-            position: 'left',
-          },
-          {
-            href: 'https://app.runforesight.live',
-            label: 'Playground',
-            position: 'left',
-          },
-          {
-            href: 'https://runforesight.com/pricing',
+            href: 'https://runsidekick.com/pricing',
             label: 'Pricing',
             position: 'left',
           },
