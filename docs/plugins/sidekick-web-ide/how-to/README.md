@@ -10,10 +10,8 @@ These pages describe the core concepts on how to start using Sidekick for debugg
 [set-tracepoints.md](set-tracepoints.md)
 {% endcontent-ref %}
 
-{% content-ref url="take-snapshots-a.k.a-tracepoint-events.md" %}
-[take-snapshots-a.k.a-tracepoint-events.md](take-snapshots-a.k.a-tracepoint-events.md)
-{% endcontent-ref %}
+take-snapshots-aka-tracepoint-events.md
 
-{% content-ref url="use-tracemap-for-debugging.md" %}
-[use-tracemap-for-debugging.md](use-tracemap-for-debugging.md)
-{% endcontent-ref %}
+
+use-tracemap-for-debugging.md
+

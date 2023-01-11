@@ -38,8 +38,8 @@ You can also [use our IntelliJ IDEA Plugin](../plugins/intellij-idea-plugin/READ
 
 ### 5) The next time the line you have set the Tracepoint on will be invoked, Sidekick will take the Snapshot of your app
 
-{% content-ref url="../plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events.md" %}
-[take-snapshots-a.k.a-tracepoint-events.md](../plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events.md)
+{% content-ref url="../plugins/sidekick-web-ide/how-to/take-snapshots-aka-tracepoint-events.md" %}
+[take-snapshots-aka-tracepoint-events.md](../plugins/sidekick-web-ide/how-to/take-snapshots-aka-tracepoint-events.md)
 {% endcontent-ref %}
 
 ### 6) **Complete Visibility by Distributed Tracing**

@@ -3,7 +3,7 @@
 Sidekick helps you quickly and easily modify the collected data to understand the application's behavior in real-time better. This is particularly useful in a live production environment, where it is often necessary to understand and troubleshoot issues quickly and efficiently.
 
 {% content-ref url="quick-start-to-thundra-sidekick/" %}
-[quick-start-to-thundra-sidekick](quick-start-to-thundra-sidekick/)
+[quick-start-to-thundra-sidekick](quick-start-to-thundra-sidekick/README.md)
 {% endcontent-ref %}
 
 ### What's the idea behind Sidekick?
@@ -11,7 +11,7 @@ Sidekick helps you quickly and easily modify the collected data to understand th
 Debugging applications in remote environments is painful because you can’t set breakpoints to remote applications like you can in your local environment. The primary motivation behind Sidekick is to help developers alleviate the suffering caused by the lack of tooling for debugging during remote development in distributed environments.
 
 {% hint style="info" %}
-If you are looking for a Sidekick Open Source release, visit :  [Broken link](broken-reference "mention")
+If you are looking for a Sidekick Open Source release, visit :  [Open-source quickstart](open-source/quick-start.md)
 {% endhint %}
 
 ### What does Sidekick do?&#x20;
