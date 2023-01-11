@@ -436,8 +436,8 @@
                   {
                     "type": "link",
                     "label": "Take Snapshots (a.k.a Tracepoint Events)",
-                    "href": "/plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events",
-                    "docId": "plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events"
+                    "href": "/plugins/sidekick-web-ide/how-to/take-snapshots-aka-tracepoint-events",
+                    "docId": "plugins/sidekick-web-ide/how-to/take-snapshots-aka-tracepoint-events"
                   },
                   {
                     "type": "link",
@@ -1072,8 +1072,8 @@
       "description": "In order to gather valuable insights from your application, you can start setting tracepoints for your applications. Before setting a tracepoint, make sure that:&#x20;",
       "sidebar": "sidebar"
     },
-    "plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events": {
-      "id": "plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events",
+    "plugins/sidekick-web-ide/how-to/take-snapshots-aka-tracepoint-events": {
+      "id": "plugins/sidekick-web-ide/how-to/take-snapshots-aka-tracepoint-events",
       "title": "Take Snapshots (a.k.a Tracepoint Events)",
       "description": "After you connect your source code, select applications to debug, and put tracepoints, Sidekick will automatically start taking snapshots, in other words; generating tracepoint events, when the remote application is executed.&#x20;",
       "sidebar": "sidebar"

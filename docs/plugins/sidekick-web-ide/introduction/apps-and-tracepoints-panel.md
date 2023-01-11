@@ -4,7 +4,7 @@
 
 
 
-In order to start debugging with Sidekick, one of the pre-requisites is to [install Sidekick agent into your app](broken-reference) and select it on the Sidekick dashboard. Apps and tracepoints panel let developers manage their Sidekick agent installed applications and tracepoints set on those applications.
+In order to start debugging with Sidekick, one of the pre-requisites is to install Sidekick agent into your app and select it on the Sidekick dashboard. Apps and tracepoints panel let developers manage their Sidekick agent installed applications and tracepoints set on those applications.
 
 ### Apps Section
 

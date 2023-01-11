@@ -62,7 +62,7 @@
   * [How to](plugins/sidekick-web-ide/how-to/README.md)
     * [Connect Source Code](plugins/sidekick-web-ide/how-to/import-source-code.md)
     * [Put Tracepoints & Logpoints](plugins/sidekick-web-ide/how-to/set-tracepoints.md)
-    * [Take Snapshots (a.k.a Tracepoint Events)](plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events.md)
+    * [Take Snapshots (a.k.a Tracepoint Events)](plugins/sidekick-web-ide/how-to/take-snapshots-aka-tracepoint-events.md)
     * [Enable TraceMap for Debugging](plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging.md)
     * [Enable/Disable Collaborative Debugging](plugins/sidekick-web-ide/how-to/enable-disable-collaborative-debugging.md)
     * [🎇 Remote Config](plugins/sidekick-web-ide/how-to/remote-config.md)

@@ -3,7 +3,7 @@
 In order to gather valuable insights from your application, you can start setting tracepoints for your applications. Before setting a tracepoint, make sure that:&#x20;
 
 * Source code on the correct repository and branch is [connected](import-source-code.md) for remote application.&#x20;
-* You have [installed the Sidekick agents](broken-reference) correctly
+* You have installed the Sidekick agents correctly
 * Applications are selected in the [Applications panel](../introduction/apps-and-tracepoints-panel.md).&#x20;
 
 When the previous steps are completed, you can start putting tracepoints into your source code. You can do it by just clicking on the gutter area for a specific line of code or right clicking to the desired line. See the below videos for your reference:&#x20;
