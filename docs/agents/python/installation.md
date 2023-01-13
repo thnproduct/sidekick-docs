@@ -50,7 +50,7 @@ except ImportError as e:
 #### Configure by .env File:
 
 {% hint style="info" %}
-To install environment variables from the configuration file, you should install `pathlib` and `dotenv` first.
+To install environment variables from the configuration file, you should install `pathlib` and `python-dotenv` first.
 {% endhint %}
 
 ```
