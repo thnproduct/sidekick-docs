@@ -172,7 +172,7 @@
             },
             {
               "id": "intro",
-              "path": "/intro",
+              "path": "/index",
               "sidebar": "sidebar"
             },
             {
@@ -526,11 +526,12 @@
               "sidebar": "sidebar"
             }
           ],
+          "draftIds": [],
           "sidebars": {
             "sidebar": {
               "link": {
-                "path": "/",
-                "label": "README"
+                "path": "/index",
+                "label": "intro"
               }
             }
           }

@@ -4,12 +4,13 @@
       "loadedVersions": [
         {
           "versionName": "current",
-          "versionLabel": "Next",
-          "versionPath": "/",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/",
           "tagsPath": "/tags",
-          "versionBanner": null,
-          "versionBadge": false,
-          "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/Users/bariskaya/dev/thundra/sidekick-docs-v2/sidebars.js",
@@ -25,6 +26,7 @@
               "sourceDirName": "agents/java",
               "slug": "/agents/java/configuration",
               "permalink": "/agents/java/configuration",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -47,6 +49,7 @@
               "sourceDirName": "agents/java",
               "slug": "/agents/java/",
               "permalink": "/agents/java/",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {
@@ -71,6 +74,7 @@
               "sourceDirName": "agents/java",
               "slug": "/agents/java/source-bundling",
               "permalink": "/agents/java/source-bundling",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -93,6 +97,7 @@
               "sourceDirName": "agents/node.js",
               "slug": "/agents/node.js/data-redaction",
               "permalink": "/agents/node.js/data-redaction",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -115,6 +120,7 @@
               "sourceDirName": "agents/node.js",
               "slug": "/agents/node.js/error-stack-collection",
               "permalink": "/agents/node.js/error-stack-collection",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -137,6 +143,7 @@
               "sourceDirName": "agents/node.js",
               "slug": "/agents/node.js/installation",
               "permalink": "/agents/node.js/installation",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -159,6 +166,7 @@
               "sourceDirName": "agents/node.js",
               "slug": "/agents/node.js/installation-1",
               "permalink": "/agents/node.js/installation-1",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {
@@ -183,6 +191,7 @@
               "sourceDirName": "agents/node.js",
               "slug": "/agents/node.js/",
               "permalink": "/agents/node.js/",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -205,6 +214,7 @@
               "sourceDirName": "agents/node.js",
               "slug": "/agents/node.js/troubleshooting",
               "permalink": "/agents/node.js/troubleshooting",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -227,6 +237,7 @@
               "sourceDirName": "agents/python",
               "slug": "/agents/python/data-redaction",
               "permalink": "/agents/python/data-redaction",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -249,6 +260,7 @@
               "sourceDirName": "agents/python",
               "slug": "/agents/python/error-stack-collection",
               "permalink": "/agents/python/error-stack-collection",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -271,6 +283,7 @@
               "sourceDirName": "agents/python",
               "slug": "/agents/python/installation",
               "permalink": "/agents/python/installation",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -293,6 +306,7 @@
               "sourceDirName": "agents/python",
               "slug": "/agents/python/installation-1",
               "permalink": "/agents/python/installation-1",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -315,6 +329,7 @@
               "sourceDirName": "agents/python",
               "slug": "/agents/python/",
               "permalink": "/agents/python/",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -337,6 +352,7 @@
               "sourceDirName": "installation",
               "slug": "/installation/get-api-key-and-token",
               "permalink": "/installation/get-api-key-and-token",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -359,6 +375,7 @@
               "sourceDirName": "installation",
               "slug": "/installation/signup-with-thundra-sidekick",
               "permalink": "/installation/signup-with-thundra-sidekick",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -381,6 +398,7 @@
               "sourceDirName": "integrations",
               "slug": "/integrations/cypress-plugin-for-e2e-tests",
               "permalink": "/integrations/cypress-plugin-for-e2e-tests",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -403,6 +421,7 @@
               "sourceDirName": "integrations",
               "slug": "/integrations/grafana-plugin-for-remote-controlling-sidekick-actions",
               "permalink": "/integrations/grafana-plugin-for-remote-controlling-sidekick-actions",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -425,6 +444,7 @@
               "sourceDirName": "integrations/integrations",
               "slug": "/integrations/integrations/coralogix-integration",
               "permalink": "/integrations/integrations/coralogix-integration",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -447,6 +467,7 @@
               "sourceDirName": "integrations/integrations",
               "slug": "/integrations/integrations/elasticsearch-integration",
               "permalink": "/integrations/integrations/elasticsearch-integration",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -469,6 +490,7 @@
               "sourceDirName": "integrations/integrations",
               "slug": "/integrations/integrations/logz.io-integration",
               "permalink": "/integrations/integrations/logz.io-integration",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -491,6 +513,7 @@
               "sourceDirName": "integrations/integrations",
               "slug": "/integrations/integrations/loki-integration",
               "permalink": "/integrations/integrations/loki-integration",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -513,6 +536,7 @@
               "sourceDirName": "integrations/integrations",
               "slug": "/integrations/integrations/new-relic-integration",
               "permalink": "/integrations/integrations/new-relic-integration",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -535,6 +559,7 @@
               "sourceDirName": "integrations/integrations",
               "slug": "/integrations/integrations/",
               "permalink": "/integrations/integrations/",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -557,6 +582,7 @@
               "sourceDirName": "integrations/integrations",
               "slug": "/integrations/integrations/slack-integration",
               "permalink": "/integrations/integrations/slack-integration",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -579,6 +605,7 @@
               "sourceDirName": "integrations/integrations",
               "slug": "/integrations/integrations/solarwinds-loggly-integration",
               "permalink": "/integrations/integrations/solarwinds-loggly-integration",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -601,6 +628,7 @@
               "sourceDirName": "integrations/integrations",
               "slug": "/integrations/integrations/sumo-logic-integration",
               "permalink": "/integrations/integrations/sumo-logic-integration",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -623,6 +651,7 @@
               "sourceDirName": "integrations/integrations",
               "slug": "/integrations/integrations/webhook-integration",
               "permalink": "/integrations/integrations/webhook-integration",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -645,6 +674,7 @@
               "sourceDirName": "integrations",
               "slug": "/integrations/node.js-client",
               "permalink": "/integrations/node.js-client",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {
@@ -669,6 +699,7 @@
               "sourceDirName": "integrations",
               "slug": "/integrations/open-telemetry-tracing-integration",
               "permalink": "/integrations/open-telemetry-tracing-integration",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -691,6 +722,7 @@
               "sourceDirName": "integrations",
               "slug": "/integrations/rest-api",
               "permalink": "/integrations/rest-api",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -713,6 +745,7 @@
               "sourceDirName": "integrations",
               "slug": "/integrations/thundra-apm-tracing-integration",
               "permalink": "/integrations/thundra-apm-tracing-integration",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -722,30 +755,32 @@
                 "permalink": "/integrations/rest-api"
               },
               "next": {
-                "title": "🧑🏫 Index",
-                "permalink": "/intro"
+                "title": "❓ Why Sidekick?",
+                "permalink": "/master"
               }
             },
             {
               "unversionedId": "intro",
               "id": "intro",
-              "title": "🧑🏫 Index",
+              "title": "🏫 Index",
               "description": "Sidekick is an open-source Live Application Debugger that helps you to debug issues where they happen, when they happen, without stopping, rebuilding, or redeploying applications. Sidekick agents give you powerful dynamic observability features with near-zero overhead.",
-              "source": "@site/docs/intro.md",
+              "source": "@site/docs/intro.mdx",
               "sourceDirName": ".",
-              "slug": "/intro",
-              "permalink": "/intro",
+              "slug": "/index",
+              "permalink": "/index",
+              "draft": false,
               "tags": [],
               "version": "current",
-              "frontMatter": {},
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "🔌 Thundra APM Tracing Integration",
-                "permalink": "/integrations/thundra-apm-tracing-integration"
+              "sidebarPosition": 0,
+              "frontMatter": {
+                "title": "🏫 Index",
+                "sidebar_position": 0,
+                "slug": "/index"
               },
+              "sidebar": "sidebar",
               "next": {
-                "title": "❓ Why Sidekick?",
-                "permalink": "/master"
+                "title": "🧑🏫 Index",
+                "permalink": "/"
               }
             },
             {
@@ -757,13 +792,14 @@
               "sourceDirName": ".",
               "slug": "/master",
               "permalink": "/master",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "🧑🏫 Index",
-                "permalink": "/intro"
+                "title": "🔌 Thundra APM Tracing Integration",
+                "permalink": "/integrations/thundra-apm-tracing-integration"
               },
               "next": {
                 "title": "🕵 Agent Settings",
@@ -779,6 +815,7 @@
               "sourceDirName": "open-source",
               "slug": "/open-source/agent-settings",
               "permalink": "/open-source/agent-settings",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -801,6 +838,7 @@
               "sourceDirName": "open-source",
               "slug": "/open-source/client-settings",
               "permalink": "/open-source/client-settings",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -823,6 +861,7 @@
               "sourceDirName": "open-source",
               "slug": "/open-source/quick-start",
               "permalink": "/open-source/quick-start",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -845,6 +884,7 @@
               "sourceDirName": "plugins/intellij-idea-plugin",
               "slug": "/plugins/intellij-idea-plugin/common-errors",
               "permalink": "/plugins/intellij-idea-plugin/common-errors",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {
@@ -869,6 +909,7 @@
               "sourceDirName": "plugins/intellij-idea-plugin",
               "slug": "/plugins/intellij-idea-plugin/getting-started",
               "permalink": "/plugins/intellij-idea-plugin/getting-started",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -891,6 +932,7 @@
               "sourceDirName": "plugins/intellij-idea-plugin",
               "slug": "/plugins/intellij-idea-plugin/login",
               "permalink": "/plugins/intellij-idea-plugin/login",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {
@@ -915,6 +957,7 @@
               "sourceDirName": "plugins/intellij-idea-plugin",
               "slug": "/plugins/intellij-idea-plugin/",
               "permalink": "/plugins/intellij-idea-plugin/",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -937,6 +980,7 @@
               "sourceDirName": "plugins/intellij-idea-plugin",
               "slug": "/plugins/intellij-idea-plugin/self-hosted-settings",
               "permalink": "/plugins/intellij-idea-plugin/self-hosted-settings",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {
@@ -961,6 +1005,7 @@
               "sourceDirName": "plugins/intellij-idea-plugin/tracepoint-events",
               "slug": "/plugins/intellij-idea-plugin/tracepoint-events/",
               "permalink": "/plugins/intellij-idea-plugin/tracepoint-events/",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {
@@ -985,6 +1030,7 @@
               "sourceDirName": "plugins/intellij-idea-plugin/tracepoint-events",
               "slug": "/plugins/intellij-idea-plugin/tracepoint-events/tracepoint-event-detail",
               "permalink": "/plugins/intellij-idea-plugin/tracepoint-events/tracepoint-event-detail",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1007,6 +1053,7 @@
               "sourceDirName": "plugins/intellij-idea-plugin/tracepoints",
               "slug": "/plugins/intellij-idea-plugin/tracepoints/conditional-tracepoints",
               "permalink": "/plugins/intellij-idea-plugin/tracepoints/conditional-tracepoints",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1029,6 +1076,7 @@
               "sourceDirName": "plugins/intellij-idea-plugin/tracepoints",
               "slug": "/plugins/intellij-idea-plugin/tracepoints/distributed-tracing-integration",
               "permalink": "/plugins/intellij-idea-plugin/tracepoints/distributed-tracing-integration",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1051,6 +1099,7 @@
               "sourceDirName": "plugins/intellij-idea-plugin/tracepoints",
               "slug": "/plugins/intellij-idea-plugin/tracepoints/edit-tracepoint",
               "permalink": "/plugins/intellij-idea-plugin/tracepoints/edit-tracepoint",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1073,6 +1122,7 @@
               "sourceDirName": "plugins/intellij-idea-plugin/tracepoints",
               "slug": "/plugins/intellij-idea-plugin/tracepoints/enable-disable-tracepoint",
               "permalink": "/plugins/intellij-idea-plugin/tracepoints/enable-disable-tracepoint",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1095,6 +1145,7 @@
               "sourceDirName": "plugins/intellij-idea-plugin/tracepoints",
               "slug": "/plugins/intellij-idea-plugin/tracepoints/expiration-settings",
               "permalink": "/plugins/intellij-idea-plugin/tracepoints/expiration-settings",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1117,6 +1168,7 @@
               "sourceDirName": "plugins/intellij-idea-plugin/tracepoints",
               "slug": "/plugins/intellij-idea-plugin/tracepoints/",
               "permalink": "/plugins/intellij-idea-plugin/tracepoints/",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {
@@ -1141,6 +1193,7 @@
               "sourceDirName": "plugins/intellij-idea-plugin/tracepoints",
               "slug": "/plugins/intellij-idea-plugin/tracepoints/remove-tracepoint",
               "permalink": "/plugins/intellij-idea-plugin/tracepoints/remove-tracepoint",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1163,6 +1216,7 @@
               "sourceDirName": "plugins/intellij-idea-plugin/tracepoints",
               "slug": "/plugins/intellij-idea-plugin/tracepoints/set-tracepoint",
               "permalink": "/plugins/intellij-idea-plugin/tracepoints/set-tracepoint",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1185,6 +1239,7 @@
               "sourceDirName": "plugins",
               "slug": "/plugins/pycharm-plugin-python",
               "permalink": "/plugins/pycharm-plugin-python",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1207,6 +1262,7 @@
               "sourceDirName": "plugins/sidekick-web-ide/how-to",
               "slug": "/plugins/sidekick-web-ide/how-to/enable-disable-collaborative-debugging",
               "permalink": "/plugins/sidekick-web-ide/how-to/enable-disable-collaborative-debugging",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {
@@ -1231,6 +1287,7 @@
               "sourceDirName": "plugins/sidekick-web-ide/how-to",
               "slug": "/plugins/sidekick-web-ide/how-to/import-source-code",
               "permalink": "/plugins/sidekick-web-ide/how-to/import-source-code",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1253,6 +1310,7 @@
               "sourceDirName": "plugins/sidekick-web-ide/how-to",
               "slug": "/plugins/sidekick-web-ide/how-to/",
               "permalink": "/plugins/sidekick-web-ide/how-to/",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1275,6 +1333,7 @@
               "sourceDirName": "plugins/sidekick-web-ide/how-to",
               "slug": "/plugins/sidekick-web-ide/how-to/remote-config",
               "permalink": "/plugins/sidekick-web-ide/how-to/remote-config",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1297,6 +1356,7 @@
               "sourceDirName": "plugins/sidekick-web-ide/how-to",
               "slug": "/plugins/sidekick-web-ide/how-to/set-tracepoints",
               "permalink": "/plugins/sidekick-web-ide/how-to/set-tracepoints",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1307,18 +1367,19 @@
               },
               "next": {
                 "title": "Take Snapshots (a.k.a Tracepoint Events)",
-                "permalink": "/plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events"
+                "permalink": "/plugins/sidekick-web-ide/how-to/take-snapshots-aka-tracepoint-events"
               }
             },
             {
-              "unversionedId": "plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events",
-              "id": "plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events",
+              "unversionedId": "plugins/sidekick-web-ide/how-to/take-snapshots-aka-tracepoint-events",
+              "id": "plugins/sidekick-web-ide/how-to/take-snapshots-aka-tracepoint-events",
               "title": "Take Snapshots (a.k.a Tracepoint Events)",
               "description": "After you connect your source code, select applications to debug, and put tracepoints, Sidekick will automatically start taking snapshots, in other words; generating tracepoint events, when the remote application is executed.&#x20;",
-              "source": "@site/docs/plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events.md",
+              "source": "@site/docs/plugins/sidekick-web-ide/how-to/take-snapshots-aka-tracepoint-events.md",
               "sourceDirName": "plugins/sidekick-web-ide/how-to",
-              "slug": "/plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events",
-              "permalink": "/plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events",
+              "slug": "/plugins/sidekick-web-ide/how-to/take-snapshots-aka-tracepoint-events",
+              "permalink": "/plugins/sidekick-web-ide/how-to/take-snapshots-aka-tracepoint-events",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1341,13 +1402,14 @@
               "sourceDirName": "plugins/sidekick-web-ide/how-to",
               "slug": "/plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging",
               "permalink": "/plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
                 "title": "Take Snapshots (a.k.a Tracepoint Events)",
-                "permalink": "/plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events"
+                "permalink": "/plugins/sidekick-web-ide/how-to/take-snapshots-aka-tracepoint-events"
               },
               "next": {
                 "title": "Introduction to Web Application",
@@ -1363,6 +1425,7 @@
               "sourceDirName": "plugins/sidekick-web-ide/introduction",
               "slug": "/plugins/sidekick-web-ide/introduction/apps-and-tracepoints-panel",
               "permalink": "/plugins/sidekick-web-ide/introduction/apps-and-tracepoints-panel",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1385,6 +1448,7 @@
               "sourceDirName": "plugins/sidekick-web-ide/introduction",
               "slug": "/plugins/sidekick-web-ide/introduction/code-panel",
               "permalink": "/plugins/sidekick-web-ide/introduction/code-panel",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1407,6 +1471,7 @@
               "sourceDirName": "plugins/sidekick-web-ide/introduction",
               "slug": "/plugins/sidekick-web-ide/introduction/events-panel",
               "permalink": "/plugins/sidekick-web-ide/introduction/events-panel",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1429,6 +1494,7 @@
               "sourceDirName": "plugins/sidekick-web-ide/introduction",
               "slug": "/plugins/sidekick-web-ide/introduction/",
               "permalink": "/plugins/sidekick-web-ide/introduction/",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1451,6 +1517,7 @@
               "sourceDirName": "plugins/sidekick-web-ide/introduction",
               "slug": "/plugins/sidekick-web-ide/introduction/source-panel",
               "permalink": "/plugins/sidekick-web-ide/introduction/source-panel",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1473,6 +1540,7 @@
               "sourceDirName": "plugins/sidekick-web-ide",
               "slug": "/plugins/sidekick-web-ide/quick-start-todo-app",
               "permalink": "/plugins/sidekick-web-ide/quick-start-todo-app",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1495,6 +1563,7 @@
               "sourceDirName": "plugins/sidekick-web-ide",
               "slug": "/plugins/sidekick-web-ide/",
               "permalink": "/plugins/sidekick-web-ide/",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1517,6 +1586,7 @@
               "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js",
               "slug": "/plugins/visual-studio-code-extension-python-and-node.js/browsing-tracepoint-events",
               "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/browsing-tracepoint-events",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1539,6 +1609,7 @@
               "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js",
               "slug": "/plugins/visual-studio-code-extension-python-and-node.js/common-problems",
               "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/common-problems",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1561,6 +1632,7 @@
               "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js",
               "slug": "/plugins/visual-studio-code-extension-python-and-node.js/login-and-on-boarding",
               "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/login-and-on-boarding",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {
@@ -1585,6 +1657,7 @@
               "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js",
               "slug": "/plugins/visual-studio-code-extension-python-and-node.js/",
               "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1607,6 +1680,7 @@
               "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js",
               "slug": "/plugins/visual-studio-code-extension-python-and-node.js/select-workspace-and-application",
               "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/select-workspace-and-application",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1629,6 +1703,7 @@
               "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js",
               "slug": "/plugins/visual-studio-code-extension-python-and-node.js/self-hosted-settings",
               "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/self-hosted-settings",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1651,6 +1726,7 @@
               "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js",
               "slug": "/plugins/visual-studio-code-extension-python-and-node.js/set-up-vscode-extension",
               "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/set-up-vscode-extension",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1673,6 +1749,7 @@
               "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints",
               "slug": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/conditional-tracepoints",
               "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/conditional-tracepoints",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1695,6 +1772,7 @@
               "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints",
               "slug": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/edit-tracepoint",
               "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/edit-tracepoint",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1717,6 +1795,7 @@
               "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints",
               "slug": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/enable-disable-tracepoint",
               "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/enable-disable-tracepoint",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1739,6 +1818,7 @@
               "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints",
               "slug": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/expiration-settings",
               "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/expiration-settings",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1761,6 +1841,7 @@
               "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints",
               "slug": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/",
               "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1783,6 +1864,7 @@
               "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints",
               "slug": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/remove-tracepoint",
               "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/remove-tracepoint",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1805,6 +1887,7 @@
               "sourceDirName": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints",
               "slug": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/set-tracepoint",
               "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/set-tracepoint",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1827,6 +1910,7 @@
               "sourceDirName": "plugins",
               "slug": "/plugins/webstorm-plugin-node.js",
               "permalink": "/plugins/webstorm-plugin-node.js",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1849,6 +1933,7 @@
               "sourceDirName": "quick-start-to-thundra-sidekick",
               "slug": "/quick-start-to-thundra-sidekick/",
               "permalink": "/quick-start-to-thundra-sidekick/",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1871,10 +1956,15 @@
               "sourceDirName": ".",
               "slug": "/",
               "permalink": "/",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "sidebar",
+              "previous": {
+                "title": "🏫 Index",
+                "permalink": "/index"
+              },
               "next": {
                 "title": "Table of contents",
                 "permalink": "/SUMMARY"
@@ -1889,6 +1979,7 @@
               "sourceDirName": "reference",
               "slug": "/reference/conditional-tracepoints",
               "permalink": "/reference/conditional-tracepoints",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1911,6 +2002,7 @@
               "sourceDirName": "reference",
               "slug": "/reference/faq",
               "permalink": "/reference/faq",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1933,6 +2025,7 @@
               "sourceDirName": "reference",
               "slug": "/reference/logpoint-expressions",
               "permalink": "/reference/logpoint-expressions",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1955,6 +2048,7 @@
               "sourceDirName": "sidekick-actions",
               "slug": "/sidekick-actions/error-stack-collection",
               "permalink": "/sidekick-actions/error-stack-collection",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1977,6 +2071,7 @@
               "sourceDirName": "sidekick-actions",
               "slug": "/sidekick-actions/logpoint",
               "permalink": "/sidekick-actions/logpoint",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1999,6 +2094,7 @@
               "sourceDirName": "sidekick-actions",
               "slug": "/sidekick-actions/reference-events-and-probe-tags",
               "permalink": "/sidekick-actions/reference-events-and-probe-tags",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -2021,6 +2117,7 @@
               "sourceDirName": "sidekick-actions",
               "slug": "/sidekick-actions/tracepoint",
               "permalink": "/sidekick-actions/tracepoint",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {
@@ -2045,6 +2142,7 @@
               "sourceDirName": ".",
               "slug": "/SUMMARY",
               "permalink": "/SUMMARY",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -2067,6 +2165,7 @@
               "sourceDirName": "use-cases",
               "slug": "/use-cases/conditional-stack-and-log-collection",
               "permalink": "/use-cases/conditional-stack-and-log-collection",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -2089,6 +2188,7 @@
               "sourceDirName": "use-cases",
               "slug": "/use-cases/cut-monitoring-costs-with-dynamic-logging",
               "permalink": "/use-cases/cut-monitoring-costs-with-dynamic-logging",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -2111,6 +2211,7 @@
               "sourceDirName": "use-cases",
               "slug": "/use-cases/developer-on-boarding",
               "permalink": "/use-cases/developer-on-boarding",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -2133,6 +2234,7 @@
               "sourceDirName": "use-cases",
               "slug": "/use-cases/dynamic-logging",
               "permalink": "/use-cases/dynamic-logging",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -2155,6 +2257,7 @@
               "sourceDirName": "use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests",
               "slug": "/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/",
               "permalink": "/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -2177,6 +2280,7 @@
               "sourceDirName": "use-cases",
               "slug": "/use-cases/identifying-stack-changes-and-stack-comparison",
               "permalink": "/use-cases/identifying-stack-changes-and-stack-comparison",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -2199,6 +2303,7 @@
               "sourceDirName": "use-cases",
               "slug": "/use-cases/pinpointing-causes-of-errors",
               "permalink": "/use-cases/pinpointing-causes-of-errors",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -2221,6 +2326,7 @@
               "sourceDirName": "use-cases",
               "slug": "/use-cases/production-debugging",
               "permalink": "/use-cases/production-debugging",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -2243,6 +2349,7 @@
               "sourceDirName": "use-cases",
               "slug": "/use-cases/",
               "permalink": "/use-cases/",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -2265,6 +2372,7 @@
               "sourceDirName": "use-cases",
               "slug": "/use-cases/remote-debugging-kubernetes-cluster-pods-and-containers",
               "permalink": "/use-cases/remote-debugging-kubernetes-cluster-pods-and-containers",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -2287,6 +2395,7 @@
               "sourceDirName": "use-cases",
               "slug": "/use-cases/using-trace-data-to-find-root-cause-of-an-error",
               "permalink": "/use-cases/using-trace-data-to-find-root-cause-of-an-error",
+              "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -2297,8 +2406,13 @@
               }
             }
           ],
+          "drafts": [],
           "sidebars": {
             "sidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
               {
                 "type": "doc",
                 "id": "README"
@@ -2315,7 +2429,7 @@
                 "items": [
                   {
                     "type": "category",
-                    "label": "java",
+                    "label": "☕ Java",
                     "collapsible": true,
                     "collapsed": true,
                     "items": [
@@ -2335,7 +2449,7 @@
                   },
                   {
                     "type": "category",
-                    "label": "node.js",
+                    "label": "🟢 Node.js",
                     "collapsible": true,
                     "collapsed": true,
                     "items": [
@@ -2367,7 +2481,7 @@
                   },
                   {
                     "type": "category",
-                    "label": "python",
+                    "label": "🐍 Python",
                     "collapsible": true,
                     "collapsed": true,
                     "items": [
@@ -2427,7 +2541,7 @@
                   },
                   {
                     "type": "category",
-                    "label": "integrations",
+                    "label": "Integrations",
                     "collapsible": true,
                     "collapsed": true,
                     "items": [
@@ -2493,10 +2607,6 @@
               },
               {
                 "type": "doc",
-                "id": "intro"
-              },
-              {
-                "type": "doc",
                 "id": "master"
               },
               {
@@ -2527,7 +2637,7 @@
                 "items": [
                   {
                     "type": "category",
-                    "label": "intellij-idea-plugin",
+                    "label": "IntelliJ IDEA Plugin (Java)",
                     "collapsible": true,
                     "collapsed": true,
                     "items": [
@@ -2549,7 +2659,7 @@
                       },
                       {
                         "type": "category",
-                        "label": "tracepoint-events",
+                        "label": "Browsing Tracepoint Events",
                         "collapsible": true,
                         "collapsed": true,
                         "items": [
@@ -2565,7 +2675,7 @@
                       },
                       {
                         "type": "category",
-                        "label": "tracepoints",
+                        "label": "Tracepoints",
                         "collapsible": true,
                         "collapsed": true,
                         "items": [
@@ -2615,13 +2725,13 @@
                   },
                   {
                     "type": "category",
-                    "label": "sidekick-web-ide",
+                    "label": "🌐 Sidekick Web IDE",
                     "collapsible": true,
                     "collapsed": true,
                     "items": [
                       {
                         "type": "category",
-                        "label": "how-to",
+                        "label": "How to",
                         "collapsible": true,
                         "collapsed": true,
                         "items": [
@@ -2643,7 +2753,7 @@
                           },
                           {
                             "type": "doc",
-                            "id": "plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events"
+                            "id": "plugins/sidekick-web-ide/how-to/take-snapshots-aka-tracepoint-events"
                           },
                           {
                             "type": "doc",
@@ -2657,7 +2767,7 @@
                       },
                       {
                         "type": "category",
-                        "label": "introduction",
+                        "label": "Introduction to Web Application",
                         "collapsible": true,
                         "collapsed": true,
                         "items": [
@@ -2695,7 +2805,7 @@
                   },
                   {
                     "type": "category",
-                    "label": "visual-studio-code-extension-python-and-node.js",
+                    "label": "Visual Studio Code Extension (Python & Node.js)",
                     "collapsible": true,
                     "collapsed": true,
                     "items": [
@@ -2725,7 +2835,7 @@
                       },
                       {
                         "type": "category",
-                        "label": "tracepoints-and-logpoints",
+                        "label": "Tracepoints & Logpoints",
                         "collapsible": true,
                         "collapsed": true,
                         "items": [
@@ -2773,7 +2883,7 @@
               },
               {
                 "type": "doc",
-                "label": "quick-start-to-thundra-sidekick",
+                "label": "🏃♂ Get Started With Sidekick",
                 "id": "quick-start-to-thundra-sidekick/README"
               },
               {
@@ -2822,7 +2932,7 @@
               },
               {
                 "type": "category",
-                "label": "use-cases",
+                "label": "🥞 Use Cases",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -2844,7 +2954,7 @@
                   },
                   {
                     "type": "doc",
-                    "label": "error-stack-collection-and-stack-based-backend-tests-in-e2e-tests",
+                    "label": "Error stack collection & stack-based backend tests in E2E tests",
                     "id": "use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/README"
                   },
                   {
@@ -2874,9 +2984,7 @@
                 }
               }
             ]
-          },
-          "mainDocId": "README",
-          "categoryGeneratedIndices": []
+          }
         }
       ]
     }
@@ -2887,7 +2995,7 @@
       "blogPosts": [],
       "blogListPaginated": [],
       "blogTags": {},
-      "blogTagsListPath": null,
+      "blogTagsListPath": "/blog/tags",
       "blogTagsPaginated": []
     }
   },
@@ -2905,22 +3013,12 @@
       }
     ]
   },
-  "docusaurus-plugin-debug": {
-    "default": null
-  },
-  "docusaurus-theme-classic": {
-    "default": null
-  },
-  "docusaurus-tailwindcss": {
-    "default": null
-  },
-  "add-heap": {
-    "default": null
-  },
-  "add-optimize": {
-    "default": null
-  },
-  "add-gtm": {
-    "default": null
-  }
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-tailwindcss": {},
+  "add-heap": {},
+  "add-optimize": {},
+  "add-gtm": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
 }

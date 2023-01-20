@@ -4,10 +4,17 @@
   "label": "Next",
   "banner": null,
   "badge": false,
+  "noIndex": false,
   "className": "docs-version-current",
   "isLast": true,
   "docsSidebars": {
     "sidebar": [
+      {
+        "type": "link",
+        "label": "🏫 Index",
+        "href": "/index",
+        "docId": "intro"
+      },
       {
         "type": "link",
         "label": "🧑🏫 Index",
@@ -28,7 +35,7 @@
         "items": [
           {
             "type": "category",
-            "label": "java",
+            "label": "☕ Java",
             "collapsible": true,
             "collapsed": true,
             "items": [
@@ -49,7 +56,7 @@
           },
           {
             "type": "category",
-            "label": "node.js",
+            "label": "🟢 Node.js",
             "collapsible": true,
             "collapsed": true,
             "items": [
@@ -88,7 +95,7 @@
           },
           {
             "type": "category",
-            "label": "python",
+            "label": "🐍 Python",
             "collapsible": true,
             "collapsed": true,
             "items": [
@@ -161,7 +168,7 @@
           },
           {
             "type": "category",
-            "label": "integrations",
+            "label": "Integrations",
             "collapsible": true,
             "collapsed": true,
             "items": [
@@ -250,12 +257,6 @@
       },
       {
         "type": "link",
-        "label": "🧑🏫 Index",
-        "href": "/intro",
-        "docId": "intro"
-      },
-      {
-        "type": "link",
         "label": "❓ Why Sidekick?",
         "href": "/master",
         "docId": "master"
@@ -294,7 +295,7 @@
         "items": [
           {
             "type": "category",
-            "label": "intellij-idea-plugin",
+            "label": "IntelliJ IDEA Plugin (Java)",
             "collapsible": true,
             "collapsed": true,
             "items": [
@@ -324,7 +325,7 @@
               },
               {
                 "type": "category",
-                "label": "tracepoint-events",
+                "label": "Browsing Tracepoint Events",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -339,7 +340,7 @@
               },
               {
                 "type": "category",
-                "label": "tracepoints",
+                "label": "Tracepoints",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -399,13 +400,13 @@
           },
           {
             "type": "category",
-            "label": "sidekick-web-ide",
+            "label": "🌐 Sidekick Web IDE",
             "collapsible": true,
             "collapsed": true,
             "items": [
               {
                 "type": "category",
-                "label": "how-to",
+                "label": "How to",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -450,7 +451,7 @@
               },
               {
                 "type": "category",
-                "label": "introduction",
+                "label": "Introduction to Web Application",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -492,7 +493,7 @@
           },
           {
             "type": "category",
-            "label": "visual-studio-code-extension-python-and-node.js",
+            "label": "Visual Studio Code Extension (Python & Node.js)",
             "collapsible": true,
             "collapsed": true,
             "items": [
@@ -534,7 +535,7 @@
               },
               {
                 "type": "category",
-                "label": "tracepoints-and-logpoints",
+                "label": "Tracepoints & Logpoints",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -590,7 +591,7 @@
       },
       {
         "type": "link",
-        "label": "quick-start-to-thundra-sidekick",
+        "label": "🏃♂ Get Started With Sidekick",
         "href": "/quick-start-to-thundra-sidekick/",
         "docId": "quick-start-to-thundra-sidekick/README"
       },
@@ -654,7 +655,7 @@
       },
       {
         "type": "category",
-        "label": "use-cases",
+        "label": "🥞 Use Cases",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -684,7 +685,7 @@
           },
           {
             "type": "link",
-            "label": "error-stack-collection-and-stack-based-backend-tests-in-e2e-tests",
+            "label": "Error stack collection & stack-based backend tests in E2E tests",
             "href": "/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/",
             "docId": "use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/README"
           },
@@ -918,7 +919,7 @@
     },
     "intro": {
       "id": "intro",
-      "title": "🧑🏫 Index",
+      "title": "🏫 Index",
       "description": "Sidekick is an open-source Live Application Debugger that helps you to debug issues where they happen, when they happen, without stopping, rebuilding, or redeploying applications. Sidekick agents give you powerful dynamic observability features with near-zero overhead.",
       "sidebar": "sidebar"
     },

@@ -224,3 +224,6 @@ details a{
 .open-source-section{
   @apply p-8 border border-blue-100 bg-blue-50 rounded-xl;
 }
+.open-source-section h3{
+  @apply text-teal-900 pt-2 text-2xl
+}
