@@ -4,8 +4,8 @@ Sidekick Python agent lets you define custom data redaction functions. Below you
 
 | Config                                | Requirement | default |
 | ------------------------------------- | ----------- | ------- |
-| tracepoint\_data\_redaction\_callback | Optional    |         |
-| log\_data\_redaction\_callback        | Optional    |         |
+| tracepoint\_data\_redaction\_callback | Optional    | false   |
+| log\_data\_redaction\_callback        | Optional    | false   |
 
 ```
 from pathlib import Path

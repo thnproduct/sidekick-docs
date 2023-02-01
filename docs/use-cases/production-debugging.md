@@ -1,3 +1,5 @@
+import { Card } from "@site/src/components/Card";
+
 # Production Debugging
 
 Production debugging refers to identifying and fixing issues that occur in a production environment, which is the environment where a software application or system is deployed and used by real users. Production debugging can be challenging, as it involves diagnosing and fixing problems that may not have been identified during the development or testing phases of the software.
@@ -30,5 +32,10 @@ Tracepoints can be helpful in a production environment because they allow you to
 
 Learn more:
 
-[tracepoint.md](../sidekick-actions/tracepoint.md "mention")
 
+<div className="w-full cols-1">
+
+<Card title="Tracepoints" target="../sidekick-actions/tracepoint" isNewWindow={false}>
+
+</Card>
+</div>

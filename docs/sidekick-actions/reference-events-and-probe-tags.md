@@ -8,4 +8,4 @@ Using tags to control multiple logpoints and tracepoints allows you to organize 
 
 See in action:
 
-{% embed url="https://youtu.be/-ngKDgR74QE" %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-ngKDgR74QE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

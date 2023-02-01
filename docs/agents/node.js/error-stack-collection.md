@@ -1,3 +1,6 @@
+import { Card } from "@site/src/components/Card";
+
+
 # Error Stack Collection
 
 With our Node agent’s latest update, developers can now activate automatic error stack collection and start collecting exception call stacks from their running applications without stopping them.
@@ -17,6 +20,11 @@ Once an error stack is collected you can observe it in Error Stack tab inside th
 
 
 
-See a use case example here:
+<div className="w-full cols-1">
 
-{% embed url="https://medium.com/runsidekick/capturing-exception-call-stacks-from-running-node-js-applications-d9cd81407593" %}
+<Card title="Capturing Exception Call Stacks in Python Applications with Sidekick" target="https://medium.com/runsidekick/capturing-exception-call-stacks-in-python-applications-with-sidekick-d4474374659" isNewWindow={true}>
+
+</Card>
+
+
+</div>

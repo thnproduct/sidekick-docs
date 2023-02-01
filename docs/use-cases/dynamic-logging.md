@@ -1,3 +1,5 @@
+import { Card } from "@site/src/components/Card";
+
 # Dynamic Logging
 
 Dynamic logging refers to modifying an application's log output while running without requiring a restart. This can be useful for debugging and troubleshooting issues in a live production environment. It allows developers to quickly and easily add or modify log statements in the application to collect more detailed information about its behavior.
@@ -8,4 +10,12 @@ Overall, dynamic logging can be a valuable tool for debugging and troubleshootin
 
 Learn more:
 
-[logpoint.md](../sidekick-actions/logpoint.md "mention")
+
+<div className="w-full cols-1">
+
+
+<Card title="Logpoints" target="../sidekick-actions/logpoint" isNewWindow={false}>
+
+</Card>
+
+</div>

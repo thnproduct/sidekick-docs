@@ -6,11 +6,11 @@ description: >-
 
 # ☕ Java
 
-Sidekick automatically connects to Java applications with a very easy setup with no-code configuration.&#x20;
+Sidekick automatically connects to Java applications with a very easy setup with no-code configuration.
 
-{% hint style="info" %}
-To plug the Sidekick Agent into your Java application, please follow the instructions [here](configuration.md). &#x20;
-{% endhint %}
+:::info
+To plug the Sidekick Agent into your Java application, please follow the instructions [here](configuration). 
+:::
 
 ### Supported JVMs and Languages
 
@@ -19,7 +19,7 @@ To plug the Sidekick Agent into your Java application, please follow the instruc
 
 ### Tested Frameworks
 
-* Spring Web (4.x, 5.x)&#x20;
+* Spring Web (4.x, 5.x)
 * Spring Boot (1.x, 2.x)
 * Quarkus (2.x)
 

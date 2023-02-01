@@ -591,7 +591,7 @@
       },
       {
         "type": "link",
-        "label": "🏃♂ Get Started With Sidekick",
+        "label": "🏃 Get Started With Sidekick",
         "href": "/quick-start-to-thundra-sidekick/",
         "docId": "quick-start-to-thundra-sidekick/README"
       },
@@ -812,7 +812,7 @@
     "installation/get-api-key-and-token": {
       "id": "installation/get-api-key-and-token",
       "title": "🗝 Get API Key & Token",
-      "description": "{% hint style=\"warning\" %}",
+      "description": "You don't need to get an API Key & token for your self-hosted instances. You will be setting your token and key as environment variables. https://github.com/runsidekick/sidekick/tree/master#configure-environment-variables",
       "sidebar": "sidebar"
     },
     "installation/signup-with-thundra-sidekick": {
@@ -1219,8 +1219,8 @@
     },
     "quick-start-to-thundra-sidekick/README": {
       "id": "quick-start-to-thundra-sidekick/README",
-      "title": "🏃♂ Get Started With Sidekick",
-      "description": "{% embed url=\"https://app.arcade.software/share/C5McEt0bJRU6bkxvOGNJ\" %}",
+      "title": "🏃 Get Started With Sidekick",
+      "description": "If you like to know how Sidekick works, take the following guided tour which you can learn how to start debugging your apps in just 5 mins:",
       "sidebar": "sidebar"
     },
     "README": {

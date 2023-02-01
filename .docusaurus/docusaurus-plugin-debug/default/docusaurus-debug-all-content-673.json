@@ -347,7 +347,7 @@
               "unversionedId": "installation/get-api-key-and-token",
               "id": "installation/get-api-key-and-token",
               "title": "🗝 Get API Key & Token",
-              "description": "{% hint style=\"warning\" %}",
+              "description": "You don't need to get an API Key & token for your self-hosted instances. You will be setting your token and key as environment variables. https://github.com/runsidekick/sidekick/tree/master#configure-environment-variables",
               "source": "@site/docs/installation/get-api-key-and-token.md",
               "sourceDirName": "installation",
               "slug": "/installation/get-api-key-and-token",
@@ -788,7 +788,7 @@
               "id": "master",
               "title": "❓ Why Sidekick?",
               "description": "Sidekick helps you quickly and easily modify the collected data to understand the application's behavior in real-time better. This is particularly useful in a live production environment, where it is often necessary to understand and troubleshoot issues quickly and efficiently.",
-              "source": "@site/docs/master.md",
+              "source": "@site/docs/master.mdx",
               "sourceDirName": ".",
               "slug": "/master",
               "permalink": "/master",
@@ -1920,16 +1920,16 @@
                 "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/set-tracepoint"
               },
               "next": {
-                "title": "🏃♂ Get Started With Sidekick",
+                "title": "🏃 Get Started With Sidekick",
                 "permalink": "/quick-start-to-thundra-sidekick/"
               }
             },
             {
               "unversionedId": "quick-start-to-thundra-sidekick/README",
               "id": "quick-start-to-thundra-sidekick/README",
-              "title": "🏃♂ Get Started With Sidekick",
-              "description": "{% embed url=\"https://app.arcade.software/share/C5McEt0bJRU6bkxvOGNJ\" %}",
-              "source": "@site/docs/quick-start-to-thundra-sidekick/README.md",
+              "title": "🏃 Get Started With Sidekick",
+              "description": "If you like to know how Sidekick works, take the following guided tour which you can learn how to start debugging your apps in just 5 mins:",
+              "source": "@site/docs/quick-start-to-thundra-sidekick/README.mdx",
               "sourceDirName": "quick-start-to-thundra-sidekick",
               "slug": "/quick-start-to-thundra-sidekick/",
               "permalink": "/quick-start-to-thundra-sidekick/",
@@ -1985,7 +1985,7 @@
               "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "🏃♂ Get Started With Sidekick",
+                "title": "🏃 Get Started With Sidekick",
                 "permalink": "/quick-start-to-thundra-sidekick/"
               },
               "next": {
@@ -2184,7 +2184,7 @@
               "id": "use-cases/cut-monitoring-costs-with-dynamic-logging",
               "title": "Cut Monitoring Costs with Dynamic Logging",
               "description": "Dynamic logging with logpoints is a debugging technique that allows you to modify an application's log output while running without requiring a restart. This can be useful for debugging and troubleshooting issues in a live production environment. It allows developers to quickly and easily add or modify log statements in the application to collect more detailed information about its behavior.",
-              "source": "@site/docs/use-cases/cut-monitoring-costs-with-dynamic-logging.md",
+              "source": "@site/docs/use-cases/cut-monitoring-costs-with-dynamic-logging.mdx",
               "sourceDirName": "use-cases",
               "slug": "/use-cases/cut-monitoring-costs-with-dynamic-logging",
               "permalink": "/use-cases/cut-monitoring-costs-with-dynamic-logging",
@@ -2345,7 +2345,7 @@
               "id": "use-cases/README",
               "title": "🥞 Use Cases",
               "description": "Sidekick comes with many different features. It is not limited to the ones we offer.&#x20;",
-              "source": "@site/docs/use-cases/README.md",
+              "source": "@site/docs/use-cases/README.mdx",
               "sourceDirName": "use-cases",
               "slug": "/use-cases/",
               "permalink": "/use-cases/",
@@ -2883,7 +2883,7 @@
               },
               {
                 "type": "doc",
-                "label": "🏃♂ Get Started With Sidekick",
+                "label": "🏃 Get Started With Sidekick",
                 "id": "quick-start-to-thundra-sidekick/README"
               },
               {

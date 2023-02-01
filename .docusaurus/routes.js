@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '80d'),
+    component: ComponentCreator('/', '9fb'),
     routes: [
       {
         path: '/',
@@ -252,7 +252,7 @@ export default [
       },
       {
         path: '/master',
-        component: ComponentCreator('/master', '67f'),
+        component: ComponentCreator('/master', 'e87'),
         exact: true,
         sidebar: "sidebar"
       },
@@ -546,7 +546,7 @@ export default [
       },
       {
         path: '/quick-start-to-thundra-sidekick/',
-        component: ComponentCreator('/quick-start-to-thundra-sidekick/', '48f'),
+        component: ComponentCreator('/quick-start-to-thundra-sidekick/', '5a9'),
         exact: true,
         sidebar: "sidebar"
       },
@@ -600,7 +600,7 @@ export default [
       },
       {
         path: '/use-cases/',
-        component: ComponentCreator('/use-cases/', '263'),
+        component: ComponentCreator('/use-cases/', 'd49'),
         exact: true,
         sidebar: "sidebar"
       },
@@ -612,7 +612,7 @@ export default [
       },
       {
         path: '/use-cases/cut-monitoring-costs-with-dynamic-logging',
-        component: ComponentCreator('/use-cases/cut-monitoring-costs-with-dynamic-logging', 'c8d'),
+        component: ComponentCreator('/use-cases/cut-monitoring-costs-with-dynamic-logging', '463'),
         exact: true,
         sidebar: "sidebar"
       },

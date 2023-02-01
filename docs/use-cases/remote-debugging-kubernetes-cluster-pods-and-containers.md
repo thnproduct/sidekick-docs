@@ -1,3 +1,6 @@
+import { Card } from "@site/src/components/Card";
+
+
 # Remote Debugging Kubernetes Cluster, Pods, and Containers
 
 In the context of live application debugging, remote debugging refers to the practice of debugging an application that runs on a remote machine rather than on the local machine where the debugger is running. This can be particularly useful when the application runs in a Kubernetes cluster, as it allows developers to troubleshoot and fix issues without setting up a local development environment or manually deploying the application to their local machine.
@@ -12,6 +15,13 @@ Both logpoints and tracepoints can be helpful for remote debugging a Kubernetes 
 
 Learn more:
 
-[logpoint.md](../sidekick-actions/logpoint.md "mention")
+<div className="w-full cols-1">
 
-[tracepoint.md](../sidekick-actions/tracepoint.md "mention")
+
+<Card title="Logpoints" target="../sidekick-actions/logpoint" isNewWindow={false}>
+
+</Card>
+<Card title="Tracepoints" target="../sidekick-actions/tracepoint" isNewWindow={false}>
+
+</Card>
+</div>
