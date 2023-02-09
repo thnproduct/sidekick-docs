@@ -1,18 +1,18 @@
 # Installation
 
-Follow the below steps to install Sidekick SDK to your application.&#x20;
+Follow the below steps to install Sidekick SDK to your application.
 
-* Download the latest Sidekick agent from the Sidekick [repo](https://repo.thundra.io/service/local/artifact/maven/redirect?r=sidekick-releases\&g=com.runsidekick.agent\&a=sidekick-agent-bootstrap\&v=LATEST).&#x20;
+* Download the latest Sidekick agent from the Sidekick [repo](https://repo.thundra.io/service/local/artifact/maven/redirect?r=sidekick-releases\&g=com.runsidekick.agent\&a=sidekick-agent-bootstrap\&v=LATEST).
 * Configure the agent via [environment variable](configuration.md#configure-by-environment-variable) or [configuration file](configuration.md#configure-by-yaml-format).
 * Add Sidekick agent to the application by setting the `-javaagent` VM argument
 
 ## Download the Agent
 
-Download the latest Sidekick agent from this link [repo](https://repo.thundra.io/service/local/artifact/maven/redirect?r=sidekick-releases\&g=com.runsidekick.agent\&a=sidekick-agent-bootstrap\&v=LATEST).&#x20;
+Download the latest Sidekick agent from this link [repo](https://repo.thundra.io/service/local/artifact/maven/redirect?r=sidekick-releases\&g=com.runsidekick.agent\&a=sidekick-agent-bootstrap\&v=LATEST).
 
 ## Configure the Agent
 
-In order to configure the agent, you'll need an API key from Sidekick. You can see your API key in the [Welcome Tab](../../plugins/sidekick-web-ide/introduction/code-panel.md#welcome-tab). &#x20;
+In order to configure the agent, you'll need an API key from Sidekick. You can see your API key in the [Welcome Tab](../../plugins/sidekick-web-ide/introduction/code-panel.md#welcome-tab). 
 
 ### Configure by Environment Variable
 
@@ -93,7 +93,7 @@ docker run ... \
 
 ## Add Sidekick to Your Application
 
-Run the following command to add Sidekick to your application.&#x20;
+Run the following command to add Sidekick to your application.
 
 ```bash
 java -javaagent:<path-to-sidekick-agent> -jar <your-app-jar> ...

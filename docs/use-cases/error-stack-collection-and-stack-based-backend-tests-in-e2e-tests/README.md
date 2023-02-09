@@ -2,7 +2,7 @@ import { Card } from "@site/src/components/Card";
 
 # Error stack collection & stack-based backend tests in E2E tests
 
-E2E tests ensure that the application performs as expected by running the test cases based on user workflows. Tools such as Cypress, Playwright & Selenium enable us to define and apply those tests easily.&#x20;
+E2E tests ensure that the application performs as expected by running the test cases based on user workflows. Tools such as Cypress, Playwright & Selenium enable us to define and apply those tests easily.
 
 Logpoints, tracepoints, error stack collection, and stack-based tests are debugging techniques that can be useful for troubleshooting issues and testing the behavior of an application. In the context of end-to-end (E2E) tests, these techniques can help you understand how the backend of your application is behaving and identify any issues or bugs that may be affecting the system's overall performance.
 

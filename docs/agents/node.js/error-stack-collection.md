@@ -5,7 +5,7 @@ import { Card } from "@site/src/components/Card";
 
 With our Node agent’s latest update, developers can now activate automatic error stack collection and start collecting exception call stacks from their running applications without stopping them.
 
-Simply we can describe this new feature as an always on tracepoint that is looking out for uncaught exceptions.&#x20;
+Simply we can describe this new feature as an always on tracepoint that is looking out for uncaught exceptions.
 
 
 

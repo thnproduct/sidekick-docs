@@ -39,7 +39,7 @@ You should start the Sidekick before your app is initialized or started. For exa
 
 #### Configure by Environment Variable:
 
-```
+```python
 try:
     import tracepointdebug
     tracepointdebug.start()
@@ -50,10 +50,10 @@ except ImportError as e:
 #### Configure by .env File:
 
 {% hint style="info" %}
-To install environment variables from the configuration file, you should install `pathlib` and `dotenv` first.
+To install environment variables from the configuration file, you should install `pathlib` and `python-dotenv` first.
 {% endhint %}
 
-```
+```python
 from pathlib import Path
 from dotenv import load_dotenv
 

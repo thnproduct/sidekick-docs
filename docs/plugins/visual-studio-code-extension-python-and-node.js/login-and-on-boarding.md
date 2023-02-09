@@ -10,9 +10,9 @@ description: >-
 
 Clicking the login button will open up your default browser to sign in.
 
-{% hint style="info" %}
+:::info
 If you don’t have a Sidekick account yet, you can click the “Sign up” button to create your account.
-{% endhint %}
+:::
 
 If the login succeeds, your workspaces will be listed in the main Sidekick window:
 

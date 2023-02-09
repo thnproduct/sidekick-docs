@@ -4,7 +4,7 @@ You may need to take snapshots only when certain conditions are met. Use the “
 
 ![](<../../../.gitbook/assets/Screen Shot 2022-05-26 at 14.50.56.png>)
 
-The condition syntax was kept very simple to make it understandable without referring to a manual. Any developer who is already using a mainstream language should feel familiar with the syntax.&#x20;
+The condition syntax was kept very simple to make it understandable without referring to a manual. Any developer who is already using a mainstream language should feel familiar with the syntax.
 
 Basically, the conditions defined should return a boolean value. So, some of the simplest forms consist of a comparison operator and two operands (variable or literal) like below:
 

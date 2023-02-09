@@ -44,6 +44,6 @@ Fastapi has been supported for Python 3.7 and above.
 ### Limitations
 
 * Tracepoints can be put onto only executable codes inside methods.
-* Only method arguments and local variables are captured while getting a snapshot of the tracepoint.&#x20;
+* Only method arguments and local variables are captured while getting a snapshot of the tracepoint.
 * Only the top frame (the method where the tracepoint was put) snapshot is captured. Lower frames' (caller methods in the call stack) snapshots are not captured yet but frame class name, method name, and line numbers are provided.
 * Python agent is only available for Linux and MacOS (including Apple Silicon)

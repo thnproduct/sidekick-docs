@@ -484,7 +484,7 @@
               },
               {
                 "type": "link",
-                "label": "🏃♀ Quick Start: To-Do App",
+                "label": "🏃Quick Start: To-Do App",
                 "href": "/plugins/sidekick-web-ide/quick-start-todo-app",
                 "docId": "plugins/sidekick-web-ide/quick-start-todo-app"
               }
@@ -728,7 +728,7 @@
     "agents/java/configuration": {
       "id": "agents/java/configuration",
       "title": "Installation",
-      "description": "Follow the below steps to install Sidekick SDK to your application.&#x20;",
+      "description": "Follow the below steps to install Sidekick SDK to your application.",
       "sidebar": "sidebar"
     },
     "agents/java/README": {
@@ -824,7 +824,7 @@
     "integrations/cypress-plugin-for-e2e-tests": {
       "id": "integrations/cypress-plugin-for-e2e-tests",
       "title": "Cypress Plugin for E2E tests",
-      "description": "{% embed url=\"https://www.npmjs.com/package/@runsidekick/cypress\" %}",
+      "description": "Cypress Sidekick Plugin",
       "sidebar": "sidebar"
     },
     "integrations/grafana-plugin-for-remote-controlling-sidekick-actions": {
@@ -890,7 +890,7 @@
     "integrations/integrations/webhook-integration": {
       "id": "integrations/integrations/webhook-integration",
       "title": "Webhook Integration",
-      "description": "Sidekick allows you to set custom webhook targets and send your Tracepoint events, logs & error snapshots to them.&#x20;",
+      "description": "Sidekick allows you to set custom webhook targets and send your Tracepoint events, logs & error snapshots to them.",
       "sidebar": "sidebar"
     },
     "integrations/node.js-client": {
@@ -908,7 +908,7 @@
     "integrations/rest-api": {
       "id": "integrations/rest-api",
       "title": "REST API",
-      "description": "{% embed url=\"https://api.service.runsidekick.com/swagger-ui/index.html\" %}",
+      "description": "Get you API credentials",
       "sidebar": "sidebar"
     },
     "integrations/thundra-apm-tracing-integration": {
@@ -932,7 +932,7 @@
     "open-source/agent-settings": {
       "id": "open-source/agent-settings",
       "title": "🕵 Agent Settings",
-      "description": "In order to use Sidekick agents with your self-hosted Sidekick instances you need to override their brokerHost and brokerPort values.&#x20;",
+      "description": "In order to use Sidekick agents with your self-hosted Sidekick instances you need to override their brokerHost and brokerPort values.",
       "sidebar": "sidebar"
     },
     "open-source/client-settings": {
@@ -956,7 +956,7 @@
     "plugins/intellij-idea-plugin/getting-started": {
       "id": "plugins/intellij-idea-plugin/getting-started",
       "title": "Set up IntelliJ Plugin",
-      "description": "{% embed url=\"https://www.youtube.com/watch?v=jg8tLvCX4Q0\" %}",
+      "description": "You can download our plugin and participate in our public beta through JetBrains Marketplace.",
       "sidebar": "sidebar"
     },
     "plugins/intellij-idea-plugin/login": {
@@ -986,7 +986,7 @@
     "plugins/intellij-idea-plugin/tracepoint-events/tracepoint-event-detail": {
       "id": "plugins/intellij-idea-plugin/tracepoint-events/tracepoint-event-detail",
       "title": "Tracepoint Event Detail",
-      "description": "When you double-click an event on the events table, you can see the snapshot details right next to the tracepoint list&#x20;",
+      "description": "When you double-click an event on the events table, you can see the snapshot details right next to the tracepoint list",
       "sidebar": "sidebar"
     },
     "plugins/intellij-idea-plugin/tracepoints/conditional-tracepoints": {
@@ -998,7 +998,7 @@
     "plugins/intellij-idea-plugin/tracepoints/distributed-tracing-integration": {
       "id": "plugins/intellij-idea-plugin/tracepoints/distributed-tracing-integration",
       "title": "Distributed Tracing Integration",
-      "description": "Sidekick integrates all tracepoints automatically with the rich distributed tracing so that you can see the tracepoint events with all the other actions that your application does end-to-end.&#x20;",
+      "description": "Sidekick integrates all tracepoints automatically with the rich distributed tracing so that you can see the tracepoint events with all the other actions that your application does end-to-end.",
       "sidebar": "sidebar"
     },
     "plugins/intellij-idea-plugin/tracepoints/edit-tracepoint": {
@@ -1016,7 +1016,7 @@
     "plugins/intellij-idea-plugin/tracepoints/expiration-settings": {
       "id": "plugins/intellij-idea-plugin/tracepoints/expiration-settings",
       "title": "Expiration Settings",
-      "description": "Any tracepoint will expire after certain hit count or time (age) limits are exceeded. When a tracepoint expires, it will be removed automatically. There won't be any tracepoint events for this tracepoint.&#x20;",
+      "description": "Any tracepoint will expire after certain hit count or time (age) limits are exceeded. When a tracepoint expires, it will be removed automatically. There won't be any tracepoint events for this tracepoint.",
       "sidebar": "sidebar"
     },
     "plugins/intellij-idea-plugin/tracepoints/README": {
@@ -1034,7 +1034,7 @@
     "plugins/intellij-idea-plugin/tracepoints/set-tracepoint": {
       "id": "plugins/intellij-idea-plugin/tracepoints/set-tracepoint",
       "title": "Set Tracepoint",
-      "description": "{% embed url=\"https://www.youtube.com/watch?v=y7LUcyF5jp8\" %}",
+      "description": "Setting up a tracepoint helps developers understand code execution on specific parts of an application. It’s as easy as setting up an ordinary line breakpoint with just one click on the gutter area.",
       "sidebar": "sidebar"
     },
     "plugins/pycharm-plugin-python": {
@@ -1052,13 +1052,13 @@
     "plugins/sidekick-web-ide/how-to/import-source-code": {
       "id": "plugins/sidekick-web-ide/how-to/import-source-code",
       "title": "Connect Source Code",
-      "description": "It's essential for Sidekick agents to know which branch/code you want to debug. By connecting your source code, you allow Sidekick to understand the correct source code and the correct tracepoint location. Currently, you can import your source code from your GitHub and Gitlab repositories.&#x20;",
+      "description": "It's essential for Sidekick agents to know which branch/code you want to debug. By connecting your source code, you allow Sidekick to understand the correct source code and the correct tracepoint location. Currently, you can import your source code from your GitHub and Gitlab repositories.",
       "sidebar": "sidebar"
     },
     "plugins/sidekick-web-ide/how-to/README": {
       "id": "plugins/sidekick-web-ide/how-to/README",
       "title": "How to",
-      "description": "These pages describe the core concepts on how to start using Sidekick for debugging your application. In order to start and get the best out of Sidekick, you need to perform essential actions. In this section, we'll provide the below guides about those actions:&#x20;",
+      "description": "These pages describe the core concepts on how to start using Sidekick for debugging your application. In order to start and get the best out of Sidekick, you need to perform essential actions. In this section, we'll provide the below guides about those actions:",
       "sidebar": "sidebar"
     },
     "plugins/sidekick-web-ide/how-to/remote-config": {
@@ -1070,25 +1070,25 @@
     "plugins/sidekick-web-ide/how-to/set-tracepoints": {
       "id": "plugins/sidekick-web-ide/how-to/set-tracepoints",
       "title": "Put Tracepoints & Logpoints",
-      "description": "In order to gather valuable insights from your application, you can start setting tracepoints for your applications. Before setting a tracepoint, make sure that:&#x20;",
+      "description": "In order to gather valuable insights from your application, you can start setting tracepoints for your applications. Before setting a tracepoint, make sure that:",
       "sidebar": "sidebar"
     },
     "plugins/sidekick-web-ide/how-to/take-snapshots-aka-tracepoint-events": {
       "id": "plugins/sidekick-web-ide/how-to/take-snapshots-aka-tracepoint-events",
       "title": "Take Snapshots (a.k.a Tracepoint Events)",
-      "description": "After you connect your source code, select applications to debug, and put tracepoints, Sidekick will automatically start taking snapshots, in other words; generating tracepoint events, when the remote application is executed.&#x20;",
+      "description": "After you connect your source code, select applications to debug, and put tracepoints, Sidekick will automatically start taking snapshots, in other words; generating tracepoint events, when the remote application is executed.",
       "sidebar": "sidebar"
     },
     "plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging": {
       "id": "plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging",
       "title": "Enable TraceMap for Debugging",
-      "description": "Sidekick integrates all tracepoints automatically with the rich distributed tracing so that you can see the tracepoint events with all the other actions that your application does end-to-end.&#x20;",
+      "description": "Sidekick integrates all tracepoints automatically with the rich distributed tracing so that you can see the tracepoint events with all the other actions that your application does end-to-end.",
       "sidebar": "sidebar"
     },
     "plugins/sidekick-web-ide/introduction/apps-and-tracepoints-panel": {
       "id": "plugins/sidekick-web-ide/introduction/apps-and-tracepoints-panel",
       "title": "Apps and Sidekick Actions Panels",
-      "description": "In order to start debugging with Sidekick, one of the pre-requisites is to install Sidekick agent into your app and select it on the Sidekick dashboard. Apps and tracepoints panel let developers manage their Sidekick agent installed applications and tracepoints set on those applications.",
+      "description": ".png)",
       "sidebar": "sidebar"
     },
     "plugins/sidekick-web-ide/introduction/code-panel": {
@@ -1100,24 +1100,24 @@
     "plugins/sidekick-web-ide/introduction/events-panel": {
       "id": "plugins/sidekick-web-ide/introduction/events-panel",
       "title": "Events Panel",
-      "description": "After you put a tracepoint and execute the code, Sidekick will take a snapshot of the application. You will be able to see the list and the details of snapshot events taken by the Sidekick on the Events panel.&#x20;",
+      "description": "After you put a tracepoint and execute the code, Sidekick will take a snapshot of the application. You will be able to see the list and the details of snapshot events taken by the Sidekick on the Events panel.",
       "sidebar": "sidebar"
     },
     "plugins/sidekick-web-ide/introduction/README": {
       "id": "plugins/sidekick-web-ide/introduction/README",
       "title": "Introduction to Web Application",
-      "description": "This guide explains the components of Sidekick's Web Application.&#x20;",
+      "description": "This guide explains the components of Sidekick's Web Application.",
       "sidebar": "sidebar"
     },
     "plugins/sidekick-web-ide/introduction/source-panel": {
       "id": "plugins/sidekick-web-ide/introduction/source-panel",
       "title": "Sources Panel",
-      "description": "It's essential for Sidekick agents to know which branch/code you want to debug. By connecting your source code, you allow Sidekick to understand the correct source code and the correct tracepoint location.",
+      "description": ".png)",
       "sidebar": "sidebar"
     },
     "plugins/sidekick-web-ide/quick-start-todo-app": {
       "id": "plugins/sidekick-web-ide/quick-start-todo-app",
-      "title": "🏃♀ Quick Start: To-Do App",
+      "title": "🏃Quick Start: To-Do App",
       "description": "Option 1: Sandbox",
       "sidebar": "sidebar"
     },
@@ -1190,7 +1190,7 @@
     "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/expiration-settings": {
       "id": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/expiration-settings",
       "title": "Expiration Settings",
-      "description": "Any tracepoint will expire after certain hit count or time (age) limits are exceeded. When a tracepoint expires, it will be removed automatically. There won't be any tracepoint events for this tracepoint.&#x20;",
+      "description": "Any tracepoint will expire after certain hit count or time (age) limits are exceeded. When a tracepoint expires, it will be removed automatically. There won't be any tracepoint events for this tracepoint.",
       "sidebar": "sidebar"
     },
     "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/README": {
@@ -1208,7 +1208,7 @@
     "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/set-tracepoint": {
       "id": "plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/set-tracepoint",
       "title": "Set Tracepoint",
-      "description": "Setting up a tracepoint helps developers understand code execution on specific parts of an application. It’s as easy as setting up an ordinary line breakpoint with just one right-click on the desired line and selecting the Add Tracepoint button under the Sidekick section.&#x20;",
+      "description": "Setting up a tracepoint helps developers understand code execution on specific parts of an application. It’s as easy as setting up an ordinary line breakpoint with just one right-click on the desired line and selecting the Add Tracepoint button under the Sidekick section.",
       "sidebar": "sidebar"
     },
     "plugins/webstorm-plugin-node.js": {
@@ -1304,7 +1304,7 @@
     "use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/README": {
       "id": "use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/README",
       "title": "Error stack collection & stack-based backend tests in E2E tests",
-      "description": "E2E tests ensure that the application performs as expected by running the test cases based on user workflows. Tools such as Cypress, Playwright & Selenium enable us to define and apply those tests easily.&#x20;",
+      "description": "E2E tests ensure that the application performs as expected by running the test cases based on user workflows. Tools such as Cypress, Playwright & Selenium enable us to define and apply those tests easily.",
       "sidebar": "sidebar"
     },
     "use-cases/identifying-stack-changes-and-stack-comparison": {
@@ -1328,7 +1328,7 @@
     "use-cases/README": {
       "id": "use-cases/README",
       "title": "🥞 Use Cases",
-      "description": "Sidekick comes with many different features. It is not limited to the ones we offer.&#x20;",
+      "description": "Sidekick comes with many different features. It is not limited to the ones we offer.",
       "sidebar": "sidebar"
     },
     "use-cases/remote-debugging-kubernetes-cluster-pods-and-containers": {

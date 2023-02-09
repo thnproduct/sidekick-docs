@@ -2,7 +2,7 @@
 
 ![](../../../.gitbook/assets/events-panel.png)
 
-After you put a tracepoint and execute the code, Sidekick will take a snapshot of the application. You will be able to see the list and the details of snapshot events taken by the Sidekick on the Events panel.&#x20;
+After you put a tracepoint and execute the code, Sidekick will take a snapshot of the application. You will be able to see the list and the details of snapshot events taken by the Sidekick on the Events panel.
 
 ### Snapshot events table
 
@@ -24,7 +24,7 @@ When clicked on a tracepoint event table, the details of the snapshot are taken 
 
 ![ Sidekick - Event Clicked](../../../.gitbook/assets/TracepointEventClicked.png)
 
-Snapshot Event Results is designed to demonstrate detailed information about the tracepoint event (a.k.a snapshot). In this area, there are three tabs that give us information about the tracepoint event from different aspects:&#x20;
+Snapshot Event Results is designed to demonstrate detailed information about the tracepoint event (a.k.a snapshot). In this area, there are three tabs that give us information about the tracepoint event from different aspects:
 
 * Variables Tab
 * Metadata Tab
@@ -32,19 +32,19 @@ Snapshot Event Results is designed to demonstrate detailed information about the
 
 #### **Variables** **Tab**
 
-This tab gives the most used information about a tracepoint event. As understood from the name, you can see the values of variables, while the code execution invokes the code at the line where tracepoint is put.&#x20;
+This tab gives the most used information about a tracepoint event. As understood from the name, you can see the values of variables, while the code execution invokes the code at the line where tracepoint is put.
 
 ![Sidekick - Tracepoint Event Detail - Variables](../../../.gitbook/assets/VariableDetail.png)
 
 #### Metadata Tab
 
-This tab provides extra information gathered by Sidekick agents such as the IP address of app instance, exact time of tracepoint event, and more. This information might be useful while comparing different tracepoint events.&#x20;
+This tab provides extra information gathered by Sidekick agents such as the IP address of app instance, exact time of tracepoint event, and more. This information might be useful while comparing different tracepoint events.
 
 ![Sidekick - Tracepoint Event Detail - Metadata](../../../.gitbook/assets/metadataEvent.png)
 
-#### &#x20;Frames Tab
+#### Frames Tab
 
-This tab provides the execution path to where Sidekick takes a snapshot back from the calls that are coming from caller functions even back to the codes of framework that you're using.&#x20;
+This tab provides the execution path to where Sidekick takes a snapshot back from the calls that are coming from caller functions even back to the codes of framework that you're using.
 
 ![Sidekick - Tracepoint Event Detail - Frame](../../../.gitbook/assets/variableFrames.png)
 

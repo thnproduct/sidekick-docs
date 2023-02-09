@@ -1,8 +1,10 @@
 # Set Tracepoint
 
-{% embed url="https://www.youtube.com/watch?v=y7LUcyF5jp8" %}
 
-Setting up a tracepoint helps developers understand code execution on specific parts of an application. It’s as easy as setting up an ordinary line breakpoint with just one click on the gutter area.&#x20;
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y7LUcyF5jp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+
+
+Setting up a tracepoint helps developers understand code execution on specific parts of an application. It’s as easy as setting up an ordinary line breakpoint with just one click on the gutter area.
 
 Since there are multiple types of breakpoints that can be set on that line, namely a Java breakpoint and a Sidekick tracepoint, IntelliJ IDEA will show you a small popup with a list of possible breakpoint types:
 
@@ -24,10 +26,10 @@ If the tracepoint is created on some (but not all) of the instances, you will se
 
 ![ Sidekick - Tracepoints Partial Success](<../../../.gitbook/assets/Tracepoint - Partial Success.png>)
 
-Note that the numbers indicate the instance counts where the corresponding error occurred.\
+Note that the numbers indicate the instance counts where the corresponding error occurred.
 If the tracepoint couldn’t be created on any of the instances, you will see the following error message:
 
 ![Sidekick - Tracepoints Fails](../../../.gitbook/assets/TracepointSetFail.png)
 
-\
-After setting your first tracepoint, you can start browsing the tracepoint events as explained [here](../tracepoint-events/). &#x20;
+
+After setting your first tracepoint, you can start browsing the tracepoint events as explained [here](../tracepoint-events/). 

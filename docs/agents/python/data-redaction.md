@@ -7,7 +7,7 @@ Sidekick Python agent lets you define custom data redaction functions. Below you
 | tracepoint\_data\_redaction\_callback | Optional    | false   |
 | log\_data\_redaction\_callback        | Optional    | false   |
 
-```
+```python
 from pathlib import Path
 from dotenv import load_dotenv
 

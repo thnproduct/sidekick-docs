@@ -1,10 +1,10 @@
 # 🕵 Agent Settings
 
-In order to use Sidekick agents with your self-hosted Sidekick instances you need to override their brokerHost and brokerPort values.&#x20;
+In order to use Sidekick agents with your self-hosted Sidekick instances you need to override their brokerHost and brokerPort values.
 
 Node.js Example:
 
-```
+```javascript
 SidekickDebugger.start({ 
     apiKey: 'my-token',
     applicationName: 'self-hosted-test',

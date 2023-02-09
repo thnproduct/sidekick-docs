@@ -7,7 +7,7 @@ Sidekick Node agent lets you define custom data redaction functions. Below you c
 | captureFrameDataReductionCallback | Optional    | false   |
 | logMessageDataReductionCallback   | Optional    | false   |
 
-```
+```javascript
 SidekickDebugger.start({
     apiKey: 'your-api-key',
     applicationName: 'testApp',

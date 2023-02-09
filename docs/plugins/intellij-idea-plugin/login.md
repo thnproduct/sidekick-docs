@@ -17,13 +17,14 @@ Either way, clicking the button will open up your default browser to sign in.
 
 If you don’t have a Sidekick account yet, you can click the “Sign up” button to create your account.
 
-{% hint style="info" %}
-If you want to deploy your own broker and use Sidekick as on-premise to your address, please reach us by sending an email to [support@runsidekick.com](mailto:support@runsidekick.com).\
-\
-You can also check out our open source repo : [https://github.com/runsidekick/sidekick/](https://github.com/runsidekick/sidekick/)
-{% endhint %}
+:::info
+If you want to deploy your own broker and use Sidekick as on-premise to your address, please reach us by sending an email to [support@runsidekick.com](mailto:support@runsidekick.com).
 
-<figure><img src="../../.gitbook/assets/authok.PNG" alt="" /><figcaption></figcaption></figure>
+You can also check out our open source repo : [https://github.com/runsidekick/sidekick/](https://github.com/runsidekick/sidekick/)
+:::
+
+
+![Auth ok](../../.gitbook/assets/authok.PNG)
 
 If the login succeeds, the application instances and associated tracepoints (if any) will be listed in the main Sidekick tool window:
 
@@ -33,10 +34,10 @@ To disconnect, you need to click the "Disconnect" after you click on the Gear ic
 
 ![](../../.gitbook/assets/disconnect-modal.png)
 
-{% hint style="warning" %}
+:::info
 Note that the initial release only supports the ability to connect from one project source at a time. So, if you open the source code of multiple projects simultaneously, you can only connect from a single project and will be disconnected automatically from other ones.
-{% endhint %}
+:::
 
-\
+
 
 

@@ -10,8 +10,8 @@ Put tracepoints in your code and instantly see the snapshots of the application 
 
 A tracepoint is basically a non-breaking remote breakpoint. Tracepoints differ from ordinary breakpoints in two ways:
 
-* First, it doesn’t pause the code execution but just takes a screenshot of the variables when the code hits that line.&#x20;
-* Second, it’s integrated with Thundra’s distributed technology enabling the connection between several tracepoints in the same transaction.&#x20;
+* First, it doesn’t pause the code execution but just takes a screenshot of the variables when the code hits that line.
+* Second, it’s integrated with Thundra’s distributed technology enabling the connection between several tracepoints in the same transaction.
 
 
 

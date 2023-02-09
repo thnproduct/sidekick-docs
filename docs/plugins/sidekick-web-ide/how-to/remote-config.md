@@ -4,9 +4,9 @@ Remote Config allows us to easily attach and detach Sidekick agents from running
 
 With Remote Config, we can simply log in to the Sidekick WebIDE and select the apps they want to manage. From there, we can attach or detach agents and change the agent settings, such as the Error Stack Collection status and max number of frames. This saves users time and effort, as they no longer have to access each app to make these changes.
 
-<figure><img src="../../../.gitbook/assets/sidekick_agent_settings1.png" alt="" /><figcaption></figcaption></figure>
+![](../../../.gitbook/assets/sidekick_agent_settings1.png)
 
-<figure><img src="../../../.gitbook/assets/sidekick_agent_settings2.png" alt="" /><figcaption></figcaption></figure>
+![](../../../.gitbook/assets/sidekick_agent_settings2.png)
 
 
 

@@ -7,7 +7,7 @@ Logpoints bring the power of dynamic logging to Sidekick users. Replacing tradit
 
 
 
-Logpoints are points that you can add to your running application, just like Tracepoints, for adding logs dynamically.&#x20;
+Logpoints are points that you can add to your running application, just like Tracepoints, for adding logs dynamically.
 
 Since you can add and remove your logs at any time, getting the log wherever and whenever you need it becomes a walk at the park! Not only solving the issues of traditional logging, but Sidekick Logpoint feature also comes with extras. In addition to adding and removing logs on demand, with Sidekick you can:
 

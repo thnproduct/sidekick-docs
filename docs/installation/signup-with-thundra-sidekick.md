@@ -7,5 +7,5 @@ In order to get started with Sidekick, you need to create an account. You can si
 You can sign up for Sidekick via:
 
 * **Email:** Enter your email and password.
-* **GitHub, Google:** If you have a GitHub or Google account, you can use that to sign-up.&#x20;
+* **GitHub, Google:** If you have a GitHub or Google account, you can use that to sign-up.
 
