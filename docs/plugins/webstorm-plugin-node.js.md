@@ -4,24 +4,24 @@ Sidekick WebStorm Plugin enables developers to debug their Node.js applications 
 
 
 
-{% hint style="success" %}
-To get started with WebStorm plugin, you need to follow the steps below.&#x20;
+:::success
+To get started with WebStorm plugin, you need to follow the steps below.
 
-* [Sign up for Sidekick](../installation/signup-with-thundra-sidekick.md).&#x20;
+* [Sign up for Sidekick](../installation/signup-with-thundra-sidekick.md).
 * [Install our agent to your application](../agents/node.js/README.md)
-* [Install](https://plugins.jetbrains.com/plugin/20142-sidekick-webstorm) the plugin for WebStorm.&#x20;
-{% endhint %}
+* [Install](https://plugins.jetbrains.com/plugin/20142-sidekick-webstorm) the plugin for WebStorm.
+:::
 
 
 
 Sidekick WebStorm plugin works exactly like our IntelliJ IDEA plugin so you can continue with our IDEA manual.
 
-[login.md](intellij-idea-plugin/login.md "mention")
+[Login](intellij-idea-plugin/login)
 
-[tracepoints](intellij-idea-plugin/tracepoints/ "mention")
+[Tracepoints](intellij-idea-plugin/tracepoints/)
 
-[tracepoint-events](intellij-idea-plugin/tracepoint-events/ "mention")
+[Tracepoint Events](intellij-idea-plugin/tracepoint-events/)
 
-[self-hosted-settings.md](intellij-idea-plugin/self-hosted-settings.md "mention")
+[Self-hosted settings](intellij-idea-plugin/self-hosted-settings)
 
-[common-errors.md](intellij-idea-plugin/common-errors.md "mention")\
+[Common errors](intellij-idea-plugin/common-errors)

@@ -1,7 +1,17 @@
+import { Card } from "@site/src/components/Card";
+
+
 # REST API
 
-{% embed url="https://api.service.runsidekick.com/swagger-ui/index.html" %}
 
 
+<div className="w-full cols-1">
 
-Get you API credentials : [get-api-key-and-token.md](../installation/get-api-key-and-token.md "mention")
+<Card title="Swagger API Doc" target="https://api.service.runsidekick.com/swagger-ui/index.html" isNewWindow={true}>
+
+</Card>
+
+</div>
+
+
+[Get you API credentials ](../installation/get-api-key-and-token "mention")

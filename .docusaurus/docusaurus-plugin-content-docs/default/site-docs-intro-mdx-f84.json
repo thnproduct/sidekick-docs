@@ -1,23 +1,24 @@
 {
   "unversionedId": "intro",
   "id": "intro",
-  "title": "👋🏻 Introduction",
-  "description": "Foresight provides full visibility and deep insights into the health and performance of your tests and CI/CD pipelines.",
+  "title": "🏫 Index",
+  "description": "Sidekick is an open-source Live Application Debugger that helps you to debug issues where they happen, when they happen, without stopping, rebuilding, or redeploying applications. Sidekick agents give you powerful dynamic observability features with near-zero overhead.",
   "source": "@site/docs/intro.mdx",
   "sourceDirName": ".",
   "slug": "/",
   "permalink": "/",
+  "draft": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 0,
   "frontMatter": {
-    "title": "👋🏻 Introduction",
-    "sidebar_position": 1,
+    "title": "🏫 Index",
+    "sidebar_position": 0,
     "slug": "/"
   },
   "sidebar": "sidebar",
   "next": {
-    "title": "🧭 Example Projects",
-    "permalink": "/examples"
+    "title": "❓ Why Sidekick?",
+    "permalink": "/master"
   }
 }

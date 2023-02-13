@@ -1,3 +1,12 @@
+---
+title: Identifying Stack Changes & Stack Comparison
+sidebar_position: 5
+slug: /use-cases/identifying-stack-changes-and-stack-comparison
+---
+
+
+import { Card } from "@site/src/components/Card";
+
 # Identifying Stack Changes & Stack Comparison
 
 Identifying stack changes and stack comparison is a debugging technique that involves comparing the stack traces of two different executions of an application to understand how the application's behavior has changed. This can be useful in various situations, such as when you are trying to troubleshoot an issue in a live production environment or trying to understand how changes to the application's code have affected its behavior.
@@ -9,5 +18,11 @@ To use this technique, you will need to set up a way to collect stack traces fro
 Overall, identifying stack changes and stack comparison can be valuable for understanding behavioral changes in microservices, as it allows you to compare the stack traces of different executions of the application to see how their behavior has changed. This can help you identify issues or bugs more quickly and efficiently and save time when debugging in a live production environment.
 
 
+<div className="w-full cols-1">
 
-[reference-events-and-probe-tags.md](../sidekick-actions/reference-events-and-probe-tags.md "mention")
+
+<Card title="Reference events and probe tags" target="../sidekick-actions/reference-events-and-probe-tags" isNewWindow={false}>
+
+</Card>
+
+</div>

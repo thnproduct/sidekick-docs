@@ -6,7 +6,7 @@ Sidekick Logpoint expressions are based on \{{ mustache \}}. You can get detaile
 
 Sample basic usage:
 
-```
+```javascript
 sidekick log : {{name}}
 {{age}}
 {{company}}
@@ -14,11 +14,9 @@ sidekick log : {{name}}
 
 
 
-You can also get properties of objects if the given property is in the scope:\
+You can also get properties of objects if the given property is in the scope:
 
 
-```
+```javascript
 {{request.title}}
 ```
-
-\

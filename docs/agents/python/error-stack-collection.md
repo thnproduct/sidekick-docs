@@ -2,7 +2,7 @@
 
 You can now activate automatic error stack collection and start collecting exception call stacks from your running applications without needing for putting a tracepoint beforehand.
 
-Simply we can describe this new feature as an always on tracepoint that is looking out for uncaught exceptions.&#x20;
+Simply we can describe this new feature as an always on tracepoint that is looking out for uncaught exceptions.
 
 
 

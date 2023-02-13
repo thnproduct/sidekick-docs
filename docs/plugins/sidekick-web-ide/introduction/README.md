@@ -1,10 +1,10 @@
 # Introduction to Web Application
 
-This guide explains the components of Sidekick's Web Application.&#x20;
+This guide explains the components of Sidekick's Web Application.
 
 Sidekick lets developers debug their remote applications without stopping. In this "Debug" view, our users can find everything they need to debug a remote application with tracepoints. Let's dive into the different parts of the application together
 
-<figure><img src="../../../.gitbook/assets/components(1).png" alt="" /><figcaption></figcaption></figure>
+![](../../../.gitbook/assets/components(1).png)
 
 There are four main components in Debug view:
 

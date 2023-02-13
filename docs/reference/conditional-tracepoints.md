@@ -10,9 +10,9 @@ The condition syntax was kept very simple to make it understandable without refe
 
 Basically, the conditions defined should return a boolean value. So, some of the simplest forms consist of a comparison operator and two operands (variable or literal) like below:
 
-```java
+```javascript
 id != null
-name == “bob”
+name == "bob"
 isRegistered == true
 itemCount > 0
 failedCount <= recoveredCount
@@ -20,7 +20,7 @@ failedCount <= recoveredCount
 
 You can combine those expressions with binary boolean operators to build more complex expressions:
 
-```java
+```javascript
 id != null && isRegistered == true
 id != null AND isRegistered == true
 
@@ -30,8 +30,8 @@ itemCount > 0 OR failedCount <= recoveredCount
 
 You can use parentheses to force precedence between multiple boolean clauses:
 
-```java
+```javascript
 (id != null && isRegistered == true) OR (itemCount > 0 || failedCount <= recoveredCount)
 ```
 
-Another feature is using placeholders to get the primitives in the objects. You can access certain properties that are normally not available as a local variable at the tracepoint location, using the special syntax: `{spring.user.name}`\
+Another feature is using placeholders to get the primitives in the objects. You can access certain properties that are normally not available as a local variable at the tracepoint location, using the special syntax: `{spring.user.name}`

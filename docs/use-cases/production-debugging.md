@@ -1,3 +1,12 @@
+---
+title: Production Debugging
+sidebar_position: 0
+slug: /use-cases/production-debugging
+---
+
+
+import { Card } from "@site/src/components/Card";
+
 # Production Debugging
 
 Production debugging refers to identifying and fixing issues that occur in a production environment, which is the environment where a software application or system is deployed and used by real users. Production debugging can be challenging, as it involves diagnosing and fixing problems that may not have been identified during the development or testing phases of the software.
@@ -18,7 +27,7 @@ Some common strategies for production debugging include:
 Following these strategies and using the right tools and processes makes it possible to effectively debug and fix issues in a production environment.\
 
 
-Sidekick Live Application Debugger is a tool that can be used to identify issues in these environments.&#x20;
+Sidekick Live Application Debugger is a tool that can be used to identify issues in these environments.
 
 One of the critical features of Sidekick is its ability to provide detailed information about the application's state when an exception occurs, which can help speed up the debugging process. It can give information about the issue's context, such as the specific request or code that triggered it with the help of APM & OpenTelemetry integrations.
 
@@ -30,5 +39,10 @@ Tracepoints can be helpful in a production environment because they allow you to
 
 Learn more:
 
-[tracepoint.md](../sidekick-actions/tracepoint.md "mention")
 
+<div className="w-full cols-1">
+
+<Card title="Tracepoints" target="../sidekick-actions/tracepoint" isNewWindow={false}>
+
+</Card>
+</div>

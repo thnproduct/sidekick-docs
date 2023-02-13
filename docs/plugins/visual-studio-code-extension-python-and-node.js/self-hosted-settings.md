@@ -2,13 +2,14 @@
 
 You need to change your broker host and port at the Sidekick settings.
 
-<figure><img src="../../.gitbook/assets/vscode settings.png" alt=""/><figcaption></figcaption></figure>
+![](../../.gitbook/assets/vscode_settings.png)
+
 
 Authentication Url must be cleared and all other fields must be filled. E-mail field is necessary and you can write any email.
 
 
+![](../../.gitbook/assets/vscodesettings.png)
 
-<figure><img src="../../.gitbook/assets/vscodesettings.png" alt=""/><figcaption></figcaption></figure>
 
 
 

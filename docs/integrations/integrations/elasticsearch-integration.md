@@ -2,8 +2,7 @@
 
 Sidekick Elasticsearch integration allows you to send your Tracepoint events, logs & error snapshots to your Elasticsearch instances.
 
-<figure><img src="../../.gitbook/assets/resim (5).png" alt="" /><figcaption></figcaption></figure>
 
-
+![](../../.gitbook/assets/resim_(5).png)
 
 Elasticsearch integration requires your Elastic url, apiKey and index. You can find your url and api key from Elastic dashboard if you are using the Elastic cloud.
