@@ -5,8 +5,8 @@
   "description": "Sidekick is an open-source Live Application Debugger that helps you to debug issues where they happen, when they happen, without stopping, rebuilding, or redeploying applications. Sidekick agents give you powerful dynamic observability features with near-zero overhead.",
   "source": "@site/docs/intro.mdx",
   "sourceDirName": ".",
-  "slug": "/index",
-  "permalink": "/index",
+  "slug": "/",
+  "permalink": "/",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -14,11 +14,11 @@
   "frontMatter": {
     "title": "🏫 Index",
     "sidebar_position": 0,
-    "slug": "/index"
+    "slug": "/"
   },
   "sidebar": "sidebar",
   "next": {
-    "title": "🧑🏫 Index",
-    "permalink": "/"
+    "title": "❓ Why Sidekick?",
+    "permalink": "/master"
   }
 }

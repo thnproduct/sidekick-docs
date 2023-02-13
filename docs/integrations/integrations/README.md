@@ -1,7 +1,13 @@
+---
+title: Webhook Integrations
+sidebar_position: 0
+slug: /integrations/integrations
+---
+
 import { Card } from "@site/src/components/Card";
 
 
-# Integrations
+# Webhook Integrations
 
 ### Data target integrations
 

@@ -1,3 +1,10 @@
+---
+title: Conditional Stack & Log Collection
+sidebar_position: 4
+slug: /use-cases/conditional-stack-and-log-collection
+---
+
+
 # Conditional Stack & Log Collection
 
 Conditional stack and log collection is a debugging technique that allows you to selectively collect stack traces and log messages based on specified conditions. This can be useful in various situations, such as when you are trying to troubleshoot an issue in a live production environment or when you want to optimize the performance of your application.

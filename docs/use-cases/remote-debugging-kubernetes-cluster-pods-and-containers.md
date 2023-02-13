@@ -1,3 +1,9 @@
+---
+title: Remote Debugging Kubernetes Cluster, Pods, and Containers
+sidebar_position: 1
+slug: /use-cases/remote-debugging-kubernetes-cluster-pods-and-containers
+---
+
 import { Card } from "@site/src/components/Card";
 
 

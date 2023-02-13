@@ -1,3 +1,9 @@
+---
+title: 💾 Reference Events & Probe Tags
+sidebar_position: 3
+slug: /sidekick-actions/reference-events-and-probe-tags
+---
+
 # 💾 Reference Events & Probe Tags
 
 Sidekick allows you to save reference stack events,  compare stacks, and control multiple logpoints and tracepoints using tags.

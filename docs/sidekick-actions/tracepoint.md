@@ -1,12 +1,17 @@
 ---
+title: 🔎 Tracepoint
+sidebar_position: 0
+slug: /sidekick-actions/tracepoint
 description: Non-breaking breakpoints that bring the ease of local debugging to production!
 ---
+
 
 # 🔎 Tracepoint
 
 Put tracepoints in your code and instantly see the snapshots of the application state, the call stack, captured variables, etc. without stopping the application.
 
-<figure><img src="../.gitbook/assets/meettracepoints.gif" alt=""/><figcaption></figcaption></figure>
+![Meet Tracepoints](../.gitbook/assets/meettracepoints.gif)
+
 
 A tracepoint is basically a non-breaking remote breakpoint. Tracepoints differ from ordinary breakpoints in two ways:
 

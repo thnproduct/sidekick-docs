@@ -49,16 +49,20 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/-9fb": {
+  "/-6bf": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---725-f93"
     },
     "versionMetadata": "versionMetadata---935-fcf"
   },
-  "/-8f3": {
+  "/-206": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---233-28b"
+    "content": "content---f-84-df3"
+  },
+  "/agents-e50": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---agents-afe-e30"
   },
   "/agents/java/-761": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -116,9 +120,9 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---agents-python-installation-1-e-0-d-3ab"
   },
-  "/index-ee9": {
+  "/installation-dca": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---indexf-84-a8e"
+    "content": "content---installation-fff-277"
   },
   "/installation/get-api-key-and-token-67c": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -128,6 +132,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---installation-signup-with-thundra-sidekick-01-d-379"
   },
+  "/integrations-b59": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---open-sourcee-6-a-053"
+  },
   "/integrations/cypress-plugin-for-e2e-tests-7ec": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---integrations-cypress-plugin-for-e-2-e-tests-84-e-634"
@@ -136,7 +144,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---integrations-grafana-plugin-for-remote-controlling-sidekick-actionsb-72-199"
   },
-  "/integrations/integrations/-056": {
+  "/integrations/integrations-97f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---integrations-integrations-379-686"
   },
@@ -196,6 +204,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---master-017-62c"
   },
+  "/open-source-71d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---open-source-bd-3-f9a"
+  },
   "/open-source/agent-settings-c29": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---open-source-agent-settingsfa-5-c17"
@@ -207,6 +219,10 @@
   "/open-source/quick-start-a78": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---open-source-quick-startbd-3-21a"
+  },
+  "/plugins-b4c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---plugins-3-b-4-5d3"
   },
   "/plugins/intellij-idea-plugin/-085": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -388,9 +404,13 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---plugins-webstorm-plugin-node-jsa-1-b-d76"
   },
-  "/quick-start-to-thundra-sidekick/-5a9": {
+  "/quick-start-to-thundra-sidekick-d30": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---quick-start-to-thundra-sidekick-b-94-6b0"
+    "content": "content---quick-start-to-thundra-sidekickb-94-312"
+  },
+  "/reference-562": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---sidekick-actions-9-bd-7c9"
   },
   "/reference/conditional-tracepoints-e37": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -403,6 +423,10 @@
   "/reference/logpoint-expressions-9f6": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---reference-logpoint-expressionsabd-fd8"
+  },
+  "/sidekick-actions-4d9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---sidekick-actions-b-46-251"
   },
   "/sidekick-actions/error-stack-collection-115": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -420,11 +444,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sidekick-actions-tracepoint-771-55a"
   },
-  "/SUMMARY-3f3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---summary-1-bb-9ec"
-  },
-  "/use-cases/-d49": {
+  "/use-cases-df2": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---use-cases-36-a-2c5"
   },
@@ -444,7 +464,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---use-cases-dynamic-logging-6-e-7-62a"
   },
-  "/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/-021": {
+  "/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests-235": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---use-cases-error-stack-collection-and-stack-based-backend-tests-in-e-2-e-tests-782-c12"
   },

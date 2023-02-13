@@ -1,3 +1,9 @@
+---
+title: 🚨 Error Stack Collection
+sidebar_position: 2
+slug: /sidekick-actions/error-stack-collection
+---
+
 import { Card } from "@site/src/components/Card";
 
 

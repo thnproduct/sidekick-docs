@@ -1,3 +1,9 @@
+---
+title: Error stack collection & stack-based backend tests in E2E tests
+sidebar_position: 9
+slug: /use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests
+---
+
 import { Card } from "@site/src/components/Card";
 
 # Error stack collection & stack-based backend tests in E2E tests

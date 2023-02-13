@@ -23,7 +23,7 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #FFDF6B;
+  --ifm-color-primary: #4688ea;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -59,8 +59,8 @@ a:hover{
 }
 [data-theme='dark'] a:hover{
   text-decoration:none;
-  color: #FFDF6B;
-  border-color: #FFDF6B;
+  color: #4688ea;
+  border-color: #4688ea;
 }
 p{
   @apply leading-relaxed font-normal;

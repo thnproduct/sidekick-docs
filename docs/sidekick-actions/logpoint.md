@@ -1,3 +1,9 @@
+---
+title: 🪵 Logpoint
+sidebar_position: 1
+slug: /sidekick-actions/logpoint
+---
+
 # 🪵 Logpoint
 
 Logpoints bring the power of dynamic logging to Sidekick users. Replacing traditional logging with dynamic logging has potential to lower stage sizes, costs and time for log searching while giving ability to add new logpoints without editing the source code, redeploying or restarting the application.

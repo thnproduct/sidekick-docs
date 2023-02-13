@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/",
-          "mainDocId": "README",
+          "mainDocId": "intro",
           "docs": [
             {
               "id": "agents/java/configuration",
@@ -81,8 +81,18 @@
               "sidebar": "sidebar"
             },
             {
+              "id": "agents/README",
+              "path": "/agents",
+              "sidebar": "sidebar"
+            },
+            {
               "id": "installation/get-api-key-and-token",
               "path": "/installation/get-api-key-and-token",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "installation/README",
+              "path": "/installation",
               "sidebar": "sidebar"
             },
             {
@@ -127,7 +137,7 @@
             },
             {
               "id": "integrations/integrations/README",
-              "path": "/integrations/integrations/",
+              "path": "/integrations/integrations",
               "sidebar": "sidebar"
             },
             {
@@ -161,6 +171,11 @@
               "sidebar": "sidebar"
             },
             {
+              "id": "integrations/README",
+              "path": "/integrations",
+              "sidebar": "sidebar"
+            },
+            {
               "id": "integrations/rest-api",
               "path": "/integrations/rest-api",
               "sidebar": "sidebar"
@@ -172,7 +187,7 @@
             },
             {
               "id": "intro",
-              "path": "/index",
+              "path": "/",
               "sidebar": "sidebar"
             },
             {
@@ -193,6 +208,11 @@
             {
               "id": "open-source/quick-start",
               "path": "/open-source/quick-start",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "open-source/README",
+              "path": "/open-source",
               "sidebar": "sidebar"
             },
             {
@@ -273,6 +293,11 @@
             {
               "id": "plugins/pycharm-plugin-python",
               "path": "/plugins/pycharm-plugin-python",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "plugins/README",
+              "path": "/plugins",
               "sidebar": "sidebar"
             },
             {
@@ -422,12 +447,7 @@
             },
             {
               "id": "quick-start-to-thundra-sidekick/README",
-              "path": "/quick-start-to-thundra-sidekick/",
-              "sidebar": "sidebar"
-            },
-            {
-              "id": "README",
-              "path": "/",
+              "path": "/quick-start-to-thundra-sidekick",
               "sidebar": "sidebar"
             },
             {
@@ -446,6 +466,11 @@
               "sidebar": "sidebar"
             },
             {
+              "id": "reference/README",
+              "path": "/reference",
+              "sidebar": "sidebar"
+            },
+            {
               "id": "sidekick-actions/error-stack-collection",
               "path": "/sidekick-actions/error-stack-collection",
               "sidebar": "sidebar"
@@ -456,6 +481,11 @@
               "sidebar": "sidebar"
             },
             {
+              "id": "sidekick-actions/README",
+              "path": "/sidekick-actions",
+              "sidebar": "sidebar"
+            },
+            {
               "id": "sidekick-actions/reference-events-and-probe-tags",
               "path": "/sidekick-actions/reference-events-and-probe-tags",
               "sidebar": "sidebar"
@@ -463,11 +493,6 @@
             {
               "id": "sidekick-actions/tracepoint",
               "path": "/sidekick-actions/tracepoint",
-              "sidebar": "sidebar"
-            },
-            {
-              "id": "SUMMARY",
-              "path": "/SUMMARY",
               "sidebar": "sidebar"
             },
             {
@@ -492,7 +517,7 @@
             },
             {
               "id": "use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/README",
-              "path": "/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/",
+              "path": "/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests",
               "sidebar": "sidebar"
             },
             {
@@ -512,7 +537,7 @@
             },
             {
               "id": "use-cases/README",
-              "path": "/use-cases/",
+              "path": "/use-cases",
               "sidebar": "sidebar"
             },
             {
@@ -530,7 +555,7 @@
           "sidebars": {
             "sidebar": {
               "link": {
-                "path": "/index",
+                "path": "/",
                 "label": "intro"
               }
             }

@@ -1,3 +1,9 @@
+---
+title: Using Trace Data to Find Root Cause of an Error
+sidebar_position: 6
+slug: /use-cases/using-trace-data-to-find-root-cause-of-an-error
+---
+
 import { Card } from "@site/src/components/Card";
 
 # Using Trace Data to Find Root Cause of an Error

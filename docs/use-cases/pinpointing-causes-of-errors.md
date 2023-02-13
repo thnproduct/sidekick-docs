@@ -1,3 +1,9 @@
+---
+title: Pinpointing Causes of Errors
+sidebar_position: 3
+slug: /use-cases/pinpointing-causes-of-errors
+---
+
 import { Card } from "@site/src/components/Card";
 
 # Pinpointing Causes of Errors

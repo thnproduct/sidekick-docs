@@ -44,11 +44,17 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '9fb'),
+    component: ComponentCreator('/', '6bf'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '8f3'),
+        component: ComponentCreator('/', '206'),
+        exact: true,
+        sidebar: "sidebar"
+      },
+      {
+        path: '/agents',
+        component: ComponentCreator('/agents', 'e50'),
         exact: true,
         sidebar: "sidebar"
       },
@@ -137,8 +143,8 @@ export default [
         sidebar: "sidebar"
       },
       {
-        path: '/index',
-        component: ComponentCreator('/index', 'ee9'),
+        path: '/installation',
+        component: ComponentCreator('/installation', 'dca'),
         exact: true,
         sidebar: "sidebar"
       },
@@ -155,6 +161,12 @@ export default [
         sidebar: "sidebar"
       },
       {
+        path: '/integrations',
+        component: ComponentCreator('/integrations', 'b59'),
+        exact: true,
+        sidebar: "sidebar"
+      },
+      {
         path: '/integrations/cypress-plugin-for-e2e-tests',
         component: ComponentCreator('/integrations/cypress-plugin-for-e2e-tests', '7ec'),
         exact: true,
@@ -167,8 +179,8 @@ export default [
         sidebar: "sidebar"
       },
       {
-        path: '/integrations/integrations/',
-        component: ComponentCreator('/integrations/integrations/', '056'),
+        path: '/integrations/integrations',
+        component: ComponentCreator('/integrations/integrations', '97f'),
         exact: true,
         sidebar: "sidebar"
       },
@@ -257,6 +269,12 @@ export default [
         sidebar: "sidebar"
       },
       {
+        path: '/open-source',
+        component: ComponentCreator('/open-source', '71d'),
+        exact: true,
+        sidebar: "sidebar"
+      },
+      {
         path: '/open-source/agent-settings',
         component: ComponentCreator('/open-source/agent-settings', 'c29'),
         exact: true,
@@ -271,6 +289,12 @@ export default [
       {
         path: '/open-source/quick-start',
         component: ComponentCreator('/open-source/quick-start', 'a78'),
+        exact: true,
+        sidebar: "sidebar"
+      },
+      {
+        path: '/plugins',
+        component: ComponentCreator('/plugins', 'b4c'),
         exact: true,
         sidebar: "sidebar"
       },
@@ -545,8 +569,14 @@ export default [
         sidebar: "sidebar"
       },
       {
-        path: '/quick-start-to-thundra-sidekick/',
-        component: ComponentCreator('/quick-start-to-thundra-sidekick/', '5a9'),
+        path: '/quick-start-to-thundra-sidekick',
+        component: ComponentCreator('/quick-start-to-thundra-sidekick', 'd30'),
+        exact: true,
+        sidebar: "sidebar"
+      },
+      {
+        path: '/reference',
+        component: ComponentCreator('/reference', '562'),
         exact: true,
         sidebar: "sidebar"
       },
@@ -565,6 +595,12 @@ export default [
       {
         path: '/reference/logpoint-expressions',
         component: ComponentCreator('/reference/logpoint-expressions', '9f6'),
+        exact: true,
+        sidebar: "sidebar"
+      },
+      {
+        path: '/sidekick-actions',
+        component: ComponentCreator('/sidekick-actions', '4d9'),
         exact: true,
         sidebar: "sidebar"
       },
@@ -593,14 +629,8 @@ export default [
         sidebar: "sidebar"
       },
       {
-        path: '/SUMMARY',
-        component: ComponentCreator('/SUMMARY', '3f3'),
-        exact: true,
-        sidebar: "sidebar"
-      },
-      {
-        path: '/use-cases/',
-        component: ComponentCreator('/use-cases/', 'd49'),
+        path: '/use-cases',
+        component: ComponentCreator('/use-cases', 'df2'),
         exact: true,
         sidebar: "sidebar"
       },
@@ -629,8 +659,8 @@ export default [
         sidebar: "sidebar"
       },
       {
-        path: '/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/',
-        component: ComponentCreator('/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/', '021'),
+        path: '/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests',
+        component: ComponentCreator('/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests', '235'),
         exact: true,
         sidebar: "sidebar"
       },

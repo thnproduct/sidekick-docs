@@ -1,3 +1,9 @@
+---
+title: Dynamic Logging
+sidebar_position: 2
+slug: /use-cases/dynamic-logging
+---
+
 import { Card } from "@site/src/components/Card";
 
 # Dynamic Logging

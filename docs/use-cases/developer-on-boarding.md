@@ -1,3 +1,9 @@
+---
+title: Developer on-boarding
+sidebar_position: 8
+slug: /use-cases/developer-on-boarding
+---
+
 import { Card } from "@site/src/components/Card";
 
 # Developer on-boarding

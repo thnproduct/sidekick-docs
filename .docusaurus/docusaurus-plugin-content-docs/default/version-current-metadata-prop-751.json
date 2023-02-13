@@ -12,24 +12,126 @@
       {
         "type": "link",
         "label": "🏫 Index",
-        "href": "/index",
+        "href": "/",
         "docId": "intro"
       },
       {
         "type": "link",
-        "label": "🧑🏫 Index",
-        "href": "/",
-        "docId": "README"
+        "label": "❓ Why Sidekick?",
+        "href": "/master",
+        "docId": "master"
       },
       {
         "type": "link",
-        "label": "Table of contents",
-        "href": "/SUMMARY",
-        "docId": "SUMMARY"
+        "label": "🏃 Get Started With Sidekick",
+        "href": "/quick-start-to-thundra-sidekick",
+        "docId": "quick-start-to-thundra-sidekick/README"
       },
       {
         "type": "category",
-        "label": "agents",
+        "label": "🥞 Use Cases",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Production Debugging",
+            "href": "/use-cases/production-debugging",
+            "docId": "use-cases/production-debugging"
+          },
+          {
+            "type": "link",
+            "label": "Remote Debugging Kubernetes Cluster, Pods, and Containers",
+            "href": "/use-cases/remote-debugging-kubernetes-cluster-pods-and-containers",
+            "docId": "use-cases/remote-debugging-kubernetes-cluster-pods-and-containers"
+          },
+          {
+            "type": "link",
+            "label": "Dynamic Logging",
+            "href": "/use-cases/dynamic-logging",
+            "docId": "use-cases/dynamic-logging"
+          },
+          {
+            "type": "link",
+            "label": "Pinpointing Causes of Errors",
+            "href": "/use-cases/pinpointing-causes-of-errors",
+            "docId": "use-cases/pinpointing-causes-of-errors"
+          },
+          {
+            "type": "link",
+            "label": "Conditional Stack & Log Collection",
+            "href": "/use-cases/conditional-stack-and-log-collection",
+            "docId": "use-cases/conditional-stack-and-log-collection"
+          },
+          {
+            "type": "link",
+            "label": "Identifying Stack Changes & Stack Comparison",
+            "href": "/use-cases/identifying-stack-changes-and-stack-comparison",
+            "docId": "use-cases/identifying-stack-changes-and-stack-comparison"
+          },
+          {
+            "type": "link",
+            "label": "Using Trace Data to Find Root Cause of an Error",
+            "href": "/use-cases/using-trace-data-to-find-root-cause-of-an-error",
+            "docId": "use-cases/using-trace-data-to-find-root-cause-of-an-error"
+          },
+          {
+            "type": "link",
+            "label": "Cut Monitoring Costs with Dynamic Logging",
+            "href": "/use-cases/cut-monitoring-costs-with-dynamic-logging",
+            "docId": "use-cases/cut-monitoring-costs-with-dynamic-logging"
+          },
+          {
+            "type": "link",
+            "label": "Developer on-boarding",
+            "href": "/use-cases/developer-on-boarding",
+            "docId": "use-cases/developer-on-boarding"
+          },
+          {
+            "type": "link",
+            "label": "Error stack collection & stack-based backend tests in E2E tests",
+            "href": "/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests",
+            "docId": "use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/README"
+          }
+        ],
+        "href": "/use-cases"
+      },
+      {
+        "type": "category",
+        "label": "Sidekick Actions",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "🔎 Tracepoint",
+            "href": "/sidekick-actions/tracepoint",
+            "docId": "sidekick-actions/tracepoint"
+          },
+          {
+            "type": "link",
+            "label": "🪵 Logpoint",
+            "href": "/sidekick-actions/logpoint",
+            "docId": "sidekick-actions/logpoint"
+          },
+          {
+            "type": "link",
+            "label": "🚨 Error Stack Collection",
+            "href": "/sidekick-actions/error-stack-collection",
+            "docId": "sidekick-actions/error-stack-collection"
+          },
+          {
+            "type": "link",
+            "label": "💾 Reference Events & Probe Tags",
+            "href": "/sidekick-actions/reference-events-and-probe-tags",
+            "docId": "sidekick-actions/reference-events-and-probe-tags"
+          }
+        ],
+        "href": "/sidekick-actions"
+      },
+      {
+        "type": "category",
+        "label": "Agents",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -126,11 +228,12 @@
             ],
             "href": "/agents/python/"
           }
-        ]
+        ],
+        "href": "/agents"
       },
       {
         "type": "category",
-        "label": "installation",
+        "label": "Installation",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -146,150 +249,12 @@
             "href": "/installation/signup-with-thundra-sidekick",
             "docId": "installation/signup-with-thundra-sidekick"
           }
-        ]
+        ],
+        "href": "/installation"
       },
       {
         "type": "category",
-        "label": "integrations",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Cypress Plugin for E2E tests",
-            "href": "/integrations/cypress-plugin-for-e2e-tests",
-            "docId": "integrations/cypress-plugin-for-e2e-tests"
-          },
-          {
-            "type": "link",
-            "label": "Grafana Plugin for remote controlling Sidekick Actions",
-            "href": "/integrations/grafana-plugin-for-remote-controlling-sidekick-actions",
-            "docId": "integrations/grafana-plugin-for-remote-controlling-sidekick-actions"
-          },
-          {
-            "type": "category",
-            "label": "Integrations",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "Coralogix Integration",
-                "href": "/integrations/integrations/coralogix-integration",
-                "docId": "integrations/integrations/coralogix-integration"
-              },
-              {
-                "type": "link",
-                "label": "Elasticsearch Integration",
-                "href": "/integrations/integrations/elasticsearch-integration",
-                "docId": "integrations/integrations/elasticsearch-integration"
-              },
-              {
-                "type": "link",
-                "label": "Logz.io Integration",
-                "href": "/integrations/integrations/logz.io-integration",
-                "docId": "integrations/integrations/logz.io-integration"
-              },
-              {
-                "type": "link",
-                "label": "Loki Integration",
-                "href": "/integrations/integrations/loki-integration",
-                "docId": "integrations/integrations/loki-integration"
-              },
-              {
-                "type": "link",
-                "label": "New Relic Integration",
-                "href": "/integrations/integrations/new-relic-integration",
-                "docId": "integrations/integrations/new-relic-integration"
-              },
-              {
-                "type": "link",
-                "label": "Slack Integration",
-                "href": "/integrations/integrations/slack-integration",
-                "docId": "integrations/integrations/slack-integration"
-              },
-              {
-                "type": "link",
-                "label": "SolarWinds Loggly Integration",
-                "href": "/integrations/integrations/solarwinds-loggly-integration",
-                "docId": "integrations/integrations/solarwinds-loggly-integration"
-              },
-              {
-                "type": "link",
-                "label": "Sumo Logic Integration",
-                "href": "/integrations/integrations/sumo-logic-integration",
-                "docId": "integrations/integrations/sumo-logic-integration"
-              },
-              {
-                "type": "link",
-                "label": "Webhook Integration",
-                "href": "/integrations/integrations/webhook-integration",
-                "docId": "integrations/integrations/webhook-integration"
-              }
-            ],
-            "href": "/integrations/integrations/"
-          },
-          {
-            "type": "link",
-            "label": "Node.js Client",
-            "href": "/integrations/node.js-client",
-            "docId": "integrations/node.js-client"
-          },
-          {
-            "type": "link",
-            "label": "🔌 Open-Telemetry Tracing Integration",
-            "href": "/integrations/open-telemetry-tracing-integration",
-            "docId": "integrations/open-telemetry-tracing-integration"
-          },
-          {
-            "type": "link",
-            "label": "REST API",
-            "href": "/integrations/rest-api",
-            "docId": "integrations/rest-api"
-          },
-          {
-            "type": "link",
-            "label": "🔌 Thundra APM Tracing Integration",
-            "href": "/integrations/thundra-apm-tracing-integration",
-            "docId": "integrations/thundra-apm-tracing-integration"
-          }
-        ]
-      },
-      {
-        "type": "link",
-        "label": "❓ Why Sidekick?",
-        "href": "/master",
-        "docId": "master"
-      },
-      {
-        "type": "category",
-        "label": "open-source",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "🕵 Agent Settings",
-            "href": "/open-source/agent-settings",
-            "docId": "open-source/agent-settings"
-          },
-          {
-            "type": "link",
-            "label": "Client Settings",
-            "href": "/open-source/client-settings",
-            "docId": "open-source/client-settings"
-          },
-          {
-            "type": "link",
-            "label": "⚡ Quick Start",
-            "href": "/open-source/quick-start",
-            "docId": "open-source/quick-start"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "plugins",
+        "label": "IDEs & EXTENSIONS",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -587,17 +552,147 @@
             "href": "/plugins/webstorm-plugin-node.js",
             "docId": "plugins/webstorm-plugin-node.js"
           }
-        ]
-      },
-      {
-        "type": "link",
-        "label": "🏃 Get Started With Sidekick",
-        "href": "/quick-start-to-thundra-sidekick/",
-        "docId": "quick-start-to-thundra-sidekick/README"
+        ],
+        "href": "/plugins"
       },
       {
         "type": "category",
-        "label": "reference",
+        "label": "Open-Source",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "🕵 Agent Settings",
+            "href": "/open-source/agent-settings",
+            "docId": "open-source/agent-settings"
+          },
+          {
+            "type": "link",
+            "label": "Client Settings",
+            "href": "/open-source/client-settings",
+            "docId": "open-source/client-settings"
+          },
+          {
+            "type": "link",
+            "label": "⚡ Quick Start",
+            "href": "/open-source/quick-start",
+            "docId": "open-source/quick-start"
+          }
+        ],
+        "href": "/open-source"
+      },
+      {
+        "type": "category",
+        "label": "Integrations",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "Webhook Integrations",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Coralogix Integration",
+                "href": "/integrations/integrations/coralogix-integration",
+                "docId": "integrations/integrations/coralogix-integration"
+              },
+              {
+                "type": "link",
+                "label": "Elasticsearch Integration",
+                "href": "/integrations/integrations/elasticsearch-integration",
+                "docId": "integrations/integrations/elasticsearch-integration"
+              },
+              {
+                "type": "link",
+                "label": "Logz.io Integration",
+                "href": "/integrations/integrations/logz.io-integration",
+                "docId": "integrations/integrations/logz.io-integration"
+              },
+              {
+                "type": "link",
+                "label": "Loki Integration",
+                "href": "/integrations/integrations/loki-integration",
+                "docId": "integrations/integrations/loki-integration"
+              },
+              {
+                "type": "link",
+                "label": "New Relic Integration",
+                "href": "/integrations/integrations/new-relic-integration",
+                "docId": "integrations/integrations/new-relic-integration"
+              },
+              {
+                "type": "link",
+                "label": "Slack Integration",
+                "href": "/integrations/integrations/slack-integration",
+                "docId": "integrations/integrations/slack-integration"
+              },
+              {
+                "type": "link",
+                "label": "SolarWinds Loggly Integration",
+                "href": "/integrations/integrations/solarwinds-loggly-integration",
+                "docId": "integrations/integrations/solarwinds-loggly-integration"
+              },
+              {
+                "type": "link",
+                "label": "Sumo Logic Integration",
+                "href": "/integrations/integrations/sumo-logic-integration",
+                "docId": "integrations/integrations/sumo-logic-integration"
+              },
+              {
+                "type": "link",
+                "label": "Webhook Integration",
+                "href": "/integrations/integrations/webhook-integration",
+                "docId": "integrations/integrations/webhook-integration"
+              }
+            ],
+            "href": "/integrations/integrations"
+          },
+          {
+            "type": "link",
+            "label": "Cypress Plugin for E2E tests",
+            "href": "/integrations/cypress-plugin-for-e2e-tests",
+            "docId": "integrations/cypress-plugin-for-e2e-tests"
+          },
+          {
+            "type": "link",
+            "label": "Grafana Plugin for remote controlling Sidekick Actions",
+            "href": "/integrations/grafana-plugin-for-remote-controlling-sidekick-actions",
+            "docId": "integrations/grafana-plugin-for-remote-controlling-sidekick-actions"
+          },
+          {
+            "type": "link",
+            "label": "Node.js Client",
+            "href": "/integrations/node.js-client",
+            "docId": "integrations/node.js-client"
+          },
+          {
+            "type": "link",
+            "label": "🔌 Open-Telemetry Tracing Integration",
+            "href": "/integrations/open-telemetry-tracing-integration",
+            "docId": "integrations/open-telemetry-tracing-integration"
+          },
+          {
+            "type": "link",
+            "label": "REST API",
+            "href": "/integrations/rest-api",
+            "docId": "integrations/rest-api"
+          },
+          {
+            "type": "link",
+            "label": "🔌 Thundra APM Tracing Integration",
+            "href": "/integrations/thundra-apm-tracing-integration",
+            "docId": "integrations/thundra-apm-tracing-integration"
+          }
+        ],
+        "href": "/integrations"
+      },
+      {
+        "type": "category",
+        "label": "Reference",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -619,108 +714,8 @@
             "href": "/reference/logpoint-expressions",
             "docId": "reference/logpoint-expressions"
           }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "sidekick-actions",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "🚨 Error Stack Collection",
-            "href": "/sidekick-actions/error-stack-collection",
-            "docId": "sidekick-actions/error-stack-collection"
-          },
-          {
-            "type": "link",
-            "label": "🪵 Logpoint",
-            "href": "/sidekick-actions/logpoint",
-            "docId": "sidekick-actions/logpoint"
-          },
-          {
-            "type": "link",
-            "label": "💾 Reference Events & Probe Tags",
-            "href": "/sidekick-actions/reference-events-and-probe-tags",
-            "docId": "sidekick-actions/reference-events-and-probe-tags"
-          },
-          {
-            "type": "link",
-            "label": "🔎 Tracepoint",
-            "href": "/sidekick-actions/tracepoint",
-            "docId": "sidekick-actions/tracepoint"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "🥞 Use Cases",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Conditional Stack & Log Collection",
-            "href": "/use-cases/conditional-stack-and-log-collection",
-            "docId": "use-cases/conditional-stack-and-log-collection"
-          },
-          {
-            "type": "link",
-            "label": "Cut Monitoring Costs with Dynamic Logging",
-            "href": "/use-cases/cut-monitoring-costs-with-dynamic-logging",
-            "docId": "use-cases/cut-monitoring-costs-with-dynamic-logging"
-          },
-          {
-            "type": "link",
-            "label": "Developer on-boarding",
-            "href": "/use-cases/developer-on-boarding",
-            "docId": "use-cases/developer-on-boarding"
-          },
-          {
-            "type": "link",
-            "label": "Dynamic Logging",
-            "href": "/use-cases/dynamic-logging",
-            "docId": "use-cases/dynamic-logging"
-          },
-          {
-            "type": "link",
-            "label": "Error stack collection & stack-based backend tests in E2E tests",
-            "href": "/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/",
-            "docId": "use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/README"
-          },
-          {
-            "type": "link",
-            "label": "Identifying Stack Changes & Stack Comparison",
-            "href": "/use-cases/identifying-stack-changes-and-stack-comparison",
-            "docId": "use-cases/identifying-stack-changes-and-stack-comparison"
-          },
-          {
-            "type": "link",
-            "label": "Pinpointing Causes of Errors",
-            "href": "/use-cases/pinpointing-causes-of-errors",
-            "docId": "use-cases/pinpointing-causes-of-errors"
-          },
-          {
-            "type": "link",
-            "label": "Production Debugging",
-            "href": "/use-cases/production-debugging",
-            "docId": "use-cases/production-debugging"
-          },
-          {
-            "type": "link",
-            "label": "Remote Debugging Kubernetes Cluster, Pods, and Containers",
-            "href": "/use-cases/remote-debugging-kubernetes-cluster-pods-and-containers",
-            "docId": "use-cases/remote-debugging-kubernetes-cluster-pods-and-containers"
-          },
-          {
-            "type": "link",
-            "label": "Using Trace Data to Find Root Cause of an Error",
-            "href": "/use-cases/using-trace-data-to-find-root-cause-of-an-error",
-            "docId": "use-cases/using-trace-data-to-find-root-cause-of-an-error"
-          }
         ],
-        "href": "/use-cases/"
+        "href": "/reference"
       }
     ]
   },
@@ -809,10 +804,22 @@
       "description": "Sidekick is a live application debugger that helps you to diagnose flaws & bugs in Python applications with near zero overhead thanks to the asynchronous approach.",
       "sidebar": "sidebar"
     },
+    "agents/README": {
+      "id": "agents/README",
+      "title": "Agents",
+      "description": "",
+      "sidebar": "sidebar"
+    },
     "installation/get-api-key-and-token": {
       "id": "installation/get-api-key-and-token",
       "title": "🗝 Get API Key & Token",
       "description": "You don't need to get an API Key & token for your self-hosted instances. You will be setting your token and key as environment variables. https://github.com/runsidekick/sidekick/tree/master#configure-environment-variables",
+      "sidebar": "sidebar"
+    },
+    "installation/README": {
+      "id": "installation/README",
+      "title": "Installation",
+      "description": "",
       "sidebar": "sidebar"
     },
     "installation/signup-with-thundra-sidekick": {
@@ -865,7 +872,7 @@
     },
     "integrations/integrations/README": {
       "id": "integrations/integrations/README",
-      "title": "Integrations",
+      "title": "Webhook Integrations",
       "description": "Data target integrations",
       "sidebar": "sidebar"
     },
@@ -903,6 +910,12 @@
       "id": "integrations/open-telemetry-tracing-integration",
       "title": "🔌 Open-Telemetry Tracing Integration",
       "description": "If you have Open-Telemetry agent installed, then the Sidekick Node.js agent will automatically recognize it and enable its tracing support.",
+      "sidebar": "sidebar"
+    },
+    "integrations/README": {
+      "id": "integrations/README",
+      "title": "Integrations",
+      "description": "",
       "sidebar": "sidebar"
     },
     "integrations/rest-api": {
@@ -945,6 +958,12 @@
       "id": "open-source/quick-start",
       "title": "⚡ Quick Start",
       "description": "We have prepared a quick start application for you.\\",
+      "sidebar": "sidebar"
+    },
+    "open-source/README": {
+      "id": "open-source/README",
+      "title": "Open-Source",
+      "description": "",
       "sidebar": "sidebar"
     },
     "plugins/intellij-idea-plugin/common-errors": {
@@ -1041,6 +1060,12 @@
       "id": "plugins/pycharm-plugin-python",
       "title": "PyCharm Plugin (Python)",
       "description": "Sidekick PyCharm Plugin enables developers to debug their Python applications remotely from the comfort of their IDE. With this plugin, developers can build faster by resolving the issues in production & pre-production better.",
+      "sidebar": "sidebar"
+    },
+    "plugins/README": {
+      "id": "plugins/README",
+      "title": "IDEs & EXTENSIONS",
+      "description": "",
       "sidebar": "sidebar"
     },
     "plugins/sidekick-web-ide/how-to/enable-disable-collaborative-debugging": {
@@ -1223,12 +1248,6 @@
       "description": "If you like to know how Sidekick works, take the following guided tour which you can learn how to start debugging your apps in just 5 mins:",
       "sidebar": "sidebar"
     },
-    "README": {
-      "id": "README",
-      "title": "🧑🏫 Index",
-      "description": "Sidekick is an open-source Live Application Debugger that helps you to debug issues where they happen, when they happen, without stopping, rebuilding, or redeploying applications. Sidekick agents give you powerful dynamic observability features with near-zero overhead.",
-      "sidebar": "sidebar"
-    },
     "reference/conditional-tracepoints": {
       "id": "reference/conditional-tracepoints",
       "title": "Conditional Expressions",
@@ -1247,6 +1266,12 @@
       "description": "Sidekick Logpoint expressions are based on \\{{ mustache \\}}. You can get detailed information about the mustache library from here//mustache.github.io/mustache.5.html",
       "sidebar": "sidebar"
     },
+    "reference/README": {
+      "id": "reference/README",
+      "title": "Reference",
+      "description": "",
+      "sidebar": "sidebar"
+    },
     "sidekick-actions/error-stack-collection": {
       "id": "sidekick-actions/error-stack-collection",
       "title": "🚨 Error Stack Collection",
@@ -1259,6 +1284,12 @@
       "description": "Logpoints bring the power of dynamic logging to Sidekick users. Replacing traditional logging with dynamic logging has potential to lower stage sizes, costs and time for log searching while giving ability to add new logpoints without editing the source code, redeploying or restarting the application.",
       "sidebar": "sidebar"
     },
+    "sidekick-actions/README": {
+      "id": "sidekick-actions/README",
+      "title": "Sidekick Actions",
+      "description": "",
+      "sidebar": "sidebar"
+    },
     "sidekick-actions/reference-events-and-probe-tags": {
       "id": "sidekick-actions/reference-events-and-probe-tags",
       "title": "💾 Reference Events & Probe Tags",
@@ -1269,12 +1300,6 @@
       "id": "sidekick-actions/tracepoint",
       "title": "🔎 Tracepoint",
       "description": "Non-breaking breakpoints that bring the ease of local debugging to production!",
-      "sidebar": "sidebar"
-    },
-    "SUMMARY": {
-      "id": "SUMMARY",
-      "title": "Table of contents",
-      "description": "* 🧑🏫 Index",
       "sidebar": "sidebar"
     },
     "use-cases/conditional-stack-and-log-collection": {

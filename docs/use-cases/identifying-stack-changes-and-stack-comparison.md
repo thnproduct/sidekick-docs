@@ -1,3 +1,10 @@
+---
+title: Identifying Stack Changes & Stack Comparison
+sidebar_position: 5
+slug: /use-cases/identifying-stack-changes-and-stack-comparison
+---
+
+
 import { Card } from "@site/src/components/Card";
 
 # Identifying Stack Changes & Stack Comparison

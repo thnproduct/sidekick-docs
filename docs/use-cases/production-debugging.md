@@ -1,3 +1,10 @@
+---
+title: Production Debugging
+sidebar_position: 0
+slug: /use-cases/production-debugging
+---
+
+
 import { Card } from "@site/src/components/Card";
 
 # Production Debugging
