@@ -81,18 +81,8 @@
               "sidebar": "sidebar"
             },
             {
-              "id": "agents/README",
-              "path": "/agents",
-              "sidebar": "sidebar"
-            },
-            {
               "id": "installation/get-api-key-and-token",
               "path": "/installation/get-api-key-and-token",
-              "sidebar": "sidebar"
-            },
-            {
-              "id": "installation/README",
-              "path": "/installation",
               "sidebar": "sidebar"
             },
             {
@@ -168,11 +158,6 @@
             {
               "id": "integrations/open-telemetry-tracing-integration",
               "path": "/integrations/open-telemetry-tracing-integration",
-              "sidebar": "sidebar"
-            },
-            {
-              "id": "integrations/README",
-              "path": "/integrations",
               "sidebar": "sidebar"
             },
             {
@@ -293,11 +278,6 @@
             {
               "id": "plugins/pycharm-plugin-python",
               "path": "/plugins/pycharm-plugin-python",
-              "sidebar": "sidebar"
-            },
-            {
-              "id": "plugins/README",
-              "path": "/plugins",
               "sidebar": "sidebar"
             },
             {
@@ -466,11 +446,6 @@
               "sidebar": "sidebar"
             },
             {
-              "id": "reference/README",
-              "path": "/reference",
-              "sidebar": "sidebar"
-            },
-            {
               "id": "sidekick-actions/error-stack-collection",
               "path": "/sidekick-actions/error-stack-collection",
               "sidebar": "sidebar"
@@ -478,11 +453,6 @@
             {
               "id": "sidekick-actions/logpoint",
               "path": "/sidekick-actions/logpoint",
-              "sidebar": "sidebar"
-            },
-            {
-              "id": "sidekick-actions/README",
-              "path": "/sidekick-actions",
               "sidebar": "sidebar"
             },
             {

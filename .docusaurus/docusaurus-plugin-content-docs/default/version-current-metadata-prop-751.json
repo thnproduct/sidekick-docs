@@ -126,8 +126,7 @@
             "href": "/sidekick-actions/reference-events-and-probe-tags",
             "docId": "sidekick-actions/reference-events-and-probe-tags"
           }
-        ],
-        "href": "/sidekick-actions"
+        ]
       },
       {
         "type": "category",
@@ -228,8 +227,7 @@
             ],
             "href": "/agents/python/"
           }
-        ],
-        "href": "/agents"
+        ]
       },
       {
         "type": "category",
@@ -249,12 +247,11 @@
             "href": "/installation/signup-with-thundra-sidekick",
             "docId": "installation/signup-with-thundra-sidekick"
           }
-        ],
-        "href": "/installation"
+        ]
       },
       {
         "type": "category",
-        "label": "IDEs & EXTENSIONS",
+        "label": "IDEs &Extensions",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -552,8 +549,7 @@
             "href": "/plugins/webstorm-plugin-node.js",
             "docId": "plugins/webstorm-plugin-node.js"
           }
-        ],
-        "href": "/plugins"
+        ]
       },
       {
         "type": "category",
@@ -687,12 +683,11 @@
             "href": "/integrations/thundra-apm-tracing-integration",
             "docId": "integrations/thundra-apm-tracing-integration"
           }
-        ],
-        "href": "/integrations"
+        ]
       },
       {
         "type": "category",
-        "label": "Reference",
+        "label": "References",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -714,8 +709,7 @@
             "href": "/reference/logpoint-expressions",
             "docId": "reference/logpoint-expressions"
           }
-        ],
-        "href": "/reference"
+        ]
       }
     ]
   },
@@ -804,22 +798,10 @@
       "description": "Sidekick is a live application debugger that helps you to diagnose flaws & bugs in Python applications with near zero overhead thanks to the asynchronous approach.",
       "sidebar": "sidebar"
     },
-    "agents/README": {
-      "id": "agents/README",
-      "title": "Agents",
-      "description": "",
-      "sidebar": "sidebar"
-    },
     "installation/get-api-key-and-token": {
       "id": "installation/get-api-key-and-token",
       "title": "🗝 Get API Key & Token",
       "description": "You don't need to get an API Key & token for your self-hosted instances. You will be setting your token and key as environment variables. https://github.com/runsidekick/sidekick/tree/master#configure-environment-variables",
-      "sidebar": "sidebar"
-    },
-    "installation/README": {
-      "id": "installation/README",
-      "title": "Installation",
-      "description": "",
       "sidebar": "sidebar"
     },
     "installation/signup-with-thundra-sidekick": {
@@ -910,12 +892,6 @@
       "id": "integrations/open-telemetry-tracing-integration",
       "title": "🔌 Open-Telemetry Tracing Integration",
       "description": "If you have Open-Telemetry agent installed, then the Sidekick Node.js agent will automatically recognize it and enable its tracing support.",
-      "sidebar": "sidebar"
-    },
-    "integrations/README": {
-      "id": "integrations/README",
-      "title": "Integrations",
-      "description": "",
       "sidebar": "sidebar"
     },
     "integrations/rest-api": {
@@ -1060,12 +1036,6 @@
       "id": "plugins/pycharm-plugin-python",
       "title": "PyCharm Plugin (Python)",
       "description": "Sidekick PyCharm Plugin enables developers to debug their Python applications remotely from the comfort of their IDE. With this plugin, developers can build faster by resolving the issues in production & pre-production better.",
-      "sidebar": "sidebar"
-    },
-    "plugins/README": {
-      "id": "plugins/README",
-      "title": "IDEs & EXTENSIONS",
-      "description": "",
       "sidebar": "sidebar"
     },
     "plugins/sidekick-web-ide/how-to/enable-disable-collaborative-debugging": {
@@ -1266,12 +1236,6 @@
       "description": "Sidekick Logpoint expressions are based on \\{{ mustache \\}}. You can get detailed information about the mustache library from here//mustache.github.io/mustache.5.html",
       "sidebar": "sidebar"
     },
-    "reference/README": {
-      "id": "reference/README",
-      "title": "Reference",
-      "description": "",
-      "sidebar": "sidebar"
-    },
     "sidekick-actions/error-stack-collection": {
       "id": "sidekick-actions/error-stack-collection",
       "title": "🚨 Error Stack Collection",
@@ -1282,12 +1246,6 @@
       "id": "sidekick-actions/logpoint",
       "title": "🪵 Logpoint",
       "description": "Logpoints bring the power of dynamic logging to Sidekick users. Replacing traditional logging with dynamic logging has potential to lower stage sizes, costs and time for log searching while giving ability to add new logpoints without editing the source code, redeploying or restarting the application.",
-      "sidebar": "sidebar"
-    },
-    "sidekick-actions/README": {
-      "id": "sidekick-actions/README",
-      "title": "Sidekick Actions",
-      "description": "",
       "sidebar": "sidebar"
     },
     "sidekick-actions/reference-events-and-probe-tags": {
