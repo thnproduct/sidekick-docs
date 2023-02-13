@@ -31,7 +31,7 @@ integrations within Web IDE. Those integrations allow you to send your tracepoin
 <br></br>
 
 :::info
-If you can't find your desired tools on the list you can [contact to us](https://www.runsidekick.com/contact-us) or develop custom integrations via Sidekick [node.js-client](../node.js-client "mention").
+If you can't find your desired tools on the list you can [contact to us](https://www.runsidekick.com/contact-us) or develop custom integrations via Sidekick [node.js-client](../node.js-client.md).
 :::
 
 
@@ -44,19 +44,19 @@ If you can't find your desired tools on the list you can [contact to us](https:/
 
 ### Developing custom integrations
 
-Sidekick [node.js client](../node.js-client "mention") offers you a way to implement custom logic using Sidekick Actions and work with Sidekick-generated data.
+Sidekick [node.js client](../node.js-client.md) offers you a way to implement custom logic using Sidekick Actions and work with Sidekick-generated data.
 
-Furthermore, Sidekick [REST API](../rest-api "mention") is available for remotely controlling Sidekick Actions & agents, allowing you to integrate Sidekick controls within your dashboards & applications. An example usage example of Sidekick REST API is Sidekick's Grafana plugin.
+Furthermore, Sidekick [REST API](../rest-api.md) is available for remotely controlling Sidekick Actions & agents, allowing you to integrate Sidekick controls within your dashboards & applications. An example usage example of Sidekick REST API is Sidekick's Grafana plugin.
 
 Check it out here:
 
-[Grafana plugin for remote controlling Sidekick Actions](../grafana-plugin-for-remote-controlling-sidekick-actions "mention")
+[Grafana plugin for remote controlling Sidekick Actions](../grafana-plugin-for-remote-controlling-sidekick-actions.md)
 
 
 
 ### Sidekick for E2E Tests
 
-Sidekick Test Module is an open-source web app that makes Sidekick-generated data available for E2E test cases. [Cypress plugin for E2E tests](../cypress-plugin-for-e2e-tests "mention") makes use of this module for bringing stack-based tests & error stack collection to Cypress E2E tests.
+Sidekick Test Module is an open-source web app that makes Sidekick-generated data available for E2E test cases. [Cypress plugin for E2E tests](../cypress-plugin-for-e2e-tests.md) makes use of this module for bringing stack-based tests & error stack collection to Cypress E2E tests.
 
 You can get Sidekick Test Module here:
 
