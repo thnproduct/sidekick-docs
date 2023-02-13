@@ -3,23 +3,52 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', 'b24'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '08b'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', 'b57'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', '9e2'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', 'c81'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '670'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '8f5'),
+    exact: true
+  },
+  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', '4e3'),
     exact: true
   },
   {
     path: '/',
-    component: ComponentCreator('/', '6bf'),
+    component: ComponentCreator('/', '0ca'),
     routes: [
       {
         path: '/',
         component: ComponentCreator('/', '206'),
-        exact: true,
-        sidebar: "sidebar"
-      },
-      {
-        path: '/agents',
-        component: ComponentCreator('/agents', 'e50'),
         exact: true,
         sidebar: "sidebar"
       },
@@ -108,12 +137,6 @@ export default [
         sidebar: "sidebar"
       },
       {
-        path: '/installation',
-        component: ComponentCreator('/installation', 'dca'),
-        exact: true,
-        sidebar: "sidebar"
-      },
-      {
         path: '/installation/get-api-key-and-token',
         component: ComponentCreator('/installation/get-api-key-and-token', '67c'),
         exact: true,
@@ -122,12 +145,6 @@ export default [
       {
         path: '/installation/signup-with-thundra-sidekick',
         component: ComponentCreator('/installation/signup-with-thundra-sidekick', '6d0'),
-        exact: true,
-        sidebar: "sidebar"
-      },
-      {
-        path: '/integrations',
-        component: ComponentCreator('/integrations', 'b59'),
         exact: true,
         sidebar: "sidebar"
       },
@@ -254,12 +271,6 @@ export default [
       {
         path: '/open-source/quick-start',
         component: ComponentCreator('/open-source/quick-start', 'a78'),
-        exact: true,
-        sidebar: "sidebar"
-      },
-      {
-        path: '/plugins',
-        component: ComponentCreator('/plugins', 'b4c'),
         exact: true,
         sidebar: "sidebar"
       },
@@ -540,12 +551,6 @@ export default [
         sidebar: "sidebar"
       },
       {
-        path: '/reference',
-        component: ComponentCreator('/reference', '562'),
-        exact: true,
-        sidebar: "sidebar"
-      },
-      {
         path: '/reference/conditional-tracepoints',
         component: ComponentCreator('/reference/conditional-tracepoints', 'e37'),
         exact: true,
@@ -560,12 +565,6 @@ export default [
       {
         path: '/reference/logpoint-expressions',
         component: ComponentCreator('/reference/logpoint-expressions', '9f6'),
-        exact: true,
-        sidebar: "sidebar"
-      },
-      {
-        path: '/sidekick-actions',
-        component: ComponentCreator('/sidekick-actions', '4d9'),
         exact: true,
         sidebar: "sidebar"
       },

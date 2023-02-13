@@ -57,8 +57,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Agents",
-                "permalink": "/agents"
+                "title": "💾 Reference Events & Probe Tags",
+                "permalink": "/sidekick-actions/reference-events-and-probe-tags"
               },
               "next": {
                 "title": "Installation",
@@ -293,8 +293,8 @@
                 "permalink": "/agents/python/installation-1"
               },
               "next": {
-                "title": "Installation",
-                "permalink": "/installation"
+                "title": "🗝 Get API Key & Token",
+                "permalink": "/installation/get-api-key-and-token"
               }
             },
             {
@@ -344,34 +344,6 @@
               }
             },
             {
-              "unversionedId": "agents/README",
-              "id": "agents/README",
-              "title": "Agents",
-              "description": "",
-              "source": "@site/docs/agents/README.md",
-              "sourceDirName": "agents",
-              "slug": "/agents",
-              "permalink": "/agents",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "title": "Agents",
-                "sidebar_position": 5,
-                "slug": "/agents"
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "💾 Reference Events & Probe Tags",
-                "permalink": "/sidekick-actions/reference-events-and-probe-tags"
-              },
-              "next": {
-                "title": "☕ Java",
-                "permalink": "/agents/java/"
-              }
-            },
-            {
               "unversionedId": "installation/get-api-key-and-token",
               "id": "installation/get-api-key-and-token",
               "title": "🗝 Get API Key & Token",
@@ -387,39 +359,11 @@
               "sidebar": "sidebar",
               "previous": {
                 "title": "Installation",
-                "permalink": "/installation"
+                "permalink": "/agents/python/installation"
               },
               "next": {
                 "title": "🖋 Sign up for Sidekick",
                 "permalink": "/installation/signup-with-thundra-sidekick"
-              }
-            },
-            {
-              "unversionedId": "installation/README",
-              "id": "installation/README",
-              "title": "Installation",
-              "description": "",
-              "source": "@site/docs/installation/README.md",
-              "sourceDirName": "installation",
-              "slug": "/installation",
-              "permalink": "/installation",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "title": "Installation",
-                "sidebar_position": 6,
-                "slug": "/installation"
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "Installation",
-                "permalink": "/agents/python/installation"
-              },
-              "next": {
-                "title": "🗝 Get API Key & Token",
-                "permalink": "/installation/get-api-key-and-token"
               }
             },
             {
@@ -441,8 +385,8 @@
                 "permalink": "/installation/get-api-key-and-token"
               },
               "next": {
-                "title": "IDEs & EXTENSIONS",
-                "permalink": "/plugins"
+                "title": "IntelliJ IDEA Plugin (Java)",
+                "permalink": "/plugins/intellij-idea-plugin/"
               }
             },
             {
@@ -626,8 +570,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Integrations",
-                "permalink": "/integrations"
+                "title": "⚡ Quick Start",
+                "permalink": "/open-source/quick-start"
               },
               "next": {
                 "title": "Coralogix Integration",
@@ -775,34 +719,6 @@
               }
             },
             {
-              "unversionedId": "integrations/README",
-              "id": "integrations/README",
-              "title": "Integrations",
-              "description": "",
-              "source": "@site/docs/integrations/README.md",
-              "sourceDirName": "integrations",
-              "slug": "/integrations",
-              "permalink": "/integrations",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 9,
-              "frontMatter": {
-                "title": "Integrations",
-                "sidebar_position": 9,
-                "slug": "/integrations"
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "⚡ Quick Start",
-                "permalink": "/open-source/quick-start"
-              },
-              "next": {
-                "title": "Webhook Integrations",
-                "permalink": "/integrations/integrations"
-              }
-            },
-            {
               "unversionedId": "integrations/rest-api",
               "id": "integrations/rest-api",
               "title": "REST API",
@@ -844,8 +760,8 @@
                 "permalink": "/integrations/rest-api"
               },
               "next": {
-                "title": "Reference",
-                "permalink": "/reference"
+                "title": "Conditional Expressions",
+                "permalink": "/reference/conditional-tracepoints"
               }
             },
             {
@@ -965,8 +881,8 @@
                 "permalink": "/open-source/client-settings"
               },
               "next": {
-                "title": "Integrations",
-                "permalink": "/integrations"
+                "title": "Webhook Integrations",
+                "permalink": "/integrations/integrations"
               }
             },
             {
@@ -1085,8 +1001,8 @@
               "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "IDEs & EXTENSIONS",
-                "permalink": "/plugins"
+                "title": "🖋 Sign up for Sidekick",
+                "permalink": "/installation/signup-with-thundra-sidekick"
               },
               "next": {
                 "title": "Common Errors",
@@ -1373,34 +1289,6 @@
               "next": {
                 "title": "🌐 Sidekick Web IDE",
                 "permalink": "/plugins/sidekick-web-ide/"
-              }
-            },
-            {
-              "unversionedId": "plugins/README",
-              "id": "plugins/README",
-              "title": "IDEs & EXTENSIONS",
-              "description": "",
-              "source": "@site/docs/plugins/README.md",
-              "sourceDirName": "plugins",
-              "slug": "/plugins",
-              "permalink": "/plugins",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 7,
-              "frontMatter": {
-                "title": "IDEs & EXTENSIONS",
-                "sidebar_position": 7,
-                "slug": "/plugins"
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "🖋 Sign up for Sidekick",
-                "permalink": "/installation/signup-with-thundra-sidekick"
-              },
-              "next": {
-                "title": "IntelliJ IDEA Plugin (Java)",
-                "permalink": "/plugins/intellij-idea-plugin/"
               }
             },
             {
@@ -2117,8 +2005,8 @@
               "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "Reference",
-                "permalink": "/reference"
+                "title": "🔌 Thundra APM Tracing Integration",
+                "permalink": "/integrations/thundra-apm-tracing-integration"
               },
               "next": {
                 "title": "⁉ FAQ",
@@ -2165,34 +2053,6 @@
               "previous": {
                 "title": "⁉ FAQ",
                 "permalink": "/reference/faq"
-              }
-            },
-            {
-              "unversionedId": "reference/README",
-              "id": "reference/README",
-              "title": "Reference",
-              "description": "",
-              "source": "@site/docs/reference/README.md",
-              "sourceDirName": "reference",
-              "slug": "/reference",
-              "permalink": "/reference",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 9,
-              "frontMatter": {
-                "title": "Reference",
-                "sidebar_position": 9,
-                "slug": "/reference"
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "🔌 Thundra APM Tracing Integration",
-                "permalink": "/integrations/thundra-apm-tracing-integration"
-              },
-              "next": {
-                "title": "Conditional Expressions",
-                "permalink": "/reference/conditional-tracepoints"
               }
             },
             {
@@ -2252,34 +2112,6 @@
               }
             },
             {
-              "unversionedId": "sidekick-actions/README",
-              "id": "sidekick-actions/README",
-              "title": "Sidekick Actions",
-              "description": "",
-              "source": "@site/docs/sidekick-actions/README.md",
-              "sourceDirName": "sidekick-actions",
-              "slug": "/sidekick-actions",
-              "permalink": "/sidekick-actions",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "title": "Sidekick Actions",
-                "sidebar_position": 4,
-                "slug": "/sidekick-actions"
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "Error stack collection & stack-based backend tests in E2E tests",
-                "permalink": "/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests"
-              },
-              "next": {
-                "title": "🔎 Tracepoint",
-                "permalink": "/sidekick-actions/tracepoint"
-              }
-            },
-            {
               "unversionedId": "sidekick-actions/reference-events-and-probe-tags",
               "id": "sidekick-actions/reference-events-and-probe-tags",
               "title": "💾 Reference Events & Probe Tags",
@@ -2303,8 +2135,8 @@
                 "permalink": "/sidekick-actions/error-stack-collection"
               },
               "next": {
-                "title": "Agents",
-                "permalink": "/agents"
+                "title": "☕ Java",
+                "permalink": "/agents/java/"
               }
             },
             {
@@ -2328,8 +2160,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Sidekick Actions",
-                "permalink": "/sidekick-actions"
+                "title": "Error stack collection & stack-based backend tests in E2E tests",
+                "permalink": "/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests"
               },
               "next": {
                 "title": "🪵 Logpoint",
@@ -2472,8 +2304,8 @@
                 "permalink": "/use-cases/developer-on-boarding"
               },
               "next": {
-                "title": "Sidekick Actions",
-                "permalink": "/sidekick-actions"
+                "title": "🔎 Tracepoint",
+                "permalink": "/sidekick-actions/tracepoint"
               }
             },
             {
@@ -2736,11 +2568,7 @@
                     "type": "doc",
                     "id": "sidekick-actions/reference-events-and-probe-tags"
                   }
-                ],
-                "link": {
-                  "type": "doc",
-                  "id": "sidekick-actions/README"
-                }
+                ]
               },
               {
                 "type": "category",
@@ -2828,11 +2656,7 @@
                       "id": "agents/python/README"
                     }
                   }
-                ],
-                "link": {
-                  "type": "doc",
-                  "id": "agents/README"
-                }
+                ]
               },
               {
                 "type": "category",
@@ -2848,15 +2672,11 @@
                     "type": "doc",
                     "id": "installation/signup-with-thundra-sidekick"
                   }
-                ],
-                "link": {
-                  "type": "doc",
-                  "id": "installation/README"
-                }
+                ]
               },
               {
                 "type": "category",
-                "label": "IDEs & EXTENSIONS",
+                "label": "IDEs &Extensions",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -3104,11 +2924,7 @@
                     "type": "doc",
                     "id": "plugins/webstorm-plugin-node.js"
                   }
-                ],
-                "link": {
-                  "type": "doc",
-                  "id": "plugins/README"
-                }
+                ]
               },
               {
                 "type": "category",
@@ -3212,15 +3028,11 @@
                     "type": "doc",
                     "id": "integrations/thundra-apm-tracing-integration"
                   }
-                ],
-                "link": {
-                  "type": "doc",
-                  "id": "integrations/README"
-                }
+                ]
               },
               {
                 "type": "category",
-                "label": "Reference",
+                "label": "References",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -3236,11 +3048,7 @@
                     "type": "doc",
                     "id": "reference/logpoint-expressions"
                   }
-                ],
-                "link": {
-                  "type": "doc",
-                  "id": "reference/README"
-                }
+                ]
               }
             ]
           }
