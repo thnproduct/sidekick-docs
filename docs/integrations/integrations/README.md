@@ -1,4 +1,13 @@
-# Integrations
+---
+title: Webhook Integrations
+sidebar_position: 0
+slug: /integrations/integrations
+---
+
+import { Card } from "@site/src/components/Card";
+
+
+# Webhook Integrations
 
 ### Data target integrations
 
@@ -16,43 +25,47 @@ Sidekick offers
 
 integrations within Web IDE. Those integrations allow you to send your tracepoint events, logs & error snapshots to your desired data targets.
 
-{% embed url="https://www.youtube.com/watch?v=HW9Shpbfi6M&ab_channel=Sidekick%28byThundra%29" %}
 
-{% hint style="info" %}
-If you can't find your desired tools on the list you can [contact to us](https://www.runsidekick.com/contact-us) or develop custom integrations via Sidekick [node.js-client.md](../node.js-client.md "mention").
-{% endhint %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HW9Shpbfi6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-###
+<br></br>
+
+:::info
+If you can't find your desired tools on the list you can [contact to us](https://www.runsidekick.com/contact-us) or develop custom integrations via Sidekick [node.js-client](../node.js-client.md).
+:::
+
 
 ### Set default targets for Sidekick Actions
 
-###
+<figure><img src="" alt="" /><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2023-01-03 at 10.17.02.png" alt="" /><figcaption></figcaption></figure>
+![](../../.gitbook/assets/Screen_Shot_2023-01-03_at_10_17_02.png)
 
-###
-
-###
 
 ### Developing custom integrations
 
-Sidekick [node.js-client.md](../node.js-client.md "mention") offers you a way to implement custom logic using Sidekick Actions and work with Sidekick-generated data.
+Sidekick [node.js client](../node.js-client.md) offers you a way to implement custom logic using Sidekick Actions and work with Sidekick-generated data.
 
-Furthermore, Sidekick [rest-api.md](../rest-api.md "mention") is available for remotely controlling Sidekick Actions & agents, allowing you to integrate Sidekick controls within your dashboards & applications. An example usage example of Sidekick REST API is Sidekick's Grafana plugin.
+Furthermore, Sidekick [REST API](../rest-api.md) is available for remotely controlling Sidekick Actions & agents, allowing you to integrate Sidekick controls within your dashboards & applications. An example usage example of Sidekick REST API is Sidekick's Grafana plugin.
 
 Check it out here:
 
-[grafana-plugin-for-remote-controlling-sidekick-actions.md](../grafana-plugin-for-remote-controlling-sidekick-actions.md "mention")
+[Grafana plugin for remote controlling Sidekick Actions](../grafana-plugin-for-remote-controlling-sidekick-actions.md)
 
 
 
 ### Sidekick for E2E Tests
 
-Sidekick Test Module is an open-source web app that makes Sidekick-generated data available for E2E test cases. [cypress-plugin-for-e2e-tests.md](../cypress-plugin-for-e2e-tests.md "mention")makes use of this module for bringing stack-based tests & error stack collection to Cypress E2E tests.
+Sidekick Test Module is an open-source web app that makes Sidekick-generated data available for E2E test cases. [Cypress plugin for E2E tests](../cypress-plugin-for-e2e-tests.md) makes use of this module for bringing stack-based tests & error stack collection to Cypress E2E tests.
 
 You can get Sidekick Test Module here:
 
-{% embed url="https://github.com/runsidekick/sidekick-test-module" %}
+<div className="w-full cols-1">
+<Card title="GitHub - @runsidekick/sidekick-test-module" target="https://github.com/runsidekick/sidekick-test-module" isNewWindow={true}>
+  <p class="italic"> Sidekick Test Module </p>
+
+</Card>
+</div>
 
 ### Tracing Integrations
 

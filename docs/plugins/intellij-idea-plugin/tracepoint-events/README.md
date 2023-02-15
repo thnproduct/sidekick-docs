@@ -4,9 +4,10 @@ description: This tutorial applies to both IntelliJ IDEA, PyCharm & WebStorm
 
 # Browsing Tracepoint Events
 
-{% embed url="https://www.youtube.com/watch?v=Kqgd8tj6LFI" %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kqgd8tj6LFI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
 
-When the code execution hits the tracepoint,  Sidekick automatically captures a tracepoint event, which will then appear in the table of Sidekick Tracepoint Events at the bottom.&#x20;
+
+When the code execution hits the tracepoint,  Sidekick automatically captures a tracepoint event, which will then appear in the table of Sidekick Tracepoint Events at the bottom.
 
 Until the first event is received, the events table will be shown as empty.
 
@@ -24,6 +25,6 @@ If too many events are received above a certain threshold, they will not be list
 
 ![Sidekick - Tracepoint Event Table Filled](<../../../.gitbook/assets/Tracepoint Event Table Filled.png>)
 
-{% hint style="info" %}
-Note that the table row count limit is 1000.&#x20;
-{% endhint %}
+:::info
+Note that the table row count limit is 1000.
+:::

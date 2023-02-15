@@ -6,10 +6,11 @@ To install our extension, you can search for it on the [VSCode Marketplace.](htt
 
 ![](<../../.gitbook/assets/Screen Shot 2022-05-26 at 15.38.47.png>)
 
-* Before logging into Sidekick, If you have a self-hosted broker, you can change the broker URL & port from Sidekick Settings.
+* If you have a self-hosted broker, you can change the broker URL & port from Sidekick Settings, before logging into Sidekick.
 
-{% embed url="https://raw.githubusercontent.com/runsidekick/sidekick-assets/master/images/vscode-extension/settings.png" %}
+![](https://raw.githubusercontent.com/runsidekick/sidekick-assets/master/images/vscode-extension/settings.png)
 
-{% hint style="info" %}
+
+:::info
 If you have any trouble with setting up VSCode extension, please get in touch with us via **support@runsidekick.com**.
-{% endhint %}
+:::

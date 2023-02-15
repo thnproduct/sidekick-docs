@@ -4,4 +4,4 @@ After your application triggered on line that is put tracepoint, you can see inc
 
 
 
-{% embed url="https://raw.githubusercontent.com/runsidekick/sidekick-assets/master/images/vscode-extension/sidekick-panel.png" %}
+![Sidekick - Events Panel](https://raw.githubusercontent.com/runsidekick/sidekick-assets/master/images/vscode-extension/sidekick-panel.png)

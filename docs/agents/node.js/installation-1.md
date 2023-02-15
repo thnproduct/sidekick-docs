@@ -12,7 +12,7 @@ We highly recommend using your API key as an environment variable instead of har
 
 ## Sample Docker Configuration
 
-Below is a very common docker configuration for N**odejs** applications.&#x20;
+Below is a very common docker configuration for N**odejs** applications.
 
 First, create a directory. \
 Install dependencies including the Sidekick agent.\

@@ -21,7 +21,7 @@ You can easily integrate Sidekick adding below code block to top of your project
 
 JS example
 
-```
+```javascript
 const SidekickDebugger = require('@runsidekick/sidekick-agent-nodejs');
 
 SidekickDebugger.start({ 
@@ -33,7 +33,7 @@ SidekickDebugger.start({
 
 TS example
 
-```
+```typescript
 import * as SidekickDebugger from '@runsidekick/sidekick-agent-nodejs';
 
 SidekickDebugger.start({ 

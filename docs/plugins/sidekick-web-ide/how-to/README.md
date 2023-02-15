@@ -1,19 +1,25 @@
+import { Card } from "@site/src/components/Card";
+
 # How to
 
-These pages describe the core concepts on how to start using Sidekick for debugging your application. In order to start and get the best out of Sidekick, you need to perform essential actions. In this section, we'll provide the below guides about those actions:&#x20;
+These pages describe the core concepts on how to start using Sidekick for debugging your application. In order to start and get the best out of Sidekick, you need to perform essential actions. In this section, we'll provide the below guides about those actions:
 
-{% content-ref url="import-source-code.md" %}
-[import-source-code.md](import-source-code.md)
-{% endcontent-ref %}
+<div className="w-full cols-1">
+<Card title="Connect Source Code" target="import-source-code" isNewWindow={false}>
 
-{% content-ref url="set-tracepoints.md" %}
-[set-tracepoints.md](set-tracepoints.md)
-{% endcontent-ref %}
+</Card>
 
-{% content-ref url="take-snapshots-a.k.a-tracepoint-events.md" %}
-[take-snapshots-a.k.a-tracepoint-events.md](take-snapshots-a.k.a-tracepoint-events.md)
-{% endcontent-ref %}
+<Card title="Put Tracepoints & Logpoints" target="set-tracepoints" isNewWindow={false}>
 
-{% content-ref url="use-tracemap-for-debugging.md" %}
-[use-tracemap-for-debugging.md](use-tracemap-for-debugging.md)
-{% endcontent-ref %}
+</Card>
+
+<Card title="Take Snapshots (a.k.a. Tracepoint Events)" target="take-snapshots-aka-tracepoint-events" isNewWindow={false}>
+
+</Card>
+
+<Card title="Enable TraceMap for Debugging" target="use-tracemap-for-debugging" isNewWindow={false}>
+
+</Card>
+
+
+</div>

@@ -1,10 +1,10 @@
 # Apps and Sidekick Actions Panels
 
-<figure><img src="../../../.gitbook/assets/components(3).png" alt="" /><figcaption></figcaption></figure>
+![](../../../.gitbook/assets/components(3).png)
 
 
 
-In order to start debugging with Sidekick, one of the pre-requisites is to [install Sidekick agent into your app](broken-reference) and select it on the Sidekick dashboard. Apps and tracepoints panel let developers manage their Sidekick agent installed applications and tracepoints set on those applications.
+In order to start debugging with Sidekick, one of the pre-requisites is to install Sidekick agent into your app and select it on the Sidekick dashboard. Apps and tracepoints panel let developers manage their Sidekick agent installed applications and tracepoints set on those applications.
 
 ### Apps Section
 
@@ -12,7 +12,7 @@ After you successfully instrument your application, you'll need to select the ap
 
 #### Selecting Applications to Debug
 
-After you click on the pencil button, you'll see the below screen to select the applications you want to debug. When you select an application, you'll be automatically select all instances of that application.&#x20;
+After you click on the pencil button, you'll see the below screen to select the applications you want to debug. When you select an application, you'll be automatically select all instances of that application.
 
 ![Sidekick - Selecting Applications](../../../.gitbook/assets/selectingApplications.png)
 

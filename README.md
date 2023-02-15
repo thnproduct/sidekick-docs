@@ -1,58 +1,131 @@
-# 🧑🏫 Index
+# Table of contents
 
-Sidekick is an open-source **Live Application Debugger** that helps you to debug issues where they happen, when they happen, without stopping, rebuilding, or redeploying applications. Sidekick agents give you powerful dynamic observability features with near-zero overhead.
+* [🧑🏫 Index](README.md)
+* [❓ Why Sidekick?](master.md)
+* [🏃♂ Get Started With Sidekick](quick-start-to-thundra-sidekick/README.md)
+  * [Sidekick for Visual Studio Code users](plugins/visual-studio-code-extension-python-and-node.js/README.md)
+  * [Sidekick for IntelliJ IDEA users](plugins/intellij-idea-plugin/README.md)
+  * [Sidekick for PyCharm users](plugins/pycharm-plugin-python.md)
+  * [Sidekick for WebStorm users](plugins/webstorm-plugin-node.js.md)
+* [🥞 Use Cases](use-cases/README.md)
+  * [Production Debugging](use-cases/production-debugging.md)
+  * [Remote Debugging Kubernetes Cluster, Pods, and Containers](use-cases/remote-debugging-kubernetes-cluster-pods-and-containers.md)
+  * [Dynamic Logging](use-cases/dynamic-logging.md)
+  * [Pinpointing Causes of Errors](use-cases/pinpointing-causes-of-errors.md)
+  * [Conditional Stack & Log Collection](use-cases/conditional-stack-and-log-collection.md)
+  * [Identifying Stack Changes & Stack Comparison](use-cases/identifying-stack-changes-and-stack-comparison.md)
+  * [Using Trace Data to Find Root Cause of an Error](use-cases/using-trace-data-to-find-root-cause-of-an-error.md)
+  * [Cut Monitoring Costs with Dynamic Logging](use-cases/cut-monitoring-costs-with-dynamic-logging.md)
+  * [Developer on-boarding](use-cases/developer-on-boarding.md)
+  * [Error stack collection & stack-based backend tests in E2E tests](use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/README.md)
+    * [Cypress plugin](integrations/cypress-plugin-for-e2e-tests.md)
+* [🚀 Deployment Examples](https://github.com/runsidekick/sidekick-deployment-examples)
 
-{% embed url="https://github.com/runsidekick/sidekick" %}
+## Sidekick Actions
 
-{% embed url="https://youtu.be/c5eaocEGzOQ" %}
+* [🔎 Tracepoint](sidekick-actions/tracepoint.md)
+* [🪵 Logpoint](sidekick-actions/logpoint.md)
+* [🚨 Error Stack Collection](sidekick-actions/error-stack-collection.md)
+* [💾 Reference Events & Probe Tags](sidekick-actions/reference-events-and-probe-tags.md)
 
-{% content-ref url="master.md" %}
-[master.md](master.md)
-{% endcontent-ref %}
+## Agents
 
-Sidekick is a plus one to your observability stack and offers use cases like:\
+* [🐍 Python](agents/python/README.md)
+  * [Installation](agents/python/installation.md)
+  * [Docker Configuration](agents/python/installation-1.md)
+  * [Data Redaction](agents/python/data-redaction.md)
+  * [Error Stack Collection](agents/python/error-stack-collection.md)
+* [☕ Java](agents/java/README.md)
+  * [Installation](agents/java/configuration.md)
+  * [Source Bundling](agents/java/source-bundling.md)
+* [🟢 Node.js](agents/node.js/README.md)
+  * [Installation](agents/node.js/installation.md)
+  * [Docker Configuration](agents/node.js/installation-1.md)
+  * [Data Redaction](agents/node.js/data-redaction.md)
+  * [Error Stack Collection](agents/node.js/error-stack-collection.md)
+  * [Troubleshooting](agents/node.js/troubleshooting.md)
 
+## Installation
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td><a data-mention href="use-cases/production-debugging.md">production-debugging.md</a></td><td></td></tr><tr><td></td><td><a data-mention href="use-cases/remote-debugging-kubernetes-cluster-pods-and-containers.md">remote-debugging-kubernetes-cluster-pods-and-containers.md</a></td><td></td></tr><tr><td></td><td><a data-mention href="use-cases/cut-monitoring-costs-with-dynamic-logging.md">cut-monitoring-costs-with-dynamic-logging.md</a></td><td></td></tr></tbody></table>
+* [🖋 Sign up for Sidekick](installation/signup-with-thundra-sidekick.md)
+* [🗝 Get API Key & Token](installation/get-api-key-and-token.md)
 
-\
-You can find the whole list here:
+## IDEs & Extensions <a href="#plugins" id="plugins"></a>
 
-{% content-ref url="use-cases/" %}
-[use-cases](use-cases/)
-{% endcontent-ref %}
+* [🌐 Sidekick Web IDE](plugins/sidekick-web-ide/README.md)
+  * [🏃♀ Quick Start: To-Do App](plugins/sidekick-web-ide/quick-start-todo-app.md)
+  * [Introduction to Web Application](plugins/sidekick-web-ide/introduction/README.md)
+    * [Sources Panel](plugins/sidekick-web-ide/introduction/source-panel.md)
+    * [Code Panel](plugins/sidekick-web-ide/introduction/code-panel.md)
+    * [Apps and Sidekick Actions Panels](plugins/sidekick-web-ide/introduction/apps-and-tracepoints-panel.md)
+    * [Events Panel](plugins/sidekick-web-ide/introduction/events-panel.md)
+  * [How to](plugins/sidekick-web-ide/how-to/README.md)
+    * [Connect Source Code](plugins/sidekick-web-ide/how-to/import-source-code.md)
+    * [Put Tracepoints & Logpoints](plugins/sidekick-web-ide/how-to/set-tracepoints.md)
+    * [Take Snapshots (a.k.a Tracepoint Events)](plugins/sidekick-web-ide/how-to/take-snapshots-aka-tracepoint-events.md)
+    * [Enable TraceMap for Debugging](plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging.md)
+    * [Enable/Disable Collaborative Debugging](plugins/sidekick-web-ide/how-to/enable-disable-collaborative-debugging.md)
+    * [🎇 Remote Config](plugins/sidekick-web-ide/how-to/remote-config.md)
+* [Visual Studio Code Extension (Python & Node.js)](plugins/visual-studio-code-extension-python-and-node.js/README.md)
+  * [Set up VSCode extension](plugins/visual-studio-code-extension-python-and-node.js/set-up-vscode-extension.md)
+  * [Login & On-boarding](plugins/visual-studio-code-extension-python-and-node.js/login-and-on-boarding.md)
+  * [Select Workspace & Application](plugins/visual-studio-code-extension-python-and-node.js/select-workspace-and-application.md)
+  * [Tracepoints & Logpoints](plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/README.md)
+    * [Set Tracepoint](plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/set-tracepoint.md)
+    * [Remove Tracepoint](plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/remove-tracepoint.md)
+    * [Edit Tracepoint](plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/edit-tracepoint.md)
+    * [Enable/Disable Tracepoint](plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/enable-disable-tracepoint.md)
+    * [Conditional tracepoints](plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/conditional-tracepoints.md)
+    * [Expiration Settings](plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/expiration-settings.md)
+  * [Browsing Tracepoint Events](plugins/visual-studio-code-extension-python-and-node.js/browsing-tracepoint-events.md)
+  * [Self-hosted Settings](plugins/visual-studio-code-extension-python-and-node.js/self-hosted-settings.md)
+  * [Common Problems](plugins/visual-studio-code-extension-python-and-node.js/common-problems.md)
+* [IntelliJ IDEA Plugin (Java)](plugins/intellij-idea-plugin/README.md)
+  * [Set up IntelliJ Plugin](plugins/intellij-idea-plugin/getting-started.md)
+  * [Login and Connecting Broker](plugins/intellij-idea-plugin/login.md)
+  * [Tracepoints](plugins/intellij-idea-plugin/tracepoints/README.md)
+    * [Set Tracepoint](plugins/intellij-idea-plugin/tracepoints/set-tracepoint.md)
+    * [Remove Tracepoint](plugins/intellij-idea-plugin/tracepoints/remove-tracepoint.md)
+    * [Edit Tracepoint](plugins/intellij-idea-plugin/tracepoints/edit-tracepoint.md)
+    * [Enable/Disable Tracepoint](plugins/intellij-idea-plugin/tracepoints/enable-disable-tracepoint.md)
+    * [Distributed Tracing Integration](plugins/intellij-idea-plugin/tracepoints/distributed-tracing-integration.md)
+    * [Conditional Tracepoints](plugins/intellij-idea-plugin/tracepoints/conditional-tracepoints.md)
+    * [Expiration Settings](plugins/intellij-idea-plugin/tracepoints/expiration-settings.md)
+  * [Browsing Tracepoint Events](plugins/intellij-idea-plugin/tracepoint-events/README.md)
+    * [Tracepoint Event Detail](plugins/intellij-idea-plugin/tracepoint-events/tracepoint-event-detail.md)
+  * [Self-hosted Settings](plugins/intellij-idea-plugin/self-hosted-settings.md)
+  * [Common Errors](plugins/intellij-idea-plugin/common-errors.md)
+* [PyCharm Plugin (Python)](plugins/pycharm-plugin-python.md)
+* [WebStorm Plugin (Node.js)](plugins/webstorm-plugin-node.js.md)
 
-### Sidekick Actions
+## 📖 Open-source
 
-* [Tracepoint](sidekick-actions/tracepoint.md)
-* [Logpoint](sidekick-actions/logpoint.md)
-* [Error Stack Collection](sidekick-actions/error-stack-collection.md)
-* [Reference Events & Probe Tags](sidekick-actions/reference-events-and-probe-tags.md)
+* [⚡ Quick Start](open-source/quick-start.md)
+* [🕵 Agent Settings](open-source/agent-settings.md)
+* [Client Settings](open-source/client-settings.md)
+* [Repository](https://github.com/runsidekick/sidekick)
 
+## INTEGRATIONS
 
+* [Integrations](integrations/integrations/README.md)
+  * [Slack Integration](integrations/integrations/slack-integration.md)
+  * [Logz.io Integration](integrations/integrations/logz.io-integration.md)
+  * [Sumo Logic Integration](integrations/integrations/sumo-logic-integration.md)
+  * [SolarWinds Loggly Integration](integrations/integrations/solarwinds-loggly-integration.md)
+  * [New Relic Integration](integrations/integrations/new-relic-integration.md)
+  * [Elasticsearch Integration](integrations/integrations/elasticsearch-integration.md)
+  * [Loki Integration](integrations/integrations/loki-integration.md)
+  * [Coralogix Integration](integrations/integrations/coralogix-integration.md)
+  * [Webhook Integration](integrations/integrations/webhook-integration.md)
+* [REST API](integrations/rest-api.md)
+* [Node.js Client](integrations/node.js-client.md)
+* [Cypress Plugin for E2E tests](integrations/cypress-plugin-for-e2e-tests.md)
+* [Grafana Plugin for remote controlling Sidekick Actions](integrations/grafana-plugin-for-remote-controlling-sidekick-actions.md)
+* [🔌 Open-Telemetry Tracing Integration](integrations/open-telemetry-tracing-integration.md)
+* [🔌 Thundra APM Tracing Integration](integrations/thundra-apm-tracing-integration.md)
 
-### Getting Started
+## REFERENCE
 
-{% content-ref url="quick-start-to-thundra-sidekick/" %}
-[quick-start-to-thundra-sidekick](quick-start-to-thundra-sidekick/)
-{% endcontent-ref %}
-
-### Agents
-
-<table data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-type="select"></th></tr></thead><tbody><tr><td><a href="agents/node.js/">Node.js</a></td><td></td><td></td><td></td></tr><tr><td><a href="agents/java/">Java</a></td><td></td><td></td><td></td></tr><tr><td><a href="agents/python/">Python</a></td><td></td><td></td><td></td></tr></tbody></table>
-
-### IDEs & Extensions
-
-* [Sidekick Web IDE](plugins/sidekick-web-ide/README.md)
-* [Visual Studio Code Extension](plugins/visual-studio-code-extension-python-and-node.js/README.md)
-* [IntelliJ IDEA Plugin](plugins/intellij-idea-plugin/README.md)
-* [PyCharm Plugin](plugins/pycharm-plugin-python.md)
-* [WebStorm Plugin](plugins/webstorm-plugin-node.js.md)
-
-### Tracing Integration
-
-* [Open-Telemetry](integrations/open-telemetry-tracing-integration.md)
-* [Thundra APM ](integrations/thundra-apm-tracing-integration.md)
-
-
-
+* [⁉ FAQ](reference/faq.md)
+* [Logpoint Expressions](reference/logpoint-expressions.md)
+* [Conditional Expressions](reference/conditional-tracepoints.md)

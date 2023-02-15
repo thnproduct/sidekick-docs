@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/",
-          "mainDocId": "README",
+          "mainDocId": "intro",
           "docs": [
             {
               "id": "agents/java/configuration",
@@ -127,7 +127,7 @@
             },
             {
               "id": "integrations/integrations/README",
-              "path": "/integrations/integrations/",
+              "path": "/integrations/integrations",
               "sidebar": "sidebar"
             },
             {
@@ -172,7 +172,7 @@
             },
             {
               "id": "intro",
-              "path": "/intro",
+              "path": "/",
               "sidebar": "sidebar"
             },
             {
@@ -193,6 +193,11 @@
             {
               "id": "open-source/quick-start",
               "path": "/open-source/quick-start",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "open-source/README",
+              "path": "/open-source",
               "sidebar": "sidebar"
             },
             {
@@ -301,8 +306,8 @@
               "sidebar": "sidebar"
             },
             {
-              "id": "plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events",
-              "path": "/plugins/sidekick-web-ide/how-to/take-snapshots-a.k.a-tracepoint-events",
+              "id": "plugins/sidekick-web-ide/how-to/take-snapshots-aka-tracepoint-events",
+              "path": "/plugins/sidekick-web-ide/how-to/take-snapshots-aka-tracepoint-events",
               "sidebar": "sidebar"
             },
             {
@@ -422,12 +427,7 @@
             },
             {
               "id": "quick-start-to-thundra-sidekick/README",
-              "path": "/quick-start-to-thundra-sidekick/",
-              "sidebar": "sidebar"
-            },
-            {
-              "id": "README",
-              "path": "/",
+              "path": "/quick-start-to-thundra-sidekick",
               "sidebar": "sidebar"
             },
             {
@@ -466,11 +466,6 @@
               "sidebar": "sidebar"
             },
             {
-              "id": "SUMMARY",
-              "path": "/SUMMARY",
-              "sidebar": "sidebar"
-            },
-            {
               "id": "use-cases/conditional-stack-and-log-collection",
               "path": "/use-cases/conditional-stack-and-log-collection",
               "sidebar": "sidebar"
@@ -492,7 +487,7 @@
             },
             {
               "id": "use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/README",
-              "path": "/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests/",
+              "path": "/use-cases/error-stack-collection-and-stack-based-backend-tests-in-e2e-tests",
               "sidebar": "sidebar"
             },
             {
@@ -512,7 +507,7 @@
             },
             {
               "id": "use-cases/README",
-              "path": "/use-cases/",
+              "path": "/use-cases",
               "sidebar": "sidebar"
             },
             {
@@ -526,11 +521,12 @@
               "sidebar": "sidebar"
             }
           ],
+          "draftIds": [],
           "sidebars": {
             "sidebar": {
               "link": {
                 "path": "/",
-                "label": "README"
+                "label": "intro"
               }
             }
           }

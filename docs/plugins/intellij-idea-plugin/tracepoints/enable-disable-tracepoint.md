@@ -16,9 +16,9 @@ As it can be seen in the below image, disabled tracepoints will be shown using a
 
 ![Sidekick - Tracepoint Disabled in Gutter Area](../../../.gitbook/assets/DisabledTracepointGutterLook.png)
 
-\
 
 
 
 
-\
+
+
