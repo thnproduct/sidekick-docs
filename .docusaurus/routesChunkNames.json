@@ -6,7 +6,7 @@
     },
     "content": "393be207"
   },
-  "/-a95": {
+  "/-bab": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "725ade13"
@@ -16,10 +16,6 @@
   "/-206": {
     "__comp": "17896441",
     "content": "f8409a7e"
-  },
-  "/agents/-64b": {
-    "__comp": "17896441",
-    "content": "3f67c114"
   },
   "/agents/java/-761": {
     "__comp": "17896441",
@@ -76,6 +72,10 @@
   "/agents/python/installation-1-f25": {
     "__comp": "17896441",
     "content": "e0d6bef7"
+  },
+  "/installation/agents-ed4": {
+    "__comp": "17896441",
+    "content": "3f67c114"
   },
   "/installation/get-api-key-and-token-67c": {
     "__comp": "17896441",

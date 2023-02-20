@@ -9,17 +9,11 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'a95'),
+    component: ComponentCreator('/', 'bab'),
     routes: [
       {
         path: '/',
         component: ComponentCreator('/', '206'),
-        exact: true,
-        sidebar: "sidebar"
-      },
-      {
-        path: '/agents/',
-        component: ComponentCreator('/agents/', '64b'),
         exact: true,
         sidebar: "sidebar"
       },
@@ -104,6 +98,12 @@ export default [
       {
         path: '/agents/python/installation-1',
         component: ComponentCreator('/agents/python/installation-1', 'f25'),
+        exact: true,
+        sidebar: "sidebar"
+      },
+      {
+        path: '/installation/agents',
+        component: ComponentCreator('/installation/agents', 'ed4'),
         exact: true,
         sidebar: "sidebar"
       },
