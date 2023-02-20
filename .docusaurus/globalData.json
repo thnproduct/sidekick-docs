@@ -82,7 +82,7 @@
             },
             {
               "id": "agents/README",
-              "path": "/agents/",
+              "path": "/installation/agents",
               "sidebar": "sidebar"
             },
             {
