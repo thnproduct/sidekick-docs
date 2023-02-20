@@ -49,7 +49,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/-0ca": {
+  "/-a95": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---725-f93"
@@ -59,6 +59,10 @@
   "/-206": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---f-84-df3"
+  },
+  "/agents/-64b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---agents-3-f-6-a42"
   },
   "/agents/java/-761": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -119,6 +123,10 @@
   "/installation/get-api-key-and-token-67c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---installation-get-api-key-and-token-395-a60"
+  },
+  "/installation/quick-start-to-thundra-sidekick-014": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---quick-start-to-thundra-sidekickb-94-312"
   },
   "/installation/signup-with-thundra-sidekick-6d0": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -191,10 +199,6 @@
   "/master-e87": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---master-017-62c"
-  },
-  "/open-source-71d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---open-sourcebd-3-de2"
   },
   "/open-source/agent-settings-c29": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -272,10 +276,6 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---plugins-pycharm-plugin-python-0-a-1-ed0"
   },
-  "/plugins/sidekick-web-ide/-8f3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---plugins-sidekick-web-ide-e-0-d-15c"
-  },
   "/plugins/sidekick-web-ide/how-to/-e97": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---plugins-sidekick-web-ide-how-to-e-7-a-b97"
@@ -303,10 +303,6 @@
   "/plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging-fd8": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---plugins-sidekick-web-ide-how-to-use-tracemap-for-debuggingcf-1-cab"
-  },
-  "/plugins/sidekick-web-ide/introduction/-310": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---plugins-sidekick-web-ide-introduction-68-d-e00"
   },
   "/plugins/sidekick-web-ide/introduction/apps-and-tracepoints-panel-04c": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -388,10 +384,6 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---plugins-webstorm-plugin-node-jsa-1-b-d76"
   },
-  "/quick-start-to-thundra-sidekick-d30": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---quick-start-to-thundra-sidekickb-94-312"
-  },
   "/reference/conditional-tracepoints-e37": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---reference-conditional-tracepoints-73-e-41e"
@@ -463,5 +455,9 @@
   "/use-cases/using-trace-data-to-find-root-cause-of-an-error-523": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---use-cases-using-trace-data-to-find-root-cause-of-an-error-6-d-6-502"
+  },
+  "/web-application/introduction-887": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---plugins-sidekick-web-ide-introduction-68-d-e00"
   }
 }

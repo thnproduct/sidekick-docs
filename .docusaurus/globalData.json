@@ -81,6 +81,11 @@
               "sidebar": "sidebar"
             },
             {
+              "id": "agents/README",
+              "path": "/agents/",
+              "sidebar": "sidebar"
+            },
+            {
               "id": "installation/get-api-key-and-token",
               "path": "/installation/get-api-key-and-token",
               "sidebar": "sidebar"
@@ -193,11 +198,6 @@
             {
               "id": "open-source/quick-start",
               "path": "/open-source/quick-start",
-              "sidebar": "sidebar"
-            },
-            {
-              "id": "open-source/README",
-              "path": "/open-source",
               "sidebar": "sidebar"
             },
             {
@@ -332,7 +332,7 @@
             },
             {
               "id": "plugins/sidekick-web-ide/introduction/README",
-              "path": "/plugins/sidekick-web-ide/introduction/",
+              "path": "/web-application/introduction",
               "sidebar": "sidebar"
             },
             {
@@ -343,11 +343,6 @@
             {
               "id": "plugins/sidekick-web-ide/quick-start-todo-app",
               "path": "/plugins/sidekick-web-ide/quick-start-todo-app",
-              "sidebar": "sidebar"
-            },
-            {
-              "id": "plugins/sidekick-web-ide/README",
-              "path": "/plugins/sidekick-web-ide/",
               "sidebar": "sidebar"
             },
             {
@@ -427,7 +422,7 @@
             },
             {
               "id": "quick-start-to-thundra-sidekick/README",
-              "path": "/quick-start-to-thundra-sidekick",
+              "path": "/installation/quick-start-to-thundra-sidekick",
               "sidebar": "sidebar"
             },
             {

@@ -44,11 +44,17 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '0ca'),
+    component: ComponentCreator('/', 'a95'),
     routes: [
       {
         path: '/',
         component: ComponentCreator('/', '206'),
+        exact: true,
+        sidebar: "sidebar"
+      },
+      {
+        path: '/agents/',
+        component: ComponentCreator('/agents/', '64b'),
         exact: true,
         sidebar: "sidebar"
       },
@@ -139,6 +145,12 @@ export default [
       {
         path: '/installation/get-api-key-and-token',
         component: ComponentCreator('/installation/get-api-key-and-token', '67c'),
+        exact: true,
+        sidebar: "sidebar"
+      },
+      {
+        path: '/installation/quick-start-to-thundra-sidekick',
+        component: ComponentCreator('/installation/quick-start-to-thundra-sidekick', '014'),
         exact: true,
         sidebar: "sidebar"
       },
@@ -247,12 +259,6 @@ export default [
       {
         path: '/master',
         component: ComponentCreator('/master', 'e87'),
-        exact: true,
-        sidebar: "sidebar"
-      },
-      {
-        path: '/open-source',
-        component: ComponentCreator('/open-source', '71d'),
         exact: true,
         sidebar: "sidebar"
       },
@@ -371,12 +377,6 @@ export default [
         sidebar: "sidebar"
       },
       {
-        path: '/plugins/sidekick-web-ide/',
-        component: ComponentCreator('/plugins/sidekick-web-ide/', '8f3'),
-        exact: true,
-        sidebar: "sidebar"
-      },
-      {
         path: '/plugins/sidekick-web-ide/how-to/',
         component: ComponentCreator('/plugins/sidekick-web-ide/how-to/', 'e97'),
         exact: true,
@@ -415,12 +415,6 @@ export default [
       {
         path: '/plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging',
         component: ComponentCreator('/plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging', 'fd8'),
-        exact: true,
-        sidebar: "sidebar"
-      },
-      {
-        path: '/plugins/sidekick-web-ide/introduction/',
-        component: ComponentCreator('/plugins/sidekick-web-ide/introduction/', '310'),
         exact: true,
         sidebar: "sidebar"
       },
@@ -545,12 +539,6 @@ export default [
         sidebar: "sidebar"
       },
       {
-        path: '/quick-start-to-thundra-sidekick',
-        component: ComponentCreator('/quick-start-to-thundra-sidekick', 'd30'),
-        exact: true,
-        sidebar: "sidebar"
-      },
-      {
         path: '/reference/conditional-tracepoints',
         component: ComponentCreator('/reference/conditional-tracepoints', 'e37'),
         exact: true,
@@ -655,6 +643,12 @@ export default [
       {
         path: '/use-cases/using-trace-data-to-find-root-cause-of-an-error',
         component: ComponentCreator('/use-cases/using-trace-data-to-find-root-cause-of-an-error', '523'),
+        exact: true,
+        sidebar: "sidebar"
+      },
+      {
+        path: '/web-application/introduction',
+        component: ComponentCreator('/web-application/introduction', '887'),
         exact: true,
         sidebar: "sidebar"
       }

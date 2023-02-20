@@ -1,3 +1,9 @@
+---
+title: Introduction to Web Application
+sidebar_position: 0
+slug: /web-application/introduction
+---
+
 # Introduction to Web Application
 
 This guide explains the components of Sidekick's Web Application.
