@@ -1,2 +1,0 @@
-# 🌐 Sidekick Web IDE
-

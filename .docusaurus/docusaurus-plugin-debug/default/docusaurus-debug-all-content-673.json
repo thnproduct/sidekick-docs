@@ -57,8 +57,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "💾 Reference Events & Probe Tags",
-                "permalink": "/sidekick-actions/reference-events-and-probe-tags"
+                "title": "Sidekick Agents",
+                "permalink": "/agents/"
               },
               "next": {
                 "title": "Installation",
@@ -344,6 +344,29 @@
               }
             },
             {
+              "unversionedId": "agents/README",
+              "id": "agents/README",
+              "title": "Sidekick Agents",
+              "description": "Sidekick provides agents for Java, Python, and NodeJS runtimes. You can find them below:",
+              "source": "@site/docs/agents/README.mdx",
+              "sourceDirName": "agents",
+              "slug": "/agents/",
+              "permalink": "/agents/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "💾 Reference Events & Probe Tags",
+                "permalink": "/sidekick-actions/reference-events-and-probe-tags"
+              },
+              "next": {
+                "title": "☕ Java",
+                "permalink": "/agents/java/"
+              }
+            },
+            {
               "unversionedId": "installation/get-api-key-and-token",
               "id": "installation/get-api-key-and-token",
               "title": "🗝 Get API Key & Token",
@@ -385,8 +408,8 @@
                 "permalink": "/installation/get-api-key-and-token"
               },
               "next": {
-                "title": "IntelliJ IDEA Plugin (Java)",
-                "permalink": "/plugins/intellij-idea-plugin/"
+                "title": "Introduction to Web Application",
+                "permalink": "/web-application/introduction"
               }
             },
             {
@@ -813,7 +836,7 @@
               },
               "next": {
                 "title": "🏃 Get Started With Sidekick",
-                "permalink": "/quick-start-to-thundra-sidekick"
+                "permalink": "/installation/quick-start-to-thundra-sidekick"
               }
             },
             {
@@ -831,8 +854,8 @@
               "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "Open-Source",
-                "permalink": "/open-source"
+                "title": "WebStorm Plugin (Node.js)",
+                "permalink": "/plugins/webstorm-plugin-node.js"
               },
               "next": {
                 "title": "Client Settings",
@@ -883,34 +906,6 @@
               "next": {
                 "title": "Webhook Integrations",
                 "permalink": "/integrations/integrations"
-              }
-            },
-            {
-              "unversionedId": "open-source/README",
-              "id": "open-source/README",
-              "title": "Open-Source",
-              "description": "",
-              "source": "@site/docs/open-source/README.md",
-              "sourceDirName": "open-source",
-              "slug": "/open-source",
-              "permalink": "/open-source",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 8,
-              "frontMatter": {
-                "title": "Open-Source",
-                "sidebar_position": 8,
-                "slug": "/open-source"
-              },
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "WebStorm Plugin (Node.js)",
-                "permalink": "/plugins/webstorm-plugin-node.js"
-              },
-              "next": {
-                "title": "🕵 Agent Settings",
-                "permalink": "/open-source/agent-settings"
               }
             },
             {
@@ -1001,8 +996,8 @@
               "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "🖋 Sign up for Sidekick",
-                "permalink": "/installation/signup-with-thundra-sidekick"
+                "title": "🏃Quick Start: To-Do App",
+                "permalink": "/plugins/sidekick-web-ide/quick-start-todo-app"
               },
               "next": {
                 "title": "Common Errors",
@@ -1287,8 +1282,8 @@
                 "permalink": "/plugins/intellij-idea-plugin/tracepoints/set-tracepoint"
               },
               "next": {
-                "title": "🌐 Sidekick Web IDE",
-                "permalink": "/plugins/sidekick-web-ide/"
+                "title": "Visual Studio Code Extension (Python & Node.js)",
+                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/"
               }
             },
             {
@@ -1354,8 +1349,8 @@
               "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "🌐 Sidekick Web IDE",
-                "permalink": "/plugins/sidekick-web-ide/"
+                "title": "Sources Panel",
+                "permalink": "/plugins/sidekick-web-ide/introduction/source-panel"
               },
               "next": {
                 "title": "Enable/Disable Collaborative Debugging",
@@ -1450,8 +1445,8 @@
                 "permalink": "/plugins/sidekick-web-ide/how-to/take-snapshots-aka-tracepoint-events"
               },
               "next": {
-                "title": "Introduction to Web Application",
-                "permalink": "/plugins/sidekick-web-ide/introduction/"
+                "title": "🏃Quick Start: To-Do App",
+                "permalink": "/plugins/sidekick-web-ide/quick-start-todo-app"
               }
             },
             {
@@ -1470,7 +1465,7 @@
               "sidebar": "sidebar",
               "previous": {
                 "title": "Introduction to Web Application",
-                "permalink": "/plugins/sidekick-web-ide/introduction/"
+                "permalink": "/web-application/introduction"
               },
               "next": {
                 "title": "Code Panel",
@@ -1530,16 +1525,21 @@
               "description": "This guide explains the components of Sidekick's Web Application.",
               "source": "@site/docs/plugins/sidekick-web-ide/introduction/README.md",
               "sourceDirName": "plugins/sidekick-web-ide/introduction",
-              "slug": "/plugins/sidekick-web-ide/introduction/",
-              "permalink": "/plugins/sidekick-web-ide/introduction/",
+              "slug": "/web-application/introduction",
+              "permalink": "/web-application/introduction",
               "draft": false,
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "sidebarPosition": 0,
+              "frontMatter": {
+                "title": "Introduction to Web Application",
+                "sidebar_position": 0,
+                "slug": "/web-application/introduction"
+              },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Enable TraceMap for Debugging",
-                "permalink": "/plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging"
+                "title": "🖋 Sign up for Sidekick",
+                "permalink": "/installation/signup-with-thundra-sidekick"
               },
               "next": {
                 "title": "Apps and Sidekick Actions Panels",
@@ -1565,8 +1565,8 @@
                 "permalink": "/plugins/sidekick-web-ide/introduction/events-panel"
               },
               "next": {
-                "title": "🏃Quick Start: To-Do App",
-                "permalink": "/plugins/sidekick-web-ide/quick-start-todo-app"
+                "title": "How to",
+                "permalink": "/plugins/sidekick-web-ide/how-to/"
               }
             },
             {
@@ -1584,35 +1584,12 @@
               "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "Sources Panel",
-                "permalink": "/plugins/sidekick-web-ide/introduction/source-panel"
+                "title": "Enable TraceMap for Debugging",
+                "permalink": "/plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging"
               },
               "next": {
-                "title": "Visual Studio Code Extension (Python & Node.js)",
-                "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/"
-              }
-            },
-            {
-              "unversionedId": "plugins/sidekick-web-ide/README",
-              "id": "plugins/sidekick-web-ide/README",
-              "title": "🌐 Sidekick Web IDE",
-              "description": "",
-              "source": "@site/docs/plugins/sidekick-web-ide/README.md",
-              "sourceDirName": "plugins/sidekick-web-ide",
-              "slug": "/plugins/sidekick-web-ide/",
-              "permalink": "/plugins/sidekick-web-ide/",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "sidebar",
-              "previous": {
-                "title": "PyCharm Plugin (Python)",
-                "permalink": "/plugins/pycharm-plugin-python"
-              },
-              "next": {
-                "title": "How to",
-                "permalink": "/plugins/sidekick-web-ide/how-to/"
+                "title": "IntelliJ IDEA Plugin (Java)",
+                "permalink": "/plugins/intellij-idea-plugin/"
               }
             },
             {
@@ -1701,8 +1678,8 @@
               "frontMatter": {},
               "sidebar": "sidebar",
               "previous": {
-                "title": "🏃Quick Start: To-Do App",
-                "permalink": "/plugins/sidekick-web-ide/quick-start-todo-app"
+                "title": "PyCharm Plugin (Python)",
+                "permalink": "/plugins/pycharm-plugin-python"
               },
               "next": {
                 "title": "Browsing Tracepoint Events",
@@ -1958,8 +1935,8 @@
                 "permalink": "/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints/set-tracepoint"
               },
               "next": {
-                "title": "Open-Source",
-                "permalink": "/open-source"
+                "title": "🕵 Agent Settings",
+                "permalink": "/open-source/agent-settings"
               }
             },
             {
@@ -1969,8 +1946,8 @@
               "description": "If you like to know how Sidekick works, take the following guided tour which you can learn how to start debugging your apps in just 5 mins:",
               "source": "@site/docs/quick-start-to-thundra-sidekick/README.mdx",
               "sourceDirName": "quick-start-to-thundra-sidekick",
-              "slug": "/quick-start-to-thundra-sidekick",
-              "permalink": "/quick-start-to-thundra-sidekick",
+              "slug": "/installation/quick-start-to-thundra-sidekick",
+              "permalink": "/installation/quick-start-to-thundra-sidekick",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -1978,7 +1955,7 @@
               "frontMatter": {
                 "title": "🏃 Get Started With Sidekick",
                 "sidebar_position": 2,
-                "slug": "/quick-start-to-thundra-sidekick"
+                "slug": "/installation/quick-start-to-thundra-sidekick"
               },
               "sidebar": "sidebar",
               "previous": {
@@ -2135,8 +2112,8 @@
                 "permalink": "/sidekick-actions/error-stack-collection"
               },
               "next": {
-                "title": "☕ Java",
-                "permalink": "/agents/java/"
+                "title": "Sidekick Agents",
+                "permalink": "/agents/"
               }
             },
             {
@@ -2413,7 +2390,7 @@
               "sidebar": "sidebar",
               "previous": {
                 "title": "🏃 Get Started With Sidekick",
-                "permalink": "/quick-start-to-thundra-sidekick"
+                "permalink": "/installation/quick-start-to-thundra-sidekick"
               },
               "next": {
                 "title": "Production Debugging",
@@ -2656,7 +2633,11 @@
                       "id": "agents/python/README"
                     }
                   }
-                ]
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "agents/README"
+                }
               },
               {
                 "type": "category",
@@ -2680,6 +2661,82 @@
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
+                  {
+                    "type": "category",
+                    "label": "🌐 Sidekick Web IDE",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "category",
+                        "label": "Introduction to Web Application",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "plugins/sidekick-web-ide/introduction/apps-and-tracepoints-panel"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/sidekick-web-ide/introduction/code-panel"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/sidekick-web-ide/introduction/events-panel"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/sidekick-web-ide/introduction/source-panel"
+                          }
+                        ],
+                        "link": {
+                          "type": "doc",
+                          "id": "plugins/sidekick-web-ide/introduction/README"
+                        }
+                      },
+                      {
+                        "type": "category",
+                        "label": "How to",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "plugins/sidekick-web-ide/how-to/enable-disable-collaborative-debugging"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/sidekick-web-ide/how-to/import-source-code"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/sidekick-web-ide/how-to/remote-config"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/sidekick-web-ide/how-to/set-tracepoints"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/sidekick-web-ide/how-to/take-snapshots-aka-tracepoint-events"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging"
+                          }
+                        ],
+                        "link": {
+                          "type": "doc",
+                          "id": "plugins/sidekick-web-ide/how-to/README"
+                        }
+                      },
+                      {
+                        "type": "doc",
+                        "id": "plugins/sidekick-web-ide/quick-start-todo-app"
+                      }
+                    ]
+                  },
                   {
                     "type": "category",
                     "label": "IntelliJ IDEA Plugin (Java)",
@@ -2767,86 +2824,6 @@
                   {
                     "type": "doc",
                     "id": "plugins/pycharm-plugin-python"
-                  },
-                  {
-                    "type": "category",
-                    "label": "🌐 Sidekick Web IDE",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "category",
-                        "label": "How to",
-                        "collapsible": true,
-                        "collapsed": true,
-                        "items": [
-                          {
-                            "type": "doc",
-                            "id": "plugins/sidekick-web-ide/how-to/enable-disable-collaborative-debugging"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "plugins/sidekick-web-ide/how-to/import-source-code"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "plugins/sidekick-web-ide/how-to/remote-config"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "plugins/sidekick-web-ide/how-to/set-tracepoints"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "plugins/sidekick-web-ide/how-to/take-snapshots-aka-tracepoint-events"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "plugins/sidekick-web-ide/how-to/use-tracemap-for-debugging"
-                          }
-                        ],
-                        "link": {
-                          "type": "doc",
-                          "id": "plugins/sidekick-web-ide/how-to/README"
-                        }
-                      },
-                      {
-                        "type": "category",
-                        "label": "Introduction to Web Application",
-                        "collapsible": true,
-                        "collapsed": true,
-                        "items": [
-                          {
-                            "type": "doc",
-                            "id": "plugins/sidekick-web-ide/introduction/apps-and-tracepoints-panel"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "plugins/sidekick-web-ide/introduction/code-panel"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "plugins/sidekick-web-ide/introduction/events-panel"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "plugins/sidekick-web-ide/introduction/source-panel"
-                          }
-                        ],
-                        "link": {
-                          "type": "doc",
-                          "id": "plugins/sidekick-web-ide/introduction/README"
-                        }
-                      },
-                      {
-                        "type": "doc",
-                        "id": "plugins/sidekick-web-ide/quick-start-todo-app"
-                      }
-                    ],
-                    "link": {
-                      "type": "doc",
-                      "id": "plugins/sidekick-web-ide/README"
-                    }
                   },
                   {
                     "type": "category",
@@ -2944,11 +2921,7 @@
                     "type": "doc",
                     "id": "open-source/quick-start"
                   }
-                ],
-                "link": {
-                  "type": "doc",
-                  "id": "open-source/README"
-                }
+                ]
               },
               {
                 "type": "category",
