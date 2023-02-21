@@ -87,8 +87,6 @@ const config = {
 
     plugins: [
        './plugins/tailwind-config.js',
-       './plugins/heap.js',
-       './plugins/optimize.js',
        './plugins/gtm.js',
      ], 
     
