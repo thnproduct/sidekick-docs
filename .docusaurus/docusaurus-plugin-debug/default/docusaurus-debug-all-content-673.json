@@ -33,7 +33,7 @@
               "sidebar": "sidebar",
               "previous": {
                 "title": "☕ Java",
-                "permalink": "/agents/java/"
+                "permalink": "/agents/java"
               },
               "next": {
                 "title": "Source Bundling",
@@ -47,18 +47,19 @@
               "description": "This topic describes how to prepare the application environment and install the Sidekick Java Agent",
               "source": "@site/docs/agents/java/README.md",
               "sourceDirName": "agents/java",
-              "slug": "/agents/java/",
-              "permalink": "/agents/java/",
+              "slug": "/agents/java",
+              "permalink": "/agents/java",
               "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {
+                "slug": "/agents/java",
                 "description": "This topic describes how to prepare the application environment and install the Sidekick Java Agent"
               },
               "sidebar": "sidebar",
               "previous": {
                 "title": "Sidekick Agents",
-                "permalink": "/agents/"
+                "permalink": "/installation/agents"
               },
               "next": {
                 "title": "Installation",
@@ -350,12 +351,17 @@
               "description": "Sidekick provides agents for Java, Python, and NodeJS runtimes. You can find them below:",
               "source": "@site/docs/agents/README.mdx",
               "sourceDirName": "agents",
-              "slug": "/agents/",
-              "permalink": "/agents/",
+              "slug": "/installation/agents",
+              "permalink": "/installation/agents",
               "draft": false,
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "title": "Sidekick Agents",
+                "sidebar_position": 5,
+                "slug": "/installation/agents"
+              },
               "sidebar": "sidebar",
               "previous": {
                 "title": "💾 Reference Events & Probe Tags",
@@ -363,7 +369,7 @@
               },
               "next": {
                 "title": "☕ Java",
-                "permalink": "/agents/java/"
+                "permalink": "/agents/java"
               }
             },
             {
@@ -2113,7 +2119,7 @@
               },
               "next": {
                 "title": "Sidekick Agents",
-                "permalink": "/agents/"
+                "permalink": "/installation/agents"
               }
             },
             {
@@ -3055,9 +3061,8 @@
   },
   "docusaurus-plugin-debug": {},
   "docusaurus-theme-classic": {},
+  "@cmfcmf/docusaurus-search-local": {},
   "docusaurus-tailwindcss": {},
-  "add-heap": {},
-  "add-optimize": {},
   "add-gtm": {},
   "docusaurus-bootstrap-plugin": {},
   "docusaurus-mdx-fallback-plugin": {}

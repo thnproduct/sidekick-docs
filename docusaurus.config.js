@@ -86,6 +86,7 @@ const config = {
     
 
     plugins: [
+       require.resolve("@cmfcmf/docusaurus-search-local"),
        './plugins/tailwind-config.js',
        './plugins/gtm.js',
      ], 

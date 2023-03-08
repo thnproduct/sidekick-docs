@@ -9,7 +9,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'bab'),
+    component: ComponentCreator('/', 'b49'),
     routes: [
       {
         path: '/',
@@ -18,8 +18,8 @@ export default [
         sidebar: "sidebar"
       },
       {
-        path: '/agents/java/',
-        component: ComponentCreator('/agents/java/', '761'),
+        path: '/agents/java',
+        component: ComponentCreator('/agents/java', 'bbe'),
         exact: true,
         sidebar: "sidebar"
       },
