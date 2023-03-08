@@ -11,7 +11,7 @@ description: >-
 Sidekick automatically connects to Java applications with a very easy setup with no-code configuration.
 
 :::info
-To plug the Sidekick Agent into your Java application, please follow the instructions [here](configuration). 
+To plug the Sidekick Agent into your Java application, please follow the instructions [here](/agents/java/configuration). 
 :::
 
 ### Supported JVMs and Languages
